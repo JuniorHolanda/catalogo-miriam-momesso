@@ -1,0 +1,61 @@
+@use './mixins.scss';
+@use './variables.scss' as var;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+ul,
+li,
+ol {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+hr{
+  width: 100%;
+  z-index: 1;
+}
+
+#root {
+  @include mixins.flex($direction: column, $justify: start);
+  width: 100%;
+  padding: 5px;
+  background: var.$clear-color-2;
+  height: 100vh;  
+  margin: 0;
+}
+
+body {
+  @include mixins.flex($direction: column, $align: center, $justify: center);
+  width: 100%;
+  // melhora a qualidade das fontes
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // Para navegadores baseados em Gecko (Firefox)
+  text-rendering: optimizeLegibility;
+  
+  // scroll suave
+  scroll-behavior: smooth;
+}

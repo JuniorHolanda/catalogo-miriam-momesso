@@ -1,0 +1,30 @@
+@use '../../styles/mixins';
+@use '../../styles/variables.scss' as var;
+
+.titleContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px;
+  flex-direction: column;
+  background-image: url('img/symbols/1.svg');
+  background-repeat: no-repeat;
+  background-position: 120% 220%;
+  background-size: 50%;
+  background-color: var.$font-highlight-2;
+
+  img {
+    width: 40%;
+  }
+
+  h1{
+    font-size: 3em;
+    color: var.$clear-color-1;
+    @include mixins.font($font: var.$font)
+  }
+}
+
+//@mixin font ($font: null, $size: null, $weight: null, $color: null, $style: null)

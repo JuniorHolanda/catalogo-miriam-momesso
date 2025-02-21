@@ -1,0 +1,41 @@
+//color
+$font-highlight-1:#F29422;
+$font-highlight-2:#275AF2;
+$font-medium-1: #8DAEF2;
+$font-medium-2: #F2AE2E;
+
+$clear-color-1: #ffffff;
+$clear-color-2: #dadada;
+$clear-color-3: #afafaf;
+
+$dark-color-1: #161616;
+$dark-color-2: #2d2c3f;
+$dark-color-3: #0b0a14;
+
+//font
+$font: "Inter", serif;
+
+
+
+//font-size
+$title-1: clamp(3em, 7vw, 15em);
+$title-2: clamp(2em, 2vw, 3em);
+$title-3: clamp(2em, 4vw, 10em);
+$text: clamp(1em, 1vw, 1em);
+
+//spaces
+$micro-small-space: 0.5em;
+$small-space: 1em;
+
+$micro-medium-space: 1.5em;
+$medium-space: 2em;
+
+$micro-large-space: 2.5em;
+$large-space: 3em;
+
+//bordas e border-radius
+$slim-border: 3px;
+$micro-small-border: 0.2em;
+$small-border: 1em;
+$medium-border: 2em;
+$large-border: 3em;

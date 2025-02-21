@@ -1,0 +1,42 @@
+@use 'variables' as var;
+
+@mixin font ($font: null, $size: null, $weight: null, $color: null, $style: null) {
+  @each $property, $value in (
+      font-family: $font,
+      font-size: $size,
+      font-weight: $weight,
+      color: $color,
+      font-style: $style,
+  ) {
+      @if $value != null {
+          #{$property}: $value;
+      }
+  }
+}
+
+@mixin flex ($direction: null, $justify: null, $align: null) {
+  @each $property, $value in (
+      display: flex,
+      flex-direction: $direction,
+      justify-content: $justify,
+      align-items: $align,
+  ) {
+      @if $value != null {
+          #{$property}: $value
+      }
+  }
+}
+
+//mapa das media queries
+$breakpoints: (
+'micro' : 500px,
+'small': 700px,
+'medium': 1000px,
+'large': 1200px
+);
+
+@mixin media-queries($size) {
+@media (max-width: map-get($breakpoints, $size)) {
+  @content;
+}
+}
