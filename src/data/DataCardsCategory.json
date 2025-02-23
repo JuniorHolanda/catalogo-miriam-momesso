@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
+    "altImg": "uma necessaire",
+    "category": "Necessaires",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
+    "altBackground": "um símbolo"
+  },
+
+  {
+    "id": 2,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
+    "altImg": "uma necessaire",
+    "category": "Bolsas",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
+    "altBackground": "um símbolo"
+  },
+
+  {
+    "id": 3,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
+    "altImg": "uma necessaire",
+    "category": "Carteiras",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
+    "altBackground": "um símbolo"
+  },
+
+  {
+    "id": 4,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
+    "altImg": "uma necessaire",
+    "category": "Diversos",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
+    "altBackground": "um símbolo"
+  },
+
+  {
+    "id": 5,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
+    "altImg": "uma necessaire",
+    "category": "Estojos",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
+    "altBackground": "um símbolo"
+  },
+
+  {
+    "id": 6,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
+    "altImg": "uma necessaire",
+    "category": "Malas",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
+    "altBackground": "um símbolo"
+  },
+
+  {
+    "id": 7,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
+    "altImg": "uma necessaire",
+    "category": "Mochilas",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
+    "altBackground": "um símbolo"
+  },
+
+  {
+    "id": 8,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
+    "altImg": "uma necessaire",
+    "category": "Pastas",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
+    "altBackground": "um símbolo"
+  },
+
+  {
+    "id": 9,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
+    "altImg": "uma necessaire",
+    "category": "Porta Blocos",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
+    "altBackground": "um símbolo"
+  }
+]

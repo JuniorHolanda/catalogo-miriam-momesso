@@ -1,8 +1,8 @@
 //color
-$font-highlight-1:#F29422;
-$font-highlight-2:#275AF2;
-$font-medium-1: #8DAEF2;
-$font-medium-2: #F2AE2E;
+$highlight-1:#F29422;
+$highlight-2:#275AF2;
+$medium-1: #8DAEF2;
+$medium-2: #F2AE2E;
 
 $clear-color-1: #ffffff;
 $clear-color-2: #dadada;
@@ -18,9 +18,9 @@ $font: "Inter", serif;
 
 
 //font-size
-$title-1: clamp(3em, 7vw, 15em);
-$title-2: clamp(2em, 2vw, 3em);
-$title-3: clamp(2em, 4vw, 10em);
+$bigTitle-1: clamp(3em, 7vw, 15em);
+$bigTitle-2: clamp(1.5em, 2vw, 3em);
+$bigTitle-3: clamp(2em, 4vw, 10em);
 $text: clamp(1em, 1vw, 1em);
 
 //spaces
