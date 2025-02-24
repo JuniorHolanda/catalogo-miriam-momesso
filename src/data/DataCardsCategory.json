@@ -2,81 +2,81 @@
   {
     "id": 1,
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
-    "altImg": "uma necessaire",
+    "altImg": "uma necessaire rosa",
     "category": "Necessaires",
-    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
-    "altBackground": "um símbolo"
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193909/Star_2_kghfwh.svg",
+    "altBackground": "um symbolo de uma estrela azul de muitas pontas"
   },
 
   {
     "id": 2,
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
-    "altImg": "uma necessaire",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271267/bolsa_mfmf2v.png",
+    "altImg": "Um ícone de uma bolsa",
     "category": "Bolsas",
-    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
-    "altBackground": "um símbolo"
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union_krgshx.svg",
+    "altBackground": "diversos circulos abstratos"
   },
 
   {
     "id": 3,
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
-    "altImg": "uma necessaire",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271266/carteiras_wffa3k.png",
+    "altImg": "uma carteira com alguns cartõies e dinheiro",
     "category": "Carteiras",
-    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
-    "altBackground": "um símbolo"
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193909/Star_1_bpvrk0.svg",
+    "altBackground": "um símbolo de uma estrela de sete pontas"
   },
 
   {
     "id": 4,
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
-    "altImg": "uma necessaire",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271267/diversos_qjoul4.png",
+    "altImg": "um kit higiene aberto com alguns itens de higiene dentro",
     "category": "Diversos",
-    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
-    "altBackground": "um símbolo"
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-5_vdwfpp.svg",
+    "altBackground": "formas abtrastas"
   },
 
   {
     "id": 5,
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
-    "altImg": "uma necessaire",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271266/estojos_hnirkc.png",
+    "altImg": "um estojo",
     "category": "Estojos",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
-    "altBackground": "um símbolo"
+    "altBackground": "uma forma abstrata"
   },
 
   {
     "id": 6,
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
-    "altImg": "uma necessaire",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271266/malas_a65tiy.png",
+    "altImg": "uma mala",
     "category": "Malas",
-    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
-    "altBackground": "um símbolo"
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union-2_fj5hja.svg",
+    "altBackground": "uma forma de curculos abstratos"
   },
 
   {
     "id": 7,
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
-    "altImg": "uma necessaire",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271455/mochilas_w7m6ap.png",
+    "altImg": "uma mochila",
     "category": "Mochilas",
-    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
-    "altBackground": "um símbolo"
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union-1_vda0lc.svg",
+    "altBackground": "formas abstratas"
   },
 
   {
     "id": 8,
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
-    "altImg": "uma necessaire",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271454/pastas_ck8gff.png",
+    "altImg": "uma pasta",
     "category": "Pastas",
-    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
-    "altBackground": "um símbolo"
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-4_jutigf.svg",
+    "altBackground": "curculos abstratos"
   },
 
   {
     "id": 9,
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
-    "altImg": "uma necessaire",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271266/porta-blocos_bnpjiv.png",
+    "altImg": "Um porta bloco aberto",
     "category": "Porta Blocos",
-    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
-    "altBackground": "um símbolo"
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740273180/Unions_txxrxr.svg",
+    "altBackground": "formas abstratas"
   }
 ]

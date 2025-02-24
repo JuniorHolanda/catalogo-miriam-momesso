@@ -11,20 +11,23 @@
   border-radius: var.$small-border;
   
   .containerImg{
-    @include mixins.flex();
-    width: fit-content;
+    @include mixins.flex($justify: center, $align:center,);
+    width: 30%;
     height: 100%;
     z-index: 1;
     background-color: var.$highlight-2;
     
     
     img{
-      width: 100px;
+      object-fit: contain;
+      height: 100%;
+      object-position: center;
     }
   }
   
   .cardTitle{
     @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $color: var.$clear-color-1);
+    width: 70%;
     z-index: 1;
   }
 
