@@ -4,13 +4,13 @@ import CardCategory from './Card'
 
 const Category = () => {
 
-  return (
+return (
     <nav className={styles.containerCard}>
-      {dataCards.map((card) =>(
+    {dataCards.map((card) =>(
         <CardCategory key={card.id} {...card}/>
-      ))}
+    ))}
     </nav>
-  )
+)
 }
 
 export default Category

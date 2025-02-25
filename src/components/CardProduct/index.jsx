@@ -2,20 +2,13 @@ import styles from './cardProduct.module.scss';
 import cards from '../../data/DataProduct.json'
 import { FaRegHeart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa6";
-import { useEffect, useState } from 'react';
-import { RiMedal2Fill } from "react-icons/ri";
+import { useState } from 'react';
 import { LiaEyeSolid } from "react-icons/lia";
 
 const CardProduct = () => {
   const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    console.log('roda a cada')
-  }, [count])
-
-  
   return (
-
 
     <nav className={styles.containerCard}>
       {cards.map((card) => (
@@ -57,4 +50,9 @@ const CardProduct = () => {
 }
 
 export default CardProduct
+
+
+
+
+// mongodb+srv://mkt:<db_password>@cluster0.b2bu1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
