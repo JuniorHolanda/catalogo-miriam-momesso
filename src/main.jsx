@@ -9,42 +9,18 @@ import Product from './routers/Product.jsx';
 import SearchSection from './routers/SearchSection.jsx';
 
 
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Category/>
-//   },
-
-//   {
-//     path: "home",
-//     element: <Home/>
-//   },
-
-//   {
-//     path: "product",
-//     element: <Product/>
-//   },
-
-//   {
-//     path: "search",
-//     element: <SearchSection/>
-//   },
-
-// ]);
-
-
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       {
-        path: "category",
-        element: <Category/>
+        index: true,
+        element: <Home/>
       },
       {
-        path: "home",
-        element: <Home/>
+        path: "category",
+        element: <Category/>
       },
       {
         path: "product",

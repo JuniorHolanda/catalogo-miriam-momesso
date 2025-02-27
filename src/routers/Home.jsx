@@ -1,9 +1,12 @@
 import React from 'react'
+import HomeSection from '../components/Home'
 
 
 const Home = () => {
   return (
-    <h1>Está é a Home</h1>
+    <>
+      <HomeSection />
+    </>
   )
 }
 
