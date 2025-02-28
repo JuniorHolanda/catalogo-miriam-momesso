@@ -1,7 +1,7 @@
 import CardProduct from "../../components/HandleCardProduct"
+import Stories from "../../components/Stories";
 import styles from './home.module.scss'
 import { LiaEyeSolid } from "react-icons/lia";
-
 
 
 const HomeSection = () => {
@@ -9,7 +9,8 @@ const HomeSection = () => {
 
     return (
         <main className={styles.wrapper}>
-            <h2>Titulo</h2>
+            <Stories category='Necessaires' />
+            <h2>Necessaire</h2>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo officia autem explicabo eaque animi fuga accusantium voluptatem quam vitae eligendi, porro eius quo nisi repellendus id ad fugit sapiente commodi.    
             </p>

@@ -8,7 +8,6 @@ const CardProduct = ({filter}) => {
   console.log(filterCard)
 
   return (
-
     <div className={styles.containerCard}>
       {filterCard.map((card) => (
         <div key={card.id} className={styles.cardItem}>
@@ -33,7 +32,6 @@ const CardProduct = ({filter}) => {
     </div> 
   )
 }
-
 export default CardProduct
 
 
