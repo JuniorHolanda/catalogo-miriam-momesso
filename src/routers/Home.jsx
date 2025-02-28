@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeSection from '../components/Home'
+import HomeSection from '../Pages/Home'
 
 
 const Home = () => {
