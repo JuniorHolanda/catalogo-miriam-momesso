@@ -1,3 +1,64 @@
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
+
 .slider{
-    border: solid red;
+    @include mixins.flex($direction: column, $justify: center, $align: center);
+    position: relative;
+    padding: var.$small-space;
+    border-radius: var.$medium-border;
+    background-color: var.$clear-color-1;
+    
+    .containerInfo{
+        z-index: 1;
+        position: absolute;
+        top: 15%;
+        width: 70%;
+    }
+    
+    .mainContent{
+        @include mixins.flex($direction: column, $justify: center, $align: center);
+        position: relative;
+
+        .slideItems{
+            @include mixins.flex($direction: column, $justify: center, $align: center);
+            width: 100%;
+            overflow: hidden;
+            border-radius: var.$small-border;
+            
+            img{
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    
+        .barProgress{
+            position: absolute;
+            top: var.$small-border;
+            width: 95%;
+            @include mixins.flex($justify: center, $align: center);
+            gap: var.$small-space;
+            span{
+                display: flex;
+                width: 30%;
+                height: 5px;
+                border-radius: 300px;
+                background-color: var.$clear-color-1;
+            }
+        }
+    }
+    
+    nav{
+        width: 100%;
+        height: 100%;
+        @include mixins.flex($justify: center, $align: center);
+        position: absolute;
+
+        button{
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+        }
+    }
+
+
 }
