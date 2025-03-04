@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import styles from './cardCategory.module.scss';
 import dataCard from '../../../data/DataCardsCategory.json'
-console.log(dataCard[1].img)
 
 const CardCategory = ({ img, altImg, category, background, altBackground }) => {
 

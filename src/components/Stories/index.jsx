@@ -1,37 +1,59 @@
 import styles from './stories.module.scss';
-import stories from '../../data/Banners.json';
-import { useState } from 'react';
+import dataStories from '../../data/Banners.json';
+import { useEffect, useState } from 'react';
 
-function Stories({category}) {
-    const filterStories = stories.find(storie => storie.title === category)
+function Stories({start, end}) {
 
-    const [imgSlide, setImgSlide] = useState(1)
-
+    const filterSlide = dataStories.slice(start, end);
+    
+    const [counter, setCounter] = useState(0)
+    
+    function changeStories (e) {
+        if(e.target.innerText === 'Próximo'){
+            setCounter(prevCount => (prevCount >= 2 ? 0 : prevCount + 1));
+            
+        } else if (e.target.innerText === 'Anterior'){
+            setCounter(prevCount => (prevCount === 0 ? 2 : prevCount - 1));
+        }
+    }
+    
     useEffect(() => {
-        const intervalo = setInterval(() => {
-          setContador(prevContador => prevContador + 1);
-        }, 1000); // Executa a cada 1 segundo
-      }, []);
+        console.log(filterSlide)
+        const interval = setInterval(() => {
+            setCounter(prevCount => (prevCount >= 2 ? 0 : prevCount + 1));
+        }, 8000);
+
+        return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
+    }, []);
 
     return(
-        <div data-slider='slide' className={styles.slider}>
+        <div className={styles.slider}>
             <div className={styles.containerInfo}>
-                <h2>{filterStories.title}</h2>
-                <p>{filterStories.text}</p>
+                <h2>{filterSlide[counter].title}</h2>
+                <p>{filterSlide[counter].text}</p>
             </div>
+
             <div className={styles.mainContent}>
                 <div className={styles.slideItems}>
-                    <img src={filterStories.img1} alt={filterStories.altImg1}/>
+                    <img src={filterSlide[counter].img} alt={filterSlide[counter].altImg}/>
                 </div>
                 <div className={styles.barProgress}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    {/* {dataStories.map((_, index) => (
+                        <span
+                            key={index}
+                            className={`${styles.progressItem} ${
+                                index === counter ? styles.active : ''
+                            } ${
+                                index < counter ? styles.completed : ''
+                            }`}
+                        />
+                    ))}  */}
                 </div>
             </div>
+
             <nav>
-                <button className={styles.previous}>Anterior</button>
-                <button className={styles.next}>Próximo</button>
+            <button className={styles.previous} onClick={changeStories}>Anterior</button>
+            <button className={styles.next} onClick={changeStories}>Próximo</button>
             </nav>
         </div>
     )

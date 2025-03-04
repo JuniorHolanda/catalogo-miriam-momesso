@@ -1,5 +1,6 @@
 @use '../../styles/mixins.scss';
 @use '../../styles/variables.scss' as var;
+@use '../../styles/animation.scss';
 
 .slider{
     @include mixins.flex($direction: column, $justify: center, $align: center);
@@ -43,6 +44,24 @@
                 height: 5px;
                 border-radius: 300px;
                 background-color: var.$clear-color-1;
+
+                &:nth-child(1){
+                    &::after{
+                        content: '';
+                        background-color: rgb(240, 187, 13);
+                        height: 100%;
+                        border-radius: 300px;
+                        animation: barProgress 8s linear infinite;
+                    }
+                }
+
+                &:nth-child(2){
+                    
+                }
+
+                &:nth-child(3){
+                    
+                }
             }
         }
     }

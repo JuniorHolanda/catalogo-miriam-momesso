@@ -15,7 +15,6 @@ const HeaderSection = ({title}) =>{
 
   function btnTheme() {
     setChangeTheme(!changeTheme)
-    console.log(changeTheme);
   }
 
   return (

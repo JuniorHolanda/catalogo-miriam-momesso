@@ -9,7 +9,8 @@ const HomeSection = () => {
 
     return (
         <main className={styles.wrapper}>
-            <Stories category='Necessaires' />
+            <Stories start={0} end={3} />
+            <Stories start={3} end={6} />
             <h2>Necessaire</h2>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo officia autem explicabo eaque animi fuga accusantium voluptatem quam vitae eligendi, porro eius quo nisi repellendus id ad fugit sapiente commodi.    

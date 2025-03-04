@@ -5,7 +5,6 @@ import { LiaEyeSolid } from "react-icons/lia";
 const CardProduct = ({filter}) => {
 
   const filterCard = cards.filter( card => card.category === filter);
-  console.log(filterCard)
 
   return (
     <div className={styles.containerCard}>
