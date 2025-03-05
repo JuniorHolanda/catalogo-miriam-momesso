@@ -1,7 +1,10 @@
+import { useParams } from "react-router-dom"
+import ProductSection from "../Pages/Product"
 
 function Product() {
+  const { id } = useParams();
   return (
-    <h1>Esta é a página de produtos</h1>
+    <ProductSection id={id}/>
   )
 }
 

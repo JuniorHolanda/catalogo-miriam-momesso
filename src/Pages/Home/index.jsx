@@ -9,7 +9,7 @@ import styles from './home.module.scss';
 const HomeSection = () => {
     return (
         <main className={styles.wrapper}>
-            <HeaderSection title='Catálogo'/>
+            <HeaderSection id='Catálogo'/>
             <Category />
             {
                 DataCardsCategory.map((categ) => (

@@ -7,14 +7,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Necessaires"
+    "category": "Necessaires",
+    "gallery" : {
+      "mainImg" : "",
+      "img1" : "",
+      "img2" : "",
+      "img3" : "",
+      "img4" : ""
+    }
   },
 
   {
     "id": "2",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
     "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Baú",
+    "title": "Necessaire Vani",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
@@ -25,7 +32,7 @@
     "id": "3",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
     "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Baú",
+    "title": "Necessaire Ev",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,

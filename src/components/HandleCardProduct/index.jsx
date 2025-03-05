@@ -1,9 +1,11 @@
 import styles from './cardProduct.module.scss';
 import cards from '../../data/DataProduct.json'
 import { LiaEyeSolid } from "react-icons/lia";
+import { useNavigate } from 'react-router-dom';
 
 const CardProduct = ({filter}) => {
   const filterCard = cards.filter( card => card.category === filter);
+  const navigate = useNavigate();
   
   return (
     <div className={styles.containerCard}>
@@ -20,14 +22,14 @@ const CardProduct = ({filter}) => {
           </div>
 
           <div className={styles.containerBtn}>
-            <button>
+            <button onClick={() => navigate(`/product/${card.id}`)} >
               <LiaEyeSolid className={styles.icon} />
               Ver
             </button>
           </div>
         </div>
       ))}
-    </div> 
+    </div>
   )
 }
 export default CardProduct

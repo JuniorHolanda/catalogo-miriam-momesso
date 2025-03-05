@@ -1,0 +1,8 @@
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
+
+.wrapper {
+    @include mixins.flex($direction: column);
+    gap: var.$micro-small-space;
+    width: 100%;
+}
