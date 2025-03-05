@@ -3,9 +3,8 @@ import cards from '../../data/DataProduct.json'
 import { LiaEyeSolid } from "react-icons/lia";
 
 const CardProduct = ({filter}) => {
-
   const filterCard = cards.filter( card => card.category === filter);
-
+  
   return (
     <div className={styles.containerCard}>
       {filterCard.map((card) => (

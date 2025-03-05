@@ -26,7 +26,7 @@
   }
   
   .cardTitle{
-    @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $color: var.$clear-color-1);
+    @include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$clear-color-1);
     width: 70%;
     z-index: 1;
   }

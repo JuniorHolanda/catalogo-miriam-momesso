@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom';
-import HeaderSection from '../HeaderSection';
 import styles from './app.module.scss';
+import SearchBar from '../SearchBar';
 
 function App() {
   return (
     <section className={styles.heroPage}>
-      <HeaderSection title='Catálogo'/>
+      <SearchBar />
       <Outlet />
     </section>
   )

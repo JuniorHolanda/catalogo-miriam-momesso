@@ -1,27 +1,27 @@
-import CardProduct from "../../components/HandleCardProduct"
-import Stories from "../../components/Stories";
-import styles from './home.module.scss'
-import { LiaEyeSolid } from "react-icons/lia";
+import Category from "../../components/Category";
+import CategorySection from "../../components/CategorySection";
+import HeaderSection from "../../components/HeaderSection";
+import DataCardsCategory from '../../data/DataCardsCategory.json'
+import styles from './home.module.scss';
+
 
 
 const HomeSection = () => {
-
-
     return (
         <main className={styles.wrapper}>
-            <Stories start={0} end={3} />
-            <Stories start={3} end={6} />
-            <h2>Necessaire</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo officia autem explicabo eaque animi fuga accusantium voluptatem quam vitae eligendi, porro eius quo nisi repellendus id ad fugit sapiente commodi.    
-            </p>
-            <CardProduct filter={"bolsa"} />
-            <button className={styles.btnShowCategory}>
-                <LiaEyeSolid className={styles.icon} />
-                Ver Categoria
-            </button>
+            <HeaderSection title='Catálogo'/>
+            <Category />
+            {
+                DataCardsCategory.map((categ) => (
+                    <CategorySection
+                        key={categ.id}
+                        title={categ.title}
+                        text={categ.text}
+                    />
+                ))
+            }
         </main>
-    )
+    );
 }
 
 export default HomeSection;

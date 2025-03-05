@@ -2,16 +2,22 @@ import { useEffect } from 'react';
 import styles from './cardCategory.module.scss';
 import dataCard from '../../../data/DataCardsCategory.json'
 
-const CardCategory = ({ img, altImg, category, background, altBackground }) => {
+const CardCategory = (
+  { img,
+    altImg,
+    title,
+    background,
+    altBackground
+  }) => {
 
-
+title
   return (
     <div className={styles.cardContainer}>
       <div className={styles.containerImg}>
         <img src={img} alt={altImg} />
       </div>
       <div className={styles.cardTitle}>
-        <h2>{category}</h2>
+        <h2>{title}</h2>
       </div>
       <div className={styles.symbolBackground}>
         <img src={background} alt={altBackground } />

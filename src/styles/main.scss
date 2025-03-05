@@ -40,14 +40,15 @@ hr{
 
 #root {
   @include mixins.flex($direction: column, $justify: start, $align: center);
-  padding: var.$small-space; //*BUG → SMALL-SPACE → ROLAGEM LATERAL
   width:100%; 
-  background: var.$clear-color-2;
+  margin-top: 8vh;
 }
 
 body {
+  background: var.$clear-color-2;
   @include mixins.flex($direction: column, $align: center, $justify: center);
   width: 100%;
+  padding: var.$small-space; //*BUG → SMALL-SPACE → ROLAGEM LATERAL
   // melhora a qualidade das fontes
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
