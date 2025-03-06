@@ -1,30 +1,39 @@
 import styles from './studioBrin.module.scss'
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import colors from '../../data/colorsNylon.json'
 
-const StudioBrin = () => {
+const StudioBrin = ({studioBrin, title}) => {
+
+
+  function mapDataToElements (data, create) {
+    return data.map((item, index) => {
+      if(create === 'img'){
+        return <img key={index} src={item} alt={`uma parte recurtada de produto ${title}`}/>
+      } else if (create === 'btn') {
+        return <button key={index}>Principal</button>
+      }
+    });
+  }
+  
   return (
     <section className={styles.wrapper}>
       <div className={styles.controllPartProduct}>
         <FaArrowLeft className={styles.icon} />
         <div className={styles.containerBtn}>
-          <button>Principal</button>
-          <button>Vivo</button>
-          <button className={styles.active}>Debrum</button>
-          <button>Alça</button>
-          <button>Base</button>
-          <button>Ziper</button>
-          <button >Bolso</button>
+          
         </div>
         <FaArrowRight className={styles.icon} />
       </div>
 
-      <div className={styles.mainContent}>
-        <div>
-          <img src="" alt="" />
+      <div className={styles.studioBrin}>
+        <div className={styles.productStudio}>
+          {mapDataToElements(studioBrin, 'img')}
         </div>
         <div className={styles.colorControll}>
-          <span className={styles.color}></span>
+          {colors.map((color, index) => {
+            return <span key={index} style={{backgroundColor: color.color}}></span>
+          })}
         </div>
       </div>
     </section>

@@ -14,7 +14,7 @@ const ProductSection = ({id}) => {
             <HeaderSection id={cardFiltered.title}/>
             <Gallery images={cardFiltered.gallery} />
             <h2 className={styles.titles}>PERSONALIZE</h2>
-            <StudioBrin />
+            <StudioBrin studioBrin={cardFiltered.studioBrin} title={cardFiltered.title} />
         </main>
     );
 }
