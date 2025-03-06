@@ -3,6 +3,7 @@ import styles from './product.module.scss';
 import cards from '../../data/DataProduct.json'
 import Product from "../../routers/Product";
 import Gallery from "../../components/Gallery";
+import StudioBrin from "../../components/StudioBrin";
 
 
 const ProductSection = ({id}) => {
@@ -11,7 +12,9 @@ const ProductSection = ({id}) => {
     return (
         <main className={styles.wrapper}>
             <HeaderSection id={cardFiltered.title}/>
-            <Gallery />
+            <Gallery images={cardFiltered.gallery} />
+            <h2 className={styles.titles}>PERSONALIZE</h2>
+            <StudioBrin />
         </main>
     );
 }

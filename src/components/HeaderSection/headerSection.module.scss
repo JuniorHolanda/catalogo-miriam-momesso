@@ -18,7 +18,7 @@
     }
   
     h1{
-      @include mixins.font($font: var.$font, $size: 3em, $color: var.$clear-color-1)
+      @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $color: var.$clear-color-1)
     }
   }
 }

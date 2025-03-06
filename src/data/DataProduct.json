@@ -8,12 +8,19 @@
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
     "category": "Necessaires",
-    "gallery" : {
-      "mainImg" : "",
-      "img1" : "",
-      "img2" : "",
-      "img3" : "",
-      "img4" : ""
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
     }
   },
 
@@ -25,7 +32,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Necessaires"
+    "category": "Necessaires",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -36,7 +57,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Necessaires"
+    "category": "Necessaires",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -47,7 +82,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Mochilas"
+    "category": "Mochilas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
   {
     "id": "7",
@@ -57,7 +106,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Mochilas"
+    "category": "Mochilas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
   {
     "id": "8",
@@ -67,7 +130,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Mochilas"
+    "category": "Mochilas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -78,7 +155,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Bolsas"
+    "category": "Bolsas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
   {
     "id": "6",
@@ -88,7 +179,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Bolsas"
+    "category": "Bolsas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
   {
     "id": "7",
@@ -98,7 +203,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Bolsas"
+    "category": "Bolsas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
   {
     "id": "8",
@@ -108,7 +227,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Pastas"
+    "category": "Pastas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -119,7 +252,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Pastas"
+    "category": "Pastas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -130,7 +277,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Pastas"
+    "category": "Pastas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -141,7 +302,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Carteiras"
+    "category": "Carteiras",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -152,7 +327,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Diversos"
+    "category": "Diversos",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -163,7 +352,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Diversos"
+    "category": "Diversos",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -174,7 +377,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Diversos"
+    "category": "Diversos",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -185,7 +402,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Carteiras"
+    "category": "Carteiras",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -196,7 +427,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Carteiras"
+    "category": "Carteiras",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -207,7 +452,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Estojos"
+    "category": "Estojos",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -218,7 +477,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Malas"
+    "category": "Malas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -229,7 +502,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Malas"
+    "category": "Malas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -240,7 +527,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Malas"
+    "category": "Malas",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -251,7 +552,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Estojos"
+    "category": "Estojos",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -262,7 +577,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Estojos"
+    "category": "Estojos",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -273,7 +602,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Porta Blocos"
+    "category": "Porta Blocos",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -284,7 +627,21 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Porta Blocos"
+    "category": "Porta Blocos",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   },
 
   {
@@ -295,6 +652,20 @@
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "like": 0,
-    "category": "Porta Blocos"
+    "category": "Porta Blocos",
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    }
   }
 ]

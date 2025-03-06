@@ -1,0 +1,55 @@
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
+
+.wrapper{
+  @include mixins.flex($direction: column, $justify: center, $align: center);
+  width: 100%;
+  gap: var.$micro-small-space;
+
+  .controllPartProduct{
+    @include mixins.flex($justify: center, $align: center);
+    width: 100%;
+    border: solid var.$micro-small-border var.$dark-color-1;
+    gap: var.$micro-small-space;
+    padding: var.$micro-small-space;
+    background-color: var.$clear-color-1;
+    border-radius: var.$small-border;
+  
+    .icon{
+      @include mixins.flex($justify: center, $align: center);
+      width: 10%;
+      font-size: var.$bigTitle-3;
+    }
+    
+    
+    .containerBtn{
+      @include mixins.flex($align: center);
+      gap: var.$micro-small-space;
+      width: 80%;
+      overflow: scroll;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    }
+    
+    button{
+      @include mixins.flex($justify: center, $align: center);
+      @include mixins.font($font: var.$font, $size: var.$text, $color: var.$clear-color-3, $weight: 300);
+      padding: var.$slim-space var.$micro-small-space;
+      border-radius: var.$slim-border;
+      background-color: var.$dark-color-1;
+    }
+    
+    .active{
+      background-color: var.$highlight-2;
+      font-weight: 600;
+      color: white;
+    }
+  }
+
+  .mainContent{
+    @include mixins.flex($direction: column, $justify: center, $align: center);
+    width: 100%;
+    height: 40vh;
+    border: solid red;
+  }
+}
