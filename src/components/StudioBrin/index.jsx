@@ -7,9 +7,11 @@ import { TfiArrowTopLeft } from "react-icons/tfi";
 import { TfiArrowTopRight } from "react-icons/tfi";
 import { FiArrowDownRight } from "react-icons/fi";
 import { FiArrowDownLeft } from "react-icons/fi";
+import { TfiArrow } from "react-icons/tfi";
 import colors from '../../data/colorsNylon.json'
 
 // função atende aos critérios de url da cloudnary, para outros padrõs reajuste esta função para obter os nomes das partes do produto
+
 const StudioBrin = ({studioBrin, title, printing}) => {
 
   const listArrows = [
@@ -20,39 +22,50 @@ const StudioBrin = ({studioBrin, title, printing}) => {
   <FaArrowUp data-type='up'/>,
   <FaArrowRight data-type='right'/>,
   <FaArrowDown data-type='botton'/>,
-  <FaArrowLeft data-type='left'/>
+  <FaArrowLeft data-type='left'/>,
+  <TfiArrow data-type='center'/>
 ]
 
-  function convertUrlInName (item) {
-    const partsUrl = item.split('/');
-    const lastPartUrl = partsUrl.pop();
-    const namePartProduct = lastPartUrl.split('_')[0];
 
-    return namePartProduct;
-  }
+function btnLogoPosition (position) {
+  // return <button>{listArrows[0]}</button>
+
+  listArrows.find((arrow) =>{
+    console.log(position.arrow)
+  })
+}
+
+;
+function convertUrlInName (item) {
+  const partsUrl = item.split('/');
+  const lastPartUrl = partsUrl.pop();
+  const namePartProduct = lastPartUrl.split('_')[0];
+
+  return namePartProduct;
+}
 
 
-  function mapDataToElements (data, create) {
+function mapDataToElements (data, create) {
 
-    let namePartProduct = null;
+  let namePartProduct = null;
 
-    return data.map((item, index) => {
+  return data.map((item, index) => {
 
-      if(!item.color){
-        // filtra apenas url das imagens
-        namePartProduct = convertUrlInName(item);
-      }
+    if(!item.color){
+      // filtra apenas url das imagens
+      namePartProduct = convertUrlInName(item);
+    }
 
-      if(create === 'img'){
-        return <img key={index} src={item} alt={`${namePartProduct} do produto ${title}`}/>
-      } else if (create === 'btn') {
-        return !item.color ?
-          <button key={index}>{namePartProduct}</button> :
-          <button key={index} style={{backgroundColor: item.color}}></button>
-      }
-    });
-  }
-  
+    if(create === 'img'){
+      return <img key={index} src={item} alt={`${namePartProduct} do produto ${title}`}/>
+    } else if (create === 'btn') {
+      return !item.color ?
+        <button key={index}>{namePartProduct}</button> :
+        <button key={index} style={{backgroundColor: item.color}}></button>
+    }
+  });
+}
+
   return (
     <section className={styles.wrapper}>
       <div className={styles.controllPartProduct}>
@@ -82,7 +95,7 @@ const StudioBrin = ({studioBrin, title, printing}) => {
           <div>
             <FaArrowLeft className={styles.icon} />
             <div>
-              {/* iterar aqui para adicionar os botões de posicionamento do logo */}
+              {printing.map(position => btnLogoPosition(position))}
             </div>
             <FaArrowRight className={styles.icon} />
           </div>

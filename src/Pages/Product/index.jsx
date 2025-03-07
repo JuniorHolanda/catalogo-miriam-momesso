@@ -16,8 +16,9 @@ const ProductSection = ({id}) => {
             <h2 className={styles.titles}>PERSONALIZE</h2>
             <StudioBrin
                 studioBrin={cardFiltered.studioBrin}
-                title={cardFiltered.title} />
+                title={cardFiltered.title}
                 printing={cardFiltered.printing}
+            />
         </main>
     );
 }
