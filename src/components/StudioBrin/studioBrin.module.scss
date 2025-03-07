@@ -14,14 +14,12 @@
     padding: var.$micro-small-space;
     background-color: var.$clear-color-1;
     border-radius: var.$small-border;
-  
+
     .icon{
-      @include mixins.flex($justify: center, $align: center);
+      @include mixins.font($size: var.$text, $color: var.$medium-1, $weight: 300);
       width: 10%;
-      font-size: var.$bigTitle-3;
     }
-    
-    
+ 
     .containerBtn{
       @include mixins.flex($align: center);
       gap: var.$micro-small-space;
@@ -76,12 +74,25 @@
       gap: var.$micro-small-space;
       width: 20%;
       height: 100%;
-      overflow: scroll;
       border-radius: var.$small-space;
-      border: solid var.$dark-color-1;
       padding: var.$micro-small-space;
+      border: solid var.$dark-color-1;
 
-      span{
+      .icon{
+        @include mixins.font($size: var.$text, $color: var.$medium-1, $weight: 300);
+        height: 10%;
+      }
+
+      .containerColors{
+        @include mixins.flex($direction: column, $align: center);
+        gap: var.$micro-small-space;
+        height: 80%;
+        width: 100%;
+        overflow: scroll;
+        border-radius: var.$medium-border;
+      }
+
+      button{
         background-color: rgb(99, 173, 233);
         width: 100%;
         aspect-ratio: 1 / 1;

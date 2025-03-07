@@ -25,7 +25,6 @@ function Stories({filter}) {
         return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
     }, []);
 
-    console.log(!!filteredCategory)
     return(
     <div className={styles.slider}>
         <div className={styles.containerInfo}>

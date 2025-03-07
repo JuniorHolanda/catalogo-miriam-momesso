@@ -6,8 +6,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -23,7 +34,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -40,8 +51,19 @@
     "title": "Necessaire Vani",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -57,7 +79,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -74,8 +96,19 @@
     "title": "Necessaire Ev",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -91,7 +124,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -108,8 +141,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Mochilas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -125,7 +169,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -141,8 +185,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Mochilas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -158,7 +213,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -174,8 +229,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Mochilas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -191,7 +257,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -208,8 +274,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Bolsas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -225,7 +302,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -241,8 +318,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Bolsas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -258,7 +346,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -274,8 +362,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Bolsas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -291,7 +390,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -307,8 +406,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Pastas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -324,7 +434,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -341,8 +451,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Pastas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -358,7 +479,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -375,8 +496,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Pastas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -392,7 +524,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -409,8 +541,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Carteiras",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -426,7 +569,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -443,8 +586,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Diversos",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -460,7 +614,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -477,8 +631,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Diversos",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -494,7 +659,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -511,8 +676,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Diversos",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -528,7 +704,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -545,8 +721,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Carteiras",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -562,7 +749,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -579,8 +766,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Carteiras",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -596,7 +794,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -613,8 +811,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Estojos",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -630,7 +839,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -647,8 +856,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Malas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -664,7 +884,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -681,8 +901,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Malas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -698,7 +929,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -715,8 +946,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Malas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -732,7 +974,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -749,8 +991,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Estojos",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -766,7 +1019,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -783,8 +1036,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Estojos",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -800,7 +1064,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -817,8 +1081,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Porta Blocos",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -834,7 +1109,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -851,8 +1126,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Porta Blocos",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -868,7 +1154,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
@@ -885,8 +1171,19 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "like": 0,
     "category": "Porta Blocos",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast " },
+      { "arrow": "up" },
+      { "arrow": "right" },
+      { "arrow": "botton" },
+      { "arrow": "left" },
+      { "arrow": "center" }
+    ],
 
     "gallery": {
       "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
@@ -902,7 +1199,7 @@
       "AltImg3": "Aqui vai um alt atribute da img 3"
     },
 
-    "studioBrin" : [
+    "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
