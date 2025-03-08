@@ -1,0 +1,10 @@
+@use '../../../../styles/mixins.scss';
+@use '../../../../styles/variables.scss' as var;
+
+.logoControll{
+  @include mixins.flex($justify: center, $align: center);
+  gap: var.$micro-small-space;
+  width: 100%;
+  border: solid var.$dark-color-1 var.$micro-small-border;
+  border-radius: var.$small-border;
+}

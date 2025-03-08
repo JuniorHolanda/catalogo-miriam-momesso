@@ -36,7 +36,7 @@
       @include mixins.flex($justify: center, $align: center);
       width: 100%;
       overflow: hidden;
-      border: solid var.$clear-color-2;
+      border: solid var.$clear-color-2 var.$micro-small-border;
       border-radius: var.$small-border;
       
       img{

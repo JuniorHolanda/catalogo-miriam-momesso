@@ -8,12 +8,12 @@
 
   .controllPartProduct{
     @include mixins.flex($justify: center, $align: center);
-    width: 100%;
-    border: solid var.$micro-small-border var.$dark-color-1;
     gap: var.$micro-small-space;
     padding: var.$micro-small-space;
-    background-color: var.$clear-color-1;
+    width: 100%;
+    border: solid var.$micro-small-border var.$dark-color-1;
     border-radius: var.$small-border;
+    background-color: var.$clear-color-1;
 
     .icon{
       @include mixins.font($size: var.$text, $color: var.$medium-1, $weight: 300);
@@ -76,7 +76,7 @@
       height: 100%;
       border-radius: var.$small-space;
       padding: var.$micro-small-space;
-      border: solid var.$dark-color-1;
+      border: solid var.$dark-color-1 var.$micro-small-border;
 
       .icon{
         @include mixins.font($size: var.$text, $color: var.$medium-1, $weight: 300);
@@ -91,15 +91,15 @@
         overflow: scroll;
         border-radius: var.$medium-border;
       }
-
+      
       button{
         background-color: rgb(99, 173, 233);
         width: 100%;
         aspect-ratio: 1 / 1;
         border-radius: 50px;
-
+        
         &:nth-child(1){
-          border: solid var.$dark-color-1;
+          border: solid var.$dark-color-1 var.$micro-small-border;
         }
       }
     }
