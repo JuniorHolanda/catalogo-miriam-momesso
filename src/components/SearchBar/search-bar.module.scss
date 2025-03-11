@@ -1,7 +1,7 @@
 @use '../../styles/mixins';
 @use '../../styles/variables.scss' as var;
 
-label{
+.wrapper{
   position: fixed;
   top: 0;
   @include mixins.flex($align: center);

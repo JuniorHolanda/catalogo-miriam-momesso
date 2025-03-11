@@ -1,48 +1,38 @@
 import styles from './inputLogo.module.scss'
-
-import { FaArrowUp } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
-import { FaArrowDown } from "react-icons/fa";
-import { FaArrowLeft } from "react-icons/fa";
-import { TfiArrowTopLeft } from "react-icons/tfi";
-import { TfiArrowTopRight } from "react-icons/tfi";
-import { FiArrowDownRight } from "react-icons/fi";
-import { FiArrowDownLeft } from "react-icons/fi";
-import { TfiArrow } from "react-icons/tfi";
-import { FaFileUpload } from "react-icons/fa";
-
+import { FaArrowUp, FaArrowLeft, FaArrowDown, FaArrowRight, FaFileUpload } from "react-icons/fa"; // setas de navegação
+import { GoArrowDown, GoArrowDownLeft, GoArrowDownRight, GoArrowLeft, GoArrowRight, GoArrowUp, GoArrowUpLeft, GoArrowUpRight, GoScreenFull } from 'react-icons/go';
 
 const InputLogo = ({printing}) => {
 
   const listArrows = [
-    <TfiArrowTopLeft data-type='northwest'/>,
-    <TfiArrowTopRight data-type='northeast'/>,
-    <FiArrowDownRight data-type='southwest'/>,
-    <FiArrowDownLeft data-type='southeast'/>,
-    <FaArrowUp data-type='up'/>,
-    <FaArrowRight data-type='right'/>,
-    <FaArrowDown data-type='botton'/>,
-    <FaArrowLeft data-type='left'/>,
-    <TfiArrow data-type='center'/>
+    <GoArrowUpLeft data-type='northwest'/>,
+    <GoArrowUpRight data-type='northeast'/>,
+    <GoArrowDownRight data-type='southwest'/>,
+    <GoArrowDownLeft data-type='southeast'/>,
+    <GoArrowUp data-type='up'/>,
+    <GoArrowRight data-type='right'/>,
+    <GoArrowDown data-type='botton'/>,
+    <GoArrowLeft data-type='left'/>,
+    <GoScreenFull data-type='center'/>
   ];
 
   function btnLogoPosition (position, index) {
     const filteredArrow = listArrows.find(arrow => position.arrow === arrow.props["data-type"]);
-    return filteredArrow ? <button>{filteredArrow}</button> : null;
+    return filteredArrow ? <button key={index}>{filteredArrow}</button> : null;
   }
 
   return (
     <div className={styles.logoControll}>
-      <div>
-        <label htmlFor="inputLogo">
-          <FaFileUpload />
+      <div className={styles.uploadLogo}>
+        <label htmlFor="inputgLogo">
+          <FaFileUpload className={styles.icon} />
         </label>
         <input type="file" id='inputLogo' />
       </div>
-      <div>
+      <div className={styles.arrows}>
         <FaArrowLeft className={styles.icon} />
-        <div>
-          {printing.map(position => btnLogoPosition(position))}
+        <div className={styles.containerBtn}>
+          {printing.map((position, index) => btnLogoPosition(position, index))}
         </div>
         <FaArrowRight className={styles.icon} />
       </div>

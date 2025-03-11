@@ -1,109 +1,136 @@
 [
-    {
-        "name" : "branco" , "color" : "#ffffff"
-    },
-    
-    {
-        "name" : "preto310" , "color" : "#000000"
-    },
-    
-    {
-        "name" : "creme99" , "color" : "#e2d5af"
-    },
-    
-    {
-        "name" : "verde bebe" , "color" : "#61d892"
-    },
-    
-    {
-        "name" : "amarelo ouro 110" , "color" : "#ffcd02"
-    },
-    
-    {
-        "name" : "laranha 154" , "color" : "#db5828"
-    },
-    
-    {
-        "name" : "vermelho 145" , "color" : "#b71626"
-    },
-    
-    {
-        "name" : "rosa chiclete 5155" , "color" : "#eb619e"
-    },
-    
-    {
-        "name" : "rosa 133" , "color" : "#ffabd3"
-    },
-    
-    {
-        "name" : "pink 142" , "color" : "#e21e6e"
-    },
-    
-    {
-        "name" : "lilas 164" , "color" : "#9773ac"
-    },
-    
-    {
-        "name" : "roxo 281" , "color" : "#e2d5af"
-    },
-    
-    {
-        "name" : "marrom 294" , "color" : "#513f33"
-    },
-    
-    {
-        "name" : "vinho 172" , "color" : "#6f263d"
-    },
-    
-    {
-        "name" : "azul bebe 177" , "color" : "#8db9ca"
-    },
-    
-    {
-        "name" : "azul turquesa 208" , "color" : "#0076a5"
-    },
-    
-    {
-        "name" : "azul royal 207" , "color" : "#124091"
-    },
-    
-    {
-        "name" : "verde pistache 827" , "color" : "#a4bc3d"
-    },
-    
-    {
-        "name" : "verde bandeira 235" , "color" : "#006c3f"
-    },
-    
-    {
-        "name" : "verde musgo" , "color" : "#535435"
-    },
-    
-    {
-        "name" : "verde floresta 878" , "color" : "#006039"
-    },
-    
-    {
-        "name" : "azul Marinho 318" , "color" : "#61d892"
-    },
-    
-    {
-        "name" : "caki 298" , "color" : "#a08e7c"
-    },
-    
-    {
-        "name" : "cinza prata 301" , "color" : "#e5d4c6"
-    },
-    
-    {
-        "name" : "cinza chumbo 309" , "color" : "#383838"
-    },
-    
-    {
-        "name" : "cinza medio 384" , "color" : "#3f4241"
-    },
-    
-    {
-        "name" : "verde prodfundo 908" , "color" : "#01373a"
-    }
+  {
+    "name": "branco",
+    "color": "#ffffff"
+  },
+
+  {
+    "name": "preto310",
+    "color": "#000000"
+  },
+
+  {
+    "name": "creme99",
+    "color": "#e2d5af"
+  },
+
+  {
+    "name": "verde bebe",
+    "color": "#61d892"
+  },
+
+  {
+    "name": "amarelo ouro 110",
+    "color": "#ffcd02"
+  },
+
+  {
+    "name": "laranha 154",
+    "color": "#db5828"
+  },
+
+  {
+    "name": "vermelho 145",
+    "color": "#b71626"
+  },
+
+  {
+    "name": "rosa chiclete 5155",
+    "color": "#eb619e"
+  },
+
+  {
+    "name": "rosa 133",
+    "color": "#ffabd3"
+  },
+
+  {
+    "name": "pink 142",
+    "color": "#e21e6e"
+  },
+
+  {
+    "name": "lilas 164",
+    "color": "#9773ac"
+  },
+
+  {
+    "name": "roxo 281",
+    "color": "#e2d5af"
+  },
+
+  {
+    "name": "marrom 294",
+    "color": "#513f33"
+  },
+
+  {
+    "name": "vinho 172",
+    "color": "#6f263d"
+  },
+
+  {
+    "name": "azul bebe 177",
+    "color": "#8db9ca"
+  },
+
+  {
+    "name": "azul turquesa 208",
+    "color": "#0076a5"
+  },
+
+  {
+    "name": "azul royal 207",
+    "color": "#124091"
+  },
+
+  {
+    "name": "verde pistache 827",
+    "color": "#a4bc3d"
+  },
+
+  {
+    "name": "verde bandeira 235",
+    "color": "#006c3f"
+  },
+
+  {
+    "name": "verde musgo",
+    "color": "#535435"
+  },
+
+  {
+    "name": "verde floresta 878",
+    "color": "#006039"
+  },
+
+  {
+    "name": "azul Marinho 318",
+    "color": "#61d892"
+  },
+
+  {
+    "name": "caki 298",
+    "color": "#a08e7c"
+  },
+
+  {
+    "name": "cinza prata 301",
+    "color": "#e5d4c6"
+  },
+
+  {
+    "name": "cinza chumbo 309",
+    "color": "#383838"
+  },
+
+  {
+    "name": "cinza medio 384",
+    "color": "#3f4241"
+  },
+
+  {
+    "name": "verde profundo 908",
+    "color": "#01373a"
+  }
 ]

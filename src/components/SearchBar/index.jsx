@@ -18,7 +18,7 @@ const SearchBar = () => {
   
 
   return (
-    <label>
+    <label className={styles.wrapper}>
       <div className={styles.containerSrc}>
       <CiSearch className={styles.active}/>
       <input className={styles.inputSrc}
