@@ -1,37 +1,29 @@
 [
   {
     "id": "1",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
-    "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Baú",
-    "smallText": "Divisórias internas para organização prática.",
-    "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "category": "Necessaires",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789740/bolsa-andrea_2_f6hun2.jpg",
+    "altThunbnail": "Uma bolsa branca de tela com uma necessaire",
+    "title": "Bolsa Andrea",
+    "smallText": "Acompanha Necessaire",
+    "text": "A Bolsa Andrea combina leveza e praticidade, feita de tela resistente e acompanhada de uma nécessaire interna para organização.",
+    "category": "Bolsas",
 
     "printing": [
-      { "arrow": "northwest" },
-      { "arrow": "northeast" },
-      { "arrow": "southwest" },
-      { "arrow": "southeast" },
-      { "arrow": "up" },
-      { "arrow": "right" },
-      { "arrow": "botton" },
-      { "arrow": "left" },
       { "arrow": "center" }
     ],
 
     "gallery": {
-      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
-      "AltMainImg": "Aqui vai um alt atribute",
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789740/bolsa-andrea_2_f6hun2.jpg",
+      "AltMainImg": "Uma bolsa branca de tela com uma necessaire",
 
-      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
-      "AltImg1": "Aqui vai um alt atribute da img 1",
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789741/bolsa-andrea_3_zrlfkt.jpg",
+      "AltImg1": "uma bolsa preta de tela com uma necessaire pendurada",
 
-      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
-      "AltImg2": "Aqui vai um alt atribute da img 2",
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789740/bolsa-andrea_1_e312jg.jpg",
+      "AltImg2": "Bolsa em tela branca com necessaire interna",
 
-      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
-      "AltImg3": "Aqui vai um alt atribute da img 3"
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789741/bolsa-andrea_4_r5rqa0.jpg",
+      "AltImg3": "Bolsa em tela preta vista de lateral"
     },
 
     "studioBrin": [
@@ -46,37 +38,33 @@
 
   {
     "id": "2",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
-    "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Vani",
-    "smallText": "Divisórias internas para organização prática.",
-    "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "category": "Necessaires",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789745/bolsa-graci_3_glxsfs.jpg",
+    "altThunbnail": "uma bolsa branca",
+    "title": "Bolsa Graci",
+    "smallText": "Bolsa ampla, versátil e prática",
+    "text": "A Bolsa Graci é espaçosa e versátil, perfeita para o dia a dia, eventos e brindes corporativos, garantindo praticidade sem complicação.",
+    "category": "Bolsas",
 
     "printing": [
-      { "arrow": "northwest" },
-      { "arrow": "northeast" },
       { "arrow": "southwest" },
       { "arrow": "southeast" },
       { "arrow": "up" },
-      { "arrow": "right" },
       { "arrow": "botton" },
-      { "arrow": "left" },
       { "arrow": "center" }
     ],
 
     "gallery": {
-      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
-      "AltMainImg": "Aqui vai um alt atribute",
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789745/bolsa-graci_3_glxsfs.jpg",
+      "AltMainImg": "uma bolsa branca de frente",
 
-      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
-      "AltImg1": "Aqui vai um alt atribute da img 1",
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789744/bolsa-graci_1_zq4ism.jpg",
+      "AltImg1": "uma bolsa branca vista pela lateral",
 
-      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
-      "AltImg2": "Aqui vai um alt atribute da img 2",
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789745/bolsa-graci_4_nxztbx.jpg",
+      "AltImg2": "Uma bolsa azul",
 
-      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
-      "AltImg3": "Aqui vai um alt atribute da img 3"
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789745/bolsa-graci_2_oj4t06.jpg",
+      "AltImg3": "uma bolsa branca com estampa colorida"
     },
 
     "studioBrin": [
@@ -91,12 +79,12 @@
 
   {
     "id": "3",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
-    "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Ev",
-    "smallText": "Divisórias internas para organização prática.",
-    "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "category": "Necessaires",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789736/s-bag_4_ftt6kb.jpg",
+    "altThunbnail": "uma pequena bolsa de ombro",
+    "title": "S-bag",
+    "smallText": "Sholder bag prática com bolso.",
+    "text": "A S-Bag é uma shoulder bag moderna e funcional, com bolso frontal para acesso rápido, ideal para eventos e brindes corporativos.",
+    "category": "Bolsas",
 
     "printing": [
       { "arrow": "northwest" },
@@ -104,9 +92,7 @@
       { "arrow": "southwest" },
       { "arrow": "southeast" },
       { "arrow": "up" },
-      { "arrow": "right" },
       { "arrow": "botton" },
-      { "arrow": "left" },
       { "arrow": "center" }
     ],
 
@@ -135,126 +121,34 @@
   },
 
   {
-    "id": "6",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
-    "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Baú",
-    "smallText": "Divisórias internas para organização prática.",
+    "id": "4",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789726/bolsa-trip-congresso_1_ale1bh.jpg",
+    "altThunbnail": "Uma bolsa preta de frente",
+    "title": "Bolsa Trip",
+    "smallText": "Bolsa elegante, resistente e confortável..",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "category": "Mochilas",
+    "category": "Bolsas",
 
     "printing": [
-      { "arrow": "northwest" },
-      { "arrow": "northeast" },
       { "arrow": "southwest" },
       { "arrow": "southeast" },
       { "arrow": "up" },
-      { "arrow": "right" },
       { "arrow": "botton" },
-      { "arrow": "left" },
       { "arrow": "center" }
     ],
 
     "gallery": {
-      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
-      "AltMainImg": "Aqui vai um alt atribute",
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789727/bolsa-trip-p_1_v2pwjd.jpg",
+      "AltMainImg": "Uma bolsa vermelha ",
 
-      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
-      "AltImg1": "Aqui vai um alt atribute da img 1",
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789726/bolsa-trip-congresso_1_ale1bh.jpg",
+      "AltImg1": "Bolsa preta de frente",
 
-      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
-      "AltImg2": "Aqui vai um alt atribute da img 2",
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789726/bolsa-trip-congresso_3_mdl9ln.jpg",
+      "AltImg2": "Uma bolsa preta de lado",
 
-      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
-      "AltImg3": "Aqui vai um alt atribute da img 3"
-    },
-
-    "studioBrin": [
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
-    ]
-  },
-  {
-    "id": "7",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
-    "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Baú",
-    "smallText": "Divisórias internas para organização prática.",
-    "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "category": "Mochilas",
-
-    "printing": [
-      { "arrow": "northwest" },
-      { "arrow": "northeast" },
-      { "arrow": "southwest" },
-      { "arrow": "southeast" },
-      { "arrow": "up" },
-      { "arrow": "right" },
-      { "arrow": "botton" },
-      { "arrow": "left" },
-      { "arrow": "center" }
-    ],
-
-    "gallery": {
-      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
-      "AltMainImg": "Aqui vai um alt atribute",
-
-      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
-      "AltImg1": "Aqui vai um alt atribute da img 1",
-
-      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
-      "AltImg2": "Aqui vai um alt atribute da img 2",
-
-      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
-      "AltImg3": "Aqui vai um alt atribute da img 3"
-    },
-
-    "studioBrin": [
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
-    ]
-  },
-  {
-    "id": "8",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
-    "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Baú",
-    "smallText": "Divisórias internas para organização prática.",
-    "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "category": "Mochilas",
-
-    "printing": [
-      { "arrow": "northwest" },
-      { "arrow": "northeast" },
-      { "arrow": "southwest" },
-      { "arrow": "southeast" },
-      { "arrow": "up" },
-      { "arrow": "right" },
-      { "arrow": "botton" },
-      { "arrow": "left" },
-      { "arrow": "center" }
-    ],
-
-    "gallery": {
-      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
-      "AltMainImg": "Aqui vai um alt atribute",
-
-      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
-      "AltImg1": "Aqui vai um alt atribute da img 1",
-
-      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
-      "AltImg2": "Aqui vai um alt atribute da img 2",
-
-      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
-      "AltImg3": "Aqui vai um alt atribute da img 3"
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789727/bolsa-trip-p_3_fiegms.jpg",
+      "AltImg3": "Bolsa vermelha de costas"
     },
 
     "studioBrin": [
@@ -269,11 +163,11 @@
 
   {
     "id": "5",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
-    "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Baú",
-    "smallText": "Divisórias internas para organização prática.",
-    "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789722/bolsa-rss_2_xytuuc.jpg",
+    "altThunbnail": "Uma bolsa verde musgo",
+    "title": "Bolsa Rss",
+    "smallText": "Bolsa espaçosa ideal para eventos.",
+    "text": "A Bolsa RSS é ampla e prática, perfeita para feiras e eventos, oferecendo espaço de sobra para materiais e brindes.",
     "category": "Bolsas",
 
     "printing": [
@@ -282,24 +176,22 @@
       { "arrow": "southwest" },
       { "arrow": "southeast" },
       { "arrow": "up" },
-      { "arrow": "right" },
       { "arrow": "botton" },
-      { "arrow": "left" },
       { "arrow": "center" }
     ],
 
     "gallery": {
-      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
-      "AltMainImg": "Aqui vai um alt atribute",
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789722/bolsa-rss_2_xytuuc.jpg",
+      "AltMainImg": "uma bolsa azul de frente",
 
-      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
-      "AltImg1": "Aqui vai um alt atribute da img 1",
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789722/bolsa-rss_3_qbf1k1.jpg",
+      "AltImg1": "uma bolsa vermelha",
 
-      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
-      "AltImg2": "Aqui vai um alt atribute da img 2",
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789721/bolsa-rss_1_q7p9cl.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2uma bolsa de lado",
 
-      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
-      "AltImg3": "Aqui vai um alt atribute da img 3"
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789723/bolsa-rss_4_yf0lqb.jpg",
+      "AltImg3": "uma bolsa azul de frente"
     },
 
     "studioBrin": [
@@ -311,39 +203,36 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
+
   {
     "id": "6",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
-    "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Baú",
-    "smallText": "Divisórias internas para organização prática.",
-    "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789717/bolsa_praia_1_ng4v0t.jpg",
+    "altThunbnail": "Uma Ecobag com alça preta",
+    "title": "Bolsa Pst",
+    "smallText": "Bolsa disponível em vários tamanhos.",
+    "text": "A Bolsa PST se adapta a qualquer necessidade, disponível em diversos tamanhos para eventos, brindes corporativos e uso diário.",
     "category": "Bolsas",
 
     "printing": [
-      { "arrow": "northwest" },
-      { "arrow": "northeast" },
       { "arrow": "southwest" },
       { "arrow": "southeast" },
       { "arrow": "up" },
-      { "arrow": "right" },
       { "arrow": "botton" },
-      { "arrow": "left" },
       { "arrow": "center" }
     ],
 
     "gallery": {
-      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789718/bolsa_praia_4_uqpr3u.jpg",
       "AltMainImg": "Aqui vai um alt atribute",
 
-      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
-      "AltImg1": "Aqui vai um alt atribute da img 1",
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789717/bolsa_praia_1_ng4v0t.jpg",
+      "AltImg1": "uma ecobag em algodão",
 
-      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
-      "AltImg2": "Aqui vai um alt atribute da img 2",
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789718/bolsa_praia_3_mbyyvf.jpg",
+      "AltImg2": "Uma Bolsa Azul",
 
-      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
-      "AltImg3": "Aqui vai um alt atribute da img 3"
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789718/bolsa_praia_2_jg2q1t.jpg",
+      "AltImg3": "Uma Bolsa de algodão com a alça preta"
     },
 
     "studioBrin": [
@@ -355,6 +244,7 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
+
   {
     "id": "7",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
@@ -399,6 +289,7 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
+
   {
     "id": "8",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740332706/thunbnail_tyt8qc.jpg",
@@ -406,7 +297,7 @@
     "title": "Necessaire Baú",
     "smallText": "Divisórias internas para organização prática.",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "category": "Pastas",
+    "category": "Bolsas",
 
     "printing": [
       { "arrow": "northwest" },
@@ -417,6 +308,90 @@
       { "arrow": "right" },
       { "arrow": "botton" },
       { "arrow": "left" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+      "AltMainImg": "Aqui vai um alt atribute",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+      "AltImg1": "Aqui vai um alt atribute da img 1",
+
+      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+      "AltImg2": "Aqui vai um alt atribute da img 2",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+      "AltImg3": "Aqui vai um alt atribute da img 3"
+    },
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "9",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789714/bolsa_praia_4_ykmymm.jpg",
+    "altThunbnail": "descrição da thunbnail",
+    "title": "Necessaire Baú",
+    "smallText": "Divisórias internas para organização prática.",
+    "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
+    "category": "Bolsas",
+
+    "printing": [
+      { "arrow": "northwest" },
+      { "arrow": "northeast" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": {
+      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789714/bolsa_praia_4_ykmymm.jpg",
+      "AltMainImg": "Bolsa em translúcida de frente com itens de higiene dentro",
+
+      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789713/bolsa_praia_2_munz6s.jpg",
+      "AltImg1": "Bolsa em plástico translúcido e azul",
+
+      "img2": "hhttps://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789713/bolsa_praia_1_qecjac.jpg",
+      "AltImg2": "Bolsa em plástico translúcido",
+
+      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789714/bolsa_praia_3_djna7f.jpg",
+      "AltImg3": "Bolsa translúcida de lateral"
+    },
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "10",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789710/bolsa_praia_3_pqm9ag.jpg",
+    "altThunbnail": "Uma bolsa em material juta",
+    "title": "Bolsa Praia Miu",
+    "smallText": "Bolsa de juta rústica e sofisticada.",
+    "text": "A Bolsa Praia Miu combina estilo e resistência, feita em juta para um visual rústico e sofisticado, perfeita para brindes e eventos.",
+    "category": "Bolsas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
       { "arrow": "center" }
     ],
 
