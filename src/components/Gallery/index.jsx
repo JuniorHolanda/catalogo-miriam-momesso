@@ -1,7 +1,15 @@
-import DataProduct from '../../data/DataProduct.json'
+import { useState } from 'react'
 import styles from './gallery.module.scss'
 
 const Gallery = ({images}) => {
+    console.log(images)
+    
+    const [selectImg, setSelectImg] = useState(false);
+
+    function changeImg () {
+
+    }
+
 
 return (
     <section className={styles.wrapper}>
@@ -10,7 +18,7 @@ return (
         </figure>
         
         <figure className={styles.ContainerSecondary}>
-            <figure className={styles.containerImg}>
+            <figure className={`${styles.containerImg} ${styles.active}`}>
                 <img src={images.mainImg} alt={images.AltMainImg} />
             </figure>
 

@@ -8,23 +8,29 @@
     "text": "A Bolsa Andrea combina leveza e praticidade, feita de tela resistente e acompanhada de uma nécessaire interna para organização.",
     "category": "Bolsas",
 
-    "printing": [
-      { "arrow": "center" }
+    "printing": [{ "arrow": "center" }],
+
+    "gallery": [
+      {
+        "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789740/bolsa-andrea_2_f6hun2.jpg",
+        "AltMainImg": "Uma bolsa branca de tela com uma necessaire"
+      },
+
+      {
+        "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789741/bolsa-andrea_3_zrlfkt.jpg",
+        "AltImg1": "uma bolsa preta de tela com uma necessaire pendurada"
+      },
+
+      {
+        "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789740/bolsa-andrea_1_e312jg.jpg",
+        "AltImg2": "Bolsa em tela branca com necessaire interna"
+      },
+
+      {
+        "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789741/bolsa-andrea_4_r5rqa0.jpg",
+        "AltImg3": "Bolsa em tela preta vista de lateral"
+      }
     ],
-
-    "gallery": {
-      "mainImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789740/bolsa-andrea_2_f6hun2.jpg",
-      "AltMainImg": "Uma bolsa branca de tela com uma necessaire",
-
-      "img1": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789741/bolsa-andrea_3_zrlfkt.jpg",
-      "AltImg1": "uma bolsa preta de tela com uma necessaire pendurada",
-
-      "img2": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789740/bolsa-andrea_1_e312jg.jpg",
-      "AltImg2": "Bolsa em tela branca com necessaire interna",
-
-      "img3": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789741/bolsa-andrea_4_r5rqa0.jpg",
-      "AltImg3": "Bolsa em tela preta vista de lateral"
-    },
 
     "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",

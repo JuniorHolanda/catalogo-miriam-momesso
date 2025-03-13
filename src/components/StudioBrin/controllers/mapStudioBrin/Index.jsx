@@ -8,16 +8,6 @@ function MapDataToElements (data, create, title) {
   // cria classes dinâmicas, baseadas na cor selecionada
   const [colorProduct, setColorProduct] = useState('a');
 
-  useEffect(() => {
-    console.log("colorProduct atualizado:", colorProduct);
-  }, [colorProduct]);
-
-  function ChangeColorProduct(nameColor) {
-    setColorProduct(prev => {
-      return nameColor;
-    });
-  }
-
   return data.map((item, index,) => {
 
     if(!item.color){
@@ -26,7 +16,9 @@ function MapDataToElements (data, create, title) {
     }
 
     if(create === 'img'){
-      return <img className={colorProduct} key={index} src={item} alt={`${namePartProduct} do produto ${title}`}/>
+      return (
+        <img key={index} src={item} alt={`${namePartProduct} do produto ${title}`}/>
+      );
     }else if (create === 'btn') {
       return !item.color ?
       <button key={index}>{namePartProduct}</button> :
