@@ -1,13 +1,12 @@
 import HeaderSection from "../../components/HeaderSection";
 import styles from './product.module.scss';
-import cards from '../../data/DataProduct.json'
-import Product from "../../routers/Product";
+import dataProduct from '../../data/DataProduct.json'
 import Gallery from "../../components/Gallery";
 import StudioBrin from "../../components/StudioBrin";
 
 
 const ProductSection = ({id}) => {
-    const cardFiltered = cards.find(card => card.id === id);
+    const cardFiltered = dataProduct.find(card => card.id === id);
 
     return (
         <main className={styles.wrapper}>
