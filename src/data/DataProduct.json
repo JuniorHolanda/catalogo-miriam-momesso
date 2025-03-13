@@ -112,22 +112,22 @@
 
     "gallery": [
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211914/3_g2xedz.jpg",
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789736/s-bag_4_ftt6kb.jpg",
         "altImg": "Aqui vai um alt atribute"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/1_pgq1hs.jpg",
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789736/s-bag_3_juwqoa.jpg",
         "altImg": "Aqui vai um alt atribute da img 1"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/2_ac1rgg.jpg",
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789736/s-bag_1_eglwx6.jpg",
         "altImg": "Aqui vai um alt atribute da img 2"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741211913/4_estgkd.jpg",
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789736/s-bag_2_rajqgn.jpg",
         "altImg": "Aqui vai um alt atribute da img 3"
       }
     ],
@@ -292,19 +292,114 @@
     ]
   },
 
+  {
+    "id": "7",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789710/bolsa_praia_3_pqm9ag.jpg",
+    "altThunbnail": "Uma Ecobag com alça preta",
+    "title": "Bolsa Praia Duo",
+    "smallText": "Bolsa de juta rústica e sofisticada.",
+    "text": "A Bolsa Praia Duo combina estilo e resistência, feita em juta para um visual rústico e sofisticado, perfeita para brindes e eventos.",
+    "category": "Bolsas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+    
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789710/bolsa_praia_3_pqm9ag.jpg",
+        "altImg": "Aqui vai um alt atribute"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789710/bolsa_praia_2_bnf4ic.jpg",
+        "altImg": "uma ecobag em algodão"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789710/bolsa_praia_4_ad4lpy.jpg",
+        "altImg": "Uma Bolsa Azul"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789710/bolsa_praia_1_z7tny9.jpg",
+        "altImg": "Uma Bolsa de algodão com a alça preta"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "8",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789732/bolsa-vita-clear_4_td4ucs.jpg",
+    "altThunbnail": "Uma Ecobag com alça preta",
+    "title": "Bolsa Vita Clear",
+    "smallText": "Bgargfardsfgica e sofisticada.",
+    "text": "A Bolsa Praia Duo cuiouiouiouiououoiombina estilo e resistência, feita em juta para um visual rústico e sofisticado, perfeita para brindes e eventos.",
+    "category": "Bolsas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+    
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789732/bolsa-vita-clear_4_td4ucs.jpg",
+        "altImg": "Aqui vai um alt atribute"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789732/bolsa-vita-clear_3_tjqbob.jpg",
+        "altImg": "uma ecobag em algodão"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789731/bolsa-vita-clear_2_fanjws.jpg",
+        "altImg": "Uma Bolsa Azul"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789730/bolsa-vita-clear_1_lhgrcv.jpg",
+        "altImg": "Uma Bolsa de algodão com a alça preta"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
 
   {
     "id": "9",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789714/bolsa_praia_4_ykmymm.jpg",
-    "altThunbnail": "descrição da thunbnail",
-    "title": "Necessaire Baú",
-    "smallText": "Divisórias internas para organização prática.",
-    "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
+    "altThunbnail": "Uma bolsa translúcida com itens de higiene internos",
+    "title": "Bolsa Praia Miu",
+    "smallText": "Bolsa translúcida ampla e prática.",
+    "text": "A Bolsa Praia Miu é ampla e prática, feita em material plástico translúcido, perfeita para carregar seus itens na praia com estilo.",
     "category": "Bolsas",
 
     "printing": [
-      { "arrow": "northwest" },
-      { "arrow": "northeast" },
       { "arrow": "southwest" },
       { "arrow": "southeast" },
       { "arrow": "up" },
@@ -324,7 +419,7 @@
       },
 
       {
-        "img": "hhttps://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789713/bolsa_praia_1_qecjac.jpg",
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789713/bolsa_praia_1_qecjac.jpg",
         "altImg": "Bolsa em plástico translúcido"
       },
 
@@ -342,5 +437,255 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
+  },
+
+
+
+
+
+  {
+    "id": "10",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741891404/3_chd80m.jpg",
+    "altThunbnail": "Uma necessaire dourado",
+    "title": "Necessaire Vani Duo",
+    "smallText": "Necessaire espaçosa e funcional.",
+    "text": "A Necessaire Vani Duo oferece amplo espaço para organização, perfeita para brindes corporativos e uso no dia a dia.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741891404/3_chd80m.jpg",
+        "altImg": "Uma necessaire dourada"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741891401/2_og3nsh.jpg",
+        "altImg": "uma necessaire de lona com base azul"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741891398/1_fhy8bi.jpg",
+        "altImg": "uma necessaire de lona com base laranja"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741891396/4_wpjkfi.jpg",
+        "altImg": "uma necessaire de lona com base laranja"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "11",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741892769/Necessaire-vani-visor_1_zpmhlr.jpg",
+    "altThunbnail": "Uma necessaire preta com visor de plástico transparente",
+    "title": "Necessaire Vani Visor",
+    "smallText": "Necessaire pequena com visor transparente.",
+    "text": "A Necessaire Vani Visor é compacta e funcional, com visor de plástico transparente para fácil visualização dos itens essenciais.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741892769/Necessaire-vani-visor_1_zpmhlr.jpg",
+        "altImg": "Bolsa em translúcida de frente com itens de higiene dentro"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741892766/Necessaire-vani-visor_3_fv8tym.jpg",
+        "altImg": "Bolsa em plástico translúcido e azul"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741892760/Necessaire-vani-visor_2_us7kqf.jpg",
+        "altImg": "Bolsa em plástico translúcido"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741892763/Necessaire-vani-visor_4_kmcqiw.jpg",
+        "altImg": "Bolsa translúcida de lateral"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "12",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_1_qevcji.jpg",
+    "altThunbnail": "Uma necessaire preta com visor de plástico transparente",
+    "title": "Necessaire Vani Visor",
+    "smallText": "Necessaire pequena com visor transparente.",
+    "text": "A Necessaire Vani Visor é compacta e funcional, com visor de plástico transparente para fácil visualização dos itens essenciais.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_1_qevcji.jpg",
+        "altImg": "Uma necessaire"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_4_o0ebom.jpg",
+        "altImg": "Bolsa em plástico translúcido e azul"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741895898/Nec_Bau_Masculina_-_Cinza_mescla_-_aberta_e_fechada400_gyumfk.jpg",
+        "altImg": "Bolsa em plástico translúcido"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_3_sdobts.jpg",
+        "altImg": "Bolsa translúcida de lateral"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "14",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886628/necessaire-Cn_3_kqwsh3.jpg",
+    "altThunbnail": "Uma necessaire azul marinho",
+    "title": "Necessaire CN",
+    "smallText": "Necessaire espaçosa e versátil.",
+    "text": "A Necessaire CN é ampla e versátil, ideal para organizar itens essenciais com praticidade no dia a dia ou em viagens.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886628/necessaire-Cn_3_kqwsh3.jpg",
+        "altImg": "Uma necessaire branca com zíper vermelho"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886627/necessaire-Cn_2_pbdfam.jpg",
+        "altImg": "Uma necessaire rosa de costas"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886626/necessaire-Cn_1_eeese0.jpg",
+        "altImg": "uma necessaire cor de caramelo com ziper azul"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886625/necessaire-Cn_4_kbd8uw.jpg",
+        "altImg": "Uma necessaire branca com zíper azul"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "15",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886789/necessarie-ev_2_ertsem.jpg",
+    "altThunbnail": "UUma necessaire Azul",
+    "title": "Necessaire EV",
+    "smallText": "Necessaire pequena, funcional e prática.",
+    "text": "A Necessaire Ev é compacta e funcional, perfeita para carregar itens essenciais com praticidade no dia a dia.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886789/necessarie-ev_2_ertsem.jpg",
+        "altImg": "Uma necessaire branca com zíper vermelho"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886790/necessarie-ev_4_zqmrii.jpg",
+        "altImg": "Uma necessaire rosa de costas"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886788/necessarie-ev_1_ymjznr.jpg",
+        "altImg": "uma necessaire cor de caramelo com ziper azul"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886787/necessarie-ev_3_zzxkqw.jpg",
+        "altImg": "Uma necessaire branca com zíper azul"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
   }
+
 ]
