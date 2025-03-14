@@ -1,12 +1,17 @@
 import { useState, useEffect } from "react";
 import convertUrlInName from "../handleNameToUrl/converUrlInName";
+// import styles from '../../colors.module.scss'
 
 function MapDataToElements (data, create, title) {
 
   let namePartProduct = null;
 
   // cria classes dinâmicas, baseadas na cor selecionada
-  const [colorProduct, setColorProduct] = useState('a');
+  const [colorProduct, setColorProduct] = useState('ffffff');
+
+  function changeColor (hexColor) {
+    setColorProduct(hexColor);
+  }
 
   return data.map((item, index,) => {
 
@@ -17,12 +22,20 @@ function MapDataToElements (data, create, title) {
 
     if(create === 'img'){
       return (
-        <img key={index} src={item} alt={`${namePartProduct} do produto ${title}`}/>
+        <img
+          key={`img-${index}`}
+          src={item}
+          alt={`${namePartProduct} do produto ${title}`}
+        />
       );
     }else if (create === 'btn') {
       return !item.color ?
-      <button key={index}>{namePartProduct}</button> :
-      <button onClick={() => ChangeColorProduct(item.name)} key={index} style={{backgroundColor: item.color}}></button>
+      <button key={`btn-${index}`}>{namePartProduct}</button> :
+      <button
+        onClick={() => changeColor(item.color)}
+        key={`btn-${index}-${item.color}`}
+        style={{backgroundColor: item.color}}>
+      </button>
     }
   });
 }

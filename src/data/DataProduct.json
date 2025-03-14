@@ -82,12 +82,9 @@
     ],
 
     "studioBrin": [
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741903570/ajuste_mxse7i.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741903571/corpo_thl9fl.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741903571/alca_omxqje.png"
     ]
   },
 
@@ -160,7 +157,6 @@
     ],
 
     "gallery": [
-
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789727/bolsa-trip-p_1_v2pwjd.jpg",
         "altImg": "Uma bolsa vermelha "
@@ -259,7 +255,7 @@
       { "arrow": "botton" },
       { "arrow": "center" }
     ],
-    
+
     "gallery": [
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789718/bolsa_praia_4_uqpr3u.jpg",
@@ -308,7 +304,7 @@
       { "arrow": "botton" },
       { "arrow": "center" }
     ],
-    
+
     "gallery": [
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789710/bolsa_praia_3_pqm9ag.jpg",
@@ -357,7 +353,7 @@
       { "arrow": "botton" },
       { "arrow": "center" }
     ],
-    
+
     "gallery": [
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789732/bolsa-vita-clear_4_td4ucs.jpg",
@@ -438,10 +434,6 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
-
-
-
-
 
   {
     "id": "10",
@@ -687,5 +679,4 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   }
-
 ]
