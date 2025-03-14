@@ -435,6 +435,24 @@
     ]
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "id": "10",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741891404/3_chd80m.jpg",
@@ -535,55 +553,6 @@
 
   {
     "id": "12",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_1_qevcji.jpg",
-    "altThunbnail": "Uma necessaire preta com visor de plástico transparente",
-    "title": "Necessaire Vani Visor",
-    "smallText": "Necessaire pequena com visor transparente.",
-    "text": "A Necessaire Vani Visor é compacta e funcional, com visor de plástico transparente para fácil visualização dos itens essenciais.",
-    "category": "Necessaires",
-
-    "printing": [
-      { "arrow": "southwest" },
-      { "arrow": "southeast" },
-      { "arrow": "up" },
-      { "arrow": "botton" },
-      { "arrow": "center" }
-    ],
-
-    "gallery": [
-      {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_1_qevcji.jpg",
-        "altImg": "Uma necessaire"
-      },
-
-      {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_4_o0ebom.jpg",
-        "altImg": "Bolsa em plástico translúcido e azul"
-      },
-
-      {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741895898/Nec_Bau_Masculina_-_Cinza_mescla_-_aberta_e_fechada400_gyumfk.jpg",
-        "altImg": "Bolsa em plástico translúcido"
-      },
-
-      {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_3_sdobts.jpg",
-        "altImg": "Bolsa translúcida de lateral"
-      }
-    ],
-
-    "studioBrin": [
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
-    ]
-  },
-
-  {
-    "id": "14",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886628/necessaire-Cn_3_kqwsh3.jpg",
     "altThunbnail": "Uma necessaire azul marinho",
     "title": "Necessaire CN",
@@ -632,7 +601,7 @@
   },
 
   {
-    "id": "15",
+    "id": "13",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886789/necessarie-ev_2_ertsem.jpg",
     "altThunbnail": "UUma necessaire Azul",
     "title": "Necessaire EV",
@@ -667,6 +636,662 @@
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886787/necessarie-ev_3_zzxkqw.jpg",
         "altImg": "Uma necessaire branca com zíper azul"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "14",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887710/Necessaire-Gran-201104_4_eaxbs7.jpg",
+    "altThunbnail": "Uma necessaire em algodão com zíper pink",
+    "title": "Necessaire Gran",
+    "smallText": "Necessaire de algodão versátil e prática.",
+    "text": "A Necessaire Gran é feita de algodão, ideal para uso geral, combinando praticidade e um toque natural para o dia a dia.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887714/Necessaire-Gran-201104_1_md0h4z.jpg",
+        "altImg": "Uma necessaire de algodão"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887712/Necessaire-Gran-201104_2_xfyobo.jpg",
+        "altImg": "Uma necessaire vista de cima"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887710/Necessaire-Gran-201104_4_eaxbs7.jpg",
+        "altImg": "uma necessaire de algodão com zíper pink"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887708/Necessaire-Gran-201104_3_acyuah.jpg",
+        "altImg": "Uma necessaire de algodão de frente"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "15",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888587/Necessaire-hope_1_haeqc6.jpg",
+    "altThunbnail": "uma necessaire dourado",
+    "title": "Necessaire Hope",
+    "smallText": "Necessaire pequena com visor em tela.",
+    "text": "A Necessaire Hope é compacta e charmosa, com visor frontal em tela para fácil visualização dos itens essenciais.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888587/Necessaire-hope_1_haeqc6.jpg",
+        "altImg": "Uma necessaire dourada"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888589/Necessaire-hope_3_v7m6oe.jpg",
+        "altImg": "Uma necessaire azul"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888585/Necessaire-hope_2_vqdu9k.jpg",
+        "altImg": "uma necessaire preta com cartão"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888583/Necessaire-hope_4_irdi09.jpg",
+        "altImg": "Uma necessaire pink com algumas maquiagens "
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "16",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888747/Necessaire-ps_1_zlwoxe.jpg",
+    "altThunbnail": "uma necessaire dourado",
+    "title": "Necessaire PS",
+    "smallText": "Necessaire com múltiplas divisórias internas.",
+    "text": "A Necessaire PS oferece organização máxima, com diversas divisórias internas para acomodar seus itens de forma prática e acessível.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888747/Necessaire-ps_1_zlwoxe.jpg",
+        "altImg": "Uma necessaire pink com algumas maquiagens "
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888742/Necessaire-ps_4_rld6d3.jpg",
+        "altImg": "uma necessaire preta com cartão"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888750/Necessaire-ps_3_xyj1gd.jpg",
+        "altImg": "Uma necessaire dourada"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888745/Necessaire-ps_2_xzklmv.jpg",
+        "altImg": "Uma necessaire azul"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "17",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886475/necessarie-bh_1_na4ucv.jpg",
+    "altThunbnail": "uma necessaire Branca com alça",
+    "title": "Necessaire Bh",
+    "smallText": "Necessaire fina, sofisticada e prática.",
+    "text": "A Necessaire BH combina elegância e praticidade em um design fino e sofisticado, ideal para brindes e uso diário.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886474/necessarie-bh4_dewxi9.jpg",
+        "altImg": "Uma necessaire branca com um ziper azul"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886475/necessarie-bh_1_na4ucv.jpg",
+        "altImg": "uma necessaire branca de ziper pink"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886475/necessarie-bh_2_zzue4z.jpg",
+        "altImg": "uma necessaire de sintético cor de caramelo"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886476/necessarie-bh_3_coywzd.jpg",
+        "altImg": "uma necessaire rosa de costas"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "18",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887310/Necessarie-Ev-Bolso_2_yrz8i5.jpg",
+    "altThunbnail": "uma necessaire dourado",
+    "title": "Necessaire Vani Duo",
+    "smallText": "Necessaire espaçosa e muito prática",
+    "text": "A Necessaire Vani Duo é ampla e funcional, perfeita para organizar seus itens com praticidade no dia a dia ou em viagens.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887312/Necessarie-Ev-Bolso_4_mtpei8.jpg",
+        "altImg": "Uma necessaire cinza com ziper amarelo"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887310/Necessarie-Ev-Bolso_2_yrz8i5.jpg",
+        "altImg": "uma necessaire vermelha"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887309/Necessarie-Ev-Bolso_3_b7bjd5.jpg",
+        "altImg": "uma necessaire vista de cima"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887308/Necessarie-Ev-Bolso_1_sxv0c9.jpg",
+        "altImg": "uma necessaire azul vista de lateral"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "19",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_1_qevcji.jpg",
+    "altThunbnail": "Uma necessaire cinza",
+    "title": "Necessaire Baú Masculina",
+    "smallText": "Necessaire masculina ampla e prática.",
+    "text": "A Necessaire Baú Masculina é espaçosa e ideal para armazenar itens de higiene e cuidados pessoais com praticidade e estilo.",
+    "category": "Necessaires",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_1_qevcji.jpg",
+        "altImg": "Uma necessaire cinza fechada"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741895898/Nec_Bau_Masculina_-_Cinza_mescla_-_aberta_e_fechada400_gyumfk.jpg",
+        "altImg": "uma necessaire cinza aberta"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_4_o0ebom.jpg",
+        "altImg": "uma necessaire dcostas"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741885907/necessaire-bau-masculina_3_sdobts.jpg",
+        "altImg": "uma necessaire cinza de lateral"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": "20",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741964322/Estojo_Mil_Clear_-_Casco_preto_-_aberto400_wve1rt.jpg",
+    "altThunbnail": "Uma necessaire aberta cheia maquiagem",
+    "title": "Estojo Miu Clear",
+    "smallText": "Necessaire masculina ampla e prática.",
+    "text": "",
+    "category": "Estojos",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "up" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741964322/Estojo_Mil_Clear_-_Casco_preto_-_aberto400_wve1rt.jpg",
+        "altImg": "Uma necessaire aberta cheia maquiagem"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741964323/Estojo_Mil_Clear_-_Matelasse_-_Frente_-_vazia400_eqbq8s.jpg",
+        "altImg": "Necessaire em sintético com visor de plástico transparente"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741964322/Estojo_Mil_Clear_-_Azul_piscina_-_frente400_k2dziv.jpg",
+        "altImg": "Necessaire azul em sintético com visor de plástico transparente"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741964322/Estojo_Mil_Clear_-_Ny_600_-_Azul_Marinho_-_Lateral400_pc38nn.jpg",
+        "altImg": "uma necessaire cinza de lateral"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "21",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741965982/Estojo_Miu_-_ny600_-_azul_marinho_-_aberto_o6xi9o.jpg",
+    "altThunbnail": "Um estojo aberto com material escolar",
+    "title": "Estojo Miu ",
+    "smallText": ".",
+    "text": "",
+    "category": "Estojos",
+
+    "printing": [
+      { "arrow": "northeast" },
+      { "arrow": "northwest" },
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741965982/Estojo_Miu_-_ny600_-_azul_marinho_-_aberto_o6xi9o.jpg",
+        "altImg": "uma estojo aberto"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741965981/Estojo_Miu_-_ny600_-_azul_marinho_-_lateral_ir9iqm.jpg",
+        "altImg": "Um estojo azul fechado"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741965981/Estojo_Miu_-_ny600_-_azul_marinho_-_frente_bwuf1e.jpg",
+        "altImg": "um estojo azul e amarelo"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741965980/3_3_p0oevy.jpg",
+        "altImg": "uma estojo azul e amarelo fechado"
+      }
+
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "22",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741971574/1_g7b1a5.jpg",
+    "altThunbnail": "Um pequena estojo em sintético",
+    "title": "Estojo Mlt",
+    "smallText": "Estojo fino, leve e prático.",
+    "text": "O Estojo MLT é compacto e discreto, perfeito para carregar pequenos itens com praticidade no dia a dia.",
+    "category": "Estojos",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741971574/1_g7b1a5.jpg",
+        "altImg": "uma estojo aberto"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741971573/2_sjgfod.jpg",
+        "altImg": "Um estojo verde musgo azul fechado"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741971573/4_qilcww.jpg",
+        "altImg": "um estojo azul e preto"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741971572/3_u5nhcz.jpg",
+        "altImg": "uma estojo amarelo fechado"
+      }
+
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "23",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741973911/1_fxu7ew.jpg",
+    "altThunbnail": "Um pequena estojo em sintético",
+    "title": "Estojo Neo",
+    "smallText": "Estojo espaçoso e versátil.",
+    "text": "O Estojo Neo é amplo e funcional, ideal para organizar materiais escolares, de escritório ou acessórios com praticidade.",
+    "category": "Estojos",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741973911/1_fxu7ew.jpg",
+        "altImg": "pequeno azul e verde com bolsa na frente"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741973910/3_udpi7c.jpg",
+        "altImg": "Um estojo com bolso frontal"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741973909/2_qinmym.jpg",
+        "altImg": "Um estojo de azul de costas"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741973913/4_ykb6xh.jpg",
+        "altImg": "um estojo visto de ateral"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "24",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741976680/1_anc3k4.jpg",
+    "altThunbnail": "Um estojo personalizado azul com amarelo",
+    "title": "Estojo Sl",
+    "smallText": "Estojo multiuso para escola ou higiene.",
+    "text": "O Estojo SL é versátil e espaçoso, perfeito para armazenar lápis, réguas, material escolar ou itens de higiene com praticidade.",
+    "category": "Estojos",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741976680/1_anc3k4.jpg",
+        "altImg": "Pequeno azul e verde com bolsa na frente"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741976681/3_ye5j1o.jpg",
+        "altImg": "Estojo visto de lateral"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741976503/2_xqvy2y.jpg",
+        "altImg": "Um estojo com itens escolares"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741976504/4_dbmktl.jpg",
+        "altImg": "Um estojo de tela"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "25",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977769/1_zsrill.jpg",
+    "altThunbnail": "Um estojo triangular vermelho",
+    "title": "Estojo Tri",
+    "smallText": "Estojo triangular compacto e estiloso.",
+    "text": "O Estojo Tri tem design triangular e compacto, ideal para armazenar pequenos itens com estilo e praticidade.",
+    "category": "Estojos",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977769/1_zsrill.jpg",
+        "altImg": "Estojo vermelho triangular"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977777/4_xgkpp3.jpg",
+        "altImg": "Estojo laranja visto de lateral"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977775/3_oo7s7h.jpg",
+        "altImg": "Um estojo verde visto de cima"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977771/2_v51fru.jpg",
+        "altImg": "Um estojo bege com ziper azul"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "25",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977769/1_zsrill.jpg",
+    "altThunbnail": "Um estojo triangular vermelho",
+    "title": "Estojo Tri",
+    "smallText": "Estojo triangular compacto e estiloso.",
+    "text": "O Estojo Tri tem design triangular e compacto, ideal para armazenar pequenos itens com estilo e praticidade.",
+    "category": "Estojos",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977769/1_zsrill.jpg",
+        "altImg": "Estojo vermelho triangular"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977777/4_xgkpp3.jpg",
+        "altImg": "Estojo laranja visto de lateral"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977775/3_oo7s7h.jpg",
+        "altImg": "Um estojo verde visto de cima"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977771/2_v51fru.jpg",
+        "altImg": "Um estojo bege com ziper azul"
       }
     ],
 
