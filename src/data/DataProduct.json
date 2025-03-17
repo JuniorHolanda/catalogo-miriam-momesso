@@ -1257,14 +1257,80 @@
     ]
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
-    "id": "25",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977769/1_zsrill.jpg",
-    "altThunbnail": "Um estojo triangular vermelho",
-    "title": "Estojo Tri",
-    "smallText": "Estojo triangular compacto e estiloso.",
-    "text": "O Estojo Tri tem design triangular e compacto, ideal para armazenar pequenos itens com estilo e praticidade.",
-    "category": "Estojos",
+    "id": "26",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981285/Carteira_Feminina_JL_01400_t6jt1v.jpg",
+    "altThunbnail": "Uma carteira Aberta com itens internos",
+    "title": "Carteira Feminina JL",
+    "smallText" : "Carteira feminina personalizada com compartimentos",
+    "text": "A Carteira Feminina JL é prática e espaçosa, com diversos compartimentos para organizar cartões, dinheiro e documentos com estilo.",
+    "category": "Carteiras",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "northeast" },
+      { "arrow": "northwest" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981285/Carteira_Feminina_JL_01400_t6jt1v.jpg",
+        "altImg": "Uma carteira aberta com cartões, passaporte, e documentos"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981286/Carteira_Feminina_Jl400_ywfwvq.jpg",
+        "altImg": "carteira em material juta"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981284/Carteira_Feminina_JL_frente400_tsduxn.jpg",
+        "altImg": "Uuma carteira em material juta vista de frente"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981288/DSC08096400_t4x7cp.jpg",
+        "altImg": "carteira de frente na cor marrom comdetalhes de vermelho"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "27",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741989100/4_kixlmp.jpg",
+    "altThunbnail": "Uma carteira semiaberta",
+    "title": "Carteira RR",
+    "smallText" : "Carteira personalizada prática e funcional",
+    "text": "A Carteira RR combina design funcional e praticidade, oferecendo espaço ideal para armazenar cartões e dinheiro no dia a dia.",
+    "category": "Carteiras",
 
     "printing": [
       { "arrow": "southwest" },
@@ -1275,22 +1341,261 @@
 
     "gallery": [
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977769/1_zsrill.jpg",
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741989100/4_kixlmp.jpg",
         "altImg": "Estojo vermelho triangular"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977777/4_xgkpp3.jpg",
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741989100/1_qdsyzl.jpg",
         "altImg": "Estojo laranja visto de lateral"
       },
       
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977775/3_oo7s7h.jpg",
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741989100/3_xc8dhn.jpg",
         "altImg": "Um estojo verde visto de cima"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977771/2_v51fru.jpg",
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741989100/2_uoxrxm.jpg",
+        "altImg": "Um estojo bege com ziper azul"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "28",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742215863/87-800400_ip8f3h.jpg",
+    "altThunbnail": "Um estojo triangular vermelho",
+    "title": "Carteira Slim",
+    "smallText" : "Carteira personalizada fina e elegante",
+    "text": "A Carteira Slim é fina e elegante, perfeita para quem busca um acessório compacto sem abrir mão da sofisticação.",
+    "category": "Carteiras",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742215863/87-800400_ip8f3h.jpg",
+        "altImg": "Estojo vermelho triangular"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742215863/88-800400_ery1m5.jpg",
+        "altImg": "Estojo laranja visto de lateral"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742215862/128-800400_ngjpsh.jpg",
+        "altImg": "Um estojo verde visto de cima"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742215862/153-800400_wp1ubp.jpg",
+        "altImg": "Um estojo bege com ziper azul"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "29",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741996207/Porta_Documento_ADV_Bor_2_400_dncd36.jpg",
+    "altThunbnail": "Um estojo triangular vermelho",
+    "title": "Porta Documento Borges",
+    "smallText" : "Porta-documento personalizado e funcional",
+    "text": "O Porta Documento Borges tem espaço ideal para cartões, dinheiro e documentos, garantindo organização e praticidade no dia a dia.",
+    "category": "Carteiras",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741996207/Porta_Documento_ADV_Bor_2_400_dncd36.jpg",
+        "altImg": "Estojo vermelho triangular"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741996206/Porta_Documento_Adv_Bor_-_Veneza_Azul_Marinho400_wrs8jk.jpg",
+        "altImg": "Estojo laranja visto de lateral"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741996206/Porta_Documento_Adv_Bor_-_Preto_-_aberto400_b9coyn.jpg",
+        "altImg": "Um estojo verde visto de cima"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741996206/Porta_Documento_Adv_Bor_-_Preto400_skq86e.jpg",
+        "altImg": "Um estojo bege com ziper azul"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "30",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741992728/4_quz2os.jpg",
+    "altThunbnail": "Um estojo triangular vermelho",
+    "title": "Porta Cartão Adv",
+    "smallText" : "Porta-cartão personalizado com compartimentos",
+    "text": "O Porta Cartão Adv mantém seus cartões organizados com praticidade, contando com múltiplos compartimentos para maior funcionalidade.",
+    "category": "Carteiras",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741992728/4_quz2os.jpg",
+        "altImg": "Uma carteira aberta com cartões, e dinheiro"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741992729/3_zjy5wi.jpg",
+        "altImg": "Carteira Abeta e fechada"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741992726/1_xhbd1y.jpg",
+        "altImg": "Carteira de costas"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741992726/2_cnwfgr.jpg",
+        "altImg": "carteira com dinheiro e cartão"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "31",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741993138/4_mctjkt.jpg",
+    "altThunbnail": "Um estojo triangular vermelho",
+    "title": "Porta Cartão Borges",
+    "smallText" : "Porta-cartão personalizado com divisórias plásticas",
+    "text": "O Porta Cartão Borges possui divisórias de plástico resistentes, garantindo proteção e organização para seus cartões em qualquer",
+    "category": "Carteiras",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741993138/4_mctjkt.jpg",
+        "altImg": "Uma carteira aberta com cartões nos compartimentos de plástico"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741993138/1_zye2u5.jpg",
+        "altImg": "Estojo laranja visto de lateral"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741993139/2_jocsdy.jpg",
+        "altImg": "Um estojo verde visto de cima"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741993138/3_lsak7u.jpg",
+        "altImg": "Um estojo bege com ziper azul"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "32",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003004/20241206_084409400_vqgmzo.jpg",
+    "altThunbnail": "Um estojo triangular vermelho",
+    "title": "Porta Documento Basic",
+    "smallText" : "Porta-documento personalizado com divisórias plásticas",
+    "text": "O Porta Documento Basic conta com divisórias de plástico duráveis, ideal para armazenar documentos e cartões de forma segura.",
+    "category": "Carteiras",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003003/20241206_084309400_sz04iz.jpg",
+        "altImg": "Estojo vermelho triangular"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003004/20241206_084409400_vqgmzo.jpg",
+        "altImg": "Estojo laranja visto de lateral"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003460/20241206_084358400_kojy0k.jpg",
+        "altImg": "Um estojo verde visto de cima"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003005/20241206_084430400_jral3a.jpg",
         "altImg": "Um estojo bege com ziper azul"
       }
     ],
@@ -1304,4 +1609,24 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 ]
