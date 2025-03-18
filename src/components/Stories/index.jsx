@@ -6,7 +6,9 @@ function Stories({filter}) {
     
     const filteredCategory = dataStories.filter( storie => storie.category === filter);
 
-    const [counter, setCounter] = useState(0)
+    const [counter, setCounter] = useState(0);
+
+    const [animation, setAnimation] = useState(true);
     
     function changeStories (e) {
         if(e.target.innerText === 'Próximo'){
@@ -18,6 +20,7 @@ function Stories({filter}) {
     }
     
     useEffect(() => {
+        console.log(!animation)
         const interval = setInterval(() => {
             setCounter(prevCount => (prevCount >= filteredCategory.length -1 ? 0 : prevCount + 1));
         }, 8000);
@@ -33,7 +36,7 @@ function Stories({filter}) {
         </div>
 
         <div className={styles.mainContent}>
-            <div className={styles.slideItems}>
+            <div className={`${styles.slideItems} ${animation?  'active' : '' } `}>
                 <img src={filteredCategory[counter].img} alt={filteredCategory[counter].altImg}/>
             </div>
             <div className={styles.barProgress}>

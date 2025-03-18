@@ -19,7 +19,7 @@
     .mainContent{
         @include mixins.flex($direction: column, $justify: center, $align: center);
         position: relative;
-
+        
         .slideItems{
             @include mixins.flex($direction: column, $justify: center, $align: center);
             width: 100%;
@@ -27,11 +27,16 @@
             border-radius: var.$small-border;
             
             img{
+                border: solid red;
                 object-fit: cover;
                 width: 100%;
             }
         }
-    
+
+        .active{
+            animation: entrace 1.3s ease-in-out forwards;
+        }
+        
         .barProgress{
             position: absolute;
             top: var.$small-border;
@@ -44,7 +49,7 @@
                 height: 5px;
                 border-radius: 300px;
                 background-color: var.$clear-color-1;
-
+                
                 &:nth-child(1){
                     &::after{
                         content: '';
@@ -54,11 +59,11 @@
                         animation: barProgress 8s linear infinite;
                     }
                 }
-
+                
                 &:nth-child(2){
                     
                 }
-
+                
                 &:nth-child(3){
                     
                 }
@@ -71,7 +76,7 @@
         height: 100%;
         @include mixins.flex($justify: center, $align: center);
         position: absolute;
-
+        
         button{
             height: 100%;
             width: 100%;
