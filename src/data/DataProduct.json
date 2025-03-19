@@ -442,17 +442,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
   {
     "id": "10",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741891404/3_chd80m.jpg",
@@ -954,16 +943,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
   {
     "id": "20",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741964322/Estojo_Mil_Clear_-_Casco_preto_-_aberto400_wve1rt.jpg",
@@ -1264,17 +1243,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
   {
     "id": "26",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981285/Carteira_Feminina_JL_01400_t6jt1v.jpg",
@@ -1562,14 +1530,19 @@
     ]
   },
 
+
+
+  
+
+
   {
     "id": "32",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003004/20241206_084409400_vqgmzo.jpg",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241918/1_j0wdch.jpg",
     "altThunbnail": "Um estojo triangular vermelho",
-    "title": "Porta Documento Basic",
-    "smallText" : "Porta-documento personalizado com divisórias plásticas",
-    "text": "O Porta Documento Basic conta com divisórias de plástico duráveis, ideal para armazenar documentos e cartões de forma segura.",
-    "category": "Carteiras",
+    "title": "Mala FRR",
+    "smallText" : "Mala personalizada com alças e bolso",
+    "text": "A Mala FRR é prática e versátil, com alça de mão, alça transversal e bolso frontal para maior organização e conforto.",
+    "category": "Malas",
 
     "printing": [
       { "arrow": "southwest" },
@@ -1580,23 +1553,275 @@
 
     "gallery": [
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003003/20241206_084309400_sz04iz.jpg",
-        "altImg": "Estojo vermelho triangular"
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241918/1_j0wdch.jpg",
+        "altImg": "Mala esportiva bege e azul claro, com alças de mão e ombro removível."
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003004/20241206_084409400_vqgmzo.jpg",
-        "altImg": "Estojo laranja visto de lateral"
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241921/4_lm52nl.jpg",
+        "altImg": "Mala esportiva vermelha com detalhes em azul marinho, alças de mão e ombro ajustável."
       },
       
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003460/20241206_084358400_kojy0k.jpg",
-        "altImg": "Um estojo verde visto de cima"
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241917/3_tpxxri.jpg",
+        "altImg": "Mala esportiva preta com alças de mão e ombro ajustável."
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742003005/20241206_084430400_jral3a.jpg",
-        "altImg": "Um estojo bege com ziper azul"
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241916/2_xde3fc.jpg",
+        "altImg": "Mala esportiva preta com zíper, alças de mão e bolso lateral."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "33",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242204/3_rfxka8.jpg",
+    "altThunbnail": "Mala esportiva cinza com detalhes em preto, zíper e alças de mão e ombro vista de frente",
+    "title": "Mala Redon",
+    "smallText" : "Mala personalizada espaçosa e redonda",
+    "text": "A Mala Redon tem design amplo e redondo, oferecendo espaço de sobra para transportar seus pertences com praticidade.",
+    "category": "Malas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242204/3_rfxka8.jpg",
+        "altImg": "Mala esportiva cinza com detalhes em preto, zíper e alças de mão e ombro."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242206/1_mbaxpw.jpg",
+        "altImg": "Mala esportiva preta com zíper, alças de mão e logo branco"
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242214/4_kqhwab.jpg",
+        "altImg": "uMala esportiva cinza redonda com alças de mão e ombro removível."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242219/2_y95qzy.jpg",
+        "altImg": "Mala esportiva azul com zíper e alças de mão."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "34",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242457/2_huincu.jpg",
+    "altThunbnail": "Mala esportiva cinza com detalhes em preto, zíper e alças de mão e ombro vista de frente",
+    "title": "Mala RR",
+    "smallText" : "Mala personalizada espaçosa e redonda",
+    "text": "A Mala Redon tem design amplo e redondo, oferecendo espaço de sobra para transportar seus pertences com praticidade.",
+    "category": "Malas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242457/2_huincu.jpg",
+        "altImg": "Mala de viagem verde militar com detalhes em couro marrom, duas alças de mão, zíper lateral e frontal com detalhe laranja, vista lateral."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242456/1_mzpoyn.jpg",
+        "altImg": "Mala de viagem verde militar com detalhes em couro marrom, alças de mão e zíper frontal."
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242457/2_huincu.jpg",
+        "altImg": "Mala de viagem verde militar com detalhes em couro marrom, duas alças de mão e zíper frontal com detalhe laranja, vista frontal."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242456/1_mzpoyn.jpg",
+        "altImg": "Mala de viagem verde militar com detalhes em couro marrom, duas alças de mão e zíper frontal com detalhe laranja, vista superior."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "35",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242444/1_pbg7y5.jpg",
+    "altThunbnail": "Mala esportiva azul marinho com detalhes em laranja e alças de mão e ombro ajustável marrom.",
+    "title": "Mala Redon G",
+    "smallText" : "Mala grande personalizada e redonda",
+    "text": "A Mala Redon G é extremamente espaçosa e redonda, ideal para quem precisa de muito espaço sem abrir mão do estilo.",
+    "category": "Malas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242444/1_pbg7y5.jpg",
+        "altImg": "Mala esportiva azul marinho com detalhes em laranja e alças de mão e ombro ajustável marrom."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242448/3_odqayk.jpg",
+        "altImg": "Mala esportiva verde oliva com alças de mão e ombro ajustável verde."
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242442/2_fcy5gi.jpg",
+        "altImg": "Mala esportiva cinza com logo 'URBANA' e alças de mão e ombro ajustável cinza."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242434/Mala_Redon_Frente_Sem_Det_Limpa400_mjcfge.jpg",
+        "altImg": "Mala esportiva rosa com detalhes em azul e alças de mão e ombro ajustável preta."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "36",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242477/1_nk9fpb.jpg",
+    "altThunbnail": "Um estojo triangular vermelho",
+    "title": "Mala Sport Full",
+    "smallText" : "Mala esportiva personalizada e espaçosa",
+    "text": "A Mala Sport Full é espaçosa e funcional, equipada com alça de manopla para facilitar o transporte no dia a dia.",
+    "category": "Malas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242477/1_nk9fpb.jpg",
+        "altImg": "Mala esportiva preta com detalhes em couro marrom no zíper e alças de mão e ombro ajustável preta."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242479/2_ajznpo.jpg",
+        "altImg": "Mala esportiva azul marinho com detalhes em laranja no zíper e alças de mão e ombro ajustável preta."
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242486/4_kisxgj.jpg",
+        "altImg": "Mala esportiva verde musgo com bolso externo e alças de mão e ombro ajustável verde."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242476/3_lcxifr.jpg",
+        "altImg": "Mala esportiva azul royal com alças de mão e ombro ajustável preta, levemente amassada."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": "37",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242477/1_nk9fpb.jpg",
+    "altThunbnail": "Um estojo triangular vermelho",
+    "title": "Mala Sport Full",
+    "smallText" : "Mala esportiva personalizada e espaçosa",
+    "text": "A Mala Sport Full é espaçosa e funcional, equipada com alça de manopla para facilitar o transporte no dia a dia.",
+    "category": "Mochilas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242477/1_nk9fpb.jpg",
+        "altImg": "Mala esportiva preta com detalhes em couro marrom no zíper e alças de mão e ombro ajustável preta."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242479/2_ajznpo.jpg",
+        "altImg": "Mala esportiva azul marinho com detalhes em laranja no zíper e alças de mão e ombro ajustável preta."
+      },
+      
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242486/4_kisxgj.jpg",
+        "altImg": "Mala esportiva verde musgo com bolso externo e alças de mão e ombro ajustável verde."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242476/3_lcxifr.jpg",
+        "altImg": "Mala esportiva azul royal com alças de mão e ombro ajustável preta, levemente amassada."
       }
     ],
 
@@ -1610,23 +1835,4 @@
     ]
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 ]
