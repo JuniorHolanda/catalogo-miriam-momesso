@@ -435,13 +435,6 @@
     ]
   },
 
-
-
-
-
-
-
-
   {
     "id": "10",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741891404/3_chd80m.jpg",
@@ -754,7 +747,6 @@
     ],
 
     "gallery": [
-      
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741888747/Necessaire-ps_1_zlwoxe.jpg",
         "altImg": "Uma necessaire pink com algumas maquiagens "
@@ -804,7 +796,6 @@
     ],
 
     "gallery": [
-      
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741886474/necessarie-bh4_dewxi9.jpg",
         "altImg": "Uma necessaire branca com um ziper azul"
@@ -854,7 +845,6 @@
     ],
 
     "gallery": [
-      
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741887312/Necessarie-Ev-Bolso_4_mtpei8.jpg",
         "altImg": "Uma necessaire cinza com ziper amarelo"
@@ -934,14 +924,6 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
-
-
-
-
-
-
-
-
 
   {
     "id": "20",
@@ -1030,7 +1012,6 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741965980/3_3_p0oevy.jpg",
         "altImg": "uma estojo azul e amarelo fechado"
       }
-
     ],
 
     "studioBrin": [
@@ -1064,7 +1045,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741971574/1_g7b1a5.jpg",
         "altImg": "uma estojo aberto"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741971573/2_sjgfod.jpg",
         "altImg": "Um estojo verde musgo azul fechado"
@@ -1079,7 +1060,6 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741971572/3_u5nhcz.jpg",
         "altImg": "uma estojo amarelo fechado"
       }
-
     ],
 
     "studioBrin": [
@@ -1118,7 +1098,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741973910/3_udpi7c.jpg",
         "altImg": "Um estojo com bolso frontal"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741973909/2_qinmym.jpg",
         "altImg": "Um estojo de azul de costas"
@@ -1166,7 +1146,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741976681/3_ye5j1o.jpg",
         "altImg": "Estojo visto de lateral"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741976503/2_xqvy2y.jpg",
         "altImg": "Um estojo com itens escolares"
@@ -1214,7 +1194,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977777/4_xgkpp3.jpg",
         "altImg": "Estojo laranja visto de lateral"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741977775/3_oo7s7h.jpg",
         "altImg": "Um estojo verde visto de cima"
@@ -1236,19 +1216,12 @@
     ]
   },
 
-
-
-
-
-
-
-
   {
     "id": "26",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981285/Carteira_Feminina_JL_01400_t6jt1v.jpg",
     "altThunbnail": "Uma carteira Aberta com itens internos",
     "title": "Carteira Feminina JL",
-    "smallText" : "Carteira feminina personalizada com compartimentos",
+    "smallText": "Carteira feminina personalizada com compartimentos",
     "text": "A Carteira Feminina JL é prática e espaçosa, com diversos compartimentos para organizar cartões, dinheiro e documentos com estilo.",
     "category": "Carteiras",
 
@@ -1269,7 +1242,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981286/Carteira_Feminina_Jl400_ywfwvq.jpg",
         "altImg": "carteira em material juta"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981284/Carteira_Feminina_JL_frente400_tsduxn.jpg",
         "altImg": "Uuma carteira em material juta vista de frente"
@@ -1296,7 +1269,7 @@
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741989100/4_kixlmp.jpg",
     "altThunbnail": "Uma carteira semiaberta",
     "title": "Carteira RR",
-    "smallText" : "Carteira personalizada prática e funcional",
+    "smallText": "Carteira personalizada prática e funcional",
     "text": "A Carteira RR combina design funcional e praticidade, oferecendo espaço ideal para armazenar cartões e dinheiro no dia a dia.",
     "category": "Carteiras",
 
@@ -1317,7 +1290,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741989100/1_qdsyzl.jpg",
         "altImg": "Estojo laranja visto de lateral"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741989100/3_xc8dhn.jpg",
         "altImg": "Um estojo verde visto de cima"
@@ -1344,7 +1317,7 @@
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742215863/87-800400_ip8f3h.jpg",
     "altThunbnail": "Um estojo triangular vermelho",
     "title": "Carteira Slim",
-    "smallText" : "Carteira personalizada fina e elegante",
+    "smallText": "Carteira personalizada fina e elegante",
     "text": "A Carteira Slim é fina e elegante, perfeita para quem busca um acessório compacto sem abrir mão da sofisticação.",
     "category": "Carteiras",
 
@@ -1364,7 +1337,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742215863/88-800400_ery1m5.jpg",
         "altImg": "Estojo laranja visto de lateral"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742215862/128-800400_ngjpsh.jpg",
         "altImg": "Um estojo verde visto de cima"
@@ -1391,7 +1364,7 @@
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741996207/Porta_Documento_ADV_Bor_2_400_dncd36.jpg",
     "altThunbnail": "Um estojo triangular vermelho",
     "title": "Porta Documento Borges",
-    "smallText" : "Porta-documento personalizado e funcional",
+    "smallText": "Porta-documento personalizado e funcional",
     "text": "O Porta Documento Borges tem espaço ideal para cartões, dinheiro e documentos, garantindo organização e praticidade no dia a dia.",
     "category": "Carteiras",
 
@@ -1412,7 +1385,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741996206/Porta_Documento_Adv_Bor_-_Veneza_Azul_Marinho400_wrs8jk.jpg",
         "altImg": "Estojo laranja visto de lateral"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741996206/Porta_Documento_Adv_Bor_-_Preto_-_aberto400_b9coyn.jpg",
         "altImg": "Um estojo verde visto de cima"
@@ -1439,7 +1412,7 @@
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741992728/4_quz2os.jpg",
     "altThunbnail": "Um estojo triangular vermelho",
     "title": "Porta Cartão Adv",
-    "smallText" : "Porta-cartão personalizado com compartimentos",
+    "smallText": "Porta-cartão personalizado com compartimentos",
     "text": "O Porta Cartão Adv mantém seus cartões organizados com praticidade, contando com múltiplos compartimentos para maior funcionalidade.",
     "category": "Carteiras",
 
@@ -1460,7 +1433,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741992729/3_zjy5wi.jpg",
         "altImg": "Carteira Abeta e fechada"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741992726/1_xhbd1y.jpg",
         "altImg": "Carteira de costas"
@@ -1487,7 +1460,7 @@
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741993138/4_mctjkt.jpg",
     "altThunbnail": "Um estojo triangular vermelho",
     "title": "Porta Cartão Borges",
-    "smallText" : "Porta-cartão personalizado com divisórias plásticas",
+    "smallText": "Porta-cartão personalizado com divisórias plásticas",
     "text": "O Porta Cartão Borges possui divisórias de plástico resistentes, garantindo proteção e organização para seus cartões em qualquer",
     "category": "Carteiras",
 
@@ -1508,7 +1481,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741993138/1_zye2u5.jpg",
         "altImg": "Estojo laranja visto de lateral"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741993139/2_jocsdy.jpg",
         "altImg": "Um estojo verde visto de cima"
@@ -1530,17 +1503,12 @@
     ]
   },
 
-
-
-  
-
-
   {
     "id": "32",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241918/1_j0wdch.jpg",
     "altThunbnail": "Um estojo triangular vermelho",
     "title": "Mala FRR",
-    "smallText" : "Mala personalizada com alças e bolso",
+    "smallText": "Mala personalizada com alças e bolso",
     "text": "A Mala FRR é prática e versátil, com alça de mão, alça transversal e bolso frontal para maior organização e conforto.",
     "category": "Malas",
 
@@ -1561,7 +1529,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241921/4_lm52nl.jpg",
         "altImg": "Mala esportiva vermelha com detalhes em azul marinho, alças de mão e ombro ajustável."
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241917/3_tpxxri.jpg",
         "altImg": "Mala esportiva preta com alças de mão e ombro ajustável."
@@ -1588,7 +1556,7 @@
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242204/3_rfxka8.jpg",
     "altThunbnail": "Mala esportiva cinza com detalhes em preto, zíper e alças de mão e ombro vista de frente",
     "title": "Mala Redon",
-    "smallText" : "Mala personalizada espaçosa e redonda",
+    "smallText": "Mala personalizada espaçosa e redonda",
     "text": "A Mala Redon tem design amplo e redondo, oferecendo espaço de sobra para transportar seus pertences com praticidade.",
     "category": "Malas",
 
@@ -1609,7 +1577,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242206/1_mbaxpw.jpg",
         "altImg": "Mala esportiva preta com zíper, alças de mão e logo branco"
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242214/4_kqhwab.jpg",
         "altImg": "uMala esportiva cinza redonda com alças de mão e ombro removível."
@@ -1636,7 +1604,7 @@
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242457/2_huincu.jpg",
     "altThunbnail": "Mala esportiva cinza com detalhes em preto, zíper e alças de mão e ombro vista de frente",
     "title": "Mala RR",
-    "smallText" : "Mala personalizada espaçosa e redonda",
+    "smallText": "Mala personalizada espaçosa e redonda",
     "text": "A Mala Redon tem design amplo e redondo, oferecendo espaço de sobra para transportar seus pertences com praticidade.",
     "category": "Malas",
 
@@ -1657,7 +1625,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242456/1_mzpoyn.jpg",
         "altImg": "Mala de viagem verde militar com detalhes em couro marrom, alças de mão e zíper frontal."
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242457/2_huincu.jpg",
         "altImg": "Mala de viagem verde militar com detalhes em couro marrom, duas alças de mão e zíper frontal com detalhe laranja, vista frontal."
@@ -1684,7 +1652,7 @@
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242444/1_pbg7y5.jpg",
     "altThunbnail": "Mala esportiva azul marinho com detalhes em laranja e alças de mão e ombro ajustável marrom.",
     "title": "Mala Redon G",
-    "smallText" : "Mala grande personalizada e redonda",
+    "smallText": "Mala grande personalizada e redonda",
     "text": "A Mala Redon G é extremamente espaçosa e redonda, ideal para quem precisa de muito espaço sem abrir mão do estilo.",
     "category": "Malas",
 
@@ -1705,7 +1673,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242448/3_odqayk.jpg",
         "altImg": "Mala esportiva verde oliva com alças de mão e ombro ajustável verde."
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242442/2_fcy5gi.jpg",
         "altImg": "Mala esportiva cinza com logo 'URBANA' e alças de mão e ombro ajustável cinza."
@@ -1732,7 +1700,7 @@
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242477/1_nk9fpb.jpg",
     "altThunbnail": "Um estojo triangular vermelho",
     "title": "Mala Sport Full",
-    "smallText" : "Mala esportiva personalizada e espaçosa",
+    "smallText": "Mala esportiva personalizada e espaçosa",
     "text": "A Mala Sport Full é espaçosa e funcional, equipada com alça de manopla para facilitar o transporte no dia a dia.",
     "category": "Malas",
 
@@ -1753,7 +1721,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242479/2_ajznpo.jpg",
         "altImg": "Mala esportiva azul marinho com detalhes em laranja no zíper e alças de mão e ombro ajustável preta."
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242486/4_kisxgj.jpg",
         "altImg": "Mala esportiva verde musgo com bolso externo e alças de mão e ombro ajustável verde."
@@ -1775,24 +1743,12 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
   {
     "id": "37",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242477/1_nk9fpb.jpg",
     "altThunbnail": "Um estojo triangular vermelho",
     "title": "Mala Sport Full",
-    "smallText" : "Mala esportiva personalizada e espaçosa",
+    "smallText": "Mala esportiva personalizada e espaçosa",
     "text": "A Mala Sport Full é espaçosa e funcional, equipada com alça de manopla para facilitar o transporte no dia a dia.",
     "category": "Mochilas",
 
@@ -1813,7 +1769,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242479/2_ajznpo.jpg",
         "altImg": "Mala esportiva azul marinho com detalhes em laranja no zíper e alças de mão e ombro ajustável preta."
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742242486/4_kisxgj.jpg",
         "altImg": "Mala esportiva verde musgo com bolso externo e alças de mão e ombro ajustável verde."
@@ -1834,5 +1790,4 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   }
-
 ]
