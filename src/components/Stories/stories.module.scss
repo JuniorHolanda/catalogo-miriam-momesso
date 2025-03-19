@@ -27,14 +27,14 @@
             border-radius: var.$small-border;
             
             img{
-                border: solid red;
                 object-fit: cover;
                 width: 100%;
             }
-        }
 
-        .active{
-            animation: entrace 1.3s ease-in-out forwards;
+            .active{
+                animation: entrace 1.3s ease-in-out forwards;
+                border: solid rebeccapurple;
+            }
         }
         
         .barProgress{
@@ -83,6 +83,10 @@
             opacity: 0;
         }
     }
+}
 
 
+
+.active{
+    animation: entrace 1.3s ease-in-out forwards;
 }

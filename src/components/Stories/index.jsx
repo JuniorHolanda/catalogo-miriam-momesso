@@ -20,24 +20,27 @@ function Stories({filter}) {
     }
     
     useEffect(() => {
-        console.log(!animation)
+        // console.log(animation)
         const interval = setInterval(() => {
             setCounter(prevCount => (prevCount >= filteredCategory.length -1 ? 0 : prevCount + 1));
-        }, 8000);
-
+        }, 3000);
+        
         return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
     }, []);
-
+    
     return(
-    <div className={styles.slider}>
+        <div className={styles.slider}>
         <div className={styles.containerInfo}>
             <h2>{filteredCategory[counter].title}</h2>
             <p>{filteredCategory[counter].text}</p>
         </div>
 
         <div className={styles.mainContent}>
-            <div className={`${styles.slideItems} ${animation?  'active' : '' } `}>
-                <img src={filteredCategory[counter].img} alt={filteredCategory[counter].altImg}/>
+            <div className={styles.slideItems}>
+                <img className={styles.active}
+                    src={filteredCategory[counter].img}
+                    alt={filteredCategory[counter].altImg}
+                />
             </div>
             <div className={styles.barProgress}>
                 {/* {dataStories.map((_, index) => (
