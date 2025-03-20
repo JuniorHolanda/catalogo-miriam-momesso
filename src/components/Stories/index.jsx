@@ -1,57 +1,41 @@
 import styles from './stories.module.scss';
 import dataStories from '../../data/Banners.json';
-import { useEffect, useState } from 'react';
+import Stories from 'react-insta-stories';
 
-function Stories({filter}) {
+
+function StoriesInsta( {filter} ) {
     
     // filtra os slides com base na categoria
     const filteredCategory = dataStories.filter( storie => storie.category === filter);
+    console.log(filteredCategory)
 
-    // const [counter, setCounter] = useState(0);
-
-    // const [animation, setAnimation] = useState(true);
-    
-    // function changeStories (e) {
-    //     if(e.target.innerText === 'Próximo'){
-    //         setCounter(prevCount => (prevCount >= filteredCategory.length - 1 ? 0 : prevCount + 1));
-            
-    //     } else if (e.target.innerText === 'Anterior'){
-    //         setCounter(prevCount => (prevCount === 0 ? filteredCategory.length - 1 : prevCount - 1));
-    //     }
-    // }
-    
-    // useEffect(() => {
-    //     // console.log(animation)
-    //     const interval = setInterval(() => {
-    //         setCounter(prevCount => (prevCount >= filteredCategory.length -1 ? 0 : prevCount + 1));
-    //     }, 3000);
-        
-    //     return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
-    // }, []);
-    
-    return(
-        <div className={styles.slider}>
-            <div className={styles.containerInfo}>
-                {/* <h2>{filteredCategory[counter].title}</h2>
-                <p>{filteredCategory[counter].text}</p> */}
+    const transformStories = (data) => {
+        return data.map(item => ({
+          url: item.url, // URL da imagem
+          header: {
+            heading: item.header,
+            subheading: item.category,
+          },
+          storyContent: () => (
+            <div className={styles.content}>
+              <p className={styles.text}>{item.text}</p>
             </div>
+          )
+        }));
+    };
 
-            <div className={styles.mainContent}>
-                <div className={styles.slideItems}>
-                    
-                </div>
-                <div className={styles.barProgress}>
-                    {dataStories.map((storie, index) => (
-                        <img src="" alt="" />
-                    ))} 
-                </div>
-            </div>
+    const transformedStories = transformStories(filteredCategory);
 
-            {/* <nav>
-                <button className={styles.previous} onClick={changeStories}>Anterior</button>
-                <button className={styles.next} onClick={changeStories}>Próximo</button>
-            </nav> */}
+    return (
+        <div className={styles.container}>
+            <Stories
+                stories={transformedStories}
+                defaultInterval={5000}
+                width="100%"
+                height="100%"
+                loop
+            />
         </div>
-    )
+      );
 }
-export default Stories;
+export default StoriesInsta;

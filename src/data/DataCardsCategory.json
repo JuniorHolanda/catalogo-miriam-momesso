@@ -4,7 +4,7 @@
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740191155/1_zzdet6.png",
     "altImg": "uma necessaire rosa",
     "text": "lorem ipsum dolor, abacate com pimenta melancia, foi ainda que comendo hora de fazer. treze dados na boca de uma gata fazem a bicleta de marfim.",
-    "title": "Necessaires",
+    "category": "Necessaires",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193909/Star_2_kghfwh.svg",
     "altBackground": "um symbolo de uma estrela azul de muitas pontas"
   },
@@ -14,7 +14,7 @@
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271267/bolsa_mfmf2v.png",
     "altImg": "Um ícone de uma bolsa",
     "text": "lorem ipsum dolor, abacate com pimenta melancia, foi ainda que comendo hora de fazer. treze dados na boca de uma gata fazem a bicleta de marfim.",
-    "title": "Bolsas",
+    "category": "Bolsas",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union_krgshx.svg",
     "altBackground": "diversos circulos abstratos"
   },
@@ -24,7 +24,7 @@
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271266/carteiras_wffa3k.png",
     "altImg": "uma carteira com alguns cartõies e dinheiro",
     "text": "lorem ipsum dolor, abacate com pimenta melancia, foi ainda que comendo hora de fazer. treze dados na boca de uma gata fazem a bicleta de marfim.",
-    "title": "Carteiras",
+    "category": "Carteiras",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193909/Star_1_bpvrk0.svg",
     "altBackground": "um símbolo de uma estrela de sete pontas"
   },
@@ -34,7 +34,7 @@
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271267/diversos_qjoul4.png",
     "altImg": "um kit higiene aberto com alguns itens de higiene dentro",
     "text": "lorem ipsum dolor, abacate com pimenta melancia, foi ainda que comendo hora de fazer. treze dados na boca de uma gata fazem a bicleta de marfim.",
-    "title": "Diversos",
+    "category": "Diversos",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-5_vdwfpp.svg",
     "altBackground": "formas abtrastas"
   },
@@ -44,7 +44,7 @@
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271266/estojos_hnirkc.png",
     "altImg": "um estojo",
     "text": "lorem ipsum dolor, abacate com pimenta melancia, foi ainda que comendo hora de fazer. treze dados na boca de uma gata fazem a bicleta de marfim.",
-    "title": "Estojos",
+    "category": "Estojos",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-3_yhtefk.svg",
     "altBackground": "uma forma abstrata"
   },
@@ -54,7 +54,7 @@
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271266/malas_a65tiy.png",
     "altImg": "uma mala",
     "text": "lorem ipsum dolor, abacate com pimenta melancia, foi ainda que comendo hora de fazer. treze dados na boca de uma gata fazem a bicleta de marfim.",
-    "title": "Malas",
+    "category": "Malas",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union-2_fj5hja.svg",
     "altBackground": "uma forma de curculos abstratos"
   },
@@ -64,7 +64,7 @@
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271455/mochilas_w7m6ap.png",
     "altImg": "uma mochila",
     "text": "lorem ipsum dolor, abacate com pimenta melancia, foi ainda que comendo hora de fazer. treze dados na boca de uma gata fazem a bicleta de marfim.",
-    "title": "Mochilas",
+    "category": "Mochilas",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union-1_vda0lc.svg",
     "altBackground": "formas abstratas"
   },
@@ -74,7 +74,7 @@
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271454/pastas_ck8gff.png",
     "altImg": "uma pasta",
     "text": "lorem ipsum dolor, abacate com pimenta melancia, foi ainda que comendo hora de fazer. treze dados na boca de uma gata fazem a bicleta de marfim.",
-    "title": "Pastas",
+    "category": "Pastas",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193911/Union-4_jutigf.svg",
     "altBackground": "curculos abstratos"
   },
@@ -84,7 +84,7 @@
     "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740271266/porta-blocos_bnpjiv.png",
     "altImg": "Um porta bloco aberto",
     "text": "lorem ipsum dolor, abacate com pimenta melancia, foi ainda que comendo hora de fazer. treze dados na boca de uma gata fazem a bicleta de marfim.",
-    "title": "Porta Blocos",
+    "category": "Porta Blocos",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740273180/Unions_txxrxr.svg",
     "altBackground": "formas abstratas"
   }

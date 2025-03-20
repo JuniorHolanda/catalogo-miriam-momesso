@@ -12,11 +12,11 @@ const HomeSection = () => {
             <HeaderSection id='Catálogo'/>
             <Category />
             {
-                DataCardsCategory.map((categ) => (
+                DataCardsCategory.map((data) => (
                     <CategorySection
-                        key={categ.id}
-                        title={categ.title}
-                        text={categ.text}
+                        key={data.id}
+                        category={data.category}
+                        text={data.text}
                     />
                 ))
             }
