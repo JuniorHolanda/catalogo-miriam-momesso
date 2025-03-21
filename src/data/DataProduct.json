@@ -435,18 +435,6 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
   {
     "id": "10",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741891404/3_chd80m.jpg",
@@ -937,21 +925,6 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     "id": "20",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741964322/Estojo_Mil_Clear_-_Casco_preto_-_aberto400_wve1rt.jpg",
@@ -1243,16 +1216,6 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
-
   {
     "id": "26",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981285/Carteira_Feminina_JL_01400_t6jt1v.jpg",
@@ -1540,15 +1503,6 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
   {
     "id": "32",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241918/1_j0wdch.jpg",
@@ -1789,13 +1743,6 @@
     ]
   },
 
-
-
-
-
-
-
-
   {
     "id": "37",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472234/1_dler8g.jpg",
@@ -1833,7 +1780,6 @@
         "altImg": "Mochila azul com alças ajustáveis e detalhe em azul claro nas costas, vista traseira."
       }
     ],
-
 
     "studioBrin": [
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
@@ -2010,7 +1956,7 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742497501/4-800_vjn4mb.jpg",
         "altImg": "Mala esportiva azul royal com alças de mão e ombro ajustável preta, levemente amassada."
       },
-      
+
       {
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472294/1-400_pzelj8.jpg",
         "altImg": "Mala esportiva preta com detalhes em couro marrom no zíper e alças de mão e ombro ajustável preta."
@@ -2131,7 +2077,245 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
+  },
+
+  {
+    "id": "45",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
+    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
+    "title": "Pasta Sinc",
+    "smallText": "",
+    "text": "",
+    "category": "Pastas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
+        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/1_om0tni.jpg",
+        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523130/31-2000_2_n400_xew5z4.jpg",
+        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/40-800_2_400_b4z2uf.jpg",
+        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "45",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
+    "title": "",
+    "smallText": "",
+    "text": "",
+    "category": "Pastas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
+        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
+        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
+        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "45",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
+    "title": "",
+    "smallText": "",
+    "text": "",
+    "category": "Pastas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
+        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
+        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
+        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "45",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
+    "title": "",
+    "smallText": "",
+    "text": "",
+    "category": "Pastas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
+        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
+        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
+        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "45",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
+    "title": "",
+    "smallText": "",
+    "text": "",
+    "category": "Pastas",
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
+        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
+        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
+        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
   }
-
-
 ]
