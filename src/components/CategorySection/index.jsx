@@ -11,10 +11,10 @@ const CategorySection = ({category, text}) => {
 
       <StoriesInsta filter={category}/>
       <CardProduct filter={category} />
-      <button className={styles.btnShowCategory}>
+      {/* <button className={styles.btnShowCategory}>
         <LiaEyeSolid className={styles.icon} />
         Ver Categoria
-      </button>
+      </button> */}
     </div>
   );
 }

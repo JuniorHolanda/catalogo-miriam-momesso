@@ -17,14 +17,12 @@
         border-radius: var.$small-border;
         padding: var.$small-space;
         background: var.$clear-color-1;
-        
 
         .shortcut{
             @include mixins.flex($direction: row);
             gap: var.$small-space;
             width: 90%;
             font-size: 2em;
-
         }
         
         .menuHamburger{
