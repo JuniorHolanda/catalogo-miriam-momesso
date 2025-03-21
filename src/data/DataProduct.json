@@ -8,6 +8,8 @@
     "text": "A Bolsa Andrea combina leveza e praticidade, feita de tela resistente e acompanhada de uma nécessaire interna para organização.",
     "category": "Bolsas",
 
+    "measure" : ["10x10x10cm"],
+
     "printing": [{ "arrow": "center" }],
 
     "gallery": [
@@ -50,6 +52,8 @@
     "smallText": "Bolsa ampla, versátil e prática",
     "text": "A Bolsa Graci é espaçosa e versátil, perfeita para o dia a dia, eventos e brindes corporativos, garantindo praticidade sem complicação.",
     "category": "Bolsas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -96,6 +100,8 @@
     "smallText": "Sholder bag prática com bolso.",
     "text": "A S-Bag é uma shoulder bag moderna e funcional, com bolso frontal para acesso rápido, ideal para eventos e brindes corporativos.",
     "category": "Bolsas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "northwest" },
@@ -148,6 +154,8 @@
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
     "category": "Bolsas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -196,6 +204,8 @@
     "smallText": "Bolsa espaçosa ideal para eventos.",
     "text": "A Bolsa RSS é ampla e prática, perfeita para feiras e eventos, oferecendo espaço de sobra para materiais e brindes.",
     "category": "Bolsas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "northwest" },
@@ -248,6 +258,8 @@
     "text": "A Bolsa PST se adapta a qualquer necessidade, disponível em diversos tamanhos para eventos, brindes corporativos e uso diário.",
     "category": "Bolsas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -296,6 +308,8 @@
     "smallText": "Bolsa de juta rústica e sofisticada.",
     "text": "A Bolsa Praia Duo combina estilo e resistência, feita em juta para um visual rústico e sofisticado, perfeita para brindes e eventos.",
     "category": "Bolsas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -346,6 +360,8 @@
     "text": "A Bolsa Praia Duo cuiouiouiouiououoiombina estilo e resistência, feita em juta para um visual rústico e sofisticado, perfeita para brindes e eventos.",
     "category": "Bolsas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -394,6 +410,8 @@
     "smallText": "Bolsa translúcida ampla e prática.",
     "text": "A Bolsa Praia Miu é ampla e prática, feita em material plástico translúcido, perfeita para carregar seus itens na praia com estilo.",
     "category": "Bolsas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -444,6 +462,8 @@
     "text": "A Necessaire Vani Duo oferece amplo espaço para organização, perfeita para brindes corporativos e uso no dia a dia.",
     "category": "Necessaires",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -492,6 +512,8 @@
     "smallText": "Necessaire pequena com visor transparente.",
     "text": "A Necessaire Vani Visor é compacta e funcional, com visor de plástico transparente para fácil visualização dos itens essenciais.",
     "category": "Necessaires",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -542,6 +564,8 @@
     "text": "A Necessaire CN é ampla e versátil, ideal para organizar itens essenciais com praticidade no dia a dia ou em viagens.",
     "category": "Necessaires",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -590,6 +614,8 @@
     "smallText": "Necessaire pequena, funcional e prática.",
     "text": "A Necessaire Ev é compacta e funcional, perfeita para carregar itens essenciais com praticidade no dia a dia.",
     "category": "Necessaires",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -640,6 +666,8 @@
     "text": "A Necessaire Gran é feita de algodão, ideal para uso geral, combinando praticidade e um toque natural para o dia a dia.",
     "category": "Necessaires",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -688,6 +716,8 @@
     "smallText": "Necessaire pequena com visor em tela.",
     "text": "A Necessaire Hope é compacta e charmosa, com visor frontal em tela para fácil visualização dos itens essenciais.",
     "category": "Necessaires",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -738,6 +768,8 @@
     "text": "A Necessaire PS oferece organização máxima, com diversas divisórias internas para acomodar seus itens de forma prática e acessível.",
     "category": "Necessaires",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -786,6 +818,8 @@
     "smallText": "Necessaire fina, sofisticada e prática.",
     "text": "A Necessaire BH combina elegância e praticidade em um design fino e sofisticado, ideal para brindes e uso diário.",
     "category": "Necessaires",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -836,6 +870,8 @@
     "text": "A Necessaire Vani Duo é ampla e funcional, perfeita para organizar seus itens com praticidade no dia a dia ou em viagens.",
     "category": "Necessaires",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -884,6 +920,8 @@
     "smallText": "Necessaire masculina ampla e prática.",
     "text": "A Necessaire Baú Masculina é espaçosa e ideal para armazenar itens de higiene e cuidados pessoais com praticidade e estilo.",
     "category": "Necessaires",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -934,6 +972,8 @@
     "text": "",
     "category": "Estojos",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -982,6 +1022,8 @@
     "smallText": ".",
     "text": "",
     "category": "Estojos",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "northeast" },
@@ -1033,6 +1075,8 @@
     "text": "O Estojo MLT é compacto e discreto, perfeito para carregar pequenos itens com praticidade no dia a dia.",
     "category": "Estojos",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1080,6 +1124,8 @@
     "smallText": "Estojo espaçoso e versátil.",
     "text": "O Estojo Neo é amplo e funcional, ideal para organizar materiais escolares, de escritório ou acessórios com praticidade.",
     "category": "Estojos",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1129,6 +1175,8 @@
     "text": "O Estojo SL é versátil e espaçoso, perfeito para armazenar lápis, réguas, material escolar ou itens de higiene com praticidade.",
     "category": "Estojos",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1176,6 +1224,8 @@
     "smallText": "Estojo triangular compacto e estiloso.",
     "text": "O Estojo Tri tem design triangular e compacto, ideal para armazenar pequenos itens com estilo e praticidade.",
     "category": "Estojos",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1225,6 +1275,8 @@
     "text": "A Carteira Feminina JL é prática e espaçosa, com diversos compartimentos para organizar cartões, dinheiro e documentos com estilo.",
     "category": "Carteiras",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1272,6 +1324,8 @@
     "smallText": "Carteira personalizada prática e funcional",
     "text": "A Carteira RR combina design funcional e praticidade, oferecendo espaço ideal para armazenar cartões e dinheiro no dia a dia.",
     "category": "Carteiras",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1321,6 +1375,8 @@
     "text": "A Carteira Slim é fina e elegante, perfeita para quem busca um acessório compacto sem abrir mão da sofisticação.",
     "category": "Carteiras",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1367,6 +1423,8 @@
     "smallText": "Porta-documento personalizado e funcional",
     "text": "O Porta Documento Borges tem espaço ideal para cartões, dinheiro e documentos, garantindo organização e praticidade no dia a dia.",
     "category": "Carteiras",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1416,6 +1474,8 @@
     "text": "O Porta Cartão Adv mantém seus cartões organizados com praticidade, contando com múltiplos compartimentos para maior funcionalidade.",
     "category": "Carteiras",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1463,6 +1523,8 @@
     "smallText": "Porta-cartão personalizado com divisórias plásticas",
     "text": "O Porta Cartão Borges possui divisórias de plástico resistentes, garantindo proteção e organização para seus cartões em qualquer",
     "category": "Carteiras",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1512,6 +1574,8 @@
     "text": "A Mala FRR é prática e versátil, com alça de mão, alça transversal e bolso frontal para maior organização e conforto.",
     "category": "Malas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1559,6 +1623,8 @@
     "smallText": "Mala personalizada espaçosa e redonda",
     "text": "A Mala Redon tem design amplo e redondo, oferecendo espaço de sobra para transportar seus pertences com praticidade.",
     "category": "Malas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1608,6 +1674,8 @@
     "text": "A Mala Redon tem design amplo e redondo, oferecendo espaço de sobra para transportar seus pertences com praticidade.",
     "category": "Malas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1655,6 +1723,8 @@
     "smallText": "Mala grande personalizada e redonda",
     "text": "A Mala Redon G é extremamente espaçosa e redonda, ideal para quem precisa de muito espaço sem abrir mão do estilo.",
     "category": "Malas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1704,6 +1774,8 @@
     "text": "A Mala Sport Full é espaçosa e funcional, equipada com alça de manopla para facilitar o transporte no dia a dia.",
     "category": "Malas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1751,6 +1823,8 @@
     "smallText": "Mochila escolar personalizada e funcional",
     "text": "A Mochila Clear é ideal para material escolar, oferecendo espaço organizado e conforto para o dia a dia dos estudantes.",
     "category": "Mochilas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1800,6 +1874,8 @@
     "text": "A Mochila ADV é compacta e prática, perfeita para quem busca uma opção leve e funcional para o dia a dia.",
     "category": "Mochilas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1847,6 +1923,8 @@
     "smallText": "Mochila transversal personalizada e confortável",
     "text": "A Mochila Citroen tem design transversal moderno, garantindo praticidade e conforto para transportar seus pertences com segurança.",
     "category": "Mochilas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1896,6 +1974,8 @@
     "text": "A Mochila ESJ 273510 possui formato quadrado e estrutura espaçosa, ideal para quem precisa de organização e praticidade.",
     "category": "Mochilas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -1943,6 +2023,8 @@
     "smallText": "Mochila personalizada com bolsos externos",
     "text": "A Mochila MM Simple combina funcionalidade e estilo, com um bolso frontal externo e um bolso de tela lateral para mais organização.",
     "category": "Mochilas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1992,6 +2074,8 @@
     "text": "A Mochila Robs é ideal para o dia a dia, com design de ombro que garante conforto e praticidade no transporte.",
     "category": "Mochilas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -2039,6 +2123,8 @@
     "smallText": "Mochila esportiva personalizada e funcional",
     "text": "A Mochila Sacola é esportiva e leve, perfeita para carregar seus itens com conforto e praticidade em qualquer atividade.",
     "category": "Mochilas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -2088,6 +2174,8 @@
     "text": "",
     "category": "Pastas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -2136,53 +2224,7 @@
     "text": "",
     "category": "Pastas",
 
-    "printing": [
-      { "arrow": "southwest" },
-      { "arrow": "southeast" },
-      { "arrow": "botton" },
-      { "arrow": "center" }
-    ],
-
-    "gallery": [
-      {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
-      },
-
-      {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
-        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
-      },
-
-      {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
-        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
-      },
-
-      {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
-        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
-      }
-    ],
-
-    "studioBrin": [
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
-    ]
-  },
-
-  {
-    "id": "45",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
-    "title": "",
-    "smallText": "",
-    "text": "",
-    "category": "Pastas",
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -2232,6 +2274,8 @@
     "text": "",
     "category": "Pastas",
 
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
     "printing": [
       { "arrow": "southwest" },
       { "arrow": "southeast" },
@@ -2279,6 +2323,58 @@
     "smallText": "",
     "text": "",
     "category": "Pastas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
+        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
+        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
+        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
+  },
+
+  {
+    "id": "45",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
+    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
+    "title": "",
+    "smallText": "",
+    "text": "",
+    "category": "Pastas",
+
+    "measure" : ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
     "printing": [
       { "arrow": "southwest" },
