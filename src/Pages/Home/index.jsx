@@ -1,5 +1,6 @@
 import Category from "../../components/Category";
 import CategorySection from "../../components/CategorySection";
+import Footer from "../../components/Footer";
 import HeaderSection from "../../components/HeaderSection";
 import DataCardsCategory from '../../data/DataCardsCategory.json'
 import styles from './home.module.scss';

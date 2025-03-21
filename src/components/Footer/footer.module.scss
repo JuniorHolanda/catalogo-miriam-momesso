@@ -1,0 +1,37 @@
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
+@use '../../styles/animation.scss';
+
+.wrapper {
+    position: fixed;
+    @include mixins.flex($direction: row);
+    width: 100%;
+    padding: var.$small-space;
+    z-index: 1000;
+    bottom: 0;
+    background: var.$clear-color-2;
+    
+    .container{
+        @include mixins.flex($direction: row, $align: center);
+        width: 100%;
+        border-radius: var.$small-border;
+        padding: var.$small-space;
+        background: var.$clear-color-1;
+        
+
+        .shortcut{
+            @include mixins.flex($direction: row);
+            gap: var.$small-space;
+            width: 90%;
+            font-size: 2em;
+
+        }
+        
+        .menuHamburger{
+            @include mixins.flex($direction: row);
+            width: fit-content;
+            font-size: 2em;
+        }
+    }
+    
+}

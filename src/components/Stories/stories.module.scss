@@ -10,6 +10,10 @@
     align-items: center;
     touch-action: pan-y;
     width: 100%;
+
+    div{
+        background: none !important;
+    }
 }
 
 .content {

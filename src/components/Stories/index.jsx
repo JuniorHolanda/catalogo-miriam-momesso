@@ -3,11 +3,9 @@ import dataStories from '../../data/Banners.json';
 import Stories from 'react-insta-stories';
 
 
-function StoriesInsta( {filter} ) {
-    
+function StoriesInsta( {filter} ) { 
     // filtra os slides com base na categoria
     const filteredCategory = dataStories.filter( storie => storie.category === filter);
-    console.log(filteredCategory)
 
     const transformStories = (data) => {
         return data.map(item => ({
@@ -24,6 +22,15 @@ function StoriesInsta( {filter} ) {
         }));
     };
 
+    const customStoryStyles = {
+      display: 'flex',
+      width: '100%',
+      height: '100%',
+      maxWidth: '400px',
+      maxHeight: '700px',
+      borderRadius: '30px',
+    };
+
     const transformedStories = transformStories(filteredCategory);
 
     return (
@@ -34,6 +41,7 @@ function StoriesInsta( {filter} ) {
                 width="100%"
                 height="100%"
                 loop
+                storyStyles={customStoryStyles}
             />
         </div>
       );

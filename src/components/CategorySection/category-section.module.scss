@@ -9,6 +9,7 @@
   h2{
     @include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$dark-color-1, $weight: 600);
   }
+
   p{
     @include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-1, $weight: 300);
   }
