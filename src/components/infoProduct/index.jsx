@@ -1,4 +1,4 @@
-import styles from './infoproduct.module.scss';
+import styles from './infoProduct.module.scss';
 
 
 const InfoProduct = ({name, category, measure}) => {

@@ -27,6 +27,7 @@ function StoriesInsta( {filter} ) {
       height: '100%',
       maxWidth: '400px',
       maxHeight: '100vh',
+      zIndex: '0'
     };
 
     const transformedStories = transformStories(filteredCategory);
