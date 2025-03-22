@@ -1,4 +1,3 @@
-import styles from './stories.module.scss';
 import dataStories from '../../data/Banners.json';
 import Stories from 'react-insta-stories';
 
@@ -12,11 +11,11 @@ function StoriesInsta( {filter} ) {
           url: item.url, // URL da imagem
           header: {
             heading: item.header,
-            subheading: item.category,
+            subheading: item.text,
           },
           storyContent: () => (
-            <div className={styles.content}>
-              <p className={styles.text}>{item.text}</p>
+            <div>
+              <p/>
             </div>
           )
         }));
@@ -27,14 +26,13 @@ function StoriesInsta( {filter} ) {
       width: '100%',
       height: '100%',
       maxWidth: '400px',
-      maxHeight: '700px',
-      borderRadius: '30px',
+      maxHeight: '100vh',
     };
 
     const transformedStories = transformStories(filteredCategory);
 
     return (
-        <div className={styles.container}>
+        <div>
             <Stories
                 stories={transformedStories}
                 defaultInterval={5000}
