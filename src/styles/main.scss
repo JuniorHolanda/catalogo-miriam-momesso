@@ -41,7 +41,6 @@ hr{
 #root {
   @include mixins.flex($direction: column, $justify: start, $align: center);
   width:100%; 
-  margin-top: 8vh;
 }
 
 body {
