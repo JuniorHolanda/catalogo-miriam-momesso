@@ -2,7 +2,6 @@ import styles from './infoProduct.module.scss';
 import { FaArrowUp, FaArrowRight, FaArrowDown, FaArrowLeft } from "react-icons/fa";
 
 
-
 const InfoProduct = ({name, category, measure}) => {
 
     console.log(measure)
@@ -30,6 +29,8 @@ const InfoProduct = ({name, category, measure}) => {
 
                 <div  className={styles.containerBtn}>
                     <button>18x15x18cm</button>
+                    <button>36x25x8cm</button>
+                    <button>36x25x8cm</button>
                     <button>36x25x8cm</button>
                     <button>30x40x1cm</button>
                 </div>

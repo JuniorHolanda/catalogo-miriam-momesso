@@ -6,7 +6,7 @@
   gap: var.$micro-small-space;
   padding: var.$micro-small-space;
   width: 100%;
-  height: 35vh;
+  height: 55vh;
   background-color: var.$clear-color-1;
   border-radius: var.$small-border;
   
@@ -22,19 +22,20 @@
       object-fit: cover;
       object-position: center;
       width: 100%;
-      height: 100%;
     }
   }
   
   .ContainerSecondary{
     @include mixins.flex($direction: column, $justify: center, $align: center);
     gap: var.$micro-small-space;
+    justify-content: space-between;
     width: 20%;
     height: 100%;
     
     .containerImg{
       @include mixins.flex($justify: center, $align: center);
       width: 100%;
+      flex-grow: 1;
       overflow: hidden;
       border: solid var.$clear-color-2 var.$micro-small-border;
       border-radius: var.$small-border;

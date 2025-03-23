@@ -28,7 +28,7 @@
         z-index: 1;
         @include mixins.font($size:1, $color: var.$highlight-2);
         
-        button{
+        span{
           @include mixins.flex($justify: center, $align: center);
           @include mixins.font($font: var.$font, $size:1.2, $weight: 500, $color: var.$highlight-2);
  
