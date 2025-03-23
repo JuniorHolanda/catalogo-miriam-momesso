@@ -6,8 +6,8 @@
     position: fixed;
     @include mixins.flex($direction: row);
     width: 100%;
-    padding: var.$small-space;
-    z-index: 1000;
+    padding:  var.$micro-small-space var.$small-space;
+    z-index: 10000; //a lib react-stories-insta estava com a barra de progresso sobrepondo tudo, isso resolveu
     bottom: 0;
     background: var.$clear-color-2;
     

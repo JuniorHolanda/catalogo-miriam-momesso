@@ -20,6 +20,7 @@ function StoriesInsta( {filter} ) {
           )
         }));
     };
+    
 
     const customStoryStyles = {
       display: 'flex',
@@ -27,8 +28,17 @@ function StoriesInsta( {filter} ) {
       height: '100%',
       maxWidth: '400px',
       maxHeight: '100vh',
-      zIndex: '0'
+      zIndex: 0,
+      borderRadius: '1em'
     };
+
+    const ContainerStyles = {
+      backgroundColor: 'transparent',
+    }
+    
+    const barProgresStyle = {
+      border: 'solid purple',
+    }
 
     const transformedStories = transformStories(filteredCategory);
 
@@ -41,6 +51,8 @@ function StoriesInsta( {filter} ) {
                 height="100%"
                 loop
                 storyStyles={customStoryStyles}
+                storyContainerStyles={ContainerStyles}
+                keyboardNavigation
             />
         </div>
       );
