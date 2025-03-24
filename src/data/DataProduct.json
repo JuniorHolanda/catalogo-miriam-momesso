@@ -401,7 +401,7 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
-
+  
   {
     "id": "9",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789714/bolsa_praia_4_ykmymm.jpg",
@@ -452,6 +452,16 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
+
+
+
+
+
+
+
+
+
+
 
   {
     "id": "10",
@@ -970,6 +980,16 @@
     ]
   },
 
+
+
+
+
+
+
+
+
+
+
   {
     "id": "20",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741964322/Estojo_Mil_Clear_-_Casco_preto_-_aberto400_wve1rt.jpg",
@@ -1273,6 +1293,15 @@
     ]
   },
 
+
+
+
+
+
+
+
+
+
   {
     "id": "26",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981285/Carteira_Feminina_JL_01400_t6jt1v.jpg",
@@ -1572,6 +1601,15 @@
     ]
   },
 
+
+
+
+
+
+
+
+
+
   {
     "id": "32",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241918/1_j0wdch.jpg",
@@ -1821,6 +1859,15 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
+
+
+
+
+
+
+
+
+
 
   {
     "id": "37",
@@ -2172,13 +2219,21 @@
     ]
   },
 
+
+
+
+
+
+
+
+
   {
     "id": "45",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
-    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
-    "title": "Pasta Sinc",
-    "smallText": "",
-    "text": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742522975/38400_a7fnp1.jpg",
+    "altThunbnail": "Pasta Bloco PRT personalizada com bloco interno e caneta para anotações.",
+    "title": "Pasta Bloco PRT",
+    "smallText": "Pasta personalizada com bloco e caneta",
+    "text": "A Pasta Bloco PRT é prática e completa, com caneta e bloco interno para anotações em reuniões, eventos e congressos.",
     "category": "Pastas",
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
@@ -2192,23 +2247,23 @@
 
     "gallery": [
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
-        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742522975/38400_a7fnp1.jpg",
+        "altImg": "Uma pasta personalizada aberta"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/1_om0tni.jpg",
-        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742522976/8-2000400_bjunvs.jpg",
+        "altImg": "Uma pasta personalizada fechada"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523130/31-2000_2_n400_xew5z4.jpg",
-        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742522975/37400_n8sclz.jpg",
+        "altImg": "Uma pasta aberta vista de cima."
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/40-800_2_400_b4z2uf.jpg",
-        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742522975/36400_vtznbw.jpg",
+        "altImg": "uma pasta azul fechada"
       }
     ],
 
@@ -2224,11 +2279,11 @@
 
   {
     "id": "46",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
-    "title": "",
-    "smallText": "",
-    "text": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523012/54-2000400_ymyslg.jpg",
+    "altThunbnail": "Pasta Fran personalizada horizontal, com fechamento em zíper.",
+    "title": "Pasta Fran",
+    "smallText": "Pasta horizontal personalizada com zíper",
+    "text": "A Pasta Fran possui design horizontal com zíper, proporcionando segurança e organização para documentos e materiais importantes.",
     "category": "Pastas",
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
@@ -2242,23 +2297,23 @@
 
     "gallery": [
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523012/54-2000400_ymyslg.jpg",
+        "altImg": "Uma pasta de material feita em material de algodão"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
-        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523011/31-800400_pwyql7.jpg",
+        "altImg": "Uma pasta com ondas verdes no fundo"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
-        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523011/15-800_2_400_cjr1iy.jpg",
+        "altImg": "Uma pasta ziper personalzada com verde limão"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
-        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523011/58-800400_xe9jun.jpg",
+        "altImg": "Uma pasta ziper personalzada com vermelho"
       }
     ],
 
@@ -2274,11 +2329,11 @@
 
   {
     "id": "47",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
-    "title": "",
-    "smallText": "",
-    "text": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523043/Pasta_IBM400_hs5i3v.jpg",
+    "altThunbnail": "Pasta IBM personalizada com tampa e alça transversal prática.",
+    "title": "Pasta IBM",
+    "smallText": "Pasta personalizada com alça transversal",
+    "text": "A Pasta IBM tem tampa e alça transversal, sendo ideal para o transporte seguro e elegante de documentos e materiais.",
     "category": "Pastas",
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
@@ -2292,23 +2347,23 @@
 
     "gallery": [
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523044/aa_t3u6rs.jpg",
+        "altImg": "um homem branco removendo um envelope de dentro de uma pasta corporativa personalizada"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
-        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523043/Pasta_IBM400_hs5i3v.jpg",
+        "altImg": "uma pasta que é um brinde personalizado"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
-        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523042/12-2000_2_400_m9tb1e.jpg",
+        "altImg": "umas pasta azul turquesa em sintético"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
-        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523042/11-2000400_n2pn9d.jpg",
+        "altImg": "Uma pasta personalizada vista de frente"
       }
     ],
 
@@ -2324,11 +2379,11 @@
 
   {
     "id": "48",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
-    "title": "",
-    "smallText": "",
-    "text": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523083/126-800400_hdmumv.jpg",
+    "altThunbnail": "Pasta Lob personalizada, com design em formato de envelope elegante.",
+    "title": "Pasta Lob",
+    "smallText": "Pasta personalizada em formato envelope",
+    "text": "A Pasta Lob tem formato de envelope, oferecendo design sofisticado e compacto para armazenar documentos de forma prática.",
     "category": "Pastas",
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
@@ -2342,23 +2397,23 @@
 
     "gallery": [
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523085/pasta-lob-preta400_ropwnd.jpg",
+        "altImg": "Uma pasta debaixo de um abajur"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
-        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523084/16-800_2_400_psdmam.jpg",
+        "altImg": "uma pasta de plástico"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
-        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523085/pasta-lob-preta400_ropwnd.jpg",
+        "altImg": "uma pasta preta sobre uma besa e abaxo de um abajur"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
-        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523085/pasta-lob-azul400_zsfalv.jpg",
+        "altImg": "pasta azul turquesa e flores"
       }
     ],
 
@@ -2374,11 +2429,11 @@
 
   {
     "id": "49",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-    "altThunbnail": "Sacola de algodão cru com desenhos de animais marinhos",
-    "title": "",
-    "smallText": "",
-    "text": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
+    "altThunbnail": "Pasta Sinc executiva personalizada com alça de mão e transversal.",
+    "title": "Pasta Sinc",
+    "smallText": "Pasta executiva personalizada com alças",
+    "text": "A Pasta Sinc é uma pasta executiva com alça de mão e transversal, ideal para transportar documentos com estilo e praticidade.",
     "category": "Pastas",
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
@@ -2392,23 +2447,23 @@
 
     "gallery": [
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742491929/mochila_sacola_lonita_cru400_q9rfiq.jpg",
-        "altImg": "Sacola de algodão cru com desenhos de animais marinhos em preto e branco."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
+        "altImg": "Pasta de mão personalizada com alça transversal e de mão."
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/3-400_zsivli.jpg",
-        "altImg": "Sacola laranja com cordão preto e estampa azul com as iniciais 'MP'."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/1_om0tni.jpg",
+        "altImg": "Uma mala personalizada em algodão crú"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472443/1-400_tdmvsp.jpg",
-        "altImg": "Sacola verde camuflada com escudo branco e inscrição 'EXÉRCITO DA FLORA FOM' em preto."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523130/31-2000_2_n400_xew5z4.jpg",
+        "altImg": "uma pasta corporativa personalizada preta"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742472442/3-400-1_uyluhh.jpg",
-        "altImg": "Sacola preta com cordão preto, estampa amarela de escudo com asas e duas estrelas amarelas acima."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/40-800_2_400_b4z2uf.jpg",
+        "altImg": "uma pasta corporativa em algodão"
       }
     ],
 
