@@ -2475,5 +2475,64 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": "50",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
+    "altThunbnail": "Pasta Sinc executiva personalizada com alça de mão e transversal.",
+    "title": "Pasta Sinc",
+    "smallText": "Pasta executiva personalizada com alças",
+    "text": "A Pasta Sinc é uma pasta executiva com alça de mão e transversal, ideal para transportar documentos com estilo e praticidade.",
+    "category": "Pastas",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
+        "altImg": "Pasta de mão personalizada com alça transversal e de mão."
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/1_om0tni.jpg",
+        "altImg": "Uma mala personalizada em algodão crú"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523130/31-2000_2_n400_xew5z4.jpg",
+        "altImg": "uma pasta corporativa personalizada preta"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/40-800_2_400_b4z2uf.jpg",
+        "altImg": "uma pasta corporativa em algodão"
+      }
+    ],
+
+    "studioBrin": [
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
+      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    ]
   }
 ]
