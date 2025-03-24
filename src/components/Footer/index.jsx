@@ -12,9 +12,9 @@ function Footer() {
         <footer className={styles.wrapper}>
             <div className={styles.container}>
                 <div className={styles.shortcut}>
-                <Link to={'/'}><FaHome /></Link>
-                <button  onClick={() => navigate('/') }><FaWhatsapp /></button>
-                <button  onClick={() => navigate('/') }> <FaSearch /></button>
+                    <Link className={styles.icon} to={'/'}><FaHome /></Link>
+                    <button className={styles.icon} onClick={() => navigate('/') }><FaWhatsapp /></button>
+                    <button className={styles.icon} onClick={() => navigate('/') }> <FaSearch /></button>
                 </div>
                 <div className={styles.menuHamburger}>
                     <FaBars />

@@ -1,5 +1,5 @@
-@use '../../../styles/mixins';
-@use '../../../styles/variables.scss' as var;
+@use '../../styles/mixins';
+@use '../../styles/variables.scss' as var;
 
 .cardContainer{
   @include mixins.flex($align: center);

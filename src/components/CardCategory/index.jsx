@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import styles from './cardCategory.module.scss';
+import { useRef } from 'react';
 
 const CardCategory = (
   { img,
@@ -8,8 +10,19 @@ const CardCategory = (
     altBackground
   }) => {
 
+  const sectionRef = useRef(null);
+
+  const handleScroll = () => {
+    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
   return (
-    <div className={styles.cardContainer}>
+    <div
+    role="button"
+    tabIndex={0}
+    onClick={handleScroll}
+    className={styles.cardContainer}
+    >
       <div className={styles.containerImg}>
         <img src={img} alt={altImg} />
       </div>

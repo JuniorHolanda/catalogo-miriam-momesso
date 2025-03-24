@@ -12,17 +12,21 @@
     background: var.$clear-color-2;
     
     .container{
-        @include mixins.flex($direction: row, $align: center);
+        @include mixins.flex($align: center);
         width: 100%;
         border-radius: var.$small-border;
         padding: var.$small-space;
         background: var.$clear-color-1;
 
         .shortcut{
-            @include mixins.flex($direction: row);
+            @include mixins.flex($justify: start, $align: center);
             gap: var.$small-space;
             width: 90%;
-            font-size: 2em;
+
+            .icon{
+                @include mixins.flex($justify: start, $align: center);
+                font-size: 1.5em;
+            }
         }
         
         .menuHamburger{
