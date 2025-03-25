@@ -401,7 +401,7 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
-  
+
   {
     "id": "9",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741789714/bolsa_praia_4_ykmymm.jpg",
@@ -452,16 +452,6 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
-
-
-
-
-
-
-
-
-
-
 
   {
     "id": "10",
@@ -980,16 +970,6 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
-
   {
     "id": "20",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741964322/Estojo_Mil_Clear_-_Casco_preto_-_aberto400_wve1rt.jpg",
@@ -1293,15 +1273,6 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
   {
     "id": "26",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741981285/Carteira_Feminina_JL_01400_t6jt1v.jpg",
@@ -1601,15 +1572,6 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
   {
     "id": "32",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742241918/1_j0wdch.jpg",
@@ -1859,15 +1821,6 @@
       "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
-
-
-
-
-
-
-
-
-
 
   {
     "id": "37",
@@ -2219,14 +2172,6 @@
     ]
   },
 
-
-
-
-
-
-
-
-
   {
     "id": "45",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742522975/38400_a7fnp1.jpg",
@@ -2477,23 +2422,14 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
   {
     "id": "50",
-    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
-    "altThunbnail": "Pasta Sinc executiva personalizada com alça de mão e transversal.",
-    "title": "Pasta Sinc",
-    "smallText": "Pasta executiva personalizada com alças",
-    "text": "A Pasta Sinc é uma pasta executiva com alça de mão e transversal, ideal para transportar documentos com estilo e praticidade.",
-    "category": "Pastas",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845194/1-400_yz16x5.jpg",
+    "altThunbnail": "Alfabetário infantil dobrável personalizado",
+    "title": "Alfabetário CJSP",
+    "smallText": "Alfabetário dobrável personalizado para aprendizado",
+    "text": "Alfabetário infantil dobrável e personalizado, ideal para escolas e eventos educacionais. Leve, prático e estimulante para aprendizado.",
+    "category": "Diversos",
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -2506,33 +2442,393 @@
 
     "gallery": [
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523132/31-2000_2_400_rvrick.jpg",
-        "altImg": "Pasta de mão personalizada com alça transversal e de mão."
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845194/1-400_yz16x5.jpg",
+        "altImg": "Brinde personalizado: alfabetário para escolas"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/1_om0tni.jpg",
-        "altImg": "Uma mala personalizada em algodão crú"
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845184/3-400_fybibs.jpg",
+        "altImg": "Alfabetário dobrável leve e prático"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523130/31-2000_2_n400_xew5z4.jpg",
-        "altImg": "uma pasta corporativa personalizada preta"
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845181/4-400_orozn6.jpg",
+        "altImg": "Alfabetário educativo personalizado infantil"
       },
 
       {
-        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/40-800_2_400_b4z2uf.jpg",
-        "altImg": "uma pasta corporativa em algodão"
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845191/3-400-1_jhb486.jpg",
+        "altImg": "Alfabetário dobrável personalizado para eventos"
       }
+    ]
+  },
+
+  {
+    "id": "51",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845158/1-400_tzwlvt.jpg",
+    "altThunbnail": "Chaveiro leve em sintético personalizado",
+    "title": "Chaveiro Basic",
+    "smallText": "Chaveiro básico leve e personalizado",
+    "text": "Chaveiro básico em material sintético, leve e resistente, ideal para brindes promocionais e personalizados.",
+    "category": "Diversos",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
     ],
 
-    "studioBrin": [
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845158/1-400_tzwlvt.jpg",
+        "altImg": "Chaveiro básico em material sintético"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845160/3-400-1_hrrvck.jpg",
+        "altImg": "Chaveiro leve personalizado para brindes"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845165/4-400_btfax7.jpg",
+        "altImg": "Chaveiro promocional resistente e prático"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845169/3-400_kiu9e7.jpg",
+        "altImg": "Chaveiro básico personalizado resistente"
+      }
+    ]
+  },
+
+  {
+    "id": "52",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845122/3-400_nma5fo.jpg",
+    "altThunbnail": "Kit de higiene pequeno e portátil",
+    "title": "Kit Higiene Pocket",
+    "smallText": "Kit de higiene portátil personalizado",
+    "text": "Pequeno kit de higiene portátil, com escova, creme dental e fio dental, ideal para viagens e brindes promocionais.",
+    "category": "Diversos",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845122/3-400_nma5fo.jpg",
+        "altImg": "Brinde personalizado: kit de higiene"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845117/1-400_b1ogua.jpg",
+        "altImg": "Kit com escova e creme dental"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845110/3-400-1_zkqpff.jpg",
+        "altImg": "Kit higiene compacto para brindes"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845108/4-400_bi5nmz.jpg",
+        "altImg": "Kit de higiene para viagens"
+      }
+    ]
+  },
+
+  {
+    "id": "53",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845072/1-400_jhs14y.jpg",
+    "altThunbnail": "Kit de higiene amplo personalizado",
+    "title": "Kit Higiene SP",
+    "smallText": "Kit de higiene amplo personalizado",
+    "text": "Kit de higiene amplo e personalizado, com diversos itens internos, ideal para viagens e eventos corporativos.",
+    "category": "Diversos",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845072/1-400_jhs14y.jpg",
+        "altImg": "Kit completo para brindes corporativos"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845077/3-400_revddq.jpg",
+        "altImg": "Brinde personalizado de higiene completo"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845070/4-400_by5h9x.jpg",
+        "altImg": "Kit higiene personalizado para viagens"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845068/3-400-1_xlogvz.jpg",
+        "altImg": "Kit amplo e prático para eventos"
+      }
+    ]
+  },
+
+  {
+    "id": "54",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845033/1-400_p301rj.jpg",
+    "altThunbnail": "Tag de identificação personalizada para malas",
+    "title": "Lugagge Tag",
+    "smallText": "Tag de identificação personalizada prática",
+    "text": "Tag de identificação personalizada para viagens, prática e resistente, ideal para malas e mochilas.",
+    "category": "Diversos",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845033/1-400_p301rj.jpg",
+        "altImg": "Tag resistente e prática para viagens"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845031/3-400_ikmjwg.jpg",
+        "altImg": "Luggage tag personalizada e funcional"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845035/3-400-1_r7kkjw.jpg",
+        "altImg": "Tag identificadora para malas e mochilas"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845025/4-400_pswkfx.jpg",
+        "altImg": "Tag personalizada para viagens seguras"
+      }
+    ]
+  },
+
+  {
+    "id": "55",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844993/1-400_gk6qsa.jpg",
+    "altThunbnail": "Minibag personalizada e leve para brindes",
+    "title": "Minibag Vani",
+    "smallText": "Minibag leve prática e personalizada",
+    "text": "Pequena bolsa de mão personalizada, leve e prática, ideal para brindes e eventos promocionais.",
+    "category": "Diversos",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844993/1-400_gk6qsa.jpg",
+        "altImg": "Bolsa de mão pequena e prática"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844995/3-400_drlz95.jpg",
+        "altImg": "Minibag funcional para eventos e brindes"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742845001/3-400-1_l9h869.jpg",
+        "altImg": "Minibag personalizada ideal para eventos"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844991/4-400_pvcxkt.jpg",
+        "altImg": "Bolsa pequena personalizada e prática"
+      }
+    ]
+  },
+
+  {
+    "id": "56",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844980/3-400_tbeddz.jpg",
+    "altThunbnail": "Kit organizador personalizado para viagens",
+    "title": "Organizador de Viagem",
+    "smallText": "Kit com 3 organizadores práticos",
+    "text": "Kit com 3 organizadores personalizados, ideal para manter roupas e acessórios organizados durante viagens.",
+    "category": "Diversos",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844980/3-400_tbeddz.jpg",
+        "altImg": "Kit organizador personalizado para viagens"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844970/1-400_l7tb0n.jpg",
+        "altImg": "Organizadores personalizados para roupas e acessórios"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844977/3-400-1_e5nckh.jpg",
+        "altImg": "Kit de organizadores para malas"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844973/4-400_snhmtd.jpg",
+        "altImg": "Organizadores de viagem personalizados e compactos"
+      }
+    ]
+  },
+
+  {
+    "id": "57",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844952/4-400_ogclon.jpg",
+    "altThunbnail": "Organizador versátil e prático personalizado",
+    "title": "Organizador Wish",
+    "smallText": "Organizador versátil e personalizado compacto",
+    "text": "Organizador versátil e personalizado, ideal para organizar roupas e acessórios em viagens ou no dia a dia.",
+    "category": "Diversos",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844952/4-400_ogclon.jpg",
+        "altImg": "Organizador compacto para viagens e acessórios"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844951/3-400_yviv3i.jpg",
+        "altImg": "Brinde personalizado: organizador funcional"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844946/1-400_doui3b.jpg",
+        "altImg": "Organizador para roupas e acessórios personalizado"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844946/1-400_doui3b.jpg",
+        "altImg": "Organizador personalizado para mala ou armário"
+      }
+    ]
+  },
+
+  {
+    "id": "58",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844914/1-400_dqesvw.jpg",
+    "altThunbnail": "Porta-níquel pequeno personalizado e funcional",
+    "title": "Porta Níquel Tensage",
+    "smallText": "Porta-níquel compacto e personalizado prático",
+    "text": "Pequeno porta-níquel personalizado, ideal para guardar moedas e acessórios com praticidade e estilo.",
+    "category": "Diversos",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844914/1-400_dqesvw.jpg",
+        "altImg": "Porta-níquel prático e leve personalizado"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844908/4-400_ys685x.jpg",
+        "altImg": "Brinde promocional: porta-níquel compacto"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844919/3-400_nrw3oc.jpg",
+        "altImg": "Porta-níquel personalizado para moedas e acessórios"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844911/3-400-1_slkiue.jpg",
+        "altImg": "Porta-níquel compacto para brindes"
+      }
+    ]
+  },
+
+  {
+    "id": "59",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844897/1-400_cx0ilr.jpg",
+    "altThunbnail": "Porta-tênis personalizado com lateral em tela",
+    "title": "Porta Tênis Espanha",
+    "smallText": "Porta-tênis personalizado com zíper frontal",
+    "text": "Porta-tênis personalizado com lateral em tela e zíper frontal, ideal para viagens e esportes.",
+    "category": "Diversos",
+
+    "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
+
+    "printing": [
+      { "arrow": "southwest" },
+      { "arrow": "southeast" },
+      { "arrow": "botton" },
+      { "arrow": "center" }
+    ],
+
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844897/1-400_cx0ilr.jpg",
+        "altImg": "Porta-tênis prático e funcional"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844893/4-400_krqz23.jpg",
+        "altImg": "Porta-tênis para viagens e esportes"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844891/3-400-1_ms6wor.jpg",
+        "altImg": "Brinde personalizado: porta-tênis com zíper"
+      },
+
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844895/3-400_ruw6rv.jpg",
+        "altImg": "Porta-tênis personalizado espaçoso e ventilado"
+      }
     ]
   }
 ]

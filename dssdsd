@@ -1,0 +1,297 @@
+[33mcommit 49f2a763117e0777f45d68c851b044f1d47bd257[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Mon Mar 24 17:54:25 2025 -0300
+
+    chore: novos produtos
+
+[33mcommit 4922b003f0638f3a624d5790a88d63cedfa800b7[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Mon Mar 24 12:28:18 2025 -0300
+
+    chore: Categoria Pastas adicionada
+
+[33mcommit b694ca3552bf023163b4240a59d3df2987684532[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sun Mar 23 23:19:52 2025 -0300
+
+    chora: ajustes no componente de menu geral
+
+[33mcommit e48c6011ce112dbafae5cf4cd3e6094db84bcdbf[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sun Mar 23 12:28:03 2025 -0300
+
+    feat: adicionando links e funções aos botões
+
+[33mcommit 636958e1e69487eb698231a15971b7acd6ffce19[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sat Mar 22 22:34:16 2025 -0300
+
+    feat: adicionei  componente de informação do produto
+
+[33mcommit 1f456709a538ca7c6e87e3832a99cab648a5fbf7[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sat Mar 22 14:41:12 2025 -0300
+
+    chore: ajustes nos estilos
+
+[33mcommit abfeb274e94b1176b7a65406a622135a19de9fe8[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sat Mar 22 14:09:04 2025 -0300
+
+    fix: removi o estilo da lib que não surtia efeito. o estilo da lib é controlado como um objeto no jsx
+
+[33mcommit ab9c1cb97ba222cd3552067e1a4fa67f46d82d07[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sat Mar 22 12:22:34 2025 -0300
+
+    chore: ajustes gerais nos estilos
+
+[33mcommit 1c9b809fa4717b2daeeece20d690bebbbb8af7d5[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Fri Mar 21 16:50:30 2025 -0300
+
+    componente de informações
+
+[33mcommit 4cc1ccba1abde5292c78cb0a523435b2e5817992[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Fri Mar 21 13:58:33 2025 -0300
+
+    apresentação 1
+
+[33mcommit 3eca6203cafc6a0de1e8f5a1a29f70cdd8d82f36[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Fri Mar 21 11:46:46 2025 -0300
+
+    footer
+
+[33mcommit e6d2c05e6ff12c8fb42c8e546879dee9f0013b50[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Mar 20 23:27:18 2025 -0300
+
+    Update DataProduct.json
+
+[33mcommit b0cc4a7a73af5fd4ddc618237de5a0e7dbdc8677[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Mar 20 17:50:09 2025 -0300
+
+    ajustes no estilo do stories
+
+[33mcommit bff394300a60a77fe36ce7d99c169e1f19e53f54[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Mar 20 17:21:56 2025 -0300
+
+    nova categoria mochilas
+
+[33mcommit 8bdc95d26a465f7d4b586b468ce7067e8d333dfe[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Wed Mar 19 23:37:43 2025 -0300
+
+    stories
+    
+    foram inseridas todas as imagens de stories
+    o componente está funcionando mas precisa de ajustes, principalmente no estilo
+
+[33mcommit 40cf99be2d4fd7d9bcb245a1e68725444c9d7368[m
+Merge: b7ef13e 26bd404
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Wed Mar 19 11:48:42 2025 -0300
+
+    Merge branch 'estilo-do-layout'
+
+[33mcommit b7ef13e1702991eac0bac8d045d5bd92379f0631[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Wed Mar 19 11:40:41 2025 -0300
+
+    Update DataProduct.json
+
+[33mcommit 7a2e6560c9b57add2c7c25b004d74148c39f41ce[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Wed Mar 19 10:50:24 2025 -0300
+
+    Update DataProduct.json
+
+[33mcommit 26bd4044723f7ab56aff96288c69b10b45535d99[m[33m ([m[1;31morigin/estilo-do-layout[m[33m, [m[1;32mestilo-do-layout[m[33m)[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Wed Mar 19 10:37:35 2025 -0300
+
+    Update index.jsx
+
+[33mcommit 8cd06b0e3a05e62c976a89e5457c24304a4478c4[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Tue Mar 18 21:21:09 2025 -0300
+
+    refatoração slides
+
+[33mcommit 03bc990412cbb8194f9d26f6eaccf6c4bfae840a[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Tue Mar 18 19:14:45 2025 -0300
+
+    estilo dos stories
+    
+    manipulação de classes para criar animações
+
+[33mcommit 77166630e4fcd10f32a2b008d754fcd0b75bbf4a[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Mon Mar 17 17:47:55 2025 -0300
+
+    novos produtos adicionados
+
+[33mcommit 78bfdd44d0a08af73fb705658d42c6de268e5164[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Fri Mar 14 16:49:35 2025 -0300
+
+    novos produtos adicionados
+
+[33mcommit addc3a3ae7ed7d061d5bae8e2e4b7d84a6aa7692[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Mar 13 23:38:17 2025 -0300
+
+    refatoração studioBrin
+
+[33mcommit da5d1d760ef1cfe4fb987b4f50d6d50a59ebb0df[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Mar 13 17:50:32 2025 -0300
+
+    produtos adicionados
+    
+    novos produtos adicionados
+
+[33mcommit 9b235c42e9a6b66c7b8185438182a7199482e6c8[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Mar 13 10:57:18 2025 -0300
+
+    galeria refatorada
+    
+    refatorei a galeria para que as imagens sejam criadas a partir da iteração da propriedade gallery do objeto product
+
+[33mcommit 20a23ddde6452e7b12da93a95a9bf8f23d906dd8[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Wed Mar 12 23:07:34 2025 -0300
+
+    refatoração da estrutura de produto json
+
+[33mcommit b4328d6947106e7d4a2fffaf4adf632bdf3e9bdb[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Wed Mar 12 17:55:39 2025 -0300
+
+    atualização dos produtos no json
+
+[33mcommit f35d2745e8776eb327e3283e0c6a4ef371e051ec[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Mon Mar 10 22:45:57 2025 -0300
+
+    refatoração do studioBrin
+    
+    separação melhor das funções
+
+[33mcommit 42ab1a774d590a6e5d8fb1acf42f4da0e3fe0f7c[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sat Mar 8 10:45:53 2025 -0300
+
+    refatoração do componente studioBrin
+    
+    função dos botões de controle foram separada em um sub componente
+
+[33mcommit 0ebcd0407c519a4a638a407ca5bb366b29365484[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Fri Mar 7 16:53:16 2025 -0300
+
+    refatoração studioBrin
+
+[33mcommit 7d03b34309e86bbdbf021936256bff1c49c14a4f[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Fri Mar 7 00:05:33 2025 -0300
+
+    início barra posicionamento logo
+
+[33mcommit 9a225e0a0f32c5ffa80b452e553cb786225be4b2[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Mar 6 17:50:58 2025 -0300
+
+    refatoração do studioBrin
+
+[33mcommit 0618233cc56e7a8ae73f86c9308e316271d245af[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Mar 6 00:08:23 2025 -0300
+
+    inicio do studiobrin
+
+[33mcommit 9d72973d3ad1f715a1513975bffadeb2dbddd208[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Wed Mar 5 17:52:09 2025 -0300
+
+    rota para produtos
+    
+    criei a rota e passei a prop via url para identificar o produto
+
+[33mcommit b21ce7cde72b68cb77d8d7a0f51c975185547ab7[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Tue Mar 4 23:26:22 2025 -0300
+
+    Refatoração Home
+    
+    embora já esteja funcionando, me parece frágil e pouco versátil permitir não só apenas como obrigatoriamente 3 stories para cada categoria
+
+[33mcommit 3745930646d440af75b653d708b662c29b231635[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Tue Mar 4 11:17:05 2025 -0300
+
+    refatoração componente Banner
+    
+    as imagens do banner são passados via props ao chamar o componente Banner, adicionei uma variável que  usa o método slice() para pegar um intervalo de slides na lista de banners
+
+[33mcommit ea539e0da2b637674b015141bbddb1cd9af7b17e[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sat Mar 1 08:15:35 2025 -0300
+
+    estilo do banner
+
+[33mcommit 93d00f3ad6e424f15f77ecdef02ee939f164119c[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Fri Feb 28 16:51:16 2025 -0300
+
+    filter no banner
+
+[33mcommit 5c504afb87c0b11ae064be3b10e380e5230cd0f1[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Feb 27 22:04:25 2025 -0300
+
+    Início do componente stories
+
+[33mcommit 1cd85052c7de6d4128a28613f0f2458e2c7806d7[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Feb 27 17:47:02 2025 -0300
+
+    filter
+    
+    filter adicionado
+
+[33mcommit 73e367bbd5c650ca6831fc369c8708fb62afceeb[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Wed Feb 26 23:39:02 2025 -0300
+
+    rotas
+
+[33mcommit 643e301ad5b8148c7bbe202493321aff98f6594f[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Tue Feb 25 17:47:47 2025 -0300
+
+    update
+
+[33mcommit ca08fb5cae4c4fb7bc4cf31a7b412b4b1c9e27a3[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sun Feb 23 21:25:07 2025 -0300
+
+    card product
+
+[33mcommit 77dd5d6a1f51175547c66b2081818f6991269258[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Sat Feb 22 21:46:01 2025 -0300
+
+    category
+
+[33mcommit 0a0e2208a3f111212d2584521ec5a33c8208d52b[m
+Author: Júnor Holanda <139183744+JuniorHolanda@users.noreply.github.com>
+Date:   Thu Feb 20 22:23:43 2025 -0300
+
+    Initial commit
