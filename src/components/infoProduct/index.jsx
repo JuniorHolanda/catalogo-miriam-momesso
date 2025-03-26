@@ -2,7 +2,7 @@ import styles from './infoProduct.module.scss';
 import { FaArrowUp, FaArrowRight, FaArrowDown, FaArrowLeft } from "react-icons/fa";
 
 
-const InfoProduct = ({name, category, measure}) => {
+const InfoProduct = ({name, category, measure, text}) => {
 
     console.log(measure)
 
@@ -28,11 +28,7 @@ const InfoProduct = ({name, category, measure}) => {
                 </div>
 
                 <div  className={styles.containerBtn}>
-                    <button>18x15x18cm</button>
-                    <button>36x25x8cm</button>
-                    <button>36x25x8cm</button>
-                    <button>36x25x8cm</button>
-                    <button>30x40x1cm</button>
+                    {measure.map((item) => <button key={item} >{item}</button>)}
                 </div>
 
                 <div className={styles.containerIcon}>
@@ -43,7 +39,7 @@ const InfoProduct = ({name, category, measure}) => {
             </div>
             <div className={styles.containerText}>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam adipisci quo dicta id distinctio reiciendis ad. Dolor vitae ratione vero minima eum labore sequi, magni placeat saepe velit aperiam.
+                    {text}
                 </p>
             </div>
 

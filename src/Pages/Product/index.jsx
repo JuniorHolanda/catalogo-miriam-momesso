@@ -24,6 +24,7 @@ const ProductSection = ({id}) => {
                 name={cardFiltered.title}
                 category={cardFiltered.category}
                 measure={cardFiltered.measure}
+                text={cardFiltered.text}
             />
         </main>
     );
