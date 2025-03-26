@@ -1,27 +1,31 @@
-import { Link } from 'react-router-dom';
 import styles from './cardCategory.module.scss';
 import { useRef } from 'react';
 
 const CardCategory = (
-  { img,
+  { 
+    img,
     altImg,
     category,
     background,
-    altBackground
+    altBackground,
+    onClick 
   }) => {
 
-  const sectionRef = useRef(null);
+  const sectionRefs = useRef({});
 
-  const handleScroll = () => {
-    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
-    };
+  const scrollToSection = (id) => {
+    const section = sectionRefs.current[id];
+    if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div
-    role="button"
-    tabIndex={0}
-    onClick={handleScroll}
-    className={styles.cardContainer}
+      role="button"
+      tabIndex={0}
+      onClick={onClick} 
+      className={styles.cardContainer}
     >
       <div className={styles.containerImg}>
         <img src={img} alt={altImg} />

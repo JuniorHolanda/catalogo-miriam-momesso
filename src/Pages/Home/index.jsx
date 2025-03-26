@@ -6,15 +6,13 @@ import styles from './home.module.scss';
 import CardCategory from '../../components/CardCategory'
 
 const HomeSection = () => {
-    const categoryRefs = useRef([]);
 
-    const handleScroll = (id) => {
-        const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-    }
+    const sectionRefs = useRef([]);
 
+    const scrollToSection = (id) => {
+        console.log(sectionRefs)
+        sectionRefs.current[id]?.scrollIntoView({ behavior: "smooth" });
+    };
     
     return (
         <main className={styles.wrapper}>
@@ -22,19 +20,19 @@ const HomeSection = () => {
             <nav className={styles.containerCard}>
                 {DataCardsCategory.map((card) =>(
                     <CardCategory
+                        onClick={() => scrollToSection(card.id)}
                         key={card.id}
                         {...card}
-                        onClick={handleScroll}
                     />
                 ))}
             </nav>
-            {DataCardsCategory.map((data, index) => (
+            {DataCardsCategory.map((section) => (
                 <CategorySection
-                    id={data.id}
-                    key={data.id}
-                    category={data.category}
-                    text={data.text}
-                    ref={(el) => (categoryRefs.current[data.id] = el)}
+                    id={section.id}
+                    key={section.id}
+                    category={section.category}
+                    text={section.text}
+                    ref={(el) => (sectionRefs.current[section.id] = el)}
                 />
             ))}
         </main>
