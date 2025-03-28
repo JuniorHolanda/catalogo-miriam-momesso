@@ -1,7 +1,16 @@
 
 function SearchSection() {
   return (
-    <h1>Esta é a página de Search</h1>
+    <div>
+      <h1>oi</h1>
+      <h1>oi</h1>
+      <h1>oi</h1>
+      <h1>oi</h1>
+      <h1>oi</h1>
+      <h1>oi</h1>
+      <h1>oi</h1>
+      <h1>oi</h1>
+    </div>
   )
 }
 
