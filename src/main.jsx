@@ -6,12 +6,15 @@ import App from './components/App/App.jsx'
 import Home from './routers/Home.jsx';
 import Product from './routers/Product.jsx';
 import SearchSection from './routers/SearchSection.jsx';
+import Error404 from './Pages/errorPage/index.jsx';
+
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Error404/>,
     children: [
       {
         index: true,

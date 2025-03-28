@@ -20,13 +20,13 @@ const SearchBar = () => {
   return (
     <label className={styles.wrapper}>
       <div className={styles.containerSrc}>
-      <CiSearch className={styles.active}/>
-      <input className={styles.inputSrc}
-        type='text'
-        value={valueInput}
-        onChange={showValueInput}
-        placeholder='Pesquisar'  
-      />
+        <CiSearch className={styles.active}/>
+        <input className={styles.inputSrc}
+          type='text'
+          value={valueInput}
+          onChange={showValueInput}
+          placeholder='Pesquisar'  
+        />
       </div>
       <div className={styles.containerTheme}>
         <PiSunBold className={styles.iconsTheme} />
