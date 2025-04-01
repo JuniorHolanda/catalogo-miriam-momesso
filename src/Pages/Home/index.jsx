@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef} from "react";
 import CategorySection from "../../components/CategorySection";
 import HeaderSection from "../../components/HeaderSection";
 import DataCardsCategory from '../../data/DataCardsCategory.json'
@@ -26,13 +26,11 @@ const HomeSection = () => {
                     />
                 ))}
             </nav>
-            {DataCardsCategory.map((section) => (
+            {DataCardsCategory.map((card) => (
                 <CategorySection
-                    id={section.id}
-                    key={section.id}
-                    category={section.category}
-                    text={section.text}
-                    ref={(el) => (sectionRefs.current[section.id] = el)}
+                    key={card.id}
+                    {...card}
+                    ref={(el) => (sectionRefs.current[card.id] = el)}
                 />
             ))}
         </main>

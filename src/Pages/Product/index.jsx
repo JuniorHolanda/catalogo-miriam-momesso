@@ -2,7 +2,6 @@ import HeaderSection from "../../components/HeaderSection";
 import styles from './product.module.scss';
 import dataProduct from '../../data/DataProduct.json'
 import Gallery from "../../components/Gallery";
-import StudioBrin from "../../components/StudioBrin";
 import InfoProduct from "../../components/infoProduct";
 
 
@@ -19,7 +18,6 @@ const ProductSection = ({id}) => {
                 title={cardFiltered.title}
                 printing={cardFiltered.printing}
             /> */}
-            
             <InfoProduct
                 name={cardFiltered.title}
                 category={cardFiltered.category}

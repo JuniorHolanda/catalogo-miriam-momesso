@@ -1,10 +1,18 @@
 import styles from './cardProduct.module.scss';
-import cards from '../../data/DataProduct.json'
+import cards from '../../data/DataProduct.json';
 import { LiaEyeSolid } from "react-icons/lia";
 import { Link } from 'react-router-dom';
 
-const CardProduct = ({filter}) => {
-  const filterCard = cards.filter( card => card.category === filter);
+const CardProduct = ({product}) => {
+
+  let filterCard = product
+
+  console.log(product.title)
+  // se não houver categoria, retorna todos os cards
+  if (product) {
+    filterCard = cards.filter( card => card.category === product);
+  }
+
   return (
     <div className={styles.containerCard}>
       {filterCard.map((card) => (

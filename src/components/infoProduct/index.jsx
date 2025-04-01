@@ -3,9 +3,6 @@ import { FaArrowUp, FaArrowRight, FaArrowDown, FaArrowLeft } from "react-icons/f
 
 
 const InfoProduct = ({name, category, measure, text}) => {
-
-    console.log(measure)
-
     return (
         <section className={styles.wrapper}>
             <div className={styles.containerTitle}>
