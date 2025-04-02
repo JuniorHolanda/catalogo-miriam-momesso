@@ -3,18 +3,15 @@ import cards from '../../data/DataProduct.json';
 import { LiaEyeSolid } from "react-icons/lia";
 import { Link } from 'react-router-dom';
 
-const CardProduct = ({product}) => {
+const CardProduct = ({category}) => {
+  console.log(category)
 
-  let filterCard = product
+  let filterCard = category
 
-  console.log(product.title)
-  // se não houver categoria, retorna todos os cards
-  if (product) {
-    filterCard = cards.filter( card => card.category === product);
-  }
+    filterCard = cards.filter(card => card.category === category);  
 
-  return (
-    <div className={styles.containerCard}>
+  return(
+    <>
       {filterCard.map((card) => (
         <Link key={card.id}  to={`/product/${card.id}`} className={styles.cardItem}>
           <div className={styles.containerThunb}>
@@ -32,7 +29,7 @@ const CardProduct = ({product}) => {
           </div>
         </Link>
       ))}
-    </div>
+    </>
   )
 }
 export default CardProduct

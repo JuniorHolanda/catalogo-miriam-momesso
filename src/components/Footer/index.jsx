@@ -1,5 +1,4 @@
 import { FaHome, FaWhatsapp, FaBars, FaSearch } from "react-icons/fa";
-import { PiGlobeBold } from "react-icons/pi";
 import styles from './footer.module.scss'
 import { Link, useNavigate } from "react-router-dom";
 

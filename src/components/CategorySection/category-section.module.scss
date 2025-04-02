@@ -13,6 +13,13 @@
   p{
     @include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-1, $weight: 300);
   }
+
+  .containerCard{
+    @include mixins.flex();
+    gap: var.$small-space;
+    overflow: scroll;
+    width: 100%;  
+  }
   
   .btnShowCategory{
     @include mixins.flex($justify: center, $align: center);
