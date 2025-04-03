@@ -3,8 +3,8 @@ import cards from '../../data/DataProduct.json';
 import { LiaEyeSolid } from "react-icons/lia";
 import { Link } from 'react-router-dom';
 
-const CardProduct = ({category, src}) => {
-  console.log(src);
+const CardProduct = ({category}) => {
+  
   let filterCard = category;
 
     filterCard = cards.filter(card => card.category === category);  

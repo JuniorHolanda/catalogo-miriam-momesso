@@ -16,7 +16,7 @@ const navigate = useNavigate();
     >
       <h2>{category}</h2>
       <p>{text}</p>
-
+      
       <StoriesInsta filter={category}/>
       <div className={styles.containerCard}>
         <CardProduct category={category}/>
