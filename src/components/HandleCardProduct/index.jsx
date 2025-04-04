@@ -7,7 +7,7 @@ const CardProduct = ({category}) => {
   
   let filterCard = category;
 
-    filterCard = cards.filter(card => card.category === category);  
+  filterCard = cards.filter(card => card.category === category);  
 
   return(
     <>
@@ -29,6 +29,6 @@ const CardProduct = ({category}) => {
         </Link>
       ))}
     </>
-  )
+  );
 }
 export default CardProduct
