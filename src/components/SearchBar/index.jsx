@@ -1,21 +1,12 @@
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import styles from './search-bar.module.scss';
-import { CiSearch } from "react-icons/ci";
-import { PiSunBold } from "react-icons/pi";
-import { FaMoon } from "react-icons/fa";
-
-
 
 const SearchBar = () => {
 
   const [search , setSearch] = useState('');
   const navigate = useNavigate();
 
-
-
-
-  
   const handleSearch = (e) => {
     const value = e.target.value;
     setSearch(value);
@@ -25,10 +16,6 @@ const SearchBar = () => {
       navigate(`/search?q=${encodeURIComponent(value)}`);
     }
   };
-
-
-
-
 
   const [valueInput, setValueInput] = useState('')
 
@@ -48,29 +35,7 @@ const SearchBar = () => {
           placeholder='Pesquisar'
           >
         </input>
-
       </label>
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* <label className={styles.containerTheme}>
-        <PiSunBold className={styles.iconsTheme} />
-        <input
-          className={styles.inputTheme}
-          type='checkbox'
-        />
-        <FaMoon className={styles.iconsTheme} />
-      </label> */}
     </div>
   );
 }

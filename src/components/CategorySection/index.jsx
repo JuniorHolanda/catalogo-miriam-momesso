@@ -3,7 +3,7 @@ import CardProduct from '../HandleCardProduct';
 import StoriesInsta from '../Stories';
 import React from 'react';
 import { LiaEyeSolid } from "react-icons/lia";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 const CategorySection =  React.forwardRef(({ category, text }, ref) => {
