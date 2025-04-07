@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import styles from './search-bar.module.scss';
+import { FaSearch } from "react-icons/fa";
 
 const SearchBar = () => {
 
@@ -26,6 +27,7 @@ const SearchBar = () => {
   
   return (
     <div className={styles.wrapper}>
+      <FaSearch />
       <label className={styles.containerSrc}>
         <input
           type='text'

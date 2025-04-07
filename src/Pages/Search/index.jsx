@@ -24,8 +24,7 @@ const Search = () => {
   return (
     <section className={styles.wrapper}>
       <HeaderSection id={"Pesquisa"}/>
-
-      <h1>{heading}</h1>
+      <h2>{heading}</h2>
       <div className={styles.container}>
         {filteredCards.map((card) => (
             <CardSearch key={card.id} product={card} />
