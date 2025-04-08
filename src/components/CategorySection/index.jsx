@@ -22,13 +22,13 @@ const navigate = useNavigate();
         <CardProduct category={category}/>
       </div>
       
-      <button
+      {/* <button
         className={styles.btnShowCategory}
         onClick={() => navigate('search')}
         >
           <LiaEyeSolid className={styles.icon}/>
           Ver Categoria
-      </button>
+      </button> */}
     </div>
   );
 });

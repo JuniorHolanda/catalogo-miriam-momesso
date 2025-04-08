@@ -26,6 +26,7 @@
             .icon{
                 @include mixins.flex($justify: start, $align: center);
                 font-size: 2em;
+                color: var.$dark-color-2;
             }
         }
         
@@ -33,6 +34,7 @@
             @include mixins.flex($direction: row);
             width: fit-content;
             font-size: 2em;
+            color: var.$dark-color-2;
         }
     }
     

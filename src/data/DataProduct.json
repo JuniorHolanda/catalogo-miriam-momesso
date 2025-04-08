@@ -2828,5 +2828,175 @@
         "altImg": "Porta-tênis personalizado espaçoso e ventilado"
       }
     ]
+  },
+  {
+    "id": "60",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839569/3-400_slitlh.jpg",
+    "altThunbnail": "Bolsa térmica Ache",
+    "title": "Térmica Ache",
+    "smallText": "Design funcional para o dia",
+    "text": "A Térmica Ache é ideal para manter alimentos e bebidas frescos, combinando praticidade e design funcional.",
+    "category": "Térmicas",
+    "measure": ["00x00x00"],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839569/3-400_slitlh.jpg", "altImg": "Vista frontal da Térmica Ache" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143083/4-400_le64f2.jpg", "altImg": "Vista superior da Térmica Ache" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839575/3-400-1_ercj7a.jpg", "altImg": "termica vista de lateral" },
+      { "img": "", "altImg": "Térmica Ache em uso externo" }
+    ]
+  },
+  {
+    "id": "61",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844670/3-400-1_bdfwm2.jpg",
+    "altThunbnail": "Bolsa térmica AE Tri",
+    "title": "Térmica AE Tri",
+    "smallText": "Isolamento térmico e praticidade",
+    "text": "A Térmica AE Tri oferece compartimento interno espaçoso e excelente isolamento térmico para o dia a dia.",
+    "category": "Térmicas",
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844670/3-400-1_bdfwm2.jpg", "altImg": "Vista frontal da Térmica AE Tri" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143311/4-400_slzqfj.jpg", "altImg": "Bolsa térmica AE Tri aberta" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844663/3-400_b0zndh.jpg", "altImg": "Detalhe de fechamento da AE Tri" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844662/1-400_ghfcfi.jpg", "altImg": "AE Tri em ambiente externo" }
+    ]
+  },
+  {
+    "id": "62",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839471/1-400_rvihb5.jpg",
+    "altThunbnail": "Bolsa térmica Bau",
+    "title": "Térmica Bau",
+    "smallText": "Compacta, prática e eficiente",
+    "text": "A Térmica Bau tem formato retangular e estrutura firme, perfeita para armazenar marmitas ou bebidas.",
+    "category": "Térmicas",
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839471/1-400_rvihb5.jpg", "altImg": "Vista frontal da Térmica Bau" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839474/3-400_dnz2e0.jpg", "altImg": "Detalhe da estrutura rígida" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143855/4-400_vecwdv.jpg", "altImg": "Bolsa térmica Bau aberta" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839470/3-400-1_v0yucy.jpg", "altImg": "Térmica Bau em uso" }
+    ]
+  },
+  {
+    "id": "63",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844466/3-400-1_femuz6.jpg",
+    "altThunbnail": "Bolsa térmica Line G",
+    "title": "Térmica Line G",
+    "smallText": "Capacidade ideal para o dia",
+    "text": "A Térmica Line G possui amplo espaço interno e ótimo isolamento, ideal para transportar refeições completas com segurança.",
+    "category": "Térmicas",
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844466/3-400-1_femuz6.jpg", "altImg": "Vista superior da Line G" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844464/1-400_nw4o8z.jpg", "altImg": "Interior espaçoso da Line G" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844470/3-400_ydxkam.jpg", "altImg": "Térmica Line G com zíper aberto" },
+      { "img": "", "altImg": "Uso da Line G em piquenique" }
+    ]
+  },
+  {
+    "id": "64",
+    "thunbnail": "",
+    "altThunbnail": "Bolsa térmica Sand",
+    "title": "Térmica Sand",
+    "smallText": "Ideal para uso na praia",
+    "text": "A Térmica Sand combina estilo e eficiência térmica, perfeita para levar lanches e bebidas em ambientes abertos como praias ou parques.",
+    "category": "Térmicas",
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "", "altImg": "Térmica Sand vista frontal" },
+      { "img": "", "altImg": "Térmica Sand na praia" },
+      { "img": "", "altImg": "Interior térmico da Sand" },
+      { "img": "", "altImg": "Detalhe das alças reforçadas" }
+    ]
+  },
+  {
+    "id": "65",
+    "thunbnail": "",
+    "altThunbnail": "Bolsa térmica Trip",
+    "title": "Térmica Trip",
+    "smallText": "Para viagens e longos passeios",
+    "text": "A Térmica Trip é a companhia perfeita para quem viaja, oferecendo espaço e isolamento térmico por longas horas.",
+    "category": "Térmicas",
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "", "altImg": "Bolsa térmica Trip em viagem" },
+      { "img": "", "altImg": "Vista lateral da Térmica Trip" },
+      { "img": "", "altImg": "Bolsa térmica Trip aberta" },
+      { "img": "", "altImg": "Uso da Trip em camping" }
+    ]
+  },
+  {
+    "id": "66",
+    "thunbnail": "",
+    "altThunbnail": "Bolsa térmica Ger",
+    "title": "Térmica Ger",
+    "smallText": "Praticidade com ótimo acabamento",
+    "text": "A Térmica Ger une praticidade no transporte com um acabamento sofisticado, ideal para ambientes profissionais ou casuais.",
+    "category": "Térmicas",
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "", "altImg": "Térmica Ger sobre mesa" },
+      { "img": "", "altImg": "Detalhe do acabamento da Ger" },
+      { "img": "", "altImg": "Interior com forro térmico" },
+      { "img": "", "altImg": "Vista lateral da Ger" }
+    ]
+  },
+  {
+    "id": "67",
+    "thunbnail": "",
+    "altThunbnail": "Bolsa térmica JL",
+    "title": "Térmica JL",
+    "smallText": "Estilo casual e moderno",
+    "text": "A Térmica JL traz um visual moderno e leve, com capacidade ideal para o transporte diário de alimentos.",
+    "category": "Térmicas",
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "", "altImg": "Bolsa térmica JL em uso" },
+      { "img": "", "altImg": "Vista frontal da Térmica JL" },
+      { "img": "", "altImg": "Interior espaçoso da JL" },
+      { "img": "", "altImg": "JL em ambiente urbano" }
+    ]
+  },
+  {
+    "id": "68",
+    "thunbnail": "",
+    "altThunbnail": "Bolsa térmica Miu",
+    "title": "Térmica Miu",
+    "smallText": "Tamanho compacto, grande eficiência",
+    "text": "A Térmica Miu é compacta e leve, mantendo os alimentos frescos por horas com um visual discreto e elegante.",
+    "category": "Térmicas",
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "", "altImg": "Vista da Térmica Miu fechada" },
+      { "img": "", "altImg": "Interior térmico da Miu" },
+      { "img": "", "altImg": "Detalhe do zíper da Miu" },
+      { "img": "", "altImg": "Uso cotidiano da Miu" }
+    ]
+  },
+  {
+    "id": "69",
+    "thunbnail": "",
+    "altThunbnail": "Bolsa térmica Quad",
+    "title": "Térmica Quad",
+    "smallText": "Formato quadrado, muito espaço",
+    "text": "A Térmica Quad possui formato quadrado e estrutura robusta, ideal para armazenar refeições completas com praticidade.",
+    "category": "Térmicas",
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      { "img": "", "altImg": "Térmica Quad vista superior" },
+      { "img": "", "altImg": "Interior com divisórias" },
+      { "img": "", "altImg": "Detalhe da estrutura firme" },
+      { "img": "", "altImg": "Quad em ambiente de escritório" }
+    ]
   }
 ]
