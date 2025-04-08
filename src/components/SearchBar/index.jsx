@@ -27,7 +27,7 @@ const SearchBar = () => {
   
   return (
     <div className={styles.wrapper}>
-      <FaSearch />
+      <FaSearch className={styles.icon} />
       <label className={styles.containerSrc}>
         <input
           type='text'

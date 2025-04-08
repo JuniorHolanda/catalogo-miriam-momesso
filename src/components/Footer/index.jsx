@@ -13,7 +13,7 @@ function Footer() {
                 <div className={styles.shortcut}>
                     <Link className={styles.icon} to={'/'}><FaHome /></Link>
                     <button className={styles.icon} onClick={() => navigate('/') }><FaWhatsapp /></button>
-                    <button className={styles.icon} onClick={() => navigate('/') }> <FaSearch /></button>
+                    {/* <button className={styles.icon} onClick={() => navigate('search') }> <FaSearch /></button> */}
                 </div>
                 <div className={styles.menuHamburger}>
                     <FaBars />

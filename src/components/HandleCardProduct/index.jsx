@@ -2,6 +2,7 @@ import styles from './cardProduct.module.scss';
 import cards from '../../data/DataProduct.json';
 import { LiaEyeSolid } from "react-icons/lia";
 import { Link } from 'react-router-dom';
+import DinamicMetaTag from '../DinamicMetaTags';
 
 const CardProduct = ({category}) => {
   
@@ -13,6 +14,17 @@ const CardProduct = ({category}) => {
     <>
       {filterCard.map((card) => (
         <Link key={card.id}  to={`/product/${card.id}`} className={styles.cardItem}>
+
+          
+          {/* Meta Tags Dinâmicas */}
+          <DinamicMetaTag
+            title={card.title}
+            description={card.text}
+            imageUrl={card.thunbnail}
+          />
+
+
+
           <div className={styles.containerThunb}>
             <img src={card.thunbnail} alt={card.altThunbnail} />
           </div>
