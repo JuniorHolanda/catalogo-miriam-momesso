@@ -5,15 +5,13 @@ import { LuPartyPopper } from "react-icons/lu";
 import { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import Holiday from "../Holidays";
+import dataHoliday from '../../data/holyDay.json'
 
 
 function Footer() {
-
-    
     const navigate = useNavigate();
 
     const [showMenu, setShowMenu] = useState(false);
- 
     return (
         <footer className={styles.wrapper}>
             <div className={styles.container}>
@@ -28,19 +26,16 @@ function Footer() {
                             onClick={() => setShowMenu(!showMenu)}>
                             <IoClose className={styles.closeMenu} />
                         </button>
+                        <div>
+                            <h2>Datas Comemorativas</h2>
+                            <p>Confira nossas promoções e novidades!</p>
+                        </div>
                         <ul>
-                            <li>
-                                <Holiday />
-                            </li>
-                            <li>
-                                <Holiday />
-                            </li>
-                            <li>
-                                <Holiday />
-                            </li>
-                            <li>
-                                <Holiday />
-                            </li>
+                            {dataHoliday.map((item) => (
+                                <li key={item.id}>
+                                    <Holiday card={item} />
+                                </li>
+                            ))}
                         </ul>
                     </aside>}
                     <button onClick={() => setShowMenu(!showMenu)}>

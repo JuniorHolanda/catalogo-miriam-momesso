@@ -61,12 +61,12 @@
             ul{
                 @include mixins.flex($direction: column, $justify: center, $align: center);
                 width: 100%;
-                border: blue ;
+                height: 90%;
+                overflow: scroll;
                 gap: var.$small-space;
-                
+                border: solid gold;
                 li{
                     @include mixins.flex($direction: column, $justify: center, $align: center);
-
                 }
             }
         }

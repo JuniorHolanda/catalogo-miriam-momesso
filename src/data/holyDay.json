@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title" : "Dia das Mães",
+        "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744212746/dia-das-maes_jk8mjs.jpg",
+        "altImg" : "uma ilustração de algumas flores coloridas",
+        "description" : "Amor que inspira, presenteie com carinho"
+    },
+
+    {
+        "id" : 2,
+        "title" : "Dia das mulheres",
+        "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228600/dia-das-mulheres_j9hipi.jpg",
+        "altImg" : "uma ilustração de algumas flores coloridas",
+        "description" : "Celebre a força de cada mulher"
+    },
+
+    {
+        "id" : 3,
+        "title" : "Dia dos Médicos",
+        "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228601/dia-dos-medicos_bkmyfp.jpg",
+        "altImg" : "uma ilustração de algumas flores coloridas",
+        "description" : "Gratidão a quem cuida sempre"
+    },
+    {
+        "id" : 4,
+        "title" : "Outubro Rosa",
+        "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228602/outubro-rosa_spfmse.jpg",
+        "altImg" : "uma ilustração de algumas flores coloridas",
+        "description" : "Conscientize com estilo e amor"
+    },
+    {
+        "id" : 5,
+        "title" : "Novembro Azul",
+        "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228600/novembro-azul_d2o83p.jpg",
+        "altImg" : "uma ilustração de algumas flores coloridas",
+        "description" : "Cuide-se com atitude e saúde"
+    },
+    {
+        "id" : 7,
+        "title" : "Executivo",
+        "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744229953/executivo_sh0eyl.jpg",
+        "altImg" : "uma ilustração de algumas flores coloridas",
+        "description" : "Sofisticação para o dia a dia"
+    }
+]
