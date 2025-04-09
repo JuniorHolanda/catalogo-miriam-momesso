@@ -2408,15 +2408,6 @@
         "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742523128/40-800_2_400_b4z2uf.jpg",
         "altImg": "uma pasta corporativa em algodão"
       }
-    ],
-
-    "studioBrin": [
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ajuste_nfgbvr.jpg",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259637/corpo_rbjefv.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/bolso_r8lw84.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/ziper_fmos2f.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/vivo_kbvjo9.png",
-      "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1741259636/alca_wypzfa.png"
     ]
   },
 
@@ -2843,13 +2834,13 @@
       { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839569/3-400_slitlh.jpg", "altImg": "Vista frontal da Térmica Ache" },
       { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143083/4-400_le64f2.jpg", "altImg": "Vista superior da Térmica Ache" },
       { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839575/3-400-1_ercj7a.jpg", "altImg": "termica vista de lateral" },
-      { "img": "", "altImg": "Térmica Ache em uso externo" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839568/1-400_t9wvml.jpg", "altImg": "Térmica Ache costas" }
     ]
   },
   {
     "id": "61",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844670/3-400-1_bdfwm2.jpg",
-    "altThunbnail": "Bolsa térmica AE Tri",
+    "altThunbnail": "Bolsa térmica AE Tri vista de cima",
     "title": "Térmica AE Tri",
     "smallText": "Isolamento térmico e praticidade",
     "text": "A Térmica AE Tri oferece compartimento interno espaçoso e excelente isolamento térmico para o dia a dia.",
@@ -2858,15 +2849,15 @@
     "printing": [{ "arrow": "center" }],
     "gallery": [
       { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844670/3-400-1_bdfwm2.jpg", "altImg": "Vista frontal da Térmica AE Tri" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143311/4-400_slzqfj.jpg", "altImg": "Bolsa térmica AE Tri aberta" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844663/3-400_b0zndh.jpg", "altImg": "Detalhe de fechamento da AE Tri" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844662/1-400_ghfcfi.jpg", "altImg": "AE Tri em ambiente externo" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143311/4-400_slzqfj.jpg", "altImg": "Bolsa térmica AE Tri lateral" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844663/3-400_b0zndh.jpg", "altImg": "termica Ae Tri vista de cima" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844662/1-400_ghfcfi.jpg", "altImg": "AE Tri Preta" }
     ]
   },
   {
     "id": "62",
     "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839471/1-400_rvihb5.jpg",
-    "altThunbnail": "Bolsa térmica Bau",
+    "altThunbnail": "Uma Bolsa térmica vista de frente",
     "title": "Térmica Bau",
     "smallText": "Compacta, prática e eficiente",
     "text": "A Térmica Bau tem formato retangular e estrutura firme, perfeita para armazenar marmitas ou bebidas.",
@@ -2874,10 +2865,10 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839471/1-400_rvihb5.jpg", "altImg": "Vista frontal da Térmica Bau" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839474/3-400_dnz2e0.jpg", "altImg": "Detalhe da estrutura rígida" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143855/4-400_vecwdv.jpg", "altImg": "Bolsa térmica Bau aberta" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839470/3-400-1_v0yucy.jpg", "altImg": "Térmica Bau em uso" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839471/1-400_rvihb5.jpg", "altImg": "Uma Bolsa Térmica Vermelha" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839474/3-400_dnz2e0.jpg", "altImg": "Uma Bolsa Térmica vista de costas" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143855/4-400_vecwdv.jpg", "altImg": "Uma Bolsa Térmica vista de cima" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839470/3-400-1_v0yucy.jpg", "altImg": "Uma Bolsa Térmica vista de lado" }
     ]
   },
   {
@@ -2891,32 +2882,32 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844466/3-400-1_femuz6.jpg", "altImg": "Vista superior da Line G" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844464/1-400_nw4o8z.jpg", "altImg": "Interior espaçoso da Line G" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844470/3-400_ydxkam.jpg", "altImg": "Térmica Line G com zíper aberto" },
-      { "img": "", "altImg": "Uso da Line G em piquenique" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844466/3-400-1_femuz6.jpg", "altImg": "Vista frontal da Line G" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844464/1-400_nw4o8z.jpg", "altImg": "uma térmica preta com alça" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844470/3-400_ydxkam.jpg", "altImg": "Térmica Line G vista de cima" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844466/3-400-1_femuz6.jpg", "altImg": "Uso da Line G preta" }
     ]
   },
   {
     "id": "64",
-    "thunbnail": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844518/53-2000_wfa9xu.jpg",
     "altThunbnail": "Bolsa térmica Sand",
     "title": "Térmica Sand",
     "smallText": "Ideal para uso na praia",
-    "text": "A Térmica Sand combina estilo e eficiência térmica, perfeita para levar lanches e bebidas em ambientes abertos como praias ou parques.",
+    "text": "A Térmica Sand combina estilo e eficiência térmica, perfeita para levar pequenos lanches e bebidas",
     "category": "Térmicas",
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "", "altImg": "Térmica Sand vista frontal" },
-      { "img": "", "altImg": "Térmica Sand na praia" },
-      { "img": "", "altImg": "Interior térmico da Sand" },
-      { "img": "", "altImg": "Detalhe das alças reforçadas" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844518/53-2000_wfa9xu.jpg", "altImg": "Uma térmica vermelha" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844523/termica_sand_cinza_e_verde_costas_e0hrb9.jpg", "altImg": "Térmica vista de costas" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844511/Bolsa_t%C3%A9rmica_Sand_-_Ny_360_-_Azul_Royal_-_frente_y4b8fn.jpg", "altImg": "Uma pequena térmica bolsa azul" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844520/termica_sand_cinza_e_verde_lateral_ekplly.jpg", "altImg": "uma térmica azul personalizada" }
     ]
   },
   {
     "id": "65",
-    "thunbnail": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844489/3-400-1_lrnhq2.jpg",
     "altThunbnail": "Bolsa térmica Trip",
     "title": "Térmica Trip",
     "smallText": "Para viagens e longos passeios",
@@ -2925,32 +2916,32 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "", "altImg": "Bolsa térmica Trip em viagem" },
-      { "img": "", "altImg": "Vista lateral da Térmica Trip" },
-      { "img": "", "altImg": "Bolsa térmica Trip aberta" },
-      { "img": "", "altImg": "Uso da Trip em camping" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844489/3-400-1_lrnhq2.jpg", "altImg": "Bolsa térmica Trip em viagem" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744145097/4-400_ykhk4j.jpg", "altImg": "Vista lateral da Térmica Trip" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844487/3-400_zzq7ry.jpg", "altImg": "Bolsa térmica Trip vermelha" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844483/1-400_enipjg.jpg", "altImg": "uma bolsa térmica preta com detalhes amarelos" }
     ]
   },
   {
     "id": "66",
-    "thunbnail": "",
-    "altThunbnail": "Bolsa térmica Ger",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844623/4-800_pghxz9.jpg",
+    "altThunbnail": "Bolsa térmica Ger azul",
     "title": "Térmica Ger",
     "smallText": "Praticidade com ótimo acabamento",
-    "text": "A Térmica Ger une praticidade no transporte com um acabamento sofisticado, ideal para ambientes profissionais ou casuais.",
+    "text": "A Térmica Ger une praticidade no transporte com um acabamento resistente, ideal para praias e festas profissionais ou casuais.",
     "category": "Térmicas",
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "", "altImg": "Térmica Ger sobre mesa" },
-      { "img": "", "altImg": "Detalhe do acabamento da Ger" },
-      { "img": "", "altImg": "Interior com forro térmico" },
-      { "img": "", "altImg": "Vista lateral da Ger" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844623/4-800_pghxz9.jpg", "altImg": "Térmica Ger azul" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844620/3-400-1_rjwwxo.jpg", "altImg": "uma térmica creme com vermelho" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844618/3-400_ayhvco.jpg", "altImg": "uma térmica creme vista de lado" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844615/1-400_r8p9to.jpg", "altImg": "Uma térmica reta vista de frente" }
     ]
   },
   {
     "id": "67",
-    "thunbnail": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844600/1-400_b82ebz.jpg",
     "altThunbnail": "Bolsa térmica JL",
     "title": "Térmica JL",
     "smallText": "Estilo casual e moderno",
@@ -2959,15 +2950,15 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "", "altImg": "Bolsa térmica JL em uso" },
-      { "img": "", "altImg": "Vista frontal da Térmica JL" },
-      { "img": "", "altImg": "Interior espaçoso da JL" },
-      { "img": "", "altImg": "JL em ambiente urbano" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844600/1-400_b82ebz.jpg", "altImg": "Bolsa térmica personalizada" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844602/3-400-1_agkeo5.jpg", "altImg": "bolsa térmica corporativa vista de lado" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844595/4-400_o1ebl9.jpg", "altImg": "bolsa térmica brinde vista de cima" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844601/3-400_txaza7.jpg", "altImg": "Uma Bolsa térmica Azul vista de costas" }
     ]
   },
   {
     "id": "68",
-    "thunbnail": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844572/1-400_cfve1e.jpg",
     "altThunbnail": "Bolsa térmica Miu",
     "title": "Térmica Miu",
     "smallText": "Tamanho compacto, grande eficiência",
@@ -2976,15 +2967,15 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "", "altImg": "Vista da Térmica Miu fechada" },
-      { "img": "", "altImg": "Interior térmico da Miu" },
-      { "img": "", "altImg": "Detalhe do zíper da Miu" },
-      { "img": "", "altImg": "Uso cotidiano da Miu" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844572/1-400_cfve1e.jpg", "altImg": "Bolsa térmica  personalizada preta" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844570/3-400_sxrybn.jpg", "altImg": "Bolsa térmica verde " },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844579/4-800_kgxzxh.jpg", "altImg": "Bolsa térmica azul brinde" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844575/3-400-1_dvafoc.jpg", "altImg": "Bolsa térmica amarela personalizada" }
     ]
   },
   {
     "id": "69",
-    "thunbnail": "",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844550/1-400_zknli6.jpg",
     "altThunbnail": "Bolsa térmica Quad",
     "title": "Térmica Quad",
     "smallText": "Formato quadrado, muito espaço",
@@ -2993,10 +2984,10 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "", "altImg": "Térmica Quad vista superior" },
-      { "img": "", "altImg": "Interior com divisórias" },
-      { "img": "", "altImg": "Detalhe da estrutura firme" },
-      { "img": "", "altImg": "Quad em ambiente de escritório" }
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844550/1-400_zknli6.jpg", "altImg": "Térmica personalizada cinza de frente" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844546/3-400-1_fxuxqf.jpg", "altImg": "térmica personalizada roxa" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844543/3-400_gvifnz.jpg", "altImg": "térmica personalizada laranja brinde" },
+      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844549/4-400_bsoj6z.jpg", "altImg": "bolsa personalizada lateral" }
     ]
   }
 ]

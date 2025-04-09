@@ -87,5 +87,15 @@
     "category": "Porta Blocos",
     "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740273180/Unions_txxrxr.svg",
     "altBackground": "formas abstratas"
+  },
+
+  {
+    "id": 10,
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744201792/termica_cbcneq.png",
+    "altImg": "Um porta termica brinde azul",
+    "text": "Mantenha bebidas e alimentos na temperatura ideal com nossas térmicas personalizadas — praticidade e estilo para o dia a dia.",
+    "category": "Térmicas",
+    "background": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union-2_fj5hja.svg",
+    "altBackground": "formas abstratas de circulos"
   }
 ]

@@ -219,10 +219,38 @@
   },
   {
     "id": "27",
-    "header": "Carteira Slim",
+    "header": "Térmica Ger",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436779/carteira-slim_pixozp.jpg",
-    "alturl": "Uma necessaire prata com intens internos",
-    "category": "Carteiras"
+    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744203871/termica-ger_icea0k.jpg",
+    "alturl": "UUma térmica grande personalizada",
+    "category": "Térmicas"
+  },
+
+  {
+    "id": "28",
+    "header": "Térmica Trip",
+    "text": "Ideal para brindes corporativos, a bolsa térmica personalizada alia funcionalidade e visibilidade da sua marca em qualquer ocasião.",
+    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744204209/termica_trip_ndnhjz.jpg",
+    "alturl": "Uma bolsa térmica brinde em um parque",
+    "category": "Térmicas"
+  },
+  
+  {
+    "id": "29",
+    "header": "Térmica Ae Tri P",
+    "text": "Com design triangular moderno, a Térmica Ae Tri P é compacta, prática e ideal para destacar sua marca com originalidade",
+    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744203871/termica-ae-tri_ic34y9.jpg",
+    "alturl": "Uma ntermica vermelha sobre uma mesa",
+    "category": "Térmicas"
+  },
+
+  {
+    "id": "30",
+    "header": "Térmica Ae Tri M",
+    "text": "A Térmica Ae Tri M combina o formato triangular com mais espaço interno — perfeita para ações promocionais com funcionalidade e estilo.",
+    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744203870/termica-ae-tri-preta-m_mamp37.jpg",
+    "alturl": "Uma térmica preta em um parque",
+    "category": "Térmicas"
   }
+
 ]
