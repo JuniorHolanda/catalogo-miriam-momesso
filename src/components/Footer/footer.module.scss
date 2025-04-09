@@ -33,8 +33,42 @@
         .menuHamburger{
             @include mixins.flex($direction: row);
             width: fit-content;
-            font-size: 2em;
-            color: var.$dark-color-2;
+            
+            aside{
+                @include mixins.flex($direction: column, $justify: center, $align: center);
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 70%;
+                height: 100vh;
+                background-color: var.$medium-1;
+                opacity: 0;
+                animation: entraceToLeft .3s ease-in-out forwards;
+            }
+            
+            button {
+                font-size: 2em;
+                color: var.$highlight-2;
+                
+                .closeMenu{
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    font-size: 3em;
+                }
+            }
+            
+            ul{
+                @include mixins.flex($direction: column, $justify: center, $align: center);
+                width: 100%;
+                border: blue ;
+                gap: var.$small-space;
+                
+                li{
+                    @include mixins.flex($direction: column, $justify: center, $align: center);
+
+                }
+            }
         }
     }
     
