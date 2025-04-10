@@ -31,11 +31,13 @@
         }
         
         .menuHamburger{
-            @include mixins.flex($direction: row);
+            @include mixins.flex();
             width: fit-content;
             
             aside{
                 @include mixins.flex($direction: column, $justify: center, $align: center);
+                gap: var.$small-space;
+                padding: var.$small-space;
                 position: absolute;
                 right: 0;
                 bottom: 0;
@@ -44,32 +46,51 @@
                 background-color: var.$medium-1;
                 opacity: 0;
                 animation: entraceToLeft .3s ease-in-out forwards;
+
+                .containerCloseMenu {
+                    @include mixins.flex($direction: column, $justify: flex-end, $align: flex-end);
+                    font-size: 2em;
+                    color: var.$highlight-2;
+                    width: 100%;
+                    height: 30%;
+                    
+                    .closeMenu{
+                        margin: 0;
+                        padding: 0;
+                        width: fit-content;
+                        font-size: 3em;
+                    }
+                }
+                
+                .info{
+                    @include mixins.flex($direction: column, $justify: center, $align: center);
+
+                    h2 {
+                        @include mixins.font ($font: var.$font, $size: var.$bigTitle-2, $weight: 800, $color: var.$dark-color-2);
+                    }
+                    p{
+                        @include mixins.font ($font: var.$font, $size: var.$text, $weight: 400, $color: var.$dark-color-2);
+                    }
+                }
+
+                ul{
+                    @include mixins.flex($direction: column, $justify: flex-start, $align: center);
+                    width: 100%;
+                    height: 90%;
+                    overflow: scroll;
+                    gap: var.$small-space;
+                    border-radius: var.$small-border;
+                    li{
+                        @include mixins.flex($direction: column, $justify: center, $align: center);
+                    }
+                }
             }
             
-            button {
+            .containerIconHoliday{
                 font-size: 2em;
                 color: var.$highlight-2;
-                
-                .closeMenu{
-                    position: absolute;
-                    top: 10px;
-                    right: 10px;
-                    font-size: 3em;
-                }
             }
             
-            ul{
-                @include mixins.flex($direction: column, $justify: center, $align: center);
-                width: 100%;
-                height: 90%;
-                overflow: scroll;
-                gap: var.$small-space;
-                border: solid gold;
-                li{
-                    @include mixins.flex($direction: column, $justify: center, $align: center);
-                }
-            }
         }
     }
-    
 }

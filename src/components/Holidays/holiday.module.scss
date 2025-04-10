@@ -4,7 +4,6 @@
 
 .wrapper{
     @include mixins.flex($direction: column, $justify: center, $align: center);
-    width: 80%;
     background-color: var.$clear-color-1;
     border-radius: var.$small-border;
     overflow: hidden;
@@ -22,11 +21,11 @@
         padding: var.$small-space;
         
         h2{
-            @include mixins.font ($font: var.$font, $size: var.$bigTitle-2, $weight: 800);
+            @include mixins.font ($font: var.$font, $size: var.$bigTitle-2, $weight: 800, $color: var.$dark-color-2);
         }
 
         p{
-            @include mixins.font ($font: var.$font, $size: var.$text, $weight: 400);
+            @include mixins.font ($font: var.$font, $size: var.$text, $weight: 400, $color: var.$dark-color-2);
         }
     }
 }

@@ -1,11 +1,19 @@
 import React from 'react'
 import styles from './holiday.module.scss'
 import { Link } from 'react-router-dom'
+import slugify from 'slugify'
 
 const Holiday = ({card}) => {
     return (
-    console.log(card),
-    <Link to={'/diaDasMaes'} className={styles.wrapper} >
+    <Link
+        to=
+        {`/categorias/${slugify(card.title,
+        {   
+            lower: true,
+            strict: true
+        })}`}
+        className={styles.wrapper} >
+
         <div className={styles.containerImg}>
             <img src={card.img} alt={card.altImg} />
         </div>
@@ -17,5 +25,4 @@ const Holiday = ({card}) => {
     </Link>
 )
 }
-
 export default Holiday

@@ -10,7 +10,6 @@ import dataHoliday from '../../data/holyDay.json'
 
 function Footer() {
     const navigate = useNavigate();
-
     const [showMenu, setShowMenu] = useState(false);
     return (
         <footer className={styles.wrapper}>
@@ -22,23 +21,29 @@ function Footer() {
                 <div className={styles.menuHamburger}>
                     {showMenu &&
                     <aside>
-                        <button
+                        <button className={styles.containerCloseMenu}
                             onClick={() => setShowMenu(!showMenu)}>
                             <IoClose className={styles.closeMenu} />
                         </button>
-                        <div>
+
+                        <div className={styles.info}>
                             <h2>Datas Comemorativas</h2>
                             <p>Confira nossas promoções e novidades!</p>
                         </div>
+
                         <ul>
                             {dataHoliday.map((item) => (
-                                <li key={item.id}>
+                                <li
+                                    key={item.id}
+                                    onClick={() => setShowMenu(!showMenu)}>
                                     <Holiday card={item} />
                                 </li>
                             ))}
                         </ul>
                     </aside>}
-                    <button onClick={() => setShowMenu(!showMenu)}>
+                    <button
+                        className={styles.containerIconHoliday}
+                        onClick={() => setShowMenu(!showMenu)}>
                         <LuPartyPopper />
                     </button>
                 </div>
