@@ -25,4 +25,5 @@ const Holiday = ({card}) => {
     </Link>
 )
 }
+
 export default Holiday

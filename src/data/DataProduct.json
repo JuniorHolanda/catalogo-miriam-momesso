@@ -6,7 +6,7 @@
     "title": "Bolsa Andrea",
     "smallText": "Acompanha Necessaire",
     "text": "A Bolsa Andrea combina leveza e praticidade, feita de tela resistente e acompanhada de uma nécessaire interna para organização.",
-    "category": "Bolsas",
+    "category": ["Bolsas"],
 
     "measure": ["64x37x18cm"],
 
@@ -51,7 +51,7 @@
     "title": "Bolsa Graci",
     "smallText": "Bolsa ampla, versátil e prática",
     "text": "A Bolsa Graci é espaçosa e versátil, perfeita para o dia a dia, eventos e brindes corporativos, garantindo praticidade sem complicação.",
-    "category": "Bolsas",
+    "category": ["Bolsas"],
 
     "measure": ["48x42x13cm"],
 
@@ -99,7 +99,7 @@
     "title": "S-bag",
     "smallText": "Sholder bag prática com bolso.",
     "text": "A S-Bag é uma shoulder bag moderna e funcional, com bolso frontal para acesso rápido, ideal para eventos e brindes corporativos.",
-    "category": "Bolsas",
+    "category": ["Bolsas"],
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -152,7 +152,7 @@
     "title": "Bolsa Trip",
     "smallText": "Bolsa elegante, resistente e confortável..",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "category": "Bolsas",
+    "category": ["Bolsas"],
 
     "measure": ["53x33x22cm, 30x18x12cm"],
 
@@ -203,7 +203,7 @@
     "title": "Bolsa Rss",
     "smallText": "Bolsa espaçosa ideal para eventos.",
     "text": "A Bolsa RSS é ampla e prática, perfeita para feiras e eventos, oferecendo espaço de sobra para materiais e brindes.",
-    "category": "Bolsas",
+    "category": ["Bolsas"],
 
     "measure": ["43x3715cm"],
 
@@ -256,7 +256,7 @@
     "title": "Bolsa Pst",
     "smallText": "Bolsa disponível em vários tamanhos.",
     "text": "A Bolsa PST se adapta a qualquer necessidade, disponível em diversos tamanhos para eventos, brindes corporativos e uso diário.",
-    "category": "Bolsas",
+    "category": ["Bolsas"],
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -307,7 +307,7 @@
     "title": "Bolsa Praia Duo",
     "smallText": "Bolsa de juta rústica e sofisticada.",
     "text": "A Bolsa Praia Duo combina estilo e resistência, feita em juta para um visual rústico e sofisticado, perfeita para brindes e eventos.",
-    "category": "Bolsas",
+    "category": ["Bolsas"],
 
     "measure": ["46x32x12,5cm"],
 
@@ -358,7 +358,7 @@
     "title": "Bolsa Vita Clear",
     "smallText": "Bgargfardsfgica e sofisticada.",
     "text": "A Bolsa Praia Duo cuiouiouiouiououoiombina estilo e resistência, feita em juta para um visual rústico e sofisticado, perfeita para brindes e eventos.",
-    "category": "Bolsas",
+    "category": ["Bolsas"],
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -409,7 +409,7 @@
     "title": "Bolsa Praia Miu",
     "smallText": "Bolsa translúcida ampla e prática.",
     "text": "A Bolsa Praia Miu é ampla e prática, feita em material plástico translúcido, perfeita para carregar seus itens na praia com estilo.",
-    "category": "Bolsas",
+    "category": ["Bolsas"],
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -460,7 +460,7 @@
     "title": "Necessaire Vani Duo",
     "smallText": "Necessaire espaçosa e funcional.",
     "text": "A Necessaire Vani Duo oferece amplo espaço para organização, perfeita para brindes corporativos e uso no dia a dia.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": ["22x17x05cm", "26x18x07cm"],
 
@@ -511,7 +511,7 @@
     "title": "Necessaire Vani Visor",
     "smallText": "Necessaire pequena com visor transparente.",
     "text": "A Necessaire Vani Visor é compacta e funcional, com visor de plástico transparente para fácil visualização dos itens essenciais.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": ["24x13x05cm"],
 
@@ -562,7 +562,7 @@
     "title": "Necessaire CN",
     "smallText": "Necessaire espaçosa e versátil.",
     "text": "A Necessaire CN é ampla e versátil, ideal para organizar itens essenciais com praticidade no dia a dia ou em viagens.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": ["26x15x09cm"],
 
@@ -613,7 +613,7 @@
     "title": "Necessaire EV",
     "smallText": "Necessaire pequena, funcional e prática.",
     "text": "A Necessaire Ev é compacta e funcional, perfeita para carregar itens essenciais com praticidade no dia a dia.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": [
       "15x9x7cm",
@@ -669,7 +669,7 @@
     "title": "Necessaire Gran",
     "smallText": "Necessaire de algodão versátil e prática.",
     "text": "A Necessaire Gran é feita de algodão, ideal para uso geral, combinando praticidade e um toque natural para o dia a dia.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": ["20x11x4cm"],
 
@@ -720,7 +720,7 @@
     "title": "Necessaire Hope",
     "smallText": "Necessaire pequena com visor em tela.",
     "text": "A Necessaire Hope é compacta e charmosa, com visor frontal em tela para fácil visualização dos itens essenciais.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": ["15x10x1cm", "20x11x1cm"],
 
@@ -771,7 +771,7 @@
     "title": "Necessaire PS",
     "smallText": "Necessaire com múltiplas divisórias internas.",
     "text": "A Necessaire PS oferece organização máxima, com diversas divisórias internas para acomodar seus itens de forma prática e acessível.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": ["10x15x3cm, 10x18x3cm"],
 
@@ -822,7 +822,7 @@
     "title": "Necessaire Bh",
     "smallText": "Necessaire fina, sofisticada e prática.",
     "text": "A Necessaire BH combina elegância e praticidade em um design fino e sofisticado, ideal para brindes e uso diário.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": ["19x12x1cm", "23x12x1cm"],
 
@@ -873,7 +873,7 @@
     "title": "Necessaire Ev Bolso",
     "smallText": "Necessaire espaçosa e muito prática",
     "text": "A Necessaire Ev Bolso é ampla e funcional, perfeita para organizar seus itens com praticidade no dia a dia ou em viagens.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": ["20x11x7cm"],
 
@@ -924,7 +924,7 @@
     "title": "Necessaire Baú Masculina",
     "smallText": "Necessaire masculina ampla e prática.",
     "text": "A Necessaire Baú Masculina é espaçosa e ideal para armazenar itens de higiene e cuidados pessoais com praticidade e estilo.",
-    "category": "Necessaires",
+    "category": ["Necessaires"],
 
     "measure": ["20x23x10cm"],
 
@@ -975,7 +975,7 @@
     "title": "Estojo Miu Clear",
     "smallText": "Necessaire masculina ampla e prática.",
     "text": "",
-    "category": "Estojos",
+    "category": ["Estojos"],
 
     "measure": ["20x13x3cm"],
 
@@ -1026,7 +1026,7 @@
     "title": "Estojo Miu ",
     "smallText": ".",
     "text": "",
-    "category": "Estojos",
+    "category": ["Estojos"],
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -1078,7 +1078,7 @@
     "title": "Estojo Mlt",
     "smallText": "Estojo fino, leve e prático.",
     "text": "O Estojo MLT é compacto e discreto, perfeito para carregar pequenos itens com praticidade no dia a dia.",
-    "category": "Estojos",
+    "category": ["Estojos"],
 
     "measure": ["23x11x1cm"],
 
@@ -1128,7 +1128,7 @@
     "title": "Estojo Neo",
     "smallText": "Estojo espaçoso e versátil.",
     "text": "O Estojo Neo é amplo e funcional, ideal para organizar materiais escolares, de escritório ou acessórios com praticidade.",
-    "category": "Estojos",
+    "category": ["Estojos"],
 
     "measure": ["20x10x8cm"],
 
@@ -1178,7 +1178,7 @@
     "title": "Estojo Sl",
     "smallText": "Estojo multiuso para escola ou higiene.",
     "text": "O Estojo SL é versátil e espaçoso, perfeito para armazenar lápis, réguas, material escolar ou itens de higiene com praticidade.",
-    "category": "Estojos",
+    "category": ["Estojos"],
 
     "measure": ["19x5x8cm", "22x5x8cm"],
 
@@ -1228,7 +1228,7 @@
     "title": "Estojo Tri",
     "smallText": "Estojo triangular compacto e estiloso.",
     "text": "O Estojo Tri tem design triangular e compacto, ideal para armazenar pequenos itens com estilo e praticidade.",
-    "category": "Estojos",
+    "category": ["Estojos"],
 
     "measure": ["21x9x7cm"],
 
@@ -1278,7 +1278,7 @@
     "title": "Carteira Feminina JL",
     "smallText": "Carteira feminina personalizada com compartimentos",
     "text": "A Carteira Feminina JL é prática e espaçosa, com diversos compartimentos para organizar cartões, dinheiro e documentos com estilo.",
-    "category": "Carteiras",
+    "category": ["Carteiras"],
 
     "measure": ["20x11x1cm"],
 
@@ -1328,7 +1328,7 @@
     "title": "Carteira RR",
     "smallText": "Carteira personalizada prática e funcional",
     "text": "A Carteira RR combina design funcional e praticidade, oferecendo espaço ideal para armazenar cartões e dinheiro no dia a dia.",
-    "category": "Carteiras",
+    "category": ["Carteiras"],
 
     "measure": ["11x9xcm"],
 
@@ -1378,7 +1378,7 @@
     "title": "Carteira Slim",
     "smallText": "Carteira personalizada fina e elegante",
     "text": "A Carteira Slim é fina e elegante, perfeita para quem busca um acessório compacto sem abrir mão da sofisticação.",
-    "category": "Carteiras",
+    "category": ["Carteiras"],
 
     "measure": ["10x5cm"],
 
@@ -1427,7 +1427,7 @@
     "title": "Porta Documento ADV Borges",
     "smallText": "Porta-documento personalizado e funcional",
     "text": "O Porta Documento Borges tem espaço ideal para cartões, dinheiro e documentos, garantindo organização e praticidade no dia a dia.",
-    "category": "Carteiras",
+    "category": ["Carteiras"],
 
     "measure": ["9x13cm"],
 
@@ -1477,7 +1477,7 @@
     "title": "Porta Cartão Adv",
     "smallText": "Porta-cartão personalizado com compartimentos",
     "text": "O Porta Cartão Adv mantém seus cartões organizados com praticidade, contando com múltiplos compartimentos para maior funcionalidade.",
-    "category": "Carteiras",
+    "category": ["Carteiras"],
 
     "measure": ["8x10cm"],
 
@@ -1527,7 +1527,7 @@
     "title": "Porta Cartão Borges",
     "smallText": "Porta-cartão personalizado com divisórias plásticas",
     "text": "O Porta Cartão Borges possui divisórias de plástico resistentes, garantindo proteção e organização para seus cartões em qualquer",
-    "category": "Carteiras",
+    "category": ["Carteiras"],
 
     "measure": ["8x10x1cm"],
 
@@ -1577,7 +1577,7 @@
     "title": "Mala FRR",
     "smallText": "Mala personalizada com alças e bolso",
     "text": "A Mala FRR é prática e versátil, com alça de mão, alça transversal e bolso frontal para maior organização e conforto.",
-    "category": "Malas",
+    "category": ["Malas"],
 
     "measure": ["42x27x26cm"],
 
@@ -1627,7 +1627,7 @@
     "title": "Mala Redon",
     "smallText": "Mala personalizada espaçosa e redonda",
     "text": "A Mala Redon tem design amplo e redondo, oferecendo espaço de sobra para transportar seus pertences com praticidade.",
-    "category": "Malas",
+    "category": ["Malas"],
 
     "measure": ["36x25x25cm"],
 
@@ -1677,7 +1677,7 @@
     "title": "Mala RR",
     "smallText": "Mala personalizada espaçosa e redonda",
     "text": "A Mala Redon tem design amplo e redondo, oferecendo espaço de sobra para transportar seus pertences com praticidade.",
-    "category": "Malas",
+    "category": ["Malas"],
 
     "measure": ["48x29x19cm"],
 
@@ -1727,7 +1727,7 @@
     "title": "Mala Redon G",
     "smallText": "Mala grande personalizada e redonda",
     "text": "A Mala Redon G é extremamente espaçosa e redonda, ideal para quem precisa de muito espaço sem abrir mão do estilo.",
-    "category": "Malas",
+    "category": ["Malas"],
 
     "measure": ["59x25x27cm"],
 
@@ -1777,7 +1777,7 @@
     "title": "Mala Sport Full",
     "smallText": "Mala esportiva personalizada e espaçosa",
     "text": "A Mala Sport Full é espaçosa e funcional, equipada com alça de manopla para facilitar o transporte no dia a dia.",
-    "category": "Malas",
+    "category": ["Malas"],
 
     "measure": ["50x20x25"],
 
@@ -1827,7 +1827,7 @@
     "title": "Mochila ESJ",
     "smallText": "Mochila escolar personalizada e funcional",
     "text": "A Mochila ESJ é ideal para material escolar, oferecendo espaço organizado e conforto para o dia a dia dos estudantes.",
-    "category": "Mochilas",
+    "category": ["Mochilas"],
 
     "measure": ["2x35x10cm"],
 
@@ -1877,7 +1877,7 @@
     "title": "Mochila ADV",
     "smallText": "Mochila pequena personalizada e prática",
     "text": "A Mochila ADV é compacta e prática, perfeita para quem busca uma opção leve e funcional para o dia a dia.",
-    "category": "Mochilas",
+    "category": ["Mochilas"],
 
     "measure": ["29x40x12cm" , "33x44x13cm"],
 
@@ -1927,7 +1927,7 @@
     "title": "Mochila Citroen",
     "smallText": "Mochila transversal personalizada e confortável",
     "text": "A Mochila Citroen tem design transversal moderno, garantindo praticidade e conforto para transportar seus pertences com segurança.",
-    "category": "Mochilas",
+    "category": ["Mochilas"],
 
     "measure": ["30x34x13cm", "28x40x16cm", "30x45x16cm"],
 
@@ -1977,7 +1977,7 @@
     "title": "Mochila Robs",
     "smallText": "Mochila de ombro",
     "text": "A Mochila Robs possui formato retangular e diversos compartimentos, ideal para quem precisa de organização e praticidade.",
-    "category": "Mochilas",
+    "category": ["Mochilas"],
 
     "measure": ["14x25x8cm"],
 
@@ -2027,7 +2027,7 @@
     "title": "Mochila MM Simple",
     "smallText": "Mochila personalizada com bolsos externos",
     "text": "A Mochila MM Simple combina funcionalidade e estilo, com um bolso frontal externo e um bolso de tela lateral para mais organização.",
-    "category": "Mochilas",
+    "category": ["Mochilas"],
 
     "measure": ["36x47x12cm"],
 
@@ -2077,7 +2077,7 @@
     "title": "Mochila Abrt",
     "smallText": "Mochila de ombro personalizada e prática",
     "text": "A Mochila Robs é ideal para o dia a dia, com design de ombro que garante conforto e praticidade no transporte.",
-    "category": "Mochilas",
+    "category": ["Mochilas"],
 
     "measure": ["32x43x12cm"],
 
@@ -2127,7 +2127,7 @@
     "title": "Mochila sacola",
     "smallText": "Mochila esportiva personalizada e funcional",
     "text": "A Mochila Sacola é esportiva e leve, perfeita para carregar seus itens com conforto e praticidade em qualquer atividade.",
-    "category": "Mochilas",
+    "category": ["Mochilas"],
 
     "measure": ["30x30x1", "34x42x1cm"],
 
@@ -2177,7 +2177,7 @@
     "title": "Pasta Bloco PRT",
     "smallText": "Pasta personalizada com bloco e caneta",
     "text": "A Pasta Bloco PRT é prática e completa, com caneta e bloco interno para anotações em reuniões, eventos e congressos.",
-    "category": "Pastas",
+    "category": ["Pastas"],
 
     "measure": ["17x22x1"],
 
@@ -2227,7 +2227,7 @@
     "title": "Pasta Fran",
     "smallText": "Pasta horizontal personalizada com zíper",
     "text": "A Pasta Fran possui design horizontal com zíper, proporcionando segurança e organização para documentos e materiais importantes.",
-    "category": "Pastas",
+    "category": ["Pastas"],
 
     "measure": ["18x12x1cm", "24x13x1cm", "25x20x1cm", "28x23x1cm", "31x22x1cm", "38x26x1cm"],
 
@@ -2277,7 +2277,7 @@
     "title": "Pasta IBM",
     "smallText": "Pasta personalizada com alça transversal",
     "text": "A Pasta IBM tem tampa e alça transversal, sendo ideal para o transporte seguro e elegante de documentos e materiais.",
-    "category": "Pastas",
+    "category": ["Pastas"],
 
     "measure": ["26x19x1cm", "37x26x1" ],
 
@@ -2327,7 +2327,7 @@
     "title": "Pasta Lob",
     "smallText": "Pasta personalizada em formato envelope",
     "text": "A Pasta Lob tem formato de envelope, oferecendo design sofisticado e compacto para armazenar documentos de forma prática.",
-    "category": "Pastas",
+    "category": ["Pastas"],
 
     "measure": ["24x17x1cm", "34x25x1cm"],
 
@@ -2377,7 +2377,7 @@
     "title": "Pasta Sinc",
     "smallText": "Pasta executiva personalizada com alças",
     "text": "A Pasta Sinc é uma pasta executiva com alça de mão e transversal, ideal para transportar documentos com estilo e praticidade.",
-    "category": "Pastas",
+    "category": ["Pastas"],
 
     "measure": ["38x30x8"],
 
@@ -2418,7 +2418,7 @@
     "title": "Alfabetário CJSP",
     "smallText": "Alfabetário dobrável personalizado para aprendizado",
     "text": "Alfabetário infantil dobrável e personalizado, ideal para escolas e eventos educacionais. Leve, prático e estimulante para aprendizado.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["25x50cm"],
 
@@ -2459,7 +2459,7 @@
     "title": "Chaveiro Basic",
     "smallText": "Chaveiro básico leve e personalizado",
     "text": "Chaveiro básico em material sintético, leve e resistente, ideal para brindes promocionais e personalizados.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["10x2x1cm"],
 
@@ -2500,7 +2500,7 @@
     "title": "Kit Higiene Pocket",
     "smallText": "Kit de higiene portátil personalizado",
     "text": "Pequeno kit de higiene portátil, com escova, creme dental e fio dental, ideal para viagens e brindes promocionais.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["6x14x3cm"],
 
@@ -2541,7 +2541,7 @@
     "title": "Kit Higiene SP",
     "smallText": "Kit de higiene amplo personalizado",
     "text": "Kit de higiene amplo e personalizado, com diversos itens internos, ideal para viagens e eventos corporativos.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["13x16x3cm"],
 
@@ -2582,7 +2582,7 @@
     "title": "Lugagge Tag",
     "smallText": "Tag de identificação personalizada prática",
     "text": "Tag de identificação personalizada para viagens, prática e resistente, ideal para malas e mochilas.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["7x12cm"],
 
@@ -2623,7 +2623,7 @@
     "title": "Minibag Vani",
     "smallText": "Minibag leve prática e personalizada",
     "text": "Pequena bolsa de mão personalizada, leve e prática, ideal para brindes e eventos promocionais.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["15x7x3cm", "20x12x5cm"],
 
@@ -2664,7 +2664,7 @@
     "title": "Organizador de Viagem",
     "smallText": "Kit com 3 organizadores práticos",
     "text": "Kit com 3 organizadores personalizados, ideal para manter roupas e acessórios organizados durante viagens.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["29x19x9cm", "32x23x10cm", "39x30x10cm"],
 
@@ -2705,7 +2705,7 @@
     "title": "Organizador Wish",
     "smallText": "Organizador versátil e personalizado compacto",
     "text": "Organizador versátil e personalizado, ideal para organizar roupas e acessórios em viagens ou no dia a dia.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["17x22x17cm"],
 
@@ -2746,7 +2746,7 @@
     "title": "Porta Níquel Tensage",
     "smallText": "Porta-níquel compacto e personalizado prático",
     "text": "Pequeno porta-níquel personalizado, ideal para guardar moedas e acessórios com praticidade e estilo.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["11x8x1cm"],
 
@@ -2787,7 +2787,7 @@
     "title": "Porta Tênis Espanha",
     "smallText": "Porta-tênis personalizado com zíper frontal",
     "text": "Porta-tênis personalizado com lateral em tela e zíper frontal, ideal para viagens e esportes.",
-    "category": "Diversos",
+    "category": ["Diversos"],
 
     "measure": ["20x32x13cm"],
 
@@ -2827,7 +2827,7 @@
     "title": "Térmica Ache",
     "smallText": "Design funcional para o dia",
     "text": "A Térmica Ache é ideal para manter alimentos e bebidas frescos, combinando praticidade e design funcional.",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": ["00x00x00"],
     "printing": [{ "arrow": "center" }],
     "gallery": [
@@ -2844,7 +2844,7 @@
     "title": "Térmica AE Tri",
     "smallText": "Isolamento térmico e praticidade",
     "text": "A Térmica AE Tri oferece compartimento interno espaçoso e excelente isolamento térmico para o dia a dia.",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
@@ -2861,7 +2861,7 @@
     "title": "Térmica Bau",
     "smallText": "Compacta, prática e eficiente",
     "text": "A Térmica Bau tem formato retangular e estrutura firme, perfeita para armazenar marmitas ou bebidas.",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
@@ -2878,7 +2878,7 @@
     "title": "Térmica Line G",
     "smallText": "Capacidade ideal para o dia",
     "text": "A Térmica Line G possui amplo espaço interno e ótimo isolamento, ideal para transportar refeições completas com segurança.",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
@@ -2895,7 +2895,7 @@
     "title": "Térmica Sand",
     "smallText": "Ideal para uso na praia",
     "text": "A Térmica Sand combina estilo e eficiência térmica, perfeita para levar pequenos lanches e bebidas",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
@@ -2912,7 +2912,7 @@
     "title": "Térmica Trip",
     "smallText": "Para viagens e longos passeios",
     "text": "A Térmica Trip é a companhia perfeita para quem viaja, oferecendo espaço e isolamento térmico por longas horas.",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
@@ -2929,7 +2929,7 @@
     "title": "Térmica Ger",
     "smallText": "Praticidade com ótimo acabamento",
     "text": "A Térmica Ger une praticidade no transporte com um acabamento resistente, ideal para praias e festas profissionais ou casuais.",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
@@ -2946,7 +2946,7 @@
     "title": "Térmica JL",
     "smallText": "Estilo casual e moderno",
     "text": "A Térmica JL traz um visual moderno e leve, com capacidade ideal para o transporte diário de alimentos.",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
@@ -2963,7 +2963,7 @@
     "title": "Térmica Miu",
     "smallText": "Tamanho compacto, grande eficiência",
     "text": "A Térmica Miu é compacta e leve, mantendo os alimentos frescos por horas com um visual discreto e elegante.",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
@@ -2980,7 +2980,7 @@
     "title": "Térmica Quad",
     "smallText": "Formato quadrado, muito espaço",
     "text": "A Térmica Quad possui formato quadrado e estrutura robusta, ideal para armazenar refeições completas com praticidade.",
-    "category": "Térmicas",
+    "category": ["Térmicas"],
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
