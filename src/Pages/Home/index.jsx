@@ -10,7 +10,6 @@ const HomeSection = () => {
     const sectionRefs = useRef([]);
 
     const scrollToSection = (id) => {
-        console.log(sectionRefs)
         sectionRefs.current[id]?.scrollIntoView({ behavior: "smooth" });
     };
     

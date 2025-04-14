@@ -1,16 +1,12 @@
-import styles from './cardSearch.module.scss';
+import styles from './card.module.scss';
 import { LiaEyeSolid } from "react-icons/lia";
 import { Link } from 'react-router-dom';
-import slugify from 'slugify';
 
-const CardSearch = ({product}) => {
-    
-    const slug = slugify(product.title, { lower: true, strict: true });
-    // console.log(slug);
-    
+const Card = ({product}) => {
+
     return(
         <>
-            <Link to={`/product/${slug}`} className={styles.cardItem}>
+            <Link to={`/product/${product.id}`} className={styles.cardItem}>
                 <div className={styles.containerThunb}>
                     <img src={product.thunbnail} alt={product.altThunbnail} />
                 </div>
@@ -31,4 +27,4 @@ const CardSearch = ({product}) => {
     );
 }
 
-export default CardSearch
+export default Card

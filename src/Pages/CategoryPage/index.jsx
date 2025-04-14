@@ -9,27 +9,38 @@ import CardSearch from '../../components/CardSearch'
 
 const CategoryPage = () => {
 
-const { categoria } = useParams();
+    const { category } = useParams();
 
-const title = dataHoliday.filter((item) => {
-    const slugTitle = slugify(item.title, { lower: true, strict: true });
-    return slugTitle === categoria;
-} );
+    const categorySlugified = category
 
-return (
-    <section className={styles.wrapper}>
-        <HeaderSection id={title[0].title}/>
 
-        {
-            dataProduct.map((card) => (
-                <CardSearch
+
+
+    
+    const title = dataHoliday.filter((item) => {
+        const slugTitle = slugify(item.title, { lower: true, strict: true });
+        return slugTitle === category;
+    } );
+
+    return (
+        <section className={styles.wrapper}>
+            <HeaderSection id={title[0].title}/>
+            
+            {dataProduct
+                .filter(card =>
+                    Array.isArray(card.category) &&
+                    card.category.some(cat =>
+                    slugify(cat, { lower: true, strict: true }) === categorySlugified
+                    )
+                )
+                .map(card => (
+                    <CardSearch
                     key={card.id}
                     product={card}
-                />
-            ))
-        }
-    </section>
-)
+            />
+            ))}
+        </section>
+    )
 }
 
 export default CategoryPage

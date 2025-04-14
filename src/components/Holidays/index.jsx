@@ -6,13 +6,11 @@ import slugify from 'slugify'
 const Holiday = ({card}) => {
     return (
     <Link
-        to=
-        {`/categorias/${slugify(card.title,
-        {   
+        to={`/categorias/${slugify(card.title,{   
             lower: true,
             strict: true
         })}`}
-        className={styles.wrapper} >
+        className={styles.wrapper}>
 
         <div className={styles.containerImg}>
             <img src={card.img} alt={card.altImg} />

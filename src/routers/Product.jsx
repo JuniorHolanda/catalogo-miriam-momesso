@@ -2,9 +2,9 @@ import { useParams } from "react-router-dom"
 import ProductSection from "../Pages/Product"
 
 function Product() {
-  const { id } = useParams();
+  const { product } = useParams();
   return (
-    <ProductSection id={id}/>
+    <ProductSection id={product}/>
   )
 }
 

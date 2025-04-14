@@ -22,7 +22,7 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: "/product/:id",
+        path: "/product/:product",
         element: <Product/>
       },
       {
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         element: <SearchSection/>
       },
       {
-        path: "/categorias/:categoria",
+        path: "/categorias/:category",
         element: <CategoryPage/>
       },
     ],
