@@ -3,11 +3,18 @@ import styles from './product.module.scss';
 import dataProduct from '../../data/DataProduct.json'
 import Gallery from "../../components/Gallery";
 import InfoProduct from "../../components/infoProduct";
+import slugify from "slugify";
+import { replace } from "react-router-dom";
 
 
-const ProductSection = ({id}) => {
-    const cardFiltered = dataProduct.find(card => card.id === id);
-
+const ProductSection = ({name}) => {
+    
+    const cardFiltered = dataProduct.find(card => slugify(card.title,{
+        lower: true,
+        strict: true,
+        trim: true
+    }) === name);
+    
     return (
         <main className={styles.wrapper}>
             <HeaderSection id={cardFiltered.title}/>

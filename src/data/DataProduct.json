@@ -6,7 +6,7 @@
     "title": "Bolsa Andrea",
     "smallText": "Acompanha Necessaire",
     "text": "A Bolsa Andrea combina leveza e praticidade, feita de tela resistente e acompanhada de uma nécessaire interna para organização.",
-    "category": ["Bolsas"],
+    "category": ["Bolsas", "Dia das Mães"],
 
     "measure": ["64x37x18cm"],
 
@@ -51,7 +51,7 @@
     "title": "Bolsa Graci",
     "smallText": "Bolsa ampla, versátil e prática",
     "text": "A Bolsa Graci é espaçosa e versátil, perfeita para o dia a dia, eventos e brindes corporativos, garantindo praticidade sem complicação.",
-    "category": ["Bolsas"],
+    "category": ["Bolsas", "Dia das Mães"],
 
     "measure": ["48x42x13cm"],
 
@@ -99,7 +99,7 @@
     "title": "S-bag",
     "smallText": "Sholder bag prática com bolso.",
     "text": "A S-Bag é uma shoulder bag moderna e funcional, com bolso frontal para acesso rápido, ideal para eventos e brindes corporativos.",
-    "category": ["Bolsas"],
+    "category": ["Bolsas", "Dia das Mães"],
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -152,7 +152,7 @@
     "title": "Bolsa Trip",
     "smallText": "Bolsa elegante, resistente e confortável..",
     "text": "Esta necessaire oferece diversas divisórias internas para armazenar itens essenciais com praticidade. Permite a aplicação de logos, cores e mensagens institucionais, reforçando a identidade da marca.",
-    "category": ["Bolsas"],
+    "category": ["Bolsas", "Dia das Mães"],
 
     "measure": ["53x33x22cm, 30x18x12cm"],
 
@@ -203,7 +203,7 @@
     "title": "Bolsa Rss",
     "smallText": "Bolsa espaçosa ideal para eventos.",
     "text": "A Bolsa RSS é ampla e prática, perfeita para feiras e eventos, oferecendo espaço de sobra para materiais e brindes.",
-    "category": ["Bolsas"],
+    "category": ["Bolsas", "Dia das Mães"],
 
     "measure": ["43x3715cm"],
 
@@ -256,7 +256,7 @@
     "title": "Bolsa Pst",
     "smallText": "Bolsa disponível em vários tamanhos.",
     "text": "A Bolsa PST se adapta a qualquer necessidade, disponível em diversos tamanhos para eventos, brindes corporativos e uso diário.",
-    "category": ["Bolsas"],
+    "category": ["Bolsas", "Dia das Mães"],
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -307,7 +307,7 @@
     "title": "Bolsa Praia Duo",
     "smallText": "Bolsa de juta rústica e sofisticada.",
     "text": "A Bolsa Praia Duo combina estilo e resistência, feita em juta para um visual rústico e sofisticado, perfeita para brindes e eventos.",
-    "category": ["Bolsas"],
+    "category": ["Bolsas", "Dia das Mães"],
 
     "measure": ["46x32x12,5cm"],
 
@@ -358,7 +358,7 @@
     "title": "Bolsa Vita Clear",
     "smallText": "Bgargfardsfgica e sofisticada.",
     "text": "A Bolsa Praia Duo cuiouiouiouiououoiombina estilo e resistência, feita em juta para um visual rústico e sofisticado, perfeita para brindes e eventos.",
-    "category": ["Bolsas"],
+    "category": ["Bolsas", "Dia das Mães"],
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -409,7 +409,7 @@
     "title": "Bolsa Praia Miu",
     "smallText": "Bolsa translúcida ampla e prática.",
     "text": "A Bolsa Praia Miu é ampla e prática, feita em material plástico translúcido, perfeita para carregar seus itens na praia com estilo.",
-    "category": ["Bolsas"],
+    "category": ["Bolsas", "Dia das Mães"],
 
     "measure": ["10x10x10cm", "10x10x10cm", "10x10x10cm", "10x10x10cm"],
 
@@ -615,12 +615,7 @@
     "text": "A Necessaire Ev é compacta e funcional, perfeita para carregar itens essenciais com praticidade no dia a dia.",
     "category": ["Necessaires"],
 
-    "measure": [
-      "15x9x7cm",
-      "16x8x5cm",
-      "20x11x7cm",
-      "24x11x5cm"
-    ],
+    "measure": ["15x9x7cm", "16x8x5cm", "20x11x7cm", "24x11x5cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -1879,7 +1874,7 @@
     "text": "A Mochila ADV é compacta e prática, perfeita para quem busca uma opção leve e funcional para o dia a dia.",
     "category": ["Mochilas"],
 
-    "measure": ["29x40x12cm" , "33x44x13cm"],
+    "measure": ["29x40x12cm", "33x44x13cm"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -2229,7 +2224,14 @@
     "text": "A Pasta Fran possui design horizontal com zíper, proporcionando segurança e organização para documentos e materiais importantes.",
     "category": ["Pastas"],
 
-    "measure": ["18x12x1cm", "24x13x1cm", "25x20x1cm", "28x23x1cm", "31x22x1cm", "38x26x1cm"],
+    "measure": [
+      "18x12x1cm",
+      "24x13x1cm",
+      "25x20x1cm",
+      "28x23x1cm",
+      "31x22x1cm",
+      "38x26x1cm"
+    ],
 
     "printing": [
       { "arrow": "southwest" },
@@ -2279,7 +2281,7 @@
     "text": "A Pasta IBM tem tampa e alça transversal, sendo ideal para o transporte seguro e elegante de documentos e materiais.",
     "category": ["Pastas"],
 
-    "measure": ["26x19x1cm", "37x26x1" ],
+    "measure": ["26x19x1cm", "37x26x1"],
 
     "printing": [
       { "arrow": "southwest" },
@@ -2831,10 +2833,22 @@
     "measure": ["00x00x00"],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839569/3-400_slitlh.jpg", "altImg": "Vista frontal da Térmica Ache" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143083/4-400_le64f2.jpg", "altImg": "Vista superior da Térmica Ache" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839575/3-400-1_ercj7a.jpg", "altImg": "termica vista de lateral" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839568/1-400_t9wvml.jpg", "altImg": "Térmica Ache costas" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839569/3-400_slitlh.jpg",
+        "altImg": "Vista frontal da Térmica Ache"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143083/4-400_le64f2.jpg",
+        "altImg": "Vista superior da Térmica Ache"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839575/3-400-1_ercj7a.jpg",
+        "altImg": "termica vista de lateral"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839568/1-400_t9wvml.jpg",
+        "altImg": "Térmica Ache costas"
+      }
     ]
   },
   {
@@ -2848,10 +2862,22 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844670/3-400-1_bdfwm2.jpg", "altImg": "Vista frontal da Térmica AE Tri" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143311/4-400_slzqfj.jpg", "altImg": "Bolsa térmica AE Tri lateral" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844663/3-400_b0zndh.jpg", "altImg": "termica Ae Tri vista de cima" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844662/1-400_ghfcfi.jpg", "altImg": "AE Tri Preta" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844670/3-400-1_bdfwm2.jpg",
+        "altImg": "Vista frontal da Térmica AE Tri"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143311/4-400_slzqfj.jpg",
+        "altImg": "Bolsa térmica AE Tri lateral"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844663/3-400_b0zndh.jpg",
+        "altImg": "termica Ae Tri vista de cima"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844662/1-400_ghfcfi.jpg",
+        "altImg": "AE Tri Preta"
+      }
     ]
   },
   {
@@ -2865,10 +2891,22 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839471/1-400_rvihb5.jpg", "altImg": "Uma Bolsa Térmica Vermelha" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839474/3-400_dnz2e0.jpg", "altImg": "Uma Bolsa Térmica vista de costas" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143855/4-400_vecwdv.jpg", "altImg": "Uma Bolsa Térmica vista de cima" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839470/3-400-1_v0yucy.jpg", "altImg": "Uma Bolsa Térmica vista de lado" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839471/1-400_rvihb5.jpg",
+        "altImg": "Uma Bolsa Térmica Vermelha"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839474/3-400_dnz2e0.jpg",
+        "altImg": "Uma Bolsa Térmica vista de costas"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744143855/4-400_vecwdv.jpg",
+        "altImg": "Uma Bolsa Térmica vista de cima"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742839470/3-400-1_v0yucy.jpg",
+        "altImg": "Uma Bolsa Térmica vista de lado"
+      }
     ]
   },
   {
@@ -2882,10 +2920,22 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844466/3-400-1_femuz6.jpg", "altImg": "Vista frontal da Line G" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844464/1-400_nw4o8z.jpg", "altImg": "uma térmica preta com alça" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844470/3-400_ydxkam.jpg", "altImg": "Térmica Line G vista de cima" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844466/3-400-1_femuz6.jpg", "altImg": "Uso da Line G preta" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844466/3-400-1_femuz6.jpg",
+        "altImg": "Vista frontal da Line G"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844464/1-400_nw4o8z.jpg",
+        "altImg": "uma térmica preta com alça"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844470/3-400_ydxkam.jpg",
+        "altImg": "Térmica Line G vista de cima"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844466/3-400-1_femuz6.jpg",
+        "altImg": "Uso da Line G preta"
+      }
     ]
   },
   {
@@ -2899,10 +2949,22 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844518/53-2000_wfa9xu.jpg", "altImg": "Uma térmica vermelha" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844523/termica_sand_cinza_e_verde_costas_e0hrb9.jpg", "altImg": "Térmica vista de costas" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844511/Bolsa_t%C3%A9rmica_Sand_-_Ny_360_-_Azul_Royal_-_frente_y4b8fn.jpg", "altImg": "Uma pequena térmica bolsa azul" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844520/termica_sand_cinza_e_verde_lateral_ekplly.jpg", "altImg": "uma térmica azul personalizada" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844518/53-2000_wfa9xu.jpg",
+        "altImg": "Uma térmica vermelha"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844523/termica_sand_cinza_e_verde_costas_e0hrb9.jpg",
+        "altImg": "Térmica vista de costas"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844511/Bolsa_t%C3%A9rmica_Sand_-_Ny_360_-_Azul_Royal_-_frente_y4b8fn.jpg",
+        "altImg": "Uma pequena térmica bolsa azul"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844520/termica_sand_cinza_e_verde_lateral_ekplly.jpg",
+        "altImg": "uma térmica azul personalizada"
+      }
     ]
   },
   {
@@ -2916,10 +2978,22 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844489/3-400-1_lrnhq2.jpg", "altImg": "Bolsa térmica Trip em viagem" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744145097/4-400_ykhk4j.jpg", "altImg": "Vista lateral da Térmica Trip" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844487/3-400_zzq7ry.jpg", "altImg": "Bolsa térmica Trip vermelha" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844483/1-400_enipjg.jpg", "altImg": "uma bolsa térmica preta com detalhes amarelos" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844489/3-400-1_lrnhq2.jpg",
+        "altImg": "Bolsa térmica Trip em viagem"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744145097/4-400_ykhk4j.jpg",
+        "altImg": "Vista lateral da Térmica Trip"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844487/3-400_zzq7ry.jpg",
+        "altImg": "Bolsa térmica Trip vermelha"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844483/1-400_enipjg.jpg",
+        "altImg": "uma bolsa térmica preta com detalhes amarelos"
+      }
     ]
   },
   {
@@ -2933,10 +3007,22 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844623/4-800_pghxz9.jpg", "altImg": "Térmica Ger azul" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844620/3-400-1_rjwwxo.jpg", "altImg": "uma térmica creme com vermelho" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844618/3-400_ayhvco.jpg", "altImg": "uma térmica creme vista de lado" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844615/1-400_r8p9to.jpg", "altImg": "Uma térmica reta vista de frente" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844623/4-800_pghxz9.jpg",
+        "altImg": "Térmica Ger azul"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844620/3-400-1_rjwwxo.jpg",
+        "altImg": "uma térmica creme com vermelho"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844618/3-400_ayhvco.jpg",
+        "altImg": "uma térmica creme vista de lado"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844615/1-400_r8p9to.jpg",
+        "altImg": "Uma térmica reta vista de frente"
+      }
     ]
   },
   {
@@ -2950,10 +3036,22 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844600/1-400_b82ebz.jpg", "altImg": "Bolsa térmica personalizada" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844602/3-400-1_agkeo5.jpg", "altImg": "bolsa térmica corporativa vista de lado" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844595/4-400_o1ebl9.jpg", "altImg": "bolsa térmica brinde vista de cima" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844601/3-400_txaza7.jpg", "altImg": "Uma Bolsa térmica Azul vista de costas" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844600/1-400_b82ebz.jpg",
+        "altImg": "Bolsa térmica personalizada"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844602/3-400-1_agkeo5.jpg",
+        "altImg": "bolsa térmica corporativa vista de lado"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844595/4-400_o1ebl9.jpg",
+        "altImg": "bolsa térmica brinde vista de cima"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844601/3-400_txaza7.jpg",
+        "altImg": "Uma Bolsa térmica Azul vista de costas"
+      }
     ]
   },
   {
@@ -2967,10 +3065,22 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844572/1-400_cfve1e.jpg", "altImg": "Bolsa térmica  personalizada preta" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844570/3-400_sxrybn.jpg", "altImg": "Bolsa térmica verde " },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844579/4-800_kgxzxh.jpg", "altImg": "Bolsa térmica azul brinde" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844575/3-400-1_dvafoc.jpg", "altImg": "Bolsa térmica amarela personalizada" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844572/1-400_cfve1e.jpg",
+        "altImg": "Bolsa térmica  personalizada preta"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844570/3-400_sxrybn.jpg",
+        "altImg": "Bolsa térmica verde "
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844579/4-800_kgxzxh.jpg",
+        "altImg": "Bolsa térmica azul brinde"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844575/3-400-1_dvafoc.jpg",
+        "altImg": "Bolsa térmica amarela personalizada"
+      }
     ]
   },
   {
@@ -2984,10 +3094,22 @@
     "measure": [""],
     "printing": [{ "arrow": "center" }],
     "gallery": [
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844550/1-400_zknli6.jpg", "altImg": "Térmica personalizada cinza de frente" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844546/3-400-1_fxuxqf.jpg", "altImg": "térmica personalizada roxa" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844543/3-400_gvifnz.jpg", "altImg": "térmica personalizada laranja brinde" },
-      { "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844549/4-400_bsoj6z.jpg", "altImg": "bolsa personalizada lateral" }
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844550/1-400_zknli6.jpg",
+        "altImg": "Térmica personalizada cinza de frente"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844546/3-400-1_fxuxqf.jpg",
+        "altImg": "térmica personalizada roxa"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844543/3-400_gvifnz.jpg",
+        "altImg": "térmica personalizada laranja brinde"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742844549/4-400_bsoj6z.jpg",
+        "altImg": "bolsa personalizada lateral"
+      }
     ]
   }
 ]

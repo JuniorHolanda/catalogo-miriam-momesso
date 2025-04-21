@@ -13,14 +13,22 @@ const CategoryPage = () => {
 
     const categorySlugified = category
 
-
-
-
-    
     const title = dataHoliday.filter((item) => {
-        const slugTitle = slugify(item.title, { lower: true, strict: true });
+        const slugTitle = slugify(item.title,{
+            lower: true,
+            strict: true,
+            trim: true
+        });
         return slugTitle === category;
     } );
+
+    // const cardFiltered = dataProduct.find(card => slugify(card.title,{
+    //     lower: true,
+    //     strict: true,
+    //     trim: true
+    // }) === name);
+
+    console.log(title)
 
     return (
         <section className={styles.wrapper}>
@@ -30,7 +38,11 @@ const CategoryPage = () => {
                 .filter(card =>
                     Array.isArray(card.category) &&
                     card.category.some(cat =>
-                    slugify(cat, { lower: true, strict: true }) === categorySlugified
+                    slugify(cat,{
+                        lower: true,
+                        strict: true,
+                        trim: true
+                        }) === categorySlugified
                     )
                 )
                 .map(card => (
