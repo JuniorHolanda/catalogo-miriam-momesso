@@ -9,8 +9,8 @@
       font-style: $style,
   ) {
       @if $value != null {
-          #{$property}: $value;
-      }
+        #{$property}: $value;
+    }
   }
 }
 
@@ -27,16 +27,19 @@
   }
 }
 
-//mapa das media queries
 $breakpoints: (
-'micro' : 500px,
-'small': 700px,
-'medium': 1000px,
-'large': 1200px
+  micro: 500px,
+  small: 700px,
+  medium: 1000px,
+  large: 1200px
 );
 
-@mixin media-queries($size) {
-@media (max-width: map-get($breakpoints, $size)) {
-  @content;
-}
+@mixin max-width($size) {
+  @if not map-has-key($breakpoints, $size) {
+    @error "Breakpoint '#{$size}' não encontrado. Valores permitidos: #{map-keys($breakpoints)}.";
+  }
+
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
 }

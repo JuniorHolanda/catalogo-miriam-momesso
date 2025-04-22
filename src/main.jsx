@@ -10,7 +10,6 @@ import Error404 from './Pages/errorPage/index.jsx';
 import CategoryPage from './Pages/CategoryPage/index.jsx';
 
 
-
 const router = createBrowserRouter([
   {
     path: "/",

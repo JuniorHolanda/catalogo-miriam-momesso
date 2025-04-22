@@ -3111,5 +3111,95 @@
         "altImg": "bolsa personalizada lateral"
       }
     ]
+  },
+
+  {
+    "id": "70",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330945/1-400_fpengv.jpg",
+    "altThunbnail": "um porta bloco marrom com uma caneta na lateral",
+    "title": "Porta Bloco Frr",
+    "smallText": "Sofisticação, praticidade, brinde, organização, estilo.",
+    "text": "Organize suas anotações com praticidade usando o Porta Bloco Frr. Ideal para reuniões, treinamentos e brindes corporativos",
+    "category": ["Porta Blocos"],
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330945/1-400_fpengv.jpg",
+        "altImg": "um porta bloco marrom fechado com uma caneta na lateral"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330944/3-400_ihe1hv.jpg",
+        "altImg": "um porta bloco visto de lado"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330945/1-400_fpengv.jpg",
+        "altImg": "um porta bloco marrom visto de cima com uma caneta"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330944/4-800_xxorap.jpg",
+        "altImg": "um porta bloco marrom aberto"
+      }
+    ]
+  },
+
+  {
+    "id": "71",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330901/1-400_gh2fv5.jpg",
+    "altThunbnail": "um porta bloco preto com uma caneta",
+    "title": "Porta Bloco Pap",
+    "smallText": "Prático, moderno, funcional, brinde, impacto.",
+    "text": "O Porta Bloco Pap acompanha caneta, possui um design moderno para o dia a dia. Perfeito para destacar sua marca com elegância.",
+    "category": ["Porta Blocos"],
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330902/3-400_lb6hiw.jpg",
+        "altImg": "um porta bloco azul aberto com uma caneta"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330901/4-800_ewmzai.jpg",
+        "altImg": "um porta bloco preto fechado"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330900/3-400-1_q2cwm7.jpg",
+        "altImg": "um porta bloco verde água visto na lateral com uma caneta"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330944/4-800_xxorap.jpg",
+        "altImg": "um porta bloco marrom visto de cima"
+      }
+    ]
+  },
+
+  {
+    "id": "72",
+    "thunbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330853/4-800_cuzcl2.jpg",
+    "altThunbnail": "um porta bloco marrom",
+    "title": "Porta Bloco Bxt",
+    "smallText": "Prático, moderno, funcional, brinde, impacto.",
+    "text": "Bloco de anotações pequeno e prático, perfeito para o cotidiano. Personalize com sua marca e torne cada anotação uma lembrança do seu negócio.",
+    "category": ["Porta Blocos"],
+    "measure": [""],
+    "printing": [{ "arrow": "center" }],
+    "gallery": [
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330853/4-800_cuzcl2.jpg",
+        "altImg": "um porta bloco fechado"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330853/1-400_jugjhz.jpg",
+        "altImg": "um porta bloco fechado visto de cima"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330852/3-400_klssuc.jpg",
+        "altImg": "um porta bloco preto visto na lateral"
+      },
+      {
+        "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745330852/3-400-1_dp6bim.jpg",
+        "altImg": "um porta bloco aberto visto de cima"
+      }
+    ]
   }
 ]
