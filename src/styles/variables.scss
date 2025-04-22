@@ -18,10 +18,12 @@ $font: "Inter", serif;
 
 
 //font-size
+$smallTitle: clamp(1em, 1vw, 2em);
 $bigTitle-1: clamp(3em, 7vw, 15em);
 $bigTitle-2: clamp(2em, 4vw, 5em);
 $bigTitle-3: clamp(1em, 2vw, 3em);
 
+$micro-text: clamp(.5em, .5vw, 1em);
 $small-text: clamp(.7em, .7vw, 1em);
 $text: clamp(1em, 1vw, 1em);
 

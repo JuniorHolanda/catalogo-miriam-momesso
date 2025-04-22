@@ -5,7 +5,7 @@
   @include mixins.flex($direction: column);
   gap: var.$micro-small-space;
   width: 100%;
-
+  
   .containerCard{
     @include mixins.flex($direction: column);
     padding: var.$micro-small-space;
@@ -14,5 +14,10 @@
     height: 100vh;
     background-color: var.$clear-color-1;
     border-radius: var.$small-border;
+
+    @include mixins.min-width(small) {
+      @include mixins.flex($direction: row);
+      height: 10vh;
+    }
     }
 }

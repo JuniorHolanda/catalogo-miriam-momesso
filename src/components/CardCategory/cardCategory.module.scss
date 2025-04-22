@@ -9,6 +9,11 @@
   z-index: 1;
   background-color: var.$medium-1 ;
   border-radius: var.$small-border;
+  width: 100%;
+
+  @include mixins.min-width(small) {
+    gap: var.$micro-small-space;
+  }
   
   .containerImg{
     @include mixins.flex($justify: center, $align:center,);
@@ -17,7 +22,10 @@
     z-index: 1;
     background-color: var.$highlight-2;
     
-    
+    @include mixins.min-width(small) {
+      width: 50%;
+    }
+
     img{
       object-fit: contain;
       height: 100%;
@@ -29,6 +37,11 @@
     @include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$clear-color-1);
     width: 70%;
     z-index: 1;
+
+    @include mixins.min-width(small) {
+      width: 50%;
+      font-size: var.$micro-text;
+    }
   }
 
   .symbolBackground{
@@ -36,5 +49,10 @@
     position: absolute;
     right: 0;
     bottom: -70px;
+
+    @include mixins.min-width(small) {
+      width: 50%;
+      bottom: -30px;
+    }
   }
 }

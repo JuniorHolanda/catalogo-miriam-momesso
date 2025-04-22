@@ -34,7 +34,7 @@ $breakpoints: (
   large: 1200px
 );
 
-@mixin max-width($size) {
+@mixin min-width($size) {
   @if not map-has-key($breakpoints, $size) {
     @error "Breakpoint '#{$size}' não encontrado. Valores permitidos: #{map-keys($breakpoints)}.";
   }
