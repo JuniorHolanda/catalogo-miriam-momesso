@@ -3,7 +3,7 @@
 
 .cardItem{
 display: grid;
-grid-template: auto / 2fr 6fr 2fr;
+grid-template: 1fr / 2fr 6fr 2fr;
 background-color: var.$clear-color-1;
 position: relative;
 gap: var.$micro-small-space;
@@ -19,11 +19,11 @@ flex-grow: 1;
     z-index: -1;
     grid-area: 2/1/3/4;   
 
-    img{
-    object-fit: center;
-    object-position: center;
-    height: 100%;
-    width: 100%;
+    img {
+        object-fit: center;
+        object-position: center;
+        height: 100%;
+        width: 100%;
     }
 }
 

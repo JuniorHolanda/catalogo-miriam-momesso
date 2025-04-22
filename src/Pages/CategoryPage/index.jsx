@@ -10,29 +10,21 @@ import CardSearch from '../../components/CardSearch'
 const CategoryPage = () => {
 
     const { category } = useParams();
-
+    
     const categorySlugified = category
 
-    const title = dataHoliday.filter((item) => {
-        const slugTitle = slugify(item.title,{
+    const title = dataHoliday.find((item) => {
+        const slugTitle = slugify(item.title, {
             lower: true,
             strict: true,
             trim: true
         });
         return slugTitle === category;
-    } );
-
-    // const cardFiltered = dataProduct.find(card => slugify(card.title,{
-    //     lower: true,
-    //     strict: true,
-    //     trim: true
-    // }) === name);
-
-    console.log(title)
+    })?.title;
 
     return (
         <section className={styles.wrapper}>
-            <HeaderSection id={title[0].title}/>
+            <HeaderSection id={title || category}/>
             
             {dataProduct
                 .filter(card =>

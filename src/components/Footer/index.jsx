@@ -32,7 +32,7 @@ function Footer() {
                         </div>
 
                         <ul>
-                            {dataHoliday.map((item) => (
+                            {[...dataHoliday].reverse() .map((item) => (
                                 <li
                                     key={item.id}
                                     onClick={() => setShowMenu(!showMenu)}>

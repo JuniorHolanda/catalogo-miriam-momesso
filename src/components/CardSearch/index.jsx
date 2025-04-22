@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
 import slugify from 'slugify';
 
 const CardSearch = ({product}) => {
-    
     const slug = slugify(product.title, { lower: true, strict: true });
-    // console.log(slug);
     
     return(
         <>

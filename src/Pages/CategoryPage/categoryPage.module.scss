@@ -1,3 +1,11 @@
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
+
+
 .wrapper{
+    @include mixins.flex($align: space-between, $justify: center);
+    flex-wrap: wrap;
+    gap: var.$small-space;
     width: 100%;
+    height: 100%;
 }

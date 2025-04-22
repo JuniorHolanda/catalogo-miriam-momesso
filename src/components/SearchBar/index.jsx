@@ -18,13 +18,6 @@ const SearchBar = () => {
     }
   };
 
-  const [valueInput, setValueInput] = useState('')
-
-  //atualiza o valor do input
-  const showValueInput = (event) =>{
-    setValueInput(event.target.value);
-  }
-  
   return (
     <div className={styles.wrapper}>
       <FaSearch className={styles.icon} />
