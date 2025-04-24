@@ -8,7 +8,10 @@ import CardSearch from '../CardSearch';
 import slugify from 'slugify';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 
-
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
 
 const CategorySection =  React.forwardRef(({ category, text }, ref) => {
 
@@ -28,6 +31,17 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
 
         
         {isMobile && <StoriesInsta filter={category} />}
+        {!isMobile && <Swiper
+          spaceBetween={50}
+          slidesPerView={3}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+
+            <SwiperSlide><img src="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745524625/Nec_Ev_-_juta_-_banner_-_site_exyizg.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745525938/Nec_Ev_-_juta_-_banner_-_site_mhfegb.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745526109/Nec_Ev_-_juta_-_banner_-_site_qtgca6.jpg" alt="" /></SwiperSlide>
+          </Swiper>}
 
         <div className={styles.containerCard}>
           {dataProduct
