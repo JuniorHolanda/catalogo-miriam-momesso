@@ -6,6 +6,7 @@ import { LiaEyeSolid } from "react-icons/lia";
 import { data, Link, useNavigate } from "react-router-dom";
 import CardSearch from '../CardSearch';
 import slugify from 'slugify';
+import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 
 
 
@@ -14,6 +15,8 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
   const navigate = useNavigate();
 
   const categorySlugified = slugify(category, { lower: true, strict: true });
+
+  const isMobile = MediaQuery ("(max-width: 400px)");
 
   return(
     <div
@@ -24,7 +27,7 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
         <p>{text}</p>
 
         
-        <StoriesInsta filter={category}/>
+        {isMobile && <StoriesInsta filter={category} />}
 
         <div className={styles.containerCard}>
           {dataProduct
