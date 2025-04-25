@@ -8,28 +8,42 @@
     width: 100%;
 
     @include mixins.min-width(small) {
-      grid-template: auto / 1fr 2fr;
+      grid-template: auto / 1fr 3fr;
       gap: var.$medium-space;
+      height: 100vh;
     }
 
     .containerInfo{
-      @include mixins.flex($direction: column, $justify: start);
+      @include mixins.flex($direction: column, $justify: center);
       gap: var.$micro-small-space;
       width: 100%;
       padding: var.$small-space;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
 
       @include mixins.min-width(small) {
         grid-area: 2 / 1 / 3 / 2;
-        background-color: var.$clear-color-1;
+        background-color: var.$clear-color-3;
         border-radius: var.$medium-border;
       }
 
       h2{
         @include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$dark-color-1, $weight: 600);
+        z-index: 1;
       }
       
       p{
         @include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-1, $weight: 300);
+        z-index: 1;
+      }
+
+      img{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        right: -60%;
+        z-index: 0;
       }
     }
 
@@ -40,7 +54,6 @@
     .containerSwiper{
       @include mixins.flex($direction: row , $justify: center, $align: center);
       width: 100%;
-      height: 30vh;
       border-radius: var.$medium-border;
       overflow: hidden;
       
@@ -55,10 +68,14 @@
     }
     
     .containerCard{
-      @include mixins.flex();
-      gap: var.$small-space;
+      @include mixins.flex($justify: center, $align: center);
+      grid-area: 2/2/4/3;
       overflow: scroll;
-      width: 100%; 
+      width: 100%;
+      height: 100%;
+      background-color: var.$clear-color-3;
+      padding: var.$small-space;
+      border-radius: var.$medium-border;
     }
     
     .btnShowCategory{

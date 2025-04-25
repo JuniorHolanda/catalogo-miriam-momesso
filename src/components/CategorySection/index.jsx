@@ -31,6 +31,7 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
         <div className={styles.containerInfo}>
           <h2>{category}</h2>
           <p>{text}</p>
+          <img src="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union-1_vda0lc.svg" alt="símbolos geométricos abstratos" />
         </div>
 
         
@@ -62,7 +63,14 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
         </section>}
 
         <div className={styles.containerCard}>
-          {dataProduct
+          <Swiper
+              slidesPerView={3}
+              spaceBetween={40}
+              onSlideChange={() => console.log('slide change')}
+              onSwiper={(swiper) => console.log(swiper)}
+              navigation={true}
+            >
+            {dataProduct
             .filter( card =>
               Array.isArray(card.category) &&
               card.category.some(cat =>
@@ -71,14 +79,14 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
             )
 
             .map(card => (
-              <CardSearch 
-                key={card.id}
-                product={card}
-              />
+              <SwiperSlide key={card.id}>
+                <CardSearch product={card} />
+              </SwiperSlide>
             ))
           }
+          </Swiper>
         </div>
-        
+
         <Link
         className={styles.btnShowCategory}
         to={`/categorias/${slugify(category,{   
