@@ -1,34 +1,74 @@
-@use '../../styles/mixins.scss';
-@use '../../styles/variables.scss' as var;
+  @use '../../styles/mixins.scss';
+  @use '../../styles/variables.scss' as var;
 
-.containerCategory {
-  @include mixins.flex($direction: column);
-  gap: var.$micro-small-space;
-  width: 100%;
-  
-  h2{
-    @include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$dark-color-1, $weight: 600);
-  }
-
-  p{
-    @include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-1, $weight: 300);
-  }
-
-  .containerCard{
-    @include mixins.flex();
-    gap: var.$small-space;
-    overflow: scroll;
-    width: 100%;  
-  }
-  
-  .btnShowCategory{
-    @include mixins.flex($justify: center, $align: center);
-    @include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-1, $weight: 600);
+  .containerCategory {
+    display: grid;
+    grid-template: auto / 1fr;
     gap: var.$micro-small-space;
-    padding: var.$micro-small-space;
     width: 100%;
-    color: var.$clear-color-1;
-    border-radius: var.$medium-border;
-    background-color: var.$highlight-2;
+
+    @include mixins.min-width(small) {
+      grid-template: auto / 1fr 2fr;
+      gap: var.$medium-space;
+    }
+
+    .containerInfo{
+      @include mixins.flex($direction: column, $justify: start);
+      gap: var.$micro-small-space;
+      width: 100%;
+      padding: var.$small-space;
+
+      @include mixins.min-width(small) {
+        grid-area: 2 / 1 / 3 / 2;
+        background-color: var.$clear-color-1;
+        border-radius: var.$medium-border;
+      }
+
+      h2{
+        @include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$dark-color-1, $weight: 600);
+      }
+      
+      p{
+        @include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-1, $weight: 300);
+      }
+    }
+
+    .containerStories{
+      width: 100%;
+    }
+    
+    .containerSwiper{
+      @include mixins.flex($direction: row , $justify: center, $align: center);
+      width: 100%;
+      height: 30vh;
+      border-radius: var.$medium-border;
+      overflow: hidden;
+      
+      @include mixins.min-width(small) {
+        grid-area: 1 / 1 / 2 / 3;
+      }
+
+      img{
+        object-fit: cover;
+        width: 100%
+      }
+    }
+    
+    .containerCard{
+      @include mixins.flex();
+      gap: var.$small-space;
+      overflow: scroll;
+      width: 100%; 
+    }
+    
+    .btnShowCategory{
+      @include mixins.flex($justify: center, $align: center);
+      @include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-1, $weight: 600);
+      gap: var.$micro-small-space;
+      padding: var.$micro-small-space;
+      width: 100%;
+      color: var.$clear-color-1;
+      border-radius: var.$medium-border;
+      background-color: var.$highlight-2;
+    }
   }
-}
