@@ -6,9 +6,14 @@
   grid-template-columns: 1fr 1fr ;
   gap: var.$micro-small-space;
   width: 100%;
+  height: 100%;
   background-color: var.$clear-color-1;
   border-radius: var.$small-border;
   padding: var.$micro-small-space;
+
+  @include mixins.min-width(small) {
+    padding: var.$medium-space;
+  }
 
   h2{
     @include mixins.font($font: var.$font, $size: var.$bigTitle-3 var.$dark-color-2, $weight: 900);
@@ -20,17 +25,29 @@
   }
 
   p{
-    @include mixins.font($font: var.$font, $size: var.$text var.$dark-color-2, $weight: 200);
+    @include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-2, $weight: 200);
   }
-
+  
   .containerTitle{
     grid-area: 1/1/2/2;
     @include mixins.flex($align: center, $justify: start);
   }
   
   .containercategory{
-    grid-area: 1/2/2/3;
-    @include mixins.flex($align: center, $justify: end);
+    @include mixins.flex( $direction: column, $align: end, $justify: end);
+    @include mixins.font($font: var.$font, $size: var.$micro-text, $color: var.$dark-color-2, $weight: 200);
+    gap: var.$micro-small-space;
+    
+    @include mixins.min-width(medium) {
+      grid-area: 1/2/2/3;
+      gap: var.$small-space;
+    }
+
+    h3{
+      background-color: var.$clear-color-2;
+      padding: var.$micro-small-space;
+      border-radius: var.$micro-small-border;
+    }
   }
   
   .containerTitleMeasure{
@@ -61,8 +78,9 @@
       gap: var.$small-space;
       overflow: scroll;
       
-      button{
+      span{
         @include mixins.flex($align: center, $justify: center);
+        @include mixins.font($font: var.$font, $size: var.$text var.$dark-color-2, $weight: 200);
         color: var.$clear-color-1;
         background-color: var.$dark-color-1;
         padding: var.$micro-small-space;

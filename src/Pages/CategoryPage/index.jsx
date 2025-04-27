@@ -25,24 +25,25 @@ const CategoryPage = () => {
     return (
         <section className={styles.wrapper}>
             <HeaderSection id={title || category}/>
-            
-            {dataProduct
-                .filter(card =>
-                    Array.isArray(card.category) &&
-                    card.category.some(cat =>
-                    slugify(cat,{
-                        lower: true,
-                        strict: true,
-                        trim: true
-                        }) === categorySlugified
+            <div className={styles.container}>
+                {dataProduct
+                    .filter(card =>
+                        Array.isArray(card.category) &&
+                        card.category.some(cat =>
+                        slugify(cat,{
+                            lower: true,
+                            strict: true,
+                            trim: true
+                            }) === categorySlugified
+                        )
                     )
-                )
-                .map(card => (
-                    <CardSearch
-                    key={card.id}
-                    product={card}
-            />
-            ))}
+                    .map(card => (
+                        <CardSearch
+                        key={card.id}
+                        product={card}
+                />
+                ))}
+            </div>
         </section>
     )
 }

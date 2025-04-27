@@ -14,9 +14,8 @@
     }
     
     .container{
+        display: grid;
+        grid-template: auto / repeat(5, 1fr);
         gap: var.$small-space;
-        @include mixins.flex($justify: center);
-        flex-wrap: wrap;
-        width: 100%;
     }
 }

@@ -1,8 +1,12 @@
 import styles from './infoProduct.module.scss';
 import { FaArrowUp, FaArrowRight, FaArrowDown, FaArrowLeft } from "react-icons/fa";
-
+import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 
 const InfoProduct = ({name, category, measure, text}) => {
+
+    const isMobile = MediaQuery ("(max-width: 400px)");
+
+    console.log(category);
     return (
         <section className={styles.wrapper}>
             <div className={styles.containerTitle}>
@@ -10,7 +14,7 @@ const InfoProduct = ({name, category, measure, text}) => {
             </div>
 
             <div  className={styles.containercategory}>
-                <h3>{category}</h3>
+                {category.map((item) => <h3 key={item}>{item}</h3>)}
             </div>
 
             <div  className={styles.containerTitleMeasure}>
@@ -18,21 +22,25 @@ const InfoProduct = ({name, category, measure, text}) => {
             </div>
 
             <div className={styles.containerMeasure}>
-                <div className={styles.containerIcon}>
-                    <button className={styles.btnIcon}>
-                        <FaArrowLeft/>
-                    </button>
-                </div>
+               {isMobile &&
+                    <div className={styles.containerIcon}>
+                        <button className={styles.btnIcon}>
+                            <FaArrowLeft/>
+                        </button>
+                    </div>
+                }
 
                 <div  className={styles.containerBtn}>
-                    {measure.map((item) => <button key={item} >{item}</button>)}
+                    {measure.map((item) => <span key={item} >{item}</span>)}
                 </div>
 
-                <div className={styles.containerIcon}>
-                    <button className={styles.btnIcon}>
-                        <FaArrowRight/>
-                    </button>
-                </div>
+                {isMobile &&
+                    <div className={styles.containerIcon}>
+                        <button className={styles.btnIcon}>
+                            <FaArrowRight/>
+                        </button>
+                    </div>
+                }
             </div>
             <div className={styles.containerText}>
                 <p>
