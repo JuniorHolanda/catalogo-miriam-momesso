@@ -21,7 +21,7 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
 
   const categorySlugified = slugify(category, { lower: true, strict: true });
 
-  const isMobile = MediaQuery ("(max-width: 400px)");
+  const isMobile = MediaQuery ("(max-width: 700px)");
 
   return(
     <div
@@ -31,7 +31,9 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
         <div className={styles.containerInfo}>
           <h2>{category}</h2>
           <p>{text}</p>
-          <img src="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union-1_vda0lc.svg" alt="símbolos geométricos abstratos" />
+          {!isMobile &&
+            <img src="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union-1_vda0lc.svg" alt="símbolos geométricos abstratos" />
+          }
         </div>
 
         
@@ -63,9 +65,9 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
         </section>}
 
         <div className={styles.containerCard}>
-          <Swiper
-              slidesPerView={3}
-              spaceBetween={40}
+          <Swiper style={{ height: '100%' }}
+            slidesPerView={isMobile ? 2 : 3}
+              spaceBetween={isMobile ? 10 : 40}
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
               navigation={true}
@@ -79,7 +81,7 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
             )
 
             .map(card => (
-              <SwiperSlide key={card.id}>
+              <SwiperSlide key={card.id} style={{ height: '100%' }}>
                 <CardSearch product={card} />
               </SwiperSlide>
             ))
