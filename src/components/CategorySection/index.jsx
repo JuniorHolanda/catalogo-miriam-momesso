@@ -6,11 +6,10 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
 
 import styles from './category-section.module.scss';
-import dataProduct from '../../data/DataProduct.json';
 import StoriesInsta from '../Stories';
 import React, { useEffect, useState } from 'react';
 import { LiaEyeSolid } from "react-icons/lia";
-import { data, Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import CardSearch from '../CardSearch';
 import slugify from 'slugify';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
@@ -49,7 +48,6 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
           }
         </div>
 
-        
         {isMobile &&
         <section className={styles.containerStories}>
           <StoriesInsta filter={category} />
@@ -76,8 +74,9 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
         </section>}
 
         <div className={styles.containerCard}>
-          <Swiper style={{ height: '100%' }}
-            slidesPerView={isMobile ? 2 : 3}
+          <Swiper
+          style={{height: '100%'}}
+              slidesPerView={isMobile ? 2 : 3}
               spaceBetween={isMobile ? 10 : 40}
               navigation={true}
             >

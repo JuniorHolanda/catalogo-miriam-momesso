@@ -1,6 +1,5 @@
 import HeaderSection from '../../components/HeaderSection'
 import styles from './categoryPage.module.scss'
-import dataProduct from '../../data/DataProduct.json'
 import dataHoliday from '../../data/holyDay.json'
 import { useParams } from 'react-router-dom'
 import slugify from 'slugify'

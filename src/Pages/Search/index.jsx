@@ -1,5 +1,4 @@
 import styles from './search.module.scss'
-import Cards from '../../data/DataProduct.json'
 import { useLocation } from "react-router-dom";
 import CardSearch from '../../components/CardSearch';
 import HeaderSection from '../../components/HeaderSection';

@@ -1,15 +1,29 @@
 import HeaderSection from "../../components/HeaderSection";
 import styles from './product.module.scss';
-import dataProduct from '../../data/DataProduct.json'
 import Gallery from "../../components/Gallery";
 import InfoProduct from "../../components/infoProduct";
 import slugify from "slugify";
-import { replace } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 
 const ProductSection = ({name}) => {
+
+    const [products, setProducts] = useState([]);
+    useEffect(() => {
+        async function fetchProducts() {
+        try {
+            const response = await axios.get('https://back-end-catalogo-miriam-momesso.onrender.com/product');
+            setProducts(response.data); // ajuste aqui dependendo do formato que a API retorna
+        } catch (error) {
+            console.error('Erro ao buscar produtos:', error);
+        }
+    }
+
+    fetchProducts();
+    }, []);
     
-    const cardFiltered = dataProduct.find(card => slugify(card.title,{
+    const cardFiltered = products.find(card => slugify(card.title,{
         lower: true,
         strict: true,
         trim: true
