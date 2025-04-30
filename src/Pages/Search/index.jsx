@@ -3,6 +3,8 @@ import Cards from '../../data/DataProduct.json'
 import { useLocation } from "react-router-dom";
 import CardSearch from '../../components/CardSearch';
 import HeaderSection from '../../components/HeaderSection';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 const Search = () => {
   const location = useLocation();
@@ -13,7 +15,21 @@ const Search = () => {
   // Se a busca estiver vazia, não renderiza nada
   if (query === "") return null;
 
-  const filteredCards = Cards.filter(card => 
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    async function fetchProducts() {
+      try {
+        const response = await axios.get('https://back-end-catalogo-miriam-momesso.onrender.com/product');
+        setProducts(response.data); // ajuste aqui dependendo do formato que a API retorna
+      } catch (error) {
+        console.error('Erro ao buscar produtos:', error);
+      }
+    }
+
+    fetchProducts();
+  }, []);
+
+  const filteredCards = products.filter(card => 
     card.title.toLowerCase().includes(query)
   );
 

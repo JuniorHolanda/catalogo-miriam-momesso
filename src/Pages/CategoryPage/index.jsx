@@ -6,6 +6,8 @@ import { useParams } from 'react-router-dom'
 import slugify from 'slugify'
 import React from 'react'
 import CardSearch from '../../components/CardSearch'
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 
 const CategoryPage = () => {
 
@@ -22,11 +24,25 @@ const CategoryPage = () => {
         return slugTitle === category;
     })?.title;
 
+    const [products, setProducts] = useState([]);
+    useEffect(() => {
+        async function fetchProducts() {
+        try {
+            const response = await axios.get('https://back-end-catalogo-miriam-momesso.onrender.com/product');
+            setProducts(response.data); // ajuste aqui dependendo do formato que a API retorna
+        } catch (error) {
+            console.error('Erro ao buscar produtos:', error);
+        }
+        }
+
+        fetchProducts();
+    }, []);
+
     return (
         <section className={styles.wrapper}>
             <HeaderSection id={title || category}/>
             <div className={styles.container}>
-                {dataProduct
+                {products
                     .filter(card =>
                         Array.isArray(card.category) &&
                         card.category.some(cat =>
@@ -41,7 +57,7 @@ const CategoryPage = () => {
                         <CardSearch
                         key={card.id}
                         product={card}
-                />
+                    />
                 ))}
             </div>
         </section>

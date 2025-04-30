@@ -8,19 +8,32 @@ import 'swiper/css/bundle';
 import styles from './category-section.module.scss';
 import dataProduct from '../../data/DataProduct.json';
 import StoriesInsta from '../Stories';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { LiaEyeSolid } from "react-icons/lia";
 import { data, Link, useNavigate } from "react-router-dom";
 import CardSearch from '../CardSearch';
 import slugify from 'slugify';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
+import axios from 'axios';
 
 const CategorySection =  React.forwardRef(({ category, text }, ref) => {
 
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    async function fetchProducts() {
+      try {
+        const response = await axios.get('https://back-end-catalogo-miriam-momesso.onrender.com/product');
+        setProducts(response.data); // ajuste aqui dependendo do formato que a API retorna
+      } catch (error) {
+        console.error('Erro ao buscar produtos:', error);
+      }
+    }
+
+    fetchProducts();
+  }, []);
+
   const navigate = useNavigate();
-
   const categorySlugified = slugify(category, { lower: true, strict: true });
-
   const isMobile = MediaQuery ("(max-width: 700px)");
 
   return(
@@ -47,8 +60,6 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
           <Swiper
             slidesPerView={1}
             spaceBetween={0}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             navigation={true}
             pagination={true}
             loop={true}
@@ -68,24 +79,24 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
           <Swiper style={{ height: '100%' }}
             slidesPerView={isMobile ? 2 : 3}
               spaceBetween={isMobile ? 10 : 40}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
               navigation={true}
             >
-            {dataProduct
-            .filter( card =>
-              Array.isArray(card.category) &&
-              card.category.some(cat =>
-                slugify(cat, { lower: true, strict: true }) === categorySlugified
+            {products
+              .filter( card =>
+                Array.isArray(card.category) &&
+                card.category.some(cat =>
+                  slugify(cat, { lower: true, strict: true }) === categorySlugified
+                )
               )
-            )
 
-            .map(card => (
-              <SwiperSlide key={card.id} style={{ height: '100%' }}>
-                <CardSearch product={card} />
-              </SwiperSlide>
-            ))
-          }
+              .map(card => {
+                return (
+                  <SwiperSlide key={card._id} style={{ height: '100%' }}>
+                    <CardSearch product={card} />
+                  </SwiperSlide>
+                )
+              })
+            }
           </Swiper>
         </div>
 
