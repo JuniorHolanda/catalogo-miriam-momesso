@@ -14,6 +14,7 @@ import CardSearch from '../CardSearch';
 import slugify from 'slugify';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import axios from 'axios';
+import LoaderData from '../Loader';
 
 const CategorySection =  React.forwardRef(({ category, text }, ref) => {
 
@@ -74,29 +75,30 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
         </section>}
 
         <div className={styles.containerCard}>
-          <Swiper
-          style={{height: '100%'}}
-              slidesPerView={isMobile ? 2 : 3}
-              spaceBetween={isMobile ? 10 : 40}
-              navigation={true}
-            >
-            {products
-              .filter( card =>
-                Array.isArray(card.category) &&
-                card.category.some(cat =>
-                  slugify(cat, { lower: true, strict: true }) === categorySlugified
-                )
-              )
-
-              .map(card => {
-                return (
-                  <SwiperSlide key={card._id} style={{ height: '100%' }}>
-                    <CardSearch product={card} />
-                  </SwiperSlide>
-                )
-              })
-            }
-          </Swiper>
+          
+        {(!products || products.length === 0) ? (
+    <LoaderData /> // Exibe o loader enquanto 'products' é null ou vazio
+  ) : (
+    <Swiper
+      style={{ height: '100%' }}
+      slidesPerView={isMobile ? 2 : 3}
+      spaceBetween={isMobile ? 10 : 40}
+      navigation={true}
+    >
+      {products
+        .filter(card =>
+          Array.isArray(card.category) &&
+          card.category.some(cat =>
+            slugify(cat, { lower: true, strict: true }) === categorySlugified
+          )
+        )
+        .map(card => (
+          <SwiperSlide key={card._id} style={{ height: '100%' }}>
+            <CardSearch product={card} />
+          </SwiperSlide>
+        ))}
+    </Swiper>
+  )}
         </div>
 
         <Link
