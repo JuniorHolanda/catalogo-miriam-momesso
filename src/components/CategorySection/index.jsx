@@ -74,31 +74,30 @@ const CategorySection =  React.forwardRef(({ category, text }, ref) => {
           </Swiper>
         </section>}
 
-        <div className={styles.containerCard}>
-          
-        {(!products || products.length === 0) ? (
-    <LoaderData /> // Exibe o loader enquanto 'products' é null ou vazio
-  ) : (
-    <Swiper
-      style={{ height: '100%' }}
-      slidesPerView={isMobile ? 2 : 3}
-      spaceBetween={isMobile ? 10 : 40}
-      navigation={true}
-    >
-      {products
-        .filter(card =>
-          Array.isArray(card.category) &&
-          card.category.some(cat =>
-            slugify(cat, { lower: true, strict: true }) === categorySlugified
-          )
-        )
-        .map(card => (
-          <SwiperSlide key={card._id} style={{ height: '100%' }}>
-            <CardSearch product={card} />
-          </SwiperSlide>
-        ))}
-    </Swiper>
-  )}
+        <div className={styles.containerCard}> 
+          {(!products || products.length === 0) ? (
+            <LoaderData />
+            ) : (
+            <Swiper
+              style={{ height: '100%' }}
+              slidesPerView={isMobile ? 2 : 3}
+              spaceBetween={isMobile ? 10 : 40}
+              navigation={true}
+            >
+              {products
+                .filter(card =>
+                  Array.isArray(card.category) &&
+                  card.category.some(cat =>
+                    slugify(cat, { lower: true, strict: true }) === categorySlugified
+                  )
+                )
+                .map(card => (
+                  <SwiperSlide key={card._id} style={{ height: '100%' }}>
+                    <CardSearch product={card} />
+                  </SwiperSlide>
+                ))}
+            </Swiper>
+          )}
         </div>
 
         <Link

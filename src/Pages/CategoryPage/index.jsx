@@ -7,6 +7,7 @@ import React from 'react'
 import CardSearch from '../../components/CardSearch'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
+import LoaderData from '../../components/Loader'
 
 const CategoryPage = () => {
 
@@ -39,25 +40,31 @@ const CategoryPage = () => {
 
     return (
         <section className={styles.wrapper}>
-            <HeaderSection id={title || category}/>
+            <HeaderSection id={title || category} className={styles.headerSection}/>
             <div className={styles.container}>
-                {products
-                    .filter(card =>
-                        Array.isArray(card.category) &&
-                        card.category.some(cat =>
-                        slugify(cat,{
-                            lower: true,
-                            strict: true,
-                            trim: true
-                            }) === categorySlugified
-                        )
+                {
+                    (!products || products.length === 0) ? (
+                        <LoaderData className={styles.loaderData} />
+                        ) : (   
+                        products
+                            .filter(card =>
+                                Array.isArray(card.category) &&
+                                card.category.some(cat =>
+                                slugify(cat,{
+                                    lower: true,
+                                    strict: true,
+                                    trim: true
+                                    }) === categorySlugified
+                                )
+                            )
+                            .map(card => (
+                                <CardSearch
+                                key={card.id}
+                                product={card}
+                            />
+                        ))
                     )
-                    .map(card => (
-                        <CardSearch
-                        key={card.id}
-                        product={card}
-                    />
-                ))}
+                }
             </div>
         </section>
     )

@@ -8,6 +8,13 @@
     width: 100%;
     height: 100%;
 
+    .headerSection{
+        @include mixins.flex($direction: column);
+        grid-area: 1 / 1 / 2 / 3;
+        gap: var.$micro-small-space;
+        width: 100%;
+    }
+
     h2{
         @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $weight: 800, $color: var.$highlight-2);
         text-align: center;
@@ -15,7 +22,11 @@
     
     .container{
         display: grid;
-        grid-template: auto / repeat(5, 1fr);
+        grid-template: auto / repeat(2, 1fr);
         gap: var.$small-space;
+
+        @include mixins.min-width(small) {
+            grid-template: auto / repeat(5, 1fr);
+        }
     }
 }

@@ -38,7 +38,7 @@ const Search = () => {
 
   return (
     <section className={styles.wrapper}>
-      <HeaderSection id={"Pesquisa"}/>
+      <HeaderSection id={"Pesquisa"} className={styles.headerSection}/>
       <h2>{heading}</h2>
       <div className={styles.container}>
         {filteredCards.map((card) => (

@@ -1,11 +1,10 @@
 import React from 'react'
-import styles from './loader.module.scss'
 import animationLoader from './Animation.json';
 import Lottie from 'lottie-react';
 
-const LoaderData = () => {
+const LoaderData = ({className}) => {
   return (
-    <div className={styles.container}>
+    <div className={className}>
       <Lottie
         animationData={animationLoader}
         loop={true}
@@ -16,3 +15,9 @@ const LoaderData = () => {
 }
 
 export default LoaderData;
+
+// .container{
+//   @include mixins.flex($justify: center, $align: center);
+//   width: 100%;
+//   height: 100%;
+// }
