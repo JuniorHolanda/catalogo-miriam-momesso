@@ -1,36 +1,30 @@
 @use '../../styles/mixins';
 @use '../../styles/variables.scss' as var;
 
-.headerSection{
-  @include mixins.flex($direction: column);
-  gap: var.$micro-small-space;
+.titleContainer{
+  @include mixins.flex($direction: column, $justify: center, $align:center);
+  padding: var.$small-space;
   width: 100%;
+  border-radius: var.$small-border;
+  background: var.$highlight-2 url('img/symbols/1.svg') no-repeat 120% 220% / 50%;
 
-  .titleContainer{
-    @include mixins.flex($direction: column, $justify: center, $align:center);
-    padding: var.$small-space;
-    width: 100%;
-    border-radius: var.$small-border;
-    background: var.$highlight-2 url('img/symbols/1.svg') no-repeat 120% 220% / 50%;
+  @include mixins.min-width(small) {
+    background: var.$highlight-2 url('img/symbols/1.svg') no-repeat 120% 10% / 50%;
+  }
+  
+  img {
+    width: 40%;
+    
+    @include mixins.min-width(small) {
+      width: 15%;
+    }
+  }
+
+  h1{
+    @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $color: var.$clear-color-1);
 
     @include mixins.min-width(small) {
-      background: var.$highlight-2 url('img/symbols/1.svg') no-repeat 120% 10% / 50%;
-    }
-    
-    img {
-      width: 40%;
-      
-      @include mixins.min-width(small) {
-        width: 15%;
-      }
-    }
-  
-    h1{
-      @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $color: var.$clear-color-1);
-
-      @include mixins.min-width(small) {
-        font-size: var.$bigTitle-1;
-      }
+      font-size: var.$bigTitle-1;
     }
   }
 }

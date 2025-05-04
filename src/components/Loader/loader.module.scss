@@ -1,0 +1,8 @@
+@use '../../styles/mixins';
+@use '../../styles/variables.scss' as var;
+
+.container{
+  @include mixins.flex($justify: center, $align: center);
+  width: 100%;
+  height: 100%;
+}

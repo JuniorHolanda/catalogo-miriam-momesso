@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import styles from './gallery.module.scss'
 
-const Gallery = ({images}) => {
+const Gallery = ({images, className}) => {
     
     const [selectImg, setSelectImg] = useState(0);
     
@@ -10,7 +10,7 @@ const Gallery = ({images}) => {
     }
     
     return (
-    <section className={styles.wrapper}>
+    <section className={className}>
         <div className={styles.containerMain}>
             <img src={images[selectImg].img} alt={images[selectImg].AltImg} />
         </div>

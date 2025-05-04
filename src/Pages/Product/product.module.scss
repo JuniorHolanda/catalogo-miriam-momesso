@@ -4,24 +4,32 @@
 .wrapper {
     @include mixins.flex($direction: column, $justify: center, $align: center);
     gap: var.$small-space;
-    width: 100%; 
-    
+    width: 100%;
+
     @include mixins.min-width(small) {
         display: grid;
         grid-template: auto repeat(2, 1fr);
-
-        :nth-child(1) {
-            grid-area: 1 / 1 / 2 / 3;
-        }
+        min-height: 100vh;
     }
 
-    .titles{
-        @include mixins.flex($direction: column, $justify: center, $align: center);
-        @include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$clear-color-1, $weight: 300);
-        gap: var.$small-space;
+    .headerSection{
+        @include mixins.flex($direction: column);
+        grid-area: 1 / 1 / 2 / 3;
+        gap: var.$micro-small-space;
         width: 100%;
+    }
+
+    .gallery{
+        @include mixins.flex($justify: center, $align: center);
+        gap: var.$micro-small-space;
         padding: var.$micro-small-space;
+        width: 100%;
+        height: 55vh;
+        background-color: var.$clear-color-1;
         border-radius: var.$small-border;
-        background-color: var.$highlight-2;
+
+        @include mixins.min-width(small) {
+            height: 100%;
+        }
     }
 }
