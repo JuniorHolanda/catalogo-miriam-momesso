@@ -32,4 +32,18 @@
             height: 100%;
         }
     }
+
+    .video360{
+        @include mixins.flex($justify: center, $align: center);
+
+
+        @include mixins.min-width(small) {
+        width: 800px;
+        height: 800px;
+        background-color: var.$clear-color-1;
+        border-radius: var.$medium-border;
+        overflow: hidden;
+        cursor: ew-resize;
+        }
+    }
 }

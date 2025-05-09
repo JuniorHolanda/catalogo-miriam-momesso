@@ -1,9 +1,10 @@
 import { useRef, useState, useEffect } from "react";
 import styles from "./video360.module.scss";
+import video from './nec-vani-duo-360.mp4';
 
 
 
-const Video360 = () => {
+const Video360 = ( {className} ) => {
   const videoRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -32,12 +33,30 @@ const Video360 = () => {
       video.currentTime = time;
     };
 
+    if (isHovering) {
+      container.addEventListener("mousemove", handleMouseMove);
+    } else {
+      // Se o mouse sair, remove o event listener
+      container.removeEventListener("mousemove", handleMouseMove);
+    }
     
-  })
+  }, [isHovering]);
 
   return (
-    <div>
-      
+    <div
+      ref={containerRef}
+      className={className}
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+    >
+      <video
+          className={styles.video}
+          ref={videoRef}
+          src={video}
+          preload="auto"
+          muted
+          playsInline
+      />
     </div>
   )
 }

@@ -6,6 +6,7 @@ import slugify from "slugify";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import LoaderData from "../../components/Loader";
+import Video360 from "../../components/Video360";
 
 
 const ProductSection = ({name}) => {
@@ -45,6 +46,7 @@ const ProductSection = ({name}) => {
                 measure={cardFiltered.measure}
                 text={cardFiltered.text}
             />
+            <Video360 className={styles.video360} />
         </main>
     );
 }
