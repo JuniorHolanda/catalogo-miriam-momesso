@@ -3,7 +3,8 @@
     "id": "1",
     "header": "Necessaire Ps",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742256779/nec-ps_yyep5h.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742256779/nec-ps_yyep5h.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078474/banner_necessaires_2_jwndmc.jpg",
     "alturl": "Uma necessaire personalizada azul com itens internos",
     "category": "Necessaires"
   },
@@ -11,7 +12,8 @@
     "id": "2",
     "header": "Necessaire Vani Visor",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742256779/nec-vani-visor_uekvca.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742256779/nec-vani-visor_uekvca.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078473/banner_necessaires_3_m1ht8k.jpg",
     "alturl": "Uma necessaire prata com ideal para brindes personalizados",
     "category": "Necessaires"
   },
@@ -19,7 +21,8 @@
     "id": "3",
     "header": "Necessaire Vani Duo",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742257930/nec-vani-duo_g80hfj.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742257930/nec-vani-duo_g80hfj.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745524625/Nec_Ev_-_juta_-_banner_-_site_exyizg.jpg",
     "alturl": "Uma necessaire ampla, ideal para brindes corporativos",
     "category": "Necessaires"
   },
@@ -28,7 +31,8 @@
     "id": "4",
     "header": "Bolsa Graci",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742422746/bolsa-graci_su2hj2.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742422746/bolsa-graci_su2hj2.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747077917/bolsa_praia_andrea_kfs0bi.jpg",
     "alturl": "Uma Bolsa corporativa com alça de mão",
     "category": "Bolsas"
   },
@@ -36,7 +40,8 @@
     "id": "5",
     "header": "Bolsa Praia Charm",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742422746/bolsa_charm_dtzxxx.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742422746/bolsa_charm_dtzxxx.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747077917/banner-1242x427_suj7jb.jpg",
     "alturl": "Uma mulher na prai segurando uma bolsa personalizada",
     "category": "Bolsas"
   },
@@ -44,7 +49,8 @@
     "id": "6",
     "header": "Bag Max",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742422746/s-bag_kisczw.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742422746/s-bag_kisczw.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747077917/Bag_Max_Marcone_-_Banner_site__rubspq.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Bolsas"
   },
@@ -53,7 +59,8 @@
     "id": "7",
     "header": "Pasta Tren",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436780/pasta-tren_anbsas.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436780/pasta-tren_anbsas.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078558/banner_pasta_2_np5n5b.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Pastas"
   },
@@ -61,7 +68,8 @@
     "id": "8",
     "header": "pasta-iqg",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436780/pasta-iqg_oq3ozu.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436780/pasta-iqg_oq3ozu.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078557/banner_pasta_1_uq724m.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Pastas"
   },
@@ -69,7 +77,8 @@
     "id": "9",
     "header": "Pasta Cnc",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436780/pasta-cnc_ekt1zf.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436780/pasta-cnc_ekt1zf.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078559/banner_pasta_3_ms6o49.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Pastas"
   },
@@ -78,7 +87,8 @@
     "id": "10",
     "header": "Mochila Sacola",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436779/mochila-sacola_vjerje.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436779/mochila-sacola_vjerje.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1745526109/Nec_Ev_-_juta_-_banner_-_site_qtgca6.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Mochilas"
   },
@@ -87,7 +97,8 @@
     "id": "11",
     "header": "Mochila Echo",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436779/mochila-echo_quvjsx.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436779/mochila-echo_quvjsx.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078446/banner_mochila_1_ypikom.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Mochilas"
   },
@@ -96,7 +107,8 @@
     "id": "12",
     "header": "Mochila Adv",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436777/mochila-adv_goo8yl.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436777/mochila-adv_goo8yl.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078448/banner_mochila_23_olsqlf.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Mochilas"
   },
@@ -105,7 +117,8 @@
     "id": "13",
     "header": "Porta Bloco Pap",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/porta-bloco-pap_ja1m5d.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/porta-bloco-pap_ja1m5d.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078585/porta_blocos_banner_3_smrtyi.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Porta Blocos"
   },
@@ -113,7 +126,8 @@
     "id": "14",
     "header": "Porta Bloco Frr",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/porta-bloco-frr_uqrucd.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/porta-bloco-frr_uqrucd.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078584/porta_blocos_banner_2_ymcnle.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Porta Blocos"
   },
@@ -121,7 +135,8 @@
     "id": "15",
     "header": "Porta Bloco Bxt",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/porta-bloco-bxt_qyvv56.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/porta-bloco-bxt_qyvv56.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078587/porta_blocos_banner_sjolbv.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Porta Blocos"
   },
@@ -130,7 +145,8 @@
     "id": "16",
     "header": "Kit Higiene Pocket",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436776/kit-higiene-pocket_flr0cw.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436776/kit-higiene-pocket_flr0cw.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078355/kit_higiene_sp_xumbsc.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Diversos"
   },
@@ -138,7 +154,8 @@
     "id": "17",
     "header": "Kit três Marias",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/tres-marias_wxyepc.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/tres-marias_wxyepc.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078355/chaveiro_basic_brlzgh.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Diversos"
   },
@@ -146,7 +163,8 @@
     "id": "18",
     "header": "Kit viagem",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/kit-viagem_wdabcf.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/kit-viagem_wdabcf.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078354/bolsa_academia_l9a68h.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Diversos"
   },
@@ -155,7 +173,8 @@
     "id": "19",
     "header": "Mala Dg",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436776/mala-dg_eoc7j1.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436776/mala-dg_eoc7j1.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078403/mala-sport-full-502025-passarela_j4jazv.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Malas"
   },
@@ -163,7 +182,8 @@
     "id": "20",
     "header": "Mala Sport Full",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436776/mala-sport-full_zwxfdf.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436776/mala-sport-full_zwxfdf.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078401/mala-dg-fenacor_k7w9zd.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Malas"
   },
@@ -171,7 +191,8 @@
     "id": "21",
     "header": "Mala Frr",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/mala-frr_zspyos.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/mala-frr_zspyos.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078402/malaRedomBannerSite_yvgznm.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Malas"
   },
@@ -180,7 +201,8 @@
     "id": "22",
     "header": "Estojo Jl",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436778/estojo-jl_w21hti.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436778/estojo-jl_w21hti.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078380/estojo_banner_3_qgpvn8.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Estojos"
   },
@@ -188,7 +210,8 @@
     "id": "23",
     "header": "Estojo Neo",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436778/estojo-neo_p63je0.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436778/estojo-neo_p63je0.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078378/estojo_banner_2_chqxh4.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Estojos"
   },
@@ -196,7 +219,8 @@
     "id": "24",
     "header": "Estojo Slin",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/estojo-miu_hq9gqu.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436775/estojo-miu_hq9gqu.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078379/estojo_banner_oevc2d.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Estojos"
   },
@@ -205,7 +229,8 @@
     "id": "25",
     "header": "Carteira RR",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436777/carteira-rr_rk0qti.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436777/carteira-rr_rk0qti.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078324/Nec_Ev_-_juta_-_banner_-_site_exyizg-3_e2k5vt.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Carteiras"
   },
@@ -213,7 +238,8 @@
     "id": "26",
     "header": "Porta Cartão Adv",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436777/porta-cartao-adv_qq8wjq.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1742436777/porta-cartao-adv_qq8wjq.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078324/Nec_Ev_-_juta_-_banner_-_site_exyizg-2_xvmrxb.jpg",
     "alturl": "Uma necessaire prata com intens internos",
     "category": "Carteiras"
   },
@@ -221,7 +247,8 @@
     "id": "27",
     "header": "Térmica Ger",
     "text": "Organize seus itens essenciais com estilo e praticidade. Ideais para o dia a dia ou viagens.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744203871/termica-ger_icea0k.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744203871/termica-ger_icea0k.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078324/Nec_Ev_-_juta_-_banner_-_site_exyizg_dbjwuj.jpg",
     "alturl": "UUma térmica grande personalizada",
     "category": "Térmicas"
   },
@@ -230,16 +257,18 @@
     "id": "28",
     "header": "Térmica Trip",
     "text": "Ideal para brindes corporativos, a bolsa térmica personalizada alia funcionalidade e visibilidade da sua marca em qualquer ocasião.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744204209/termica_trip_ndnhjz.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744204209/termica_trip_ndnhjz.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078623/banner_termicas_2_gmhzu4.jpg",
     "alturl": "Uma bolsa térmica brinde em um parque",
     "category": "Térmicas"
   },
-  
+
   {
     "id": "29",
     "header": "Térmica Ae Tri P",
     "text": "Com design triangular moderno, a Térmica Ae Tri P é compacta, prática e ideal para destacar sua marca com originalidade",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744203871/termica-ae-tri_ic34y9.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744203871/termica-ae-tri_ic34y9.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078625/banner_termicas_3_psiltg.jpg",
     "alturl": "Uma ntermica vermelha sobre uma mesa",
     "category": "Térmicas"
   },
@@ -248,9 +277,9 @@
     "id": "30",
     "header": "Térmica Ae Tri M",
     "text": "A Térmica Ae Tri M combina o formato triangular com mais espaço interno — perfeita para ações promocionais com funcionalidade e estilo.",
-    "url": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744203870/termica-ae-tri-preta-m_mamp37.jpg",
+    "imgStories": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744203870/termica-ae-tri-preta-m_mamp37.jpg",
+    "imgBanner": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1747078626/banner_termicas_1_r8azlj.jpg",
     "alturl": "Uma térmica preta em um parque",
     "category": "Térmicas"
   }
-
 ]

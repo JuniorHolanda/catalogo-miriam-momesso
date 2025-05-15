@@ -8,7 +8,7 @@ function StoriesInsta( {filter} ) {
 
     const transformStories = (data) => {
         return data.map(item => ({
-          url: item.url, // URL da imagem
+          url: item.imgStories, // URL da imagem
           header: {
             heading: item.header,
             subheading: item.text,

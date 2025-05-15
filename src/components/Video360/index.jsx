@@ -9,6 +9,7 @@ const Video360 = ( {className} ) => {
   const containerRef = useRef(null);
 
   const [isHovering, setIsHovering] = useState(false);
+  const animationFrameRef = useRef(null);
 
   useEffect( () => {
     const container = containerRef.current;
@@ -17,28 +18,37 @@ const Video360 = ( {className} ) => {
     if (!container || !video) return;
 
     const handleMouseMove = (e) => {
-      // Pega as dimensões da div (posição e largura)
-      const rect = container.getBoundingClientRect();
+      console.log("Mouse move", e.clientX, e.clientY);
+      
+      if (animationFrameRef.current !== null) return;
 
-      // Calcula a posição do mouse dentro da div
-      const mouseX = e.clientX - rect.left;
+      animationFrameRef.current = requestAnimationFrame(() => {
+        const rect = container.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
 
-      // Transforma a posição do mouse em uma porcentagem (de 0 a 1)
-      const percent = mouseX / rect.width;
+        // Garante que percent esteja entre 0 e 1
+        let percent = mouseX / rect.width;
+        percent = Math.min(Math.max(percent, 0), 1);
 
-      // Calcula o tempo do vídeo com base nessa porcentagem
-      const time = percent * video.duration;
+        const time = percent * video.duration;
+        video.currentTime = time;
 
-      // Atualiza o vídeo para esse tempo
-      video.currentTime = time;
+        animationFrameRef.current = null;
+      });
     };
 
     if (isHovering) {
       container.addEventListener("mousemove", handleMouseMove);
-    } else {
-      // Se o mouse sair, remove o event listener
-      container.removeEventListener("mousemove", handleMouseMove);
     }
+
+    return () => {
+      // Limpeza: remove listener e cancela frame
+      container.removeEventListener("mousemove", handleMouseMove);
+      if (animationFrameRef.current !== null) {
+        cancelAnimationFrame(animationFrameRef.current);
+        animationFrameRef.current = null;
+      }
+    };
     
   }, [isHovering]);
 
