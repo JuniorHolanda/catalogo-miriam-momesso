@@ -16,7 +16,7 @@ const CategoryPage = () => {
     const categorySlugified = category
 
     const title = dataHoliday.find((item) => {
-        const slugTitle = slugify(item.title, {
+        const slugTitle = slugify(item.date, {
             lower: true,
             strict: true,
             trim: true
