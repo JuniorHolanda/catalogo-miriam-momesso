@@ -2,32 +2,37 @@
 @use '../../styles/variables.scss' as var;
 @use '../../styles/animation.scss';
 
-.wrapper{
-    @include mixins.flex($direction: column, $justify: center, $align: center);
-    background-color: var.$clear-color-1;
-    border-radius: var.$small-border;
-    overflow: hidden;
-    gap: var.$small-space;
-    
-    .containerImg{
-        img{
-            object-fit: cover;
-            width: 100%;
-            height: 100%;
-        }
+.wrapper {
+  @include mixins.flex($direction: column, $justify: start, $align: center);
+  background-color: var.$clear-color-1;
+  border-radius: var.$small-border;
+  overflow: hidden;
+  gap: var.$small-space;
+  height: 100%;
+
+  .containerImg {
+    width: 100%;
+    height: 50%;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .containerInfo {
+    padding: var.$small-space;
+
+    h2 {
+      @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $weight: 800, $color: var.$dark-color-2);
+
+      @include mixins.min-width(medium) {
+        font-size: var.$bigTitle-3;
+      }
     }
 
-    .containerInfo{
-        padding: var.$small-space;
-        
-        h2{
-            @include mixins.font ($font: var.$font, $size: var.$bigTitle-2, $weight: 800, $color: var.$dark-color-2);
-        }
-
-        p{
-            @include mixins.font ($font: var.$font, $size: var.$text, $weight: 400, $color: var.$dark-color-2);
-        }
+    p {
+      @include mixins.font($font: var.$font, $size: var.$text, $weight: 400, $color: var.$dark-color-2);
     }
+  }
 }
-
-

@@ -1,7 +1,7 @@
 @use '../../styles/mixins.scss';
 @use '../../styles/variables.scss' as var;
 
-.heroPage{
+.heroPage {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -11,4 +11,8 @@
   gap: var.$micro-small-space;
   margin-bottom: 10vh;
   border-radius: var.$small-border;
+
+  .header {
+    width: 100%;
+  }
 }

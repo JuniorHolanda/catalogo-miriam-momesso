@@ -1,46 +1,135 @@
-  @use '../../styles/mixins.scss';
-  @use '../../styles/variables.scss' as var;
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
 
-.wrapper{
-  display: grid;
-  grid-template: auto / 1fr 1fr;
+.wrapper {
+  @include mixins.flex($direction: column, $justify: center, $align: center);
+  gap: var.$medium-space;
   width: 100%;
 
-  .searchBox{
-    display: flex;
-    flex-direction: column;
-    grid-area: 1 / 1 / 2 / 3;
-    border: solid red;
+  .searchBox {
+    @include mixins.flex($direction: column);
+    position: relative;
+    overflow: hidden;
+    gap: var.$small-space;
+    padding: var.$medium-border;
     width: 100%;
-  }
+    height: 100%;
+    background-color: var.$medium-1;
+    border-radius: var.$medium-border;
 
-  .cta {
-    grid-area: 2 / 1 / 3 / 2;
-    width: 100%;
-    border: solid blue;
-  }
-  .swiper{
-    display: flex;
-    grid-area: 2 / 2 / 3 / 3;
-    width: 100%;
-    border: solid green;
+    .title {
+      @include mixins.font($font: var.$font, $size: var.$bigTitle-1, $weight: 800, $color: var.$highlight-2);
+      width: 50%;
+      z-index: 1;
+    }
 
-    .swiperContainer{
-      display: flex;
-      border: solid yellow;
+    .text {
+      @include mixins.font($font: var.$font, $size: var.$text, $weight: 400, $color: var.$dark-color-2);
+      width: 50%;
+      z-index: 1;
+    }
+
+    .searchInput {
+      @include mixins.flex($align: center, $justify: center);
       width: 100%;
-      overflow: hidden;
+      border-radius: var.$small-border;
+      padding: var.$small-space;
+      background: var.$clear-color-1;
+      z-index: 1;
+    }
 
-      .containerSwiper{
-      @include mixins.flex($direction: row , $justify: center, $align: center);
+    .filterCategory {
+      @include mixins.flex($align: center, $justify: start);
+      gap: var.$small-space;
       width: 100%;
-      border-radius: var.$medium-border;
-      
-      img{
-        object-fit: cover;
-        width: 100%
+      padding: var.$small-space;
+
+      .btnCategory {
+        @include mixins.font($font: var.$font, $size: var.$small-text, $weight: 600, $color: var.$clear-color-2);
+        text-wrap: nowrap;
+        padding: var.$small-space;
+        border-radius: var.$small-border;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        background-color: var.$dark-color-2;
+        z-index: 1;
+
+        &:hover {
+          background-color: var.$dark-color-3;
+          color: var.$clear-color-1;
+        }
       }
     }
+
+    .geometricStar {
+      position: absolute;
+      top: -80%;
+      right: -25%;
+      width: 800px;
+      z-index: 0;
+
+      @include mixins.min-width(large) {
+        top: -60%;
+        right: -15%;
+      }
+    }
+  }
+
+  .content {
+    @include mixins.flex($justify: center, $align: center);
+    grid-area: 1 / 2 / 2 / 3;
+    width: 100%;
+    gap: var.$small-space;
+
+    .cta {
+      @include mixins.flex($direction: column, $justify: center, $align: start);
+      width: 40%;
+      gap: var.$small-space;
+
+      .title {
+        @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $weight: 800, $color: var.$dark-color-3);
+      }
+
+      .text {
+        @include mixins.font($font: var.$font, $size: var.$text, $weight: 400, $color: var.$dark-color-2);
+      }
+
+      .btn {
+        @include mixins.font($font: var.$font, $size: var.$text, $weight: 600, $color: var.$clear-color-2);
+        text-wrap: nowrap;
+        padding: var.$small-space;
+        border-radius: var.$small-border;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        background-color: var.$highlight-2;
+        z-index: 1;
+
+        &:hover {
+          background-color: var.$dark-color-3;
+          color: var.$clear-color-1;
+        }
+      }
+    }
+    .swiper {
+      display: flex;
+      width: 60%;
+
+      .swiperContainer {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+
+        .containerSwiper {
+          @include mixins.flex($direction: row, $justify: center, $align: center);
+          width: 100%;
+          border-radius: var.$medium-border;
+
+          img {
+            object-fit: cover;
+            width: 100%;
+          }
+        }
+      }
     }
   }
 }
