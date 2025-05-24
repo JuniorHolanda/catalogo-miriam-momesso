@@ -1,5 +1,5 @@
-import styles from './search.module.scss'
-import { useLocation } from "react-router-dom";
+import styles from './search.module.scss';
+import { useLocation } from 'react-router-dom';
 import CardSearch from '../../components/CardSearch';
 import HeaderSection from '../../components/HeaderSection';
 import { useEffect, useState } from 'react';
@@ -8,11 +8,11 @@ import axios from 'axios';
 const Search = () => {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
-  const rawQuery = searchParams.get("q") || ''; // sempre vai ser string
+  const rawQuery = searchParams.get('q') || ''; // sempre vai ser string
   const query = rawQuery.trim().toLowerCase(); // remove espaços e deixa minúsculo
 
   // Se a busca estiver vazia, não renderiza nada
-  if (query === "") return null;
+  if (query === '') return null;
 
   const [products, setProducts] = useState([]);
   useEffect(() => {
@@ -28,9 +28,7 @@ const Search = () => {
     fetchProducts();
   }, []);
 
-  const filteredCards = products.filter(card => 
-    card.title.toLowerCase().includes(query)
-  );
+  const filteredCards = products.filter((card) => card.title.toLowerCase().includes(query));
 
   const count = filteredCards.length;
   const nounProduct = count === 1 ? 'Resultado' : 'Resultados';
@@ -38,11 +36,10 @@ const Search = () => {
 
   return (
     <section className={styles.wrapper}>
-      <HeaderSection id={"Pesquisa"} className={styles.headerSection}/>
       <h2>{heading}</h2>
       <div className={styles.container}>
         {filteredCards.map((card) => (
-            <CardSearch key={card.id} product={card} />
+          <CardSearch key={card.id} product={card} />
         ))}
       </div>
     </section>

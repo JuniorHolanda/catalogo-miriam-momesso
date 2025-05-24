@@ -1,7 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import styles from './app.module.scss';
-import SearchBar from '../SearchBar';
-import NavBar from '../NavBar';
+import HolidayDesktop from '../HolidaySectionDesktop';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import HeaderSection from '../HeaderSection';
 
@@ -10,8 +9,8 @@ function App() {
 
   return (
     <section className={styles.heroPage}>
-      <HeaderSection className={styles.header} id="catalogo" />
-      {isMobile ? <SearchBar /> : <NavBar />}
+      <HeaderSection className={styles.header} id="catálogo" />
+      {/* {isMobile && <NavBarDesktop />} */}
       <Outlet />
     </section>
   );

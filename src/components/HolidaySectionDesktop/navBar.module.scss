@@ -1,0 +1,95 @@
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
+@use '../../styles/animation.scss';
+
+.wrapper {
+  position: fixed;
+  @include mixins.flex($direction: row);
+  width: 100%;
+  padding: var.$micro-small-space var.$small-space;
+  z-index: 10000; //a lib react-stories-insta estava com a barra de progresso sobrepondo tudo, isso resolveu
+  bottom: 0;
+  background: var.$clear-color-2;
+
+  .container {
+    @include mixins.flex($align: center);
+    width: 100%;
+    border-radius: var.$small-border;
+    padding: var.$small-space;
+    background: var.$clear-color-1;
+
+    .shortcut {
+      @include mixins.flex($justify: start, $align: center);
+      gap: var.$small-space;
+      width: 90%;
+
+      .icon {
+        @include mixins.flex($justify: start, $align: center);
+        font-size: 2em;
+        color: var.$dark-color-2;
+      }
+    }
+
+    .menuHamburger {
+      @include mixins.flex();
+      width: fit-content;
+
+      aside {
+        @include mixins.flex($direction: column, $justify: center, $align: center);
+        gap: var.$small-space;
+        padding: var.$small-space;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 70%;
+        height: 100vh;
+        background-color: var.$medium-1;
+        opacity: 0;
+        animation: entraceToLeft 0.3s ease-in-out forwards;
+
+        .containerCloseMenu {
+          @include mixins.flex($direction: column, $justify: flex-end, $align: flex-end);
+          font-size: 2em;
+          color: var.$highlight-2;
+          width: 100%;
+          height: 30%;
+
+          .closeMenu {
+            margin: 0;
+            padding: 0;
+            width: fit-content;
+            font-size: 3em;
+          }
+        }
+
+        .info {
+          @include mixins.flex($direction: column, $justify: center, $align: center);
+
+          h2 {
+            @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $weight: 800, $color: var.$dark-color-2);
+          }
+          p {
+            @include mixins.font($font: var.$font, $size: var.$text, $weight: 400, $color: var.$dark-color-2);
+          }
+        }
+
+        ul {
+          @include mixins.flex($direction: column, $justify: flex-start, $align: center);
+          width: 100%;
+          height: 90%;
+          overflow: scroll;
+          gap: var.$small-space;
+          border-radius: var.$small-border;
+          li {
+            @include mixins.flex($direction: column, $justify: center, $align: center);
+          }
+        }
+      }
+
+      .containerIconHoliday {
+        font-size: 2em;
+        color: var.$highlight-2;
+      }
+    }
+  }
+}

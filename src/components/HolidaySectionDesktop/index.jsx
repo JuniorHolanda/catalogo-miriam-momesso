@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { LuPartyPopper } from 'react-icons/lu';
 import { useState } from 'react';
 import { IoClose } from 'react-icons/io5';
-import Holiday from '../Holidays';
+import Holiday from '../HolidaysCard';
 import dataHoliday from '../../data/holyDay.json';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import HeroSectionDesktop from '../HeroSectionDesktop';
@@ -33,10 +33,7 @@ function NavBar() {
           <div className={styles.menuHamburger}>
             {showMenu && (
               <aside>
-                <button
-                  className={styles.containerCloseMenu}
-                  onClick={() => setShowMenu(!showMenu)}
-                >
+                <button className={styles.containerCloseMenu} onClick={() => setShowMenu(!showMenu)}>
                   <IoClose className={styles.closeMenu} />
                 </button>
 
@@ -54,10 +51,7 @@ function NavBar() {
                 </ul>
               </aside>
             )}
-            <button
-              className={styles.containerIconHoliday}
-              onClick={() => setShowMenu(!showMenu)}
-            >
+            <button className={styles.containerIconHoliday} onClick={() => setShowMenu(!showMenu)}>
               <LuPartyPopper />
             </button>
           </div>
