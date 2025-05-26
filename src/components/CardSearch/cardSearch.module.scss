@@ -14,12 +14,19 @@
 	border-radius: var.$small-border;
 	background-color: var.$clear-color-1;
 
-	.containerAnimation {
+	.headerCard {
 		@include mixins.flex($direction: row, $align: center, $justify: space-between);
 		gap: var.$micro-small-space;
 		padding: 0 var.$small-space;
 		width: 100%;
-		@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$dark-color-2);
+
+		.containerCategoryCard {
+			@include mixins.flex($direction: column, $align: start, $justify: center);
+
+			.categoryCard {
+				@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-3);
+			}
+		}
 
 		.animation {
 			width: 50px;
@@ -45,23 +52,38 @@
 		padding: var.$small-space;
 		width: 100%;
 		height: 50%;
-		background-color: var.$medium-1;
+
+		&.status1 {
+			background-color: var.$medium-1;
+			color: var.$dark-color-2;
+
+			.containerBtn {
+				background-color: var.$highlight-2;
+			}
+		}
+
+		&.status2 {
+			background-color: var.$medium-2;
+
+			.containerBtn {
+				background-color: var.$dark-color-2;
+			}
+		}
+
+		&.status3 {
+			background-color: var.$special-highlight;
+		}
 
 		.containerName {
 			@include mixins.flex($direction: column, $align: center);
 			text-align: center;
 
 			h2 {
-				@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $weight: 800, $color: var.$highlight-2);
+				@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $weight: 800);
 			}
 
 			p {
-				@include mixins.font(
-					$font: var.$font,
-					$size: var.$small-text,
-					$weight: 500,
-					$color: var.$clear-color-2
-				);
+				@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-2);
 
 				@include mixins.min-width(large) {
 					font-size: var.$medium-text;
@@ -88,7 +110,8 @@
 			span {
 				@include mixins.flex($align: center, $justify: center);
 				gap: var.$micro-small-space;
-				@include mixins.font($font: var.$font, $size: var.$text, $weight: 500, $color: var.$clear-color-1);
+				padding: var.$micro-small-space;
+				@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-1);
 
 				@include mixins.min-width(large) {
 					font-size: var.$medium-text;

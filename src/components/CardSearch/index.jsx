@@ -10,24 +10,27 @@ const CardSearch = ({ product }) => {
 	const slug = slugify(product.title, { lower: true, strict: true });
 
 	const statusClass = cn(styles.containerContent, {
-		status1: product.like >= 0 && product.like < 10,
-		status2: product.like >= 10 && product.like < 20,
-		status3: product.like >= 20 && product.like < 50,
+		[styles.status1]: product.like >= 0 && product.like < 5,
+		[styles.status2]: product.like >= 5 && product.like < 10,
+		[styles.status3]: product.like >= 10 && product.like < 20,
 	});
 
-	console.log(statusClass);
 	return (
 		<>
 			<Link to={`/product/${slug}`} className={styles.cardItem}>
-				<div className={styles.containerAnimation}>
-					<span>{product.category}</span>
-					<Lottie animationData={animation} autoplay={false} loop={false} className={styles.animation} />
+				<div className={styles.headerCard}>
+					<div className={styles.containerCategoryCard}>
+						{product.category.map((item) => {
+							return <span className={styles.categoryCard}>{item}</span>;
+						})}
+					</div>
+					<Lottie animationData={animation} autoplay={true} loop={true} className={styles.animation} />
 				</div>
 				<div className={styles.containerThunb}>
 					<img src={product.thunbnail} alt={product.altThunbnail} />
 				</div>
 
-				<div className={styles.containerContent}>
+				<div className={statusClass}>
 					<div className={styles.containerName}>
 						<h2>{product.title}</h2>
 						<p>{product.smallText}</p>

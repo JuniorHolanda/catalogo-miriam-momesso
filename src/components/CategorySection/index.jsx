@@ -14,114 +14,99 @@ import LoaderData from '../Loader';
 import Banners from '../../data/Banners.json';
 
 const CategorySection = React.forwardRef(({ category, text }, ref) => {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
-    async function fetchProducts() {
-      try {
-        const response = await axios.get(
-          'https://back-end-catalogo-miriam-momesso.onrender.com/product',
-        );
-        setProducts(response.data);
-      } catch (error) {
-        console.error('Erro ao buscar produtos:', error);
-      }
-    }
+	const [products, setProducts] = useState([]);
+	useEffect(() => {
+		async function fetchProducts() {
+			try {
+				const response = await axios.get('https://back-end-catalogo-miriam-momesso.onrender.com/product');
+				setProducts(response.data);
+			} catch (error) {
+				console.error('Erro ao buscar produtos:', error);
+			}
+		}
 
-    fetchProducts();
-  }, []);
+		fetchProducts();
+	}, []);
 
-  const navigate = useNavigate();
-  const categorySlugified = slugify(category, { lower: true, strict: true });
-  const isMobile = MediaQuery('(max-width: 700px)');
+	const navigate = useNavigate();
+	const categorySlugified = slugify(category, { lower: true, strict: true });
+	const isMobile = MediaQuery('(max-width: 700px)');
 
-  return (
-    <div className={styles.containerCategory} ref={ref}>
-      <div className={styles.containerInfo}>
-        <h2>{category}</h2>
-        <p>{text}</p>
-        {/* se não for mobile adiciona uma imagem para usar com background de containerInfo  */}
-        {!isMobile && (
-          <img
-            src="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193910/Union-1_vda0lc.svg"
-            alt="símbolos geométricos abstratos"
-          />
-        )}
-      </div>
-      {/* se for mobile mostra stories */}
-      {isMobile && (
-        <section className={styles.containerStories}>
-          <StoriesInsta filter={category} />
-        </section>
-      )}
-      {/* se não for mobile mostra banner */}
-      {!isMobile && (
-        <section className={styles.containerSwiper}>
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={0}
-            navigation={true}
-            pagination={true}
-            loop={true}
-            modules={[Autoplay]}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false, // continua mesmo com interações
-            }}
-          >
-            {/* filtra os banners com base na categoria */}
-            {Banners.filter((bann) => bann.category === category).map(
-              (bann) => (
-                <SwiperSlide key={bann.id}>
-                  <img src={bann.imgBanner} alt="" />
-                </SwiperSlide>
-              ),
-            )}
-          </Swiper>
-        </section>
-      )}
+	return (
+		<div className={styles.containerCategory} ref={ref}>
+			<div className={styles.containerInfo}>
+				<h2>{category}</h2>
+				<p>{text}</p>
+			</div>
+			{/* se for mobile mostra stories */}
+			{isMobile && (
+				<section className={styles.containerStories}>
+					<StoriesInsta filter={category} />
+				</section>
+			)}
+			{/* se não for mobile mostra banner */}
+			{!isMobile && (
+				<section className={styles.containerSwiper}>
+					<Swiper
+						slidesPerView={1}
+						spaceBetween={0}
+						navigation={true}
+						pagination={true}
+						loop={true}
+						modules={[Autoplay]}
+						autoplay={{
+							delay: 3000,
+							disableOnInteraction: false, // continua mesmo com interações
+						}}
+					>
+						{/* filtra os banners com base na categoria */}
+						{Banners.filter((bann) => bann.category === category).map((bann) => (
+							<SwiperSlide key={bann.id}>
+								<img src={bann.imgBanner} alt="" />
+							</SwiperSlide>
+						))}
+					</Swiper>
+				</section>
+			)}
 
-      <div className={styles.containerCard}>
-        {!products || products.length === 0 ? (
-          <LoaderData />
-        ) : (
-          <Swiper
-            style={{ height: '100%' }}
-            slidesPerView={isMobile ? 2 : 3}
-            spaceBetween={isMobile ? 10 : 40}
-            navigation={true}
-          >
-            {products
-              .filter(
-                (card) =>
-                  Array.isArray(card.category) &&
-                  card.category.some(
-                    (cat) =>
-                      slugify(cat, { lower: true, strict: true }) ===
-                      categorySlugified,
-                  ),
-              )
-              .map((card) => (
-                <SwiperSlide key={card._id} style={{ height: '100%' }}>
-                  <CardSearch product={card} />
-                </SwiperSlide>
-              ))}
-          </Swiper>
-        )}
-      </div>
+			<div className={styles.containerCard}>
+				{!products || products.length === 0 ? (
+					<LoaderData />
+				) : (
+					<Swiper
+						style={{ height: '100%' }}
+						slidesPerView={isMobile ? 2 : 3}
+						spaceBetween={isMobile ? 10 : 40}
+						navigation={true}
+					>
+						{products
+							.filter(
+								(card) =>
+									Array.isArray(card.category) &&
+									card.category.some((cat) => slugify(cat, { lower: true, strict: true }) === categorySlugified)
+							)
+							.map((card) => (
+								<SwiperSlide key={card._id} style={{ height: '100%' }}>
+									<CardSearch product={card} />
+								</SwiperSlide>
+							))}
+					</Swiper>
+				)}
+			</div>
 
-      <Link
-        className={styles.btnShowCategory}
-        to={`/categorias/${slugify(category, {
-          lower: true,
-          strict: true,
-          trim: true,
-        })}`}
-      >
-        <LiaEyeSolid className={styles.icon} />
-        Ver todas as {category}
-      </Link>
-    </div>
-  );
+			<Link
+				className={styles.btnShowCategory}
+				to={`/categorias/${slugify(category, {
+					lower: true,
+					strict: true,
+					trim: true,
+				})}`}
+			>
+				<LiaEyeSolid className={styles.icon} />
+				Ver todas as {category}
+			</Link>
+		</div>
+	);
 });
 
 export default CategorySection;
