@@ -1,0 +1,84 @@
+@use '../../styles/mixins';
+@use '../../styles/variables.scss' as var;
+@use '../../styles/animation.scss';
+
+.wrapper {
+  @include mixins.flex($direction: column, $justify: center, $align: center);
+  width: 100%;
+  height: 95vh;
+  gap: var.$medium-space;
+  background-color: var.$medium-1;
+  border-radius: var.$medium-border;
+  text-align: center;
+
+  .text {
+    @include mixins.flex($direction: column, $justify: center, $align: center);
+    width: 100%;
+    gap: var.$small-space;
+
+    @include mixins.font(
+      $font: var.$font,
+      $size: var.$bigTitle-3,
+      $weight: 600,
+      $color: var.$clear-color-1
+    );
+
+    .errorTitle {
+      font-size: 7em;
+      font-weight: 900;
+    }
+
+    .errorText {
+      font-size: var.$text;
+      font-weight: 600;
+      color: var.$highlight-2;
+    }
+  }
+
+  .containerCat {
+    @include mixins.flex($direction: column, $justify: center, $align: center);
+    position: relative;
+
+    .btnHome {
+      @include mixins.flex($direction: row, $justify: center, $align: center);
+      padding: var.$micro-small-space;
+      gap: var.$micro-small-space;
+      position: absolute;
+      top: 5%;
+      z-index: 1;
+      width: fit-content;
+      border-radius: var.$small-border;
+      cursor: pointer;
+      text-wrap: nowrap;
+      opacity: 0;
+      animation: tilt-in-fwd-tr 0.3s ease-in-out forwards;
+      transition: all 0.3s ease-in-out;
+      background-color: var.$highlight-2;
+      @include mixins.font(
+        $font: var.$font,
+        $size: var.$bigTitle-2,
+        $weight: 600,
+        $color: var.$clear-color-2
+      );
+
+      &:hover {
+        background-color: var.$dark-color-3;
+        color: var.$clear-color-1;
+      }
+
+      .iconBtn {
+        font-size: 1em;
+      }
+    }
+
+    .animation {
+      width: 100%;
+      cursor: pointer;
+
+      @include mixins.min-width(large) {
+        width: 50%;
+        height: auto;
+      }
+    }
+  }
+}

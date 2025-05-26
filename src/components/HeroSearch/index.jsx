@@ -22,13 +22,20 @@ const HeroSearch = () => {
     <section className={styles.searchBox}>
       <h1 className={styles.title}>Encontre seu produto ideal</h1>
       <p className={styles.text}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum rem molestiae dicta officiis veniam quam quisquam, sequi tenetur corrupti
-        explicabo, doloribus eveniet, incidunt molestias odio unde veritatis magni vel. Veritatis?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum rem molestiae dicta
+        officiis veniam quam quisquam, sequi tenetur corrupti explicabo, doloribus eveniet, incidunt
+        molestias odio unde veritatis magni vel. Veritatis?
       </p>
       <div className={styles.inpt}>
         <FaSearch className={styles.icon} />
         <label className={styles.containerSrc}>
-          <input type="text" className={styles.btnSrc} value={search} onChange={handleSearch} placeholder="Pesquisar"></input>
+          <input
+            type="text"
+            className={styles.btnSrc}
+            value={search}
+            onChange={handleSearch}
+            placeholder="Pesquisar"
+          ></input>
         </label>
       </div>
       <div className={styles.filterCategory}>

@@ -9,7 +9,6 @@ function App() {
 
   return (
     <section className={styles.heroPage}>
-      <HeaderSection className={styles.header} id="catálogo" />
       {/* {isMobile && <NavBarDesktop />} */}
       <Outlet />
     </section>

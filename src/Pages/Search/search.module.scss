@@ -15,7 +15,12 @@
   }
 
   h2 {
-    @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $weight: 800, $color: var.$highlight-2);
+    @include mixins.font(
+      $font: var.$font,
+      $size: var.$bigTitle-2,
+      $weight: 800,
+      $color: var.$highlight-2
+    );
     text-align: center;
   }
 
