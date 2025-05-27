@@ -16,7 +16,6 @@ const HomeSection = () => {
 
   return (
     <main className={styles.wrapper}>
-      <HeaderSection className={styles.header} id="catálogo" />
       <HeroSearch />
       <HeroSectionDesktop />
       <nav className={styles.containerCard}>
