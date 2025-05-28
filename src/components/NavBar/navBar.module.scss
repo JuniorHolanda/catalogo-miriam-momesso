@@ -4,16 +4,16 @@
 .wrapper {
 	@include mixins.flex($direction: row, $align: center);
 	width: 100%;
-	height: 15vh;
 	background-color: var.$highlight-2;
-	padding: var.$micro-small-space var.$medium-space;
+	padding: var.$small-space;
 	gap: var.$medium-space;
-	border-radius: var.$small-border;
+	border-radius: var.$large-border;
 
 	.containerLogo {
 		@include mixins.flex($justify: flex start, $align: center);
 		height: fit-content;
 		width: fit-content;
+
 
 		.logo {
 			object-fit: cover;
@@ -30,11 +30,11 @@
 			@include mixins.flex();
 			gap: var.$medium-space;
 
-			.menuItem {
+			.containerMenuItem {
 				@include mixins.flex($justify: center, $align: center);
-				border-radius: var.$slim-border;
+				border-radius: var.$large-border;
 
-				button {
+				.menuItem {
 					@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-3);
 					padding: var.$small-space;
 					cursor: pointer;
@@ -52,7 +52,7 @@
 		input {
 			background-color: white;
 			padding: var.$small-space;
-			border-radius: var.$small-border;
+			border-radius: var.$medium-border;
 		}
 		label {
 			opacity: 0;

@@ -90,8 +90,8 @@
     z-index: 0;
 
     @include mixins.min-width(large) {
-      top: -80%;
-      right: -25%;
+      top: -60%;
+      left: 70%;
       width: 800px;
     }
   }
