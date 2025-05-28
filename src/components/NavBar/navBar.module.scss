@@ -1,5 +1,62 @@
-.wrapper{
-    width: 100%;
-    background-color: darkblue;
-    height: 10vh;
+@use '../../styles/mixins';
+@use '../../styles/variables.scss' as var;
+
+.wrapper {
+	@include mixins.flex($direction: row, $align: center);
+	width: 100%;
+	height: 15vh;
+	background-color: var.$highlight-2;
+	padding: var.$micro-small-space var.$medium-space;
+	gap: var.$medium-space;
+	border-radius: var.$small-border;
+
+	.containerLogo {
+		@include mixins.flex($justify: flex start, $align: center);
+		height: fit-content;
+		width: fit-content;
+
+		.logo {
+			object-fit: cover;
+			width: clamp(8em, 9vw, 10em);
+		}
+	}
+
+	.navMenu {
+		@include mixins.flex($justify: flex-start, $align: center);
+		width: 50%;
+		height: 100%;
+
+		.listMenu {
+			@include mixins.flex();
+			gap: var.$medium-space;
+
+			.menuItem {
+				@include mixins.flex($justify: center, $align: center);
+				border-radius: var.$slim-border;
+
+				button {
+					@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-3);
+					padding: var.$small-space;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+	.containerSearch {
+		@include mixins.flex($justify: flex-end, $align: center);
+		position: relative;
+		width: 50%;
+		height: 100%;
+
+		input {
+			background-color: white;
+			padding: var.$small-space;
+			border-radius: var.$small-border;
+		}
+		label {
+			opacity: 0;
+			position: absolute;
+		}
+	}
 }
