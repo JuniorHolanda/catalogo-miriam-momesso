@@ -5,7 +5,6 @@
 .wrapper {
   @include mixins.flex($direction: column, $justify: center, $align: center);
   width: 100%;
-  height: 95vh;
   gap: var.$medium-space;
   background-color: var.$medium-1;
   border-radius: var.$medium-border;
@@ -15,17 +14,19 @@
     @include mixins.flex($direction: column, $justify: center, $align: center);
     width: 100%;
     gap: var.$small-space;
-
-    @include mixins.font(
-      $font: var.$font,
-      $size: var.$bigTitle-3,
-      $weight: 600,
-      $color: var.$clear-color-1
-    );
+    
+    @include mixins.min-width(medium) {
+      gap: var.$micro-small-space;
+      border: solid rgb(0, 233, 31);
+    }
 
     .errorTitle {
-      font-size: 7em;
-      font-weight: 900;
+      border: solid rgb(238, 6, 6);
+      font-size: 10em;
+
+    @include mixins.min-width(medium) {
+        font-size: 200pt;
+    }
     }
 
     .errorText {
@@ -41,6 +42,12 @@
 
     .btnHome {
       @include mixins.flex($direction: row, $justify: center, $align: center);
+      @include mixins.font(
+        $font: var.$font,
+        $size: var.$bigTitle-2,
+        $weight: 600,
+        $color: var.$clear-color-2
+      );
       padding: var.$micro-small-space;
       gap: var.$micro-small-space;
       position: absolute;
@@ -54,12 +61,7 @@
       animation: tilt-in-fwd-tr 0.3s ease-in-out forwards;
       transition: all 0.3s ease-in-out;
       background-color: var.$highlight-2;
-      @include mixins.font(
-        $font: var.$font,
-        $size: var.$bigTitle-2,
-        $weight: 600,
-        $color: var.$clear-color-2
-      );
+
 
       &:hover {
         background-color: var.$dark-color-3;
