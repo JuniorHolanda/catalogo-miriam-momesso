@@ -14,7 +14,6 @@
 		height: fit-content;
 		width: fit-content;
 
-
 		.logo {
 			object-fit: cover;
 			width: clamp(8em, 9vw, 10em);
@@ -32,12 +31,25 @@
 
 			.containerMenuItem {
 				@include mixins.flex($justify: center, $align: center);
+				position: relative;
 				border-radius: var.$large-border;
 
 				.menuItem {
 					@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-3);
 					padding: var.$small-space;
 					cursor: pointer;
+				}
+
+				.subMenu {
+					@include mixins.flex($justify: center, $align: center);
+					width: 600px;
+					height: 300px;
+					position: absolute;
+					border-radius: var.$small-border;
+					top: 110%;
+					left: 0;
+					background-color: var.$clear-color-1;
+					z-index: 2;
 				}
 			}
 		}
