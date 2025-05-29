@@ -1,10 +1,6 @@
 import styles from './heroSectionDesktop.module.scss';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
-
-import category from '../../data/DataCardsCategory.json';
 import dataHoliday from '../../data/holyDay.json';
 import Holiday from '../HolidaysCard';
 

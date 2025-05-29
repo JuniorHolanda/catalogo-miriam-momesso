@@ -33,23 +33,76 @@
 				@include mixins.flex($justify: center, $align: center);
 				position: relative;
 				border-radius: var.$large-border;
-
-				.menuItem {
-					@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-3);
-					padding: var.$small-space;
-					cursor: pointer;
-				}
-
-				.subMenu {
+				
+				.menuList{
 					@include mixins.flex($justify: center, $align: center);
-					width: 600px;
-					height: 300px;
-					position: absolute;
-					border-radius: var.$small-border;
-					top: 110%;
-					left: 0;
-					background-color: var.$clear-color-1;
-					z-index: 2;
+
+					.menuItem {
+						@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-3);
+						padding: var.$small-space;
+						cursor: pointer;
+					}
+
+					.containerListSubMenu {
+						@include mixins.flex($justify: center, $align: flex-start);
+						gap: var.$large-space;
+						padding: var.$large-space;
+						width: fit-content;
+						height: fit-content;
+						position: absolute;
+						border-radius: var.$small-border;
+						top: 110%;
+						left: 0;
+						background-color: var.$clear-color-1;
+						z-index: 2;
+						
+						.categorySubMenu {
+							@include mixins.flex( $direction: column, $justify: center, $align: flex-start);
+							gap: var.$small-space;
+							
+							.subCategoryTitle{
+								@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $weight: 600, $color: var.$medium-1);
+								padding: var.$micro-small-space 0;
+							}
+							.subMenu{
+								@include mixins.flex( $direction: column, $justify: center, $align: flex-start);
+								gap: var.$micro-small-space;
+								width: 100%;
+								
+								.subMenuItem{
+										@include mixins.flex($justify: flex-start, $align: center);
+										padding: var.$micro-small-space;
+										gap: var.$small-space;
+										cursor: pointer;
+										background-color: var.$clear-color-2;
+										transition: all 0.3s ease-in-out;
+										width: 100%;
+										border-radius: var.$medium-border;
+
+										&:hover{
+											background-color: var.$medium-1;
+										}
+
+										.containerImgSubMenu {
+											width: 30px;
+											height: 30px;
+											border-radius: 300px;
+											overflow: hidden;
+											background-color: var.$highlight-1;
+
+											img{
+												object-fit: cover;
+												width: 100%;
+												height: 100%;
+											}
+										}
+										.linkSubMenu{
+											@include mixins.font($font: var.$font, $size: var.$text, $weight: 600, $color: var.$dark-color-2);
+										}
+									}
+								}
+						}
+					}
 				}
 			}
 		}

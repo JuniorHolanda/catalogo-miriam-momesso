@@ -1,9 +1,24 @@
 import { Link } from 'react-router-dom';
 import styles from './NavBar.module.scss';
 import { useState } from 'react';
+import dataCategory from '../../data/DataCardsCategory.json';
+import dataHoliday from '../../data/holyDay.json';
 
 const NavBar = () => {
 	const [subCategory, setSubCategory] = useState();
+
+	const filterData = (data) =>
+		data.map((item) => (
+			<li key={item.id} className={styles.subMenuItem}>
+				<div className={styles.containerImgSubMenu}>
+					<img src={item.img} alt="" />
+				</div>
+				<Link to={`/category/${item.category}`} className={styles.linkSubMenu}>
+					{item.category}
+				</Link>
+			</li>
+		)
+	);
 
 	const showSubMenu = () => {
 		setSubCategory(!subCategory);
@@ -28,18 +43,35 @@ const NavBar = () => {
 						</Link>
 					</li>
 					<li className={styles.containerMenuItem}>
-						<button className={styles.menuItem}>Categorias</button>
-						<ul className={styles.subMenu}>
-							<li className={styles.subMenuItem}>
-								<Link to={'/categorias/canecas'}>Canecas</Link>
-							</li>
-							<li className={styles.subMenuItem}>
-								<Link to={'/categorias/camisetas'}>Camisetas</Link>
-							</li>
-							<li className={styles.subMenuItem}>
-								<Link to={'/categorias/bolsas'}>Bolsas</Link>
-							</li>
-						</ul>
+						
+						<span className={styles.menuList}>
+							<h2 className={styles.menuItem}>Categorias</h2>
+							
+							<div className={styles.containerListSubMenu}>
+								<div className={styles.categorySubMenu}>
+									<h2 className={styles.subCategoryTitle}>Brindes costuráveis</h2>
+									<ul className={styles.subMenu}>
+										{filterData(dataCategory)}
+									</ul>
+								</div>
+
+								<div className={styles.categorySubMenu}>
+									<h2 className={styles.subCategoryTitle}>Datas Comemorativas</h2>
+									<ul className={styles.subMenu}>
+										{filterData(dataHoliday)}
+									</ul>
+								</div>
+								
+								<div className={styles.categorySubMenu}>
+									<h2 className={styles.subCategoryTitle}>Brindes Importados</h2>
+									<ul className={styles.subMenu}>
+										{filterData(dataCategory)}
+									</ul>
+								</div>
+								
+							</div>
+						</span>
+
 					</li>
 					<li className={styles.containerMenuItem}>
 						<button className={styles.menuItem}>Meus Kits</button>

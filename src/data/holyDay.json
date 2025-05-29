@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "date" : "Dia das Mães",
+        "category" : "Dia das Mães",
         "start": "2023-05-01",
         "end": "2023-05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744212746/dia-das-maes_jk8mjs.jpg",
@@ -11,7 +11,7 @@
 
     {
         "id" : 2,
-        "date" : "Dia das mulheres",
+        "category" : "Dia das mulheres",
         "start": "2023-05-01",
         "end": "2023-05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228600/dia-das-mulheres_j9hipi.jpg",
@@ -21,7 +21,7 @@
 
     {
         "id" : 3,
-        "date" : "Dia dos Médicos",
+        "category" : "Dia dos Médicos",
         "start": "2023-05-01",
         "end": "2023-05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228601/dia-dos-medicos_bkmyfp.jpg",
@@ -30,7 +30,7 @@
     },
     {
         "id" : 4,
-        "date" : "Outubro Rosa",
+        "category" : "Outubro Rosa",
         "start": "2023-05-01",
         "end": "2023-05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228602/outubro-rosa_spfmse.jpg",
@@ -39,7 +39,7 @@
     },
     {
         "id" : 5,
-        "date" : "Novembro Azul",
+        "category" : "Novembro Azul",
         "start": "2023-05-01",
         "end": "2023-05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228600/novembro-azul_d2o83p.jpg",
@@ -48,7 +48,7 @@
     },
     {
         "id" : 7,
-        "date" : "Executivo",
+        "category" : "Executivo",
         "start": "2023-05-01",
         "end": "2023-05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744229953/executivo_sh0eyl.jpg",
