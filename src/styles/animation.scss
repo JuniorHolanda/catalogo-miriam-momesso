@@ -1,41 +1,41 @@
 @keyframes barProgress {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 100%;
+	}
 }
 
-@keyframes entrace {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+@keyframes entrance {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes entraceToLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(10%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+	0% {
+		opacity: 0;
+		transform: translateX(10%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 @keyframes tilt-in-fwd-tr {
-  0% {
-    -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-    transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-2deg, 1deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-    transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-    opacity: 1;
-  }
+	0% {
+		-webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+		transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-2deg, 1deg);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+		transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+		opacity: 1;
+	}
 }

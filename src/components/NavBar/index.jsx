@@ -10,18 +10,20 @@ const NavBar = () => {
 	const filterData = (data) =>
 		data.map((item) => (
 			<li key={item.id} className={styles.subMenuItem}>
-				<div className={styles.containerImgSubMenu}>
-					<img src={item.img} alt="" />
-				</div>
 				<Link to={`/category/${item.category}`} className={styles.linkSubMenu}>
+					<div className={styles.containerImgSubMenu}>
+						<img src={item.img} alt="" />
+					</div>
 					{item.category}
 				</Link>
 			</li>
-		)
-	);
+		));
 
 	const showSubMenu = () => {
-		setSubCategory(!subCategory);
+		setSubCategory(true);
+	};
+	const hiddenSubMenu = () => {
+		setSubCategory(false);
 	};
 
 	return (
@@ -38,40 +40,32 @@ const NavBar = () => {
 			<nav className={styles.navMenu}>
 				<ul className={styles.listMenu}>
 					<li className={styles.containerMenuItem}>
-						<Link className={styles.menuItem} to={'/'}>
+						<Link className={styles.menuLink} to={'/'}>
 							Home
 						</Link>
 					</li>
-					<li className={styles.containerMenuItem}>
-						
+					<li onMouseEnter={showSubMenu} onMouseLeave={hiddenSubMenu} className={styles.containerMenuItem}>
 						<span className={styles.menuList}>
 							<h2 className={styles.menuItem}>Categorias</h2>
-							
-							<div className={styles.containerListSubMenu}>
-								<div className={styles.categorySubMenu}>
-									<h2 className={styles.subCategoryTitle}>Brindes costuráveis</h2>
-									<ul className={styles.subMenu}>
-										{filterData(dataCategory)}
-									</ul>
-								</div>
+							{subCategory && (
+								<div className={styles.containerListSubMenu}>
+									<div className={styles.categorySubMenu}>
+										<h2 className={styles.subCategoryTitle}>Brindes costuráveis</h2>
+										<ul className={styles.containerSubMenu}>{filterData(dataCategory)}</ul>
+									</div>
 
-								<div className={styles.categorySubMenu}>
-									<h2 className={styles.subCategoryTitle}>Datas Comemorativas</h2>
-									<ul className={styles.subMenu}>
-										{filterData(dataHoliday)}
-									</ul>
+									<div className={styles.categorySubMenu}>
+										<h2 className={styles.subCategoryTitle}>Datas Comemorativas</h2>
+										<ul className={styles.containerSubMenu}>{filterData(dataHoliday)}</ul>
+									</div>
+
+									<div className={styles.categorySubMenu}>
+										<h2 className={styles.subCategoryTitle}>Brindes Importados</h2>
+										<ul className={styles.containerSubMenu}>{filterData(dataCategory)}</ul>
+									</div>
 								</div>
-								
-								<div className={styles.categorySubMenu}>
-									<h2 className={styles.subCategoryTitle}>Brindes Importados</h2>
-									<ul className={styles.subMenu}>
-										{filterData(dataCategory)}
-									</ul>
-								</div>
-								
-							</div>
+							)}
 						</span>
-
 					</li>
 					<li className={styles.containerMenuItem}>
 						<button className={styles.menuItem}>Meus Kits</button>
