@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import styles from './NavBar.module.scss';
+import styles from './navBar.module.scss';
 import { useState } from 'react';
 import dataCategory from '../../data/DataCardsCategory.json';
 import dataHoliday from '../../data/holyDay.json';
