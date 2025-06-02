@@ -1,7 +1,6 @@
 import styles from './search.module.scss';
 import { useLocation } from 'react-router-dom';
 import CardSearch from '../../components/CardSearch';
-import HeaderSection from '../../components/HeaderSection';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import HeroSearch from '../../components/HeroSearch';
@@ -71,18 +70,21 @@ const Search = () => {
 	return (
 		<section className={styles.wrapper}>
 			<HeroSearch />
-			<h2>{heading}</h2>
-
 			{loading ? (
-				<div className={styles.container}>
+				<div className={styles.containerLoader}>
 					<LoaderData />
 				</div>
 			) : (
-				<div className={styles.container}>
+				<div className={styles.containerCards}>
 					{filteredCards.length === 0 ? (
-						<p className={styles.noResults}>Nenhum produto encontrado.</p>
+						<h2 className={styles.title}>{heading}</h2>
 					) : (
-						filteredCards.map((card) => <CardSearch key={card.id} product={card} />)
+						<div className={styles.containerResults}>
+							<h2 className={styles.title}>{heading}</h2>
+							{filteredCards.map((card) => (
+								<CardSearch key={card.id} product={card} />
+							))}
+						</div>
 					)}
 				</div>
 			)}
