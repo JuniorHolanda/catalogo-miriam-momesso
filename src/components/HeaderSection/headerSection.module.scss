@@ -11,12 +11,20 @@
   @include mixins.min-width(small) {
     background: var.$highlight-2 url('img/symbols/1.svg') no-repeat 120% 10% / 50%;
   }
-  
-  img {
+
+  .link{
+    @include mixins.flex($align: center, $justify: center);
+    
+    @include mixins.min-width(small) {
+      width: 50%;
+    }
+    width: 100%;
+    img {
     width: 40%;
     
     @include mixins.min-width(small) {
       width: 15%;
+    }
     }
   }
 
