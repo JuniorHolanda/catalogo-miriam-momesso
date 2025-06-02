@@ -4,47 +4,90 @@ import CardSearch from '../../components/CardSearch';
 import HeaderSection from '../../components/HeaderSection';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import HeroSearch from '../../components/HeroSearch';
+import LoaderData from '../../components/Loader';
 
 const Search = () => {
-  const location = useLocation();
-  const searchParams = new URLSearchParams(location.search);
-  const rawQuery = searchParams.get('q') || ''; // sempre vai ser string
-  const query = rawQuery.trim().toLowerCase(); // remove espaços e deixa minúsculo
+	const location = useLocation();
+	const searchParams = new URLSearchParams(location.search);
+	const rawQuery = searchParams.get('q') || '';
+	const selectedCategory = searchParams.get('categoria') || '';
+	const query = rawQuery.trim().toLowerCase();
+	const category = selectedCategory.trim().toLowerCase();
+	const [products, setProducts] = useState([]);
 
-  // Se a busca estiver vazia, não renderiza nada
-  if (query === '') return null;
+	const [loading, setLoading] = useState(true);
 
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
-    async function fetchProducts() {
-      try {
-        const response = await axios.get('https://back-end-catalogo-miriam-momesso.onrender.com/product');
-        setProducts(response.data); // ajuste aqui dependendo do formato que a API retorna
-      } catch (error) {
-        console.error('Erro ao buscar produtos:', error);
-      }
-    }
+	// Se a busca estiver vazia, renderiza mensagem
+	if (query === '')
+		return (
+			<section className={styles.wrapper}>
+				<HeroSearch />
+				<h2 className={styles.noResults}>Digite algo para buscar.</h2>
+			</section>
+		);
 
-    fetchProducts();
-  }, []);
+	useEffect(() => {
+		async function fetchProducts() {
+			try {
+				const response = await axios.get(
+					'https://back-end-catalogo-miriam-momesso.onrender.com/product'
+				);
+				setProducts(response.data);
+			} catch (error) {
+				console.error('Erro ao buscar produtos:', error);
+			} finally {
+				setLoading(false);
+			}
+		}
+		fetchProducts();
+	}, []);
 
-  const filteredCards = products.filter((card) => card.title.toLowerCase().includes(query));
+	//filtra os produtos com base na query e na categoria
+	let filteredCards = products.filter((card) => card.title.trim().toLowerCase().includes(query));
 
-  const count = filteredCards.length;
-  const nounProduct = count === 1 ? 'Resultado' : 'Resultados';
-  const heading = `${count} ${nounProduct} encontrado${count === 1 ? '' : 's'} para "${rawQuery}"`;
+	// Se uma categoria for selecionada, filtra os produtos por categoria
+	// Se a categoria estiver vazia, não filtra por categoria
 
-  return (
-    <section className={styles.wrapper}>
-      <HeaderSection className={styles.header} id="Pesquisa" />
-      <h2>{heading}</h2>
-      <div className={styles.container}>
-        {filteredCards.map((card) => (
-          <CardSearch key={card.id} product={card} />
-        ))}
-      </div>
-    </section>
-  );
+	filteredCards.forEach((element) => {
+		console.log(element.category);
+	});
+
+	if (category) {
+		filteredCards = filteredCards.filter((card) => {
+			return (
+				Array.isArray(card.category) &&
+				card.category.map((cat) => cat.trim().toLowerCase()).includes(category)
+			);
+		});
+	}
+
+	const count = filteredCards.length;
+	const nounProduct = count === 1 ? 'Resultado' : 'Resultados';
+	const heading = `${count} ${nounProduct} encontrado${
+		count === 1 ? '' : 's'
+	} para "${rawQuery}"`;
+
+	return (
+		<section className={styles.wrapper}>
+			<HeroSearch />
+			<h2>{heading}</h2>
+
+			{loading ? (
+				<div className={styles.container}>
+					<LoaderData />
+				</div>
+			) : (
+				<div className={styles.container}>
+					{filteredCards.length === 0 ? (
+						<p className={styles.noResults}>Nenhum produto encontrado.</p>
+					) : (
+						filteredCards.map((card) => <CardSearch key={card.id} product={card} />)
+					)}
+				</div>
+			)}
+		</section>
+	);
 };
 
 export default Search;
