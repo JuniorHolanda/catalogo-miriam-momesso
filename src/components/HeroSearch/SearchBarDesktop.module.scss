@@ -11,7 +11,7 @@
 	height: 100%;
 	background-color: var.$medium-1;
 	border-radius: var.$medium-border;
-
+	
 	.title {
 		@include mixins.font(
 			$font: var.$font,
@@ -84,7 +84,8 @@
 		@include mixins.flex($align: center, $justify: start);
 		gap: var.$small-space;
 		width: 100%;
-
+		overflow-x: auto ;
+		
 		.btnCategory {
 			@include mixins.font(
 				$font: var.$font,

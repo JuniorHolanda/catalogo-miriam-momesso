@@ -6,9 +6,12 @@ import styles from './home.module.scss';
 import CardCategory from '../../components/CardCategory';
 import HeroSearch from '../../components/HeroSearch';
 import HeroSectionDesktop from '../../components/HeroSectionDesktop';
+import MediaQuery from '../../utils/MediaQuery/MediaQuery';	
 
 const HomeSection = () => {
 	const sectionRefs = useRef([]);
+	const isMobile = MediaQuery('(max-width: 700px)');
+
 
 	const scrollToSection = (id) => {
 		sectionRefs.current[id]?.scrollIntoView({ behavior: 'smooth' });
@@ -16,8 +19,10 @@ const HomeSection = () => {
 
 	return (
 		<main className={styles.wrapper}>
+			{isMobile && <HeaderSection />}
 			<HeroSearch />
-			<HeroSectionDesktop />
+			{!isMobile && <HeroSectionDesktop />}
+			{isMobile && 
 			<nav className={styles.containerCard}>
 				{DataCardsCategory.map((card) => (
 					<CardCategory
@@ -27,6 +32,8 @@ const HomeSection = () => {
 					/>
 				))}
 			</nav>
+			}
+			
 			{DataCardsCategory.map((card) => (
 				<CategorySection
 					key={card.id}

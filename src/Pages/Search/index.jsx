@@ -5,8 +5,12 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import HeroSearch from '../../components/HeroSearch';
 import LoaderData from '../../components/Loader';
+import MediaQuery from '../../utils/MediaQuery/MediaQuery';	
+import HeaderSection from '../../components/HeaderSection';
+
 
 const Search = () => {
+	const isMobile = MediaQuery('(max-width: 700px)');
 	const location = useLocation();
 	const searchParams = new URLSearchParams(location.search);
 	const rawQuery = searchParams.get('q') || '';
@@ -69,6 +73,9 @@ const Search = () => {
 
 	return (
 		<section className={styles.wrapper}>
+			{isMobile && <HeaderSection
+			className={styles.headerSearch}
+			id={'Pesquisa'}/>}
 			<HeroSearch />
 			{loading ? (
 				<div className={styles.containerLoader}>
