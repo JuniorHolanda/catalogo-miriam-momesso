@@ -1,13 +1,6 @@
-import React from 'react'
-import HomeSection from '../Pages/Home'
-
-
+import HomeSection from '../Pages/Home';
 const Home = () => {
-  return (
-    <>
-      <HomeSection />
-    </>
-  )
-}
+	return <HomeSection />;
+};
 
-export default Home
+export default Home;

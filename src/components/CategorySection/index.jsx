@@ -83,7 +83,9 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 							.filter(
 								(card) =>
 									Array.isArray(card.category) &&
-									card.category.some((cat) => slugify(cat, { lower: true, strict: true }) === categorySlugified)
+									card.category.some(
+										(cat) => slugify(cat, { lower: true, strict: true }) === categorySlugified
+									)
 							)
 							.map((card) => (
 								<SwiperSlide key={card._id} style={{ height: '100%' }}>
@@ -103,7 +105,7 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 				})}`}
 			>
 				<LiaEyeSolid className={styles.icon} />
-				Ver todas as {category}
+				Ver mais de {category}
 			</Link>
 		</div>
 	);

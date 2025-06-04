@@ -3,17 +3,19 @@ import styles from './app.module.scss';
 import HolidayDesktop from '../HolidaySectionDesktop';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import HeaderSection from '../HeaderSection';
-import NavBar from '../NavBar';
+import NavBarDesktop from '../NavBarDesktop';
+import NavBarMobile from '../NavBarMobile';
 
 function App() {
-  const isMobile = MediaQuery('(max-width: 700px)');
+	const isMobile = MediaQuery('(max-width: 700px)');
 
-  return (
-    <section className={styles.heroPage}>
-      {!isMobile && <NavBar /> }
-      <Outlet />
-    </section>
-  );
+	return (
+		<section className={styles.heroPage}>
+			{!isMobile && <NavBarDesktop />}
+			<Outlet />
+			{isMobile && <NavBarMobile />}
+		</section>
+	);
 }
 
 export default App;

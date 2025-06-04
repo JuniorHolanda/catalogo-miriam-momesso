@@ -1,39 +1,38 @@
 @use '../../styles/mixins.scss';
 @use '../../styles/variables.scss' as var;
 
+.wrapper {
+	@include mixins.flex($align: space-between, $justify: center);
+	flex-wrap: wrap;
+	gap: var.$small-space;
+	width: 100%;
+	height: 100%;
 
-.wrapper{
-    @include mixins.flex($align: space-between, $justify: center);
-    flex-wrap: wrap;
-    gap: var.$small-space;
-    width: 100%;
-    height: 100%;
+	.headerSection {
+		@include mixins.flex($direction: column);
+		grid-area: 1 / 1 / 2 / 3;
+		gap: var.$micro-small-space;
+		width: 100%;
+	}
 
-    .headerSection{
-        @include mixins.flex($direction: column);
-        grid-area: 1 / 1 / 2 / 3;
-        gap: var.$micro-small-space;
-        width: 100%;
-    }
+	.container {
+		display: grid;
+		grid-template: auto / repeat(2, 1fr);
+		gap: var.$small-space;
 
-    .container{
-        display: grid;
-        grid-template: auto / repeat(2, 1fr);
-        gap: var.$small-space;
+		@include mixins.min-width(small) {
+			grid-template: auto / repeat(5, 1fr);
+		}
 
-        @include mixins.min-width(small) {
-            grid-template: auto / repeat(5, 1fr);
-        }
+		.loaderData {
+			@include mixins.flex($justify: center, $align: center);
+			grid-column: 1 / 3;
+			width: 100%;
+			height: 100%;
 
-        .loaderData{
-            @include mixins.flex($justify: center, $align: center);
-            grid-column: 1 / 3;
-            width: 100%;
-            height: 100%;
-
-            @include mixins.min-width(small) {
-                grid-column: 1 / 6;
-            }
-          }
-    }
+			@include mixins.min-width(small) {
+				grid-column: 1 / 6;
+			}
+		}
+	}
 }

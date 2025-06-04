@@ -24,7 +24,12 @@
 			@include mixins.flex($direction: column, $align: start, $justify: center);
 
 			.categoryCard {
-				@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-3);
+				@include mixins.font(
+					$font: var.$font,
+					$size: var.$small-text,
+					$weight: 500,
+					$color: var.$clear-color-3
+				);
 			}
 		}
 
@@ -84,7 +89,12 @@
 			}
 
 			p {
-				@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-2);
+				@include mixins.font(
+					$font: var.$font,
+					$size: var.$small-text,
+					$weight: 500,
+					$color: var.$clear-color-2
+				);
 
 				@include mixins.min-width(large) {
 					font-size: var.$medium-text;
@@ -112,7 +122,12 @@
 				@include mixins.flex($align: center, $justify: center);
 				gap: var.$micro-small-space;
 				padding: var.$micro-small-space;
-				@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-1);
+				@include mixins.font(
+					$font: var.$font,
+					$size: var.$small-text,
+					$weight: 500,
+					$color: var.$clear-color-1
+				);
 
 				@include mixins.min-width(large) {
 					font-size: var.$medium-text;

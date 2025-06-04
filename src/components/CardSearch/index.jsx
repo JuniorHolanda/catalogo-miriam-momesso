@@ -6,11 +6,7 @@ import Lottie from 'lottie-react';
 import animation from './Animation - 1748197599976.json';
 import cn from 'classnames';
 import { useEffect, useRef, useState } from 'react';
-import {
-	deleteSotorage,
-	getSotorage,
-	setSotorage,
-} from '../../utils/MediaQuery/localStorage/localSorage';
+import { deleteSotorage, getSotorage, setSotorage } from '../../utils/MediaQuery/localStorage/localSorage';
 
 const CardSearch = ({ product }) => {
 	const slug = slugify(product.title, { lower: true, strict: true });
