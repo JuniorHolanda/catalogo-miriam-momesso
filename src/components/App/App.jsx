@@ -2,7 +2,6 @@ import { Outlet } from 'react-router-dom';
 import styles from './app.module.scss';
 import HolidayDesktop from '../HolidaySectionDesktop';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
-import HeaderSection from '../HeaderSection';
 import NavBarDesktop from '../NavBarDesktop';
 import NavBarMobile from '../NavBarMobile';
 

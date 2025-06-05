@@ -4,7 +4,7 @@ import styles from './SearchBarDesktop.module.scss';
 import { FaSearch } from 'react-icons/fa';
 import category from '../../data/DataCardsCategory.json';
 
-const HeroSearch = () => {
+const HeroSearch = ({ reduce, className }) => {
 	const [search, setSearch] = useState('');
 	const [selectedCategory, setSelectedCategory] = useState('');
 
@@ -31,13 +31,18 @@ const HeroSearch = () => {
 	};
 
 	return (
-		<section className={styles.searchBox}>
-			<h1 className={styles.title}>Encontre seu produto ideal</h1>
-			<p className={styles.text}>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum rem molestiae
-				dicta officiis veniam quam quisquam, sequi tenetur corrupti explicabo, doloribus
-				eveniet, incidunt molestias odio unde veritatis magni vel. Veritatis?
-			</p>
+		<section className={className}>
+			{!reduce && (
+				<div className={styles.description}>
+					<h1 className={styles.title}>Encontre seu produto ideal</h1>
+					<p className={styles.text}>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum rem molestiae dicta officiis
+						veniam quam quisquam, sequi tenetur corrupti explicabo, doloribus eveniet, incidunt molestias
+						odio unde veritatis magni vel. Veritatis?
+					</p>
+				</div>
+			)}
+
 			<div className={styles.inpt}>
 				<label className={styles.containerSrc}>
 					<input
@@ -53,33 +58,32 @@ const HeroSearch = () => {
 						placeholder="Pesquisar"
 					></input>
 				</label>
-				<button
-					onClick={submit}
-					disabled={!search.trim()}
-					className={styles.btnSubmit}
-					type="button"
-				>
+				<button onClick={submit} disabled={!search.trim()} className={styles.btnSubmit} type="button">
 					<FaSearch className={styles.icon} />
 				</button>
 			</div>
-			<div className={styles.filterCategory}>
-				{category.map((item) => (
-					<button
-						className={`${styles.btnCategory} ${
-							selectedCategory === item.category ? styles.active : ''
-						}`}
-						key={item.id}
-						onClick={() => setSelectedCategory(item.category)}
-					>
-						{item.category}
-					</button>
-				))}
-			</div>
-			<img
-				className={styles.geometricStar}
-				src="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193909/Star_1_bpvrk0.svg"
-				alt="forma geométrica abstrata, semelhante a uma estrela"
-			/>
+			{!reduce && (
+				<div className={styles.filterCategory}>
+					{category.map((item) => (
+						<button
+							className={`${styles.btnCategory} ${
+								selectedCategory === item.category ? styles.active : ''
+							}`}
+							key={item.id}
+							onClick={() => setSelectedCategory(item.category)}
+						>
+							{item.category}
+						</button>
+					))}
+				</div>
+			)}
+			{!reduce && (
+				<img
+					className={styles.geometricStar}
+					src="https://res.cloudinary.com/dnr3wfqyy/image/upload/v1740193909/Star_1_bpvrk0.svg"
+					alt="forma geométrica abstrata, semelhante a uma estrela"
+				/>
+			)}
 		</section>
 	);
 };

@@ -3,12 +3,13 @@
 @use '../../styles/animation.scss' as animation;
 
 .wrapper {
-	@include mixins.flex($direction: row, $align: center);
+	@include mixins.flex($direction: row, $align: center, $justify: space-between);
 	width: 100%;
+	height: 10vh;
 	background-color: var.$highlight-2;
 	padding: var.$small-space;
 	gap: var.$medium-space;
-	border-radius: var.$large-border;
+	border-radius: var.$medium-border;
 
 	.containerLogo {
 		@include mixins.flex($justify: flex start, $align: center);
@@ -33,7 +34,12 @@
 			.containerMenuItem {
 				@include mixins.flex($justify: center, $align: center);
 				position: relative;
-				@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 500, $color: var.$clear-color-3);
+				@include mixins.font(
+					$font: var.$font,
+					$size: var.$small-text,
+					$weight: 500,
+					$color: var.$clear-color-3
+				);
 
 				.menuLink {
 					@include mixins.font($font: var.$font, $size: var.$text, $weight: 800, $color: var.$clear-color-3);
@@ -47,7 +53,12 @@
 					.menuItem,
 					button,
 					.linkHome {
-						@include mixins.font($font: var.$font, $size: var.$text, $weight: 800, $color: var.$clear-color-3);
+						@include mixins.font(
+							$font: var.$font,
+							$size: var.$text,
+							$weight: 800,
+							$color: var.$clear-color-3
+						);
 						text-transform: uppercase;
 						padding: var.$small-space;
 						cursor: pointer;
@@ -73,7 +84,12 @@
 							gap: var.$small-space;
 
 							.subCategoryTitle {
-								@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $weight: 900, $color: var.$medium-1);
+								@include mixins.font(
+									$font: var.$font,
+									$size: var.$bigTitle-3,
+									$weight: 900,
+									$color: var.$medium-1
+								);
 								padding: var.$micro-small-space 0;
 								border-bottom: solid 1px var.$clear-color-2;
 							}
@@ -97,7 +113,12 @@
 
 									.linkSubMenu {
 										@include mixins.flex($justify: flex-start, $align: center);
-										@include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-2, $weight: 600);
+										@include mixins.font(
+											$font: var.$font,
+											$size: var.$text,
+											$color: var.$dark-color-2,
+											$weight: 600
+										);
 										padding: var.$micro-small-space;
 										gap: var.$small-space;
 										cursor: pointer;
@@ -160,5 +181,9 @@
 			opacity: 0;
 			position: absolute;
 		}
+	}
+
+	.containerInpt {
+		z-index: 1;
 	}
 }

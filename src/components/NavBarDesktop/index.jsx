@@ -3,6 +3,7 @@ import styles from './navBar.module.scss';
 import { useState } from 'react';
 import dataCategory from '../../data/DataCardsCategory.json';
 import dataHoliday from '../../data/holyDay.json';
+import SearchBar from '../SearchBar';
 
 const NavBar = () => {
 	const [subCategory, setSubCategory] = useState();
@@ -72,10 +73,7 @@ const NavBar = () => {
 					</li>
 				</ul>
 			</nav>
-			<div className={styles.containerSearch}>
-				<label htmlFor="input">Pesquisar produtos:</label>
-				<input id="input" placeholder="🔍 Buscar produtos" type="text" />
-			</div>
+			<SearchBar reduce={true} className={styles.containerInpt} />
 		</div>
 	);
 };

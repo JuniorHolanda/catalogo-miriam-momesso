@@ -8,6 +8,18 @@
 	height: 100%;
 	margin-bottom: 8vh;
 
+	.containerInpt {
+		@include mixins.flex($direction: column);
+		position: relative;
+		overflow: hidden;
+		gap: var.$small-space;
+		padding: var.$medium-border;
+		width: 100%;
+		height: 100%;
+		background-color: var.$medium-1;
+		border-radius: var.$medium-border;
+	}
+
 	.containerCard {
 		@include mixins.flex($direction: column);
 		padding: var.$micro-small-space;

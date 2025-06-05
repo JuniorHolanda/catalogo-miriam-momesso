@@ -3,11 +3,10 @@ import { useLocation } from 'react-router-dom';
 import CardSearch from '../../components/CardSearch';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import HeroSearch from '../../components/HeroSearch';
+import SearchBar from '../../components/SearchBar';
 import LoaderData from '../../components/Loader';
-import MediaQuery from '../../utils/MediaQuery/MediaQuery';	
+import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import HeaderSection from '../../components/HeaderSection';
-
 
 const Search = () => {
 	const isMobile = MediaQuery('(max-width: 700px)');
@@ -25,7 +24,8 @@ const Search = () => {
 	if (query === '')
 		return (
 			<section className={styles.wrapper}>
-				<HeroSearch />
+				<SearchBar className={styles.containerInpt} />
+
 				<h2 className={styles.noResults}>Digite algo para buscar.</h2>
 			</section>
 		);
@@ -33,9 +33,7 @@ const Search = () => {
 	useEffect(() => {
 		async function fetchProducts() {
 			try {
-				const response = await axios.get(
-					'https://back-end-catalogo-miriam-momesso.onrender.com/product'
-				);
+				const response = await axios.get('https://back-end-catalogo-miriam-momesso.onrender.com/product');
 				setProducts(response.data);
 			} catch (error) {
 				console.error('Erro ao buscar produtos:', error);
@@ -59,24 +57,20 @@ const Search = () => {
 	if (category) {
 		filteredCards = filteredCards.filter((card) => {
 			return (
-				Array.isArray(card.category) &&
-				card.category.map((cat) => cat.trim().toLowerCase()).includes(category)
+				Array.isArray(card.category) && card.category.map((cat) => cat.trim().toLowerCase()).includes(category)
 			);
 		});
 	}
 
 	const count = filteredCards.length;
 	const nounProduct = count === 1 ? 'Resultado' : 'Resultados';
-	const heading = `${count} ${nounProduct} encontrado${
-		count === 1 ? '' : 's'
-	} para "${rawQuery}"`;
+	const heading = `${count} ${nounProduct} encontrado${count === 1 ? '' : 's'} para "${rawQuery}"`;
 
 	return (
 		<section className={styles.wrapper}>
-			{isMobile && <HeaderSection
-			className={styles.headerSearch}
-			id={'Pesquisa'}/>}
-			<HeroSearch />
+			{isMobile && <HeaderSection className={styles.headerSearch} id={'Pesquisa'} />}
+			<SearchBar className={styles.containerInpt} />
+
 			{loading ? (
 				<div className={styles.containerLoader}>
 					<LoaderData />
