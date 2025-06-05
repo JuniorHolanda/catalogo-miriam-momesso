@@ -8,6 +8,12 @@
 	height: 100%;
 	margin-bottom: 8vh;
 
+	@include mixins.min-width(small) {
+		margin-bottom: 0;
+		margin-top: calc(10vh + var.$small-space);
+
+	}
+
 	.containerInpt {
 		@include mixins.flex($direction: column);
 		position: relative;

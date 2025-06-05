@@ -10,6 +10,7 @@
 	background-color: var.$clear-color-1;
 	padding: var.$small-space;
 	border-radius: var.$small-border;
+
 	@include mixins.min-width(small) {
 		display: grid;
 		grid-template: auto / 3fr 1fr;

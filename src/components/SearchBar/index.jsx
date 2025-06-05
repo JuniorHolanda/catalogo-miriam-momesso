@@ -36,9 +36,8 @@ const HeroSearch = ({ reduce, className }) => {
 				<div className={styles.description}>
 					<h1 className={styles.title}>Encontre seu produto ideal</h1>
 					<p className={styles.text}>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum rem molestiae dicta officiis
-						veniam quam quisquam, sequi tenetur corrupti explicabo, doloribus eveniet, incidunt molestias
-						odio unde veritatis magni vel. Veritatis?
+						Soluções em brindes personalizados para empresas que desejam fortalecer a identidade visual,
+						engajar o público e posicionar sua marca de forma marcante e estratégica.
 					</p>
 				</div>
 			)}
