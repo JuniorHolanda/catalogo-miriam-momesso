@@ -3,11 +3,10 @@
 
 .wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template: 10% auto / 3fr auto;
 	gap: var.$micro-small-space;
 	width: 100%;
 	height: 100%;
-	background-color: var.$clear-color-1;
 	border-radius: var.$small-border;
 	padding: var.$micro-small-space;
 	grid-area: 1 / 2 / 2 / 3;
@@ -17,24 +16,11 @@
 		border: solid gold;
 	}
 
-	.containerTitle {
+	.containerCatgory {
 		@include mixins.flex($align: center, $justify: start);
-		border: solid blue;
+		border: solid rgb(0, 13, 128);
 		width: 100%;
-
-		.title {
-			@include mixins.font($font: var.$font, $size: var.$bigTitle-3 var.$dark-color-2, $weight: 900);
-
-			@include mixins.min-width(small) {
-				font-size: var.$bigTitle-1;
-				border: solid rgb(94, 255, 0);
-			}
-		}
-	}
-
-	.containercategory {
-		@include mixins.flex($align: center, $justify: start);
-		border: solid maroon;
+		background-color: var.$clear-color-1;
 
 		h2 {
 			@include mixins.font($font: var.$font, $size: var.$text var.$dark-color-2, $weight: 500);
@@ -44,6 +30,53 @@
 
 		p {
 			@include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-2, $weight: 200);
+		}
+	}
+	
+	.containerToolBar {
+		@include mixins.flex($align: center, $justify: start);
+		width: 100%;
+		gap: var.$small-space;
+		background-color: var.$clear-color-1;
+		
+		.btnKit {
+			@include mixins.flex($align: center, $justify: start);
+			@include mixins.font($font: var.$font, $size: var.$text, $color: var.$clear-color-1, $weight: 600);
+			gap: var.$micro-small-space;
+			height: 100%;
+			padding: var.$small-space;
+			border-radius: var.$small-border;
+			background-color: var.$medium-1;
+
+			.icon{
+				font-size: 1em;
+		
+			}
+		}
+
+		.btnLike{
+			height: 100%;
+			border: solid fuchsia;
+		}
+	}
+
+	.containerInfo {
+		@include mixins.flex($align: start, $justify: start);
+		border: solid blue;
+		width: 100%;
+
+		@include mixins.min-width(small) {
+			flex-direction: column;
+			grid-area: 2/1/3/3;
+		}
+
+		.title {
+			@include mixins.font($font: var.$font, $size: var.$bigTitle-3 var.$dark-color-2, $weight: 900);
+
+			@include mixins.min-width(small) {
+				font-size: var.$bigTitle-1;
+				border: solid rgb(94, 255, 0);
+			}
 		}
 	}
 
@@ -120,5 +153,6 @@
 
 	.containerText {
 		grid-area: 5/1/4/3;
+		@include mixins.font($font: var.$font, $size: var.$text var.$dark-color-2, $weight: 600);
 	}
 }
