@@ -2,48 +2,48 @@
 @use '../../styles/variables.scss' as var;
 
 .wrapper {
-    @include mixins.flex($direction: column, $justify: center, $align: center);
-    gap: var.$small-space;
-    width: 100%;
+	@include mixins.flex($direction: column, $justify: center, $align: center);
+	gap: var.$small-space;
+	width: 100%;
 
-    @include mixins.min-width(small) {
-        display: grid;
-        grid-template: auto repeat(2, 1fr);
-        min-height: 100vh;
-    }
+	@include mixins.min-width(small) {
+		display: grid;
+		grid-template: auto repeat(2, 1fr);
+		min-height: 100vh;
+		margin-top: calc(10vh + var.$small-space);
+	}
 
-    .headerSection{
-        @include mixins.flex($direction: column);
-        grid-area: 1 / 1 / 2 / 3;
-        gap: var.$micro-small-space;
-        width: 100%;
-    }
+	.headerSection {
+		@include mixins.flex($direction: column);
+		gap: var.$micro-small-space;
+		width: 100%;
+	}
 
-    .gallery{
-        @include mixins.flex($justify: center, $align: center);
-        gap: var.$micro-small-space;
-        padding: var.$micro-small-space;
-        width: 100%;
-        height: 55vh;
-        background-color: var.$clear-color-1;
-        border-radius: var.$small-border;
+	.gallery {
+		@include mixins.flex($justify: center, $align: center);
+		gap: var.$micro-small-space;
+		padding: var.$micro-small-space;
+		width: 100%;
+		height: 55vh;
+		background-color: var.$clear-color-1;
+		border-radius: var.$small-border;
 
-        @include mixins.min-width(small) {
-            height: 100%;
-        }
-    }
+		@include mixins.min-width(small) {
+			height: 100%;
+			grid-area: 1 / 1 / 2 / 2;
+		}
+	}
 
-    .video360{
-        @include mixins.flex($justify: center, $align: center);
+	.video360 {
+		@include mixins.flex($justify: center, $align: center);
 
-
-        @include mixins.min-width(small) {
-        width: 800px;
-        height: 800px;
-        background-color: var.$clear-color-1;
-        border-radius: var.$medium-border;
-        overflow: hidden;
-        cursor: ew-resize;
-        }
-    }
+		@include mixins.min-width(small) {
+			width: 600px;
+			height: 600px;
+			background-color: var.$clear-color-1;
+			border-radius: var.$medium-border;
+			overflow: hidden;
+			cursor: ew-resize;
+		}
+	}
 }

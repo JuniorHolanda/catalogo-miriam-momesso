@@ -9,9 +9,9 @@
 	z-index: 10;
 	width: 100%;
 	padding: var.$small-space;
-	background-color: rgba(255, 255, 255, 0.425);
+	background-color: #ededed6c;
 	backdrop-filter: blur(10px);
-	
+
 	.content {
 		@include mixins.flex($direction: row, $align: center, $justify: space-between);
 		width: 100%;
