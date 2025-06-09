@@ -1,7 +1,7 @@
 import styles from './infoProduct.module.scss';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
-import likeAnimation from './Animation - 1748197599976.json'
+import likeAnimation from './Animation - 1748197599976.json';
 import Lottie from 'lottie-react';
 import { TfiDropbox } from 'react-icons/tfi';
 
@@ -19,44 +19,34 @@ const InfoProduct = ({ name, category, measure, text }) => {
 
 			<div className={styles.containerToolBar}>
 				<button className={styles.btnKit}>
-					<TfiDropbox className={styles.icon}/>
+					<TfiDropbox className={styles.icon} />
 					Montar Kit
 				</button>
 				<button className={styles.btnLike}>
-					<Lottie animationData={likeAnimation} />
+					<Lottie animationData={likeAnimation} className={styles.animation} autoplay={false} loop={false} />
 				</button>
 			</div>
 
 			<div className={styles.containerInfo}>
 				<h2 className={styles.title}>{name}</h2>
-				<h2>{measure >= 1 ? 'Medidas' : 'Medida'}</h2>
-				<div className={styles.containerBtn}>
-					{measure.map((item) => (
-						<span key={item}>{item}</span>
-					))}
+				<div className={styles.containerMeasure}>
+					<h2 className={styles.measure}>{measure >= 1 ? 'Medidas:' : 'Medida:'}</h2>
+					<div className={styles.containerBtnMeasure}>
+						{measure.map((item) => (
+							<span className={styles.btnMeasure} key={item}>
+								{item}
+							</span>
+						))}
+					</div>
 				</div>
 				<div className={styles.containerText}>
 					<p>{text}</p>
 				</div>
-			</div>
-
-				<div className={styles.containerMeasure}>
-					{isMobile && (
-						<div className={styles.containerIcon}>
-							<button className={styles.btnIcon}>
-								<FaArrowLeft />
-							</button>
-						</div>
-					)}
-
-					{isMobile && (
-						<div className={styles.containerIcon}>
-							<button className={styles.btnIcon}>
-								<FaArrowRight />
-							</button>
-						</div>
-					)}
+				<div className={styles.containerCta}>
+					<button className={styles.btnCta}>Solicitar Orçamento</button>
+					<button className={styles.btnCta}>Compartilhar</button>
 				</div>
+			</div>
 		</section>
 	);
 };

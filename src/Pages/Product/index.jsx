@@ -51,7 +51,7 @@ const ProductSection = ({ name }) => {
 				measure={cardFiltered.measure}
 				text={cardFiltered.text}
 			/>
-			<Video360 className={styles.video360} />
+			{/* <Video360 className={styles.video360} /> */}
 		</main>
 	);
 };
