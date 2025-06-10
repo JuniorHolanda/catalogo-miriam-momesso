@@ -5,6 +5,7 @@
 	@include mixins.flex($direction: column, $justify: center, $align: center);
 	gap: var.$small-space;
 	width: 100%;
+	margin-bottom: 8vh;
 
 	@include mixins.min-width(small) {
 		display: grid;

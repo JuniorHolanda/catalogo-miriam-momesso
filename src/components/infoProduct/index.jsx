@@ -1,12 +1,12 @@
 import styles from './infoProduct.module.scss';
-import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
+import { FaArrowRight, FaArrowLeft, FaShareAlt } from 'react-icons/fa';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import likeAnimation from './Animation - 1748197599976.json';
 import Lottie from 'lottie-react';
 import { TfiDropbox } from 'react-icons/tfi';
 
 const InfoProduct = ({ name, category, measure, text }) => {
-	const isMobile = MediaQuery('(max-width: 400px)');
+	const isMobile = MediaQuery('(max-width: 700px)');
 
 	console.log(category);
 	return (
@@ -15,16 +15,6 @@ const InfoProduct = ({ name, category, measure, text }) => {
 				{category.map((item) => (
 					<h2 key={item}>{item}</h2>
 				))}
-			</div>
-
-			<div className={styles.containerToolBar}>
-				<button className={styles.btnKit}>
-					<TfiDropbox className={styles.icon} />
-					Montar Kit
-				</button>
-				<button className={styles.btnLike}>
-					<Lottie animationData={likeAnimation} className={styles.animation} autoplay={false} loop={false} />
-				</button>
 			</div>
 
 			<div className={styles.containerInfo}>
@@ -44,7 +34,16 @@ const InfoProduct = ({ name, category, measure, text }) => {
 				</div>
 				<div className={styles.containerCta}>
 					<button className={styles.btnCta}>Solicitar Orçamento</button>
-					<button className={styles.btnCta}>Compartilhar</button>
+					<button className={styles.btnCta}><FaShareAlt /></button>
+					<button className={styles.btnCta}> <TfiDropbox className={styles.icon} /></button>
+					<button className={styles.btnCta}>
+						<Lottie
+							animationData={likeAnimation}
+							className={styles.animation}
+							autoplay={false}
+							loop={false}
+						/>
+					</button>
 				</div>
 			</div>
 		</section>

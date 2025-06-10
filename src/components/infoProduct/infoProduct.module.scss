@@ -2,8 +2,7 @@
 @use '../../styles/variables.scss' as var;
 
 .wrapper {
-	display: grid;
-	grid-template: 10% 90% / 3fr auto;
+	@include mixins.flex($direction:column, $align: center, $justify: start);
 	gap: var.$micro-small-space;
 	width: 100%;
 	height: 100%;
@@ -12,6 +11,8 @@
 	grid-area: 1 / 2 / 2 / 3;
 
 	@include mixins.min-width(small) {
+			display: grid;
+	grid-template: 10% 90% / 3fr auto;
 		padding: 0;
 	}
 
@@ -28,52 +29,8 @@
 		}
 	}
 
-	.containerToolBar {
-		@include mixins.flex($align: center, $justify: start);
-		width: 100%;
-		gap: var.$small-space;
-
-		.btnKit {
-			@include mixins.flex($align: center, $justify: start);
-			@include mixins.font($font: var.$font, $size: var.$text, $color: var.$clear-color-1, $weight: 600);
-			gap: var.$micro-small-space;
-			height: 100%;
-			padding: var.$small-space;
-			border-radius: var.$small-border;
-			background-color: var.$medium-1;
-			cursor: pointer;
-			transition: all 0.3s ease-in-out;
-
-			&:hover {
-				background-color: var.$highlight-2;
-			}
-
-			.icon {
-				font-size: 1em;
-			}
-		}
-
-		.btnLike {
-			@include mixins.flex($align: center, $justify: center);
-			padding: var.$small-space;
-			height: 100%;
-			border-radius: var.$small-border;
-			cursor: pointer;
-			background-color: var.$medium-1;
-			transition: all 0.3s ease-in-out;
-
-			&:hover {
-				background-color: var.$highlight-2;
-			}
-
-			.animation {
-				width: 50px;
-			}
-		}
-	}
-
 	.containerInfo {
-		@include mixins.flex($align: start, $justify: start);
+		@include mixins.flex( $direction: column, $align: start, $justify: start);
 		width: 100%;
 		height: 100%;
 		background-color: var.$clear-color-1;
@@ -125,27 +82,36 @@
 		}
 
 		.containerCta {
-			@include mixins.flex($align: start, $justify: start);
+			@include mixins.flex($align: center, $justify: start);
 			padding: var.$small-space 0;
 			gap: var.$small-space;
 			width: 100%;
+			height: 10vh;
 
 			.btnCta {
 				@include mixins.flex($align: center, $justify: center);
-				@include mixins.font($font: var.$font, $size: var.$text, $color: var.$clear-color-1, $weight: 600);
+				@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$clear-color-1, $weight: 600);
 				padding: var.$small-space;
 				height: 100%;
 				border-radius: var.$small-border;
 				cursor: pointer;
 				background-color: var.$medium-1;
 				transition: all 0.3s ease-in-out;
+				aspect-ratio: 1 / 1;
 
 				&:nth-child(1) {
 					background-color: var.$highlight-2;
+					aspect-ratio: auto;
 
 					&:hover {
 						background-color: var.$highlight-1;
 					}
+				}
+
+				&:nth-child(4) {
+					aspect-ratio: auto;
+					padding: 0;
+					background-color: transparent;
 				}
 
 				&:hover {
