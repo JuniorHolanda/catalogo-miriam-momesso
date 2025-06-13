@@ -7,6 +7,13 @@
 	gap: var.$small-space;
 	width: 100%;
 	height: 100%;
+	margin-bottom: 8vh;
+
+	@include mixins.min-width(small) {
+		grid-column: 1 / 6;
+		margin-top: calc(10vh + var.$small-space);
+		margin-bottom: 0;
+	}
 
 	.headerSection {
 		@include mixins.flex($direction: column);
