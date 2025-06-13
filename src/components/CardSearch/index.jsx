@@ -17,6 +17,7 @@ const CardSearch = ({ product }) => {
 		return storedLike === 'true'; // converte para booleano
 	});
 
+	// animação do btn like
 	const handleLike = () => {
 		const current = !like;
 
@@ -38,6 +39,8 @@ const CardSearch = ({ product }) => {
 		const valor = getSotorage(product._id);
 	}, [product._id]);
 
+
+//define a classe do cartão combase na quantidade de like
 	const statusClass = cn(styles.containerContent, {
 		[styles.status1]: product.like >= 0 && product.like < 5,
 		[styles.status2]: product.like >= 5 && product.like < 10,

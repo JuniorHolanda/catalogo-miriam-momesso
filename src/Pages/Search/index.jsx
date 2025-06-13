@@ -17,7 +17,6 @@ const Search = () => {
 	const query = rawQuery.trim().toLowerCase();
 	const category = selectedCategory.trim().toLowerCase();
 	const [products, setProducts] = useState([]);
-
 	const [loading, setLoading] = useState(true);
 
 	// Se a busca estiver vazia, renderiza mensagem

@@ -18,7 +18,8 @@ const NavBar = () => {
 					{item.category}
 				</Link>
 			</li>
-		));
+		)
+	);
 
 	const showSubMenu = () => {
 		setSubCategory(true);

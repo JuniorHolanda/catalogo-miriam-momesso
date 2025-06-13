@@ -98,7 +98,7 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 
 			<Link
 				className={styles.btnShowCategory}
-				to={`/categorias/${slugify(category, {
+				to={`/category/${slugify(category, {
 					lower: true,
 					strict: true,
 					trim: true,
