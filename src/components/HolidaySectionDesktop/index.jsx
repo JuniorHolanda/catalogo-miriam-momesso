@@ -1,5 +1,5 @@
 import { FaHome, FaWhatsapp, FaBars } from 'react-icons/fa';
-import styles from './navBar.module.scss';
+import styles from './holiday.module.scss';
 import { Link, useNavigate } from 'react-router-dom';
 import { LuPartyPopper } from 'react-icons/lu';
 import { useState } from 'react';

@@ -58,7 +58,7 @@ const HeroSearch = ({ reduce, className }) => {
 					></input>
 				</label>
 				<button onClick={submit} disabled={!search.trim()} className={styles.btnSubmit} type="button">
-					<FaSearch className={styles.icon} />
+					<FaSearch className={styles.iconSubmit} />
 				</button>
 			</div>
 			{!reduce && (
