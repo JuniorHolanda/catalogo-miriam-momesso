@@ -19,18 +19,29 @@ const HomeSection = () => {
 	return (
 		<main className={styles.wrapper}>
 			{isMobile && <HeaderSection />}
-			<SearchBar className={styles.containerInpt} />
+			<SearchBar
+				className={styles.containerInpt}
+				btnSubmit={styles.btnSubmit}
+			/>
 			{!isMobile && <HeroSectionDesktop />}
 			{isMobile && (
 				<nav className={styles.containerCard}>
 					{DataCardsCategory.map((card) => (
-						<CardCategory onClick={() => scrollToSection(card.id)} key={card.id} {...card} />
+						<CardCategory
+							onClick={() => scrollToSection(card.id)}
+							key={card.id}
+							{...card}
+						/>
 					))}
 				</nav>
 			)}
 
 			{DataCardsCategory.map((card) => (
-				<CategorySection key={card.id} {...card} ref={(el) => (sectionRefs.current[card.id] = el)} />
+				<CategorySection
+					key={card.id}
+					{...card}
+					ref={(el) => (sectionRefs.current[card.id] = el)}
+				/>
 			))}
 		</main>
 	);

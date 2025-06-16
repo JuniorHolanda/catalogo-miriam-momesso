@@ -13,13 +13,34 @@
 	backdrop-filter: blur(10px);
 
 	.content {
-		@include mixins.flex($direction: row, $align: center, $justify: space-between);
+		@include mixins.flex(
+			$direction: row,
+			$align: center,
+			$justify: space-between
+		);
 		width: 100%;
 		height: 10vh;
 		padding: var.$small-space;
 		gap: var.$medium-space;
 		border-radius: var.$medium-border;
 		background-color: var.$highlight-2;
+
+		.btnSubmit {
+			@include mixins.flex($justify: center, $align: center);
+			background-color: var.$highlight-1;
+			width: 20%;
+			height: 100%;
+			cursor: pointer;
+			transition: all ease-in-out 0.3s;
+
+			&:hover {
+				background-color: var.$medium-2;
+			}
+
+			@include mixins.min-width(small) {
+				width: 40%;
+			}
+		}
 
 		.containerLogo {
 			@include mixins.flex($justify: flex start, $align: center);
@@ -80,7 +101,10 @@
 						}
 
 						.containerListSubMenu {
-							@include mixins.flex($justify: center, $align: flex-start);
+							@include mixins.flex(
+								$justify: center,
+								$align: flex-start
+							);
 							gap: var.$large-space;
 							padding: var.$large-space;
 							position: absolute;
@@ -95,7 +119,11 @@
 							animation: entrance 0.3s ease-in-out forwards;
 
 							.categorySubMenu {
-								@include mixins.flex($direction: column, $justify: center, $align: flex-start);
+								@include mixins.flex(
+									$direction: column,
+									$justify: center,
+									$align: flex-start
+								);
 								gap: var.$small-space;
 
 								.subCategoryTitle {
@@ -109,12 +137,19 @@
 									border-bottom: solid 1px var.$clear-color-2;
 								}
 								.containerSubMenu {
-									@include mixins.flex($direction: column, $justify: center, $align: flex-start);
+									@include mixins.flex(
+										$direction: column,
+										$justify: center,
+										$align: flex-start
+									);
 									gap: var.$micro-small-space;
 									width: 100%;
 
 									.subMenuItem {
-										@include mixins.flex($justify: flex-start, $align: center);
+										@include mixins.flex(
+											$justify: flex-start,
+											$align: center
+										);
 										background-color: var.$clear-color-2;
 										transition: all 0.3s ease-in-out;
 										width: 100%;
@@ -127,7 +162,10 @@
 										}
 
 										.linkSubMenu {
-											@include mixins.flex($justify: flex-start, $align: center);
+											@include mixins.flex(
+												$justify: flex-start,
+												$align: center
+											);
 											@include mixins.font(
 												$font: var.$font,
 												$size: var.$text,
@@ -201,10 +239,6 @@
 				opacity: 0;
 				position: absolute;
 			}
-		}
-
-		.containerInpt {
-			z-index: 1;
 		}
 	}
 }

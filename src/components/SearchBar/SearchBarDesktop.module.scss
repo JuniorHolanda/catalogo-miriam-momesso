@@ -5,9 +5,13 @@
 	@include mixins.flex($direction: column, $justify: center);
 	gap: var.$small-space;
 	width: 100%;
-
 	.title {
-		@include mixins.font($font: var.$font, $size: var.$bigTitle-1, $weight: 800, $color: var.$clear-color-1);
+		@include mixins.font(
+			$font: var.$font,
+			$size: var.$bigTitle-1,
+			$weight: 800,
+			$color: var.$clear-color-1
+		);
 		width: 100%;
 		z-index: 1;
 		@include mixins.min-width(large) {
@@ -16,7 +20,12 @@
 	}
 
 	.text {
-		@include mixins.font($font: var.$font, $size: var.$text, $weight: 400, $color: var.$dark-color-2);
+		@include mixins.font(
+			$font: var.$font,
+			$size: var.$text,
+			$weight: 400,
+			$color: var.$dark-color-2
+		);
 		width: 100%;
 		z-index: 1;
 
@@ -27,7 +36,11 @@
 }
 
 .inpt {
-	@include mixins.flex($direction: row, $align: center, $justify: space-between);
+	@include mixins.flex(
+		$direction: row,
+		$align: center,
+		$justify: space-between
+	);
 	gap: var.$micro-small-space;
 	width: 100%;
 	border-radius: var.$small-border;
@@ -35,8 +48,7 @@
 	z-index: 1;
 	height: 4em;
 	overflow: hidden;
-	border: solid maroon;
-
+	border-radius: var.$medium-space;
 
 	.containerSrc {
 		@include mixins.flex($align: center);
@@ -45,33 +57,23 @@
 		height: 100%;
 		padding: 0 0 0 var.$small-space;
 		cursor: text;
-		border: solid gold;
 
 		.btnSrc {
 			display: flex;
-			@include mixins.font($font: var.$font, $size: var.$text, $weight: 600, $color: var.$dark-color-3);
-			border: solid violet;
+			@include mixins.font(
+				$font: var.$font,
+				$size: var.$text,
+				$weight: 600,
+				$color: var.$dark-color-3
+			);
 			width: 100%;
 			height: 100%;
 		}
 	}
-
-	.btnSubmit {
-		@include mixins.flex($justify: center, $align: center);
-		background-color: var.$highlight-1;
-		width: 20%;
-		height: 100%;
-		padding: 0 var.$medium-space;
-		cursor: pointer;
-
-		@include mixins.min-width(small) {
-			width: 10%;
-		}
-
-		.iconSubmit {
-			height: 100px;
-			border: solid red;
-		}
+	.iconSubmit {
+		color: var.$dark-color-2;
+		height: 30px;
+		width: 30px;
 	}
 }
 
@@ -82,7 +84,12 @@
 	overflow-x: auto;
 
 	.btnCategory {
-		@include mixins.font($font: var.$font, $size: var.$small-text, $weight: 600, $color: var.$clear-color-2);
+		@include mixins.font(
+			$font: var.$font,
+			$size: var.$small-text,
+			$weight: 600,
+			$color: var.$clear-color-2
+		);
 		text-wrap: nowrap;
 		padding: var.$small-space;
 		border-radius: var.$small-border;

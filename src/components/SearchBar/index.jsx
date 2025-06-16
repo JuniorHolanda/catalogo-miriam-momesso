@@ -4,7 +4,7 @@ import styles from './SearchBarDesktop.module.scss';
 import { FaSearch } from 'react-icons/fa';
 import category from '../../data/DataCardsCategory.json';
 
-const HeroSearch = ({ reduce, className }) => {
+const HeroSearch = ({ reduce, className, btnSubmit }) => {
 	const [search, setSearch] = useState('');
 	const [selectedCategory, setSelectedCategory] = useState('');
 
@@ -36,8 +36,10 @@ const HeroSearch = ({ reduce, className }) => {
 				<div className={styles.description}>
 					<h1 className={styles.title}>Encontre seu produto ideal</h1>
 					<p className={styles.text}>
-						Soluções em brindes personalizados para empresas que desejam fortalecer a identidade visual,
-						engajar o público e posicionar sua marca de forma marcante e estratégica.
+						Soluções em brindes personalizados para empresas que
+						desejam fortalecer a identidade visual, engajar o
+						público e posicionar sua marca de forma marcante e
+						estratégica.
 					</p>
 				</div>
 			)}
@@ -57,7 +59,12 @@ const HeroSearch = ({ reduce, className }) => {
 						placeholder="Pesquisar"
 					></input>
 				</label>
-				<button onClick={submit} disabled={!search.trim()} className={styles.btnSubmit} type="button">
+				<button
+					onClick={submit}
+					disabled={!search.trim()}
+					className={btnSubmit}
+					type="button"
+				>
 					<FaSearch className={styles.iconSubmit} />
 				</button>
 			</div>
@@ -66,7 +73,9 @@ const HeroSearch = ({ reduce, className }) => {
 					{category.map((item) => (
 						<button
 							className={`${styles.btnCategory} ${
-								selectedCategory === item.category ? styles.active : ''
+								selectedCategory === item.category
+									? styles.active
+									: ''
 							}`}
 							key={item.id}
 							onClick={() => setSelectedCategory(item.category)}
