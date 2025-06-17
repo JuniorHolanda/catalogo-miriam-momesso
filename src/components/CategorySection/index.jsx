@@ -29,7 +29,11 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 	}, []);
 
 	const navigate = useNavigate();
-	const categorySlugified = slugify(category, { lower: true, strict: true });
+	const categorySlugified = slugify(category,{
+		lower: true,
+		strict: true,
+		trim: true,
+	});
 	const isMobile = MediaQuery('(max-width: 700px)');
 
 	return (

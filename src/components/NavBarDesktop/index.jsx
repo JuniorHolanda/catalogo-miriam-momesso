@@ -4,21 +4,28 @@ import { useState } from 'react';
 import dataCategory from '../../data/DataCardsCategory.json';
 import dataHoliday from '../../data/holyDay.json';
 import SearchBar from '../SearchBar';
+import slugify from 'slugify';
 
 const NavBar = () => {
 	const [subCategory, setSubCategory] = useState();
-
+	
 	const filterData = (data) =>
 		data.map((item) => (
 			<li key={item.id} className={styles.subMenuItem}>
 				<Link
-					to={`/category/${item.category}`}
+					to={`/category/${slugify(item.category, {
+						lower:true,
+						strict: true,
+						trim: true,
+					}
+
+					)}`}
 					className={styles.linkSubMenu}
 				>
 					<div className={styles.containerImgSubMenu}>
 						<img src={item.img} alt="" />
 					</div>
-					{item.category}
+					<p>{item.category}</p>
 				</Link>
 			</li>
 		));
@@ -57,54 +64,22 @@ const NavBar = () => {
 							<span className={styles.menuList}>
 								<h2 className={styles.menuItem}>Categorias</h2>
 								{subCategory && (
-									<div
-										className={styles.containerListSubMenu}
-									>
+									<div className={styles.containerListSubMenu}>
 										<div className={styles.categorySubMenu}>
-											<h2
-												className={
-													styles.subCategoryTitle
-												}
-											>
-												Brindes costuráveis
-											</h2>
-											<ul
-												className={
-													styles.containerSubMenu
-												}
-											>
+											<h2 className={styles.subCategoryTitle}>Brindes costuráveis</h2>
+											<ul className={styles.containerSubMenu}>
 												{filterData(dataCategory)}
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
-											<h2
-												className={
-													styles.subCategoryTitle
-												}
-											>
-												Datas Comemorativas
-											</h2>
-											<ul
-												className={
-													styles.containerSubMenu
-												}
-											>
+											<h2 className={styles.subCategoryTitle}>Datas Comemorativas</h2>
+											<ul className={styles.containerSubMenu}>
 												{filterData(dataHoliday)}
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
-											<h2
-												className={
-													styles.subCategoryTitle
-												}
-											>
-												Brindes Importados
-											</h2>
-											<ul
-												className={
-													styles.containerSubMenu
-												}
-											>
+											<h2 className={styles.subCategoryTitle}>Brindes Importados</h2>
+											<ul className={styles.containerSubMenu}>
 												{filterData(dataCategory)}
 											</ul>
 										</div>
