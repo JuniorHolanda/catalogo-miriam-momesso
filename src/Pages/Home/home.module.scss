@@ -11,6 +11,8 @@
 	@include mixins.min-width(small) {
 		margin-bottom: 0;
 		margin-top: calc(10vh + var.$small-space);
+		gap: var.$small-space;
+
 	}
 
 	.btnSubmit {

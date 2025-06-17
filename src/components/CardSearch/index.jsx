@@ -17,6 +17,8 @@ const CardSearch = ({ product }) => {
 		return storedLike === 'true'; // converte para booleano
 	});
 
+	
+
 	// animação do btn like
 	const handleLike = () => {
 		const current = !like;
@@ -32,13 +34,6 @@ const CardSearch = ({ product }) => {
 			console.log('removendo dados da localStorage', deleteSotorage(product._id));
 		}
 	};
-
-	useEffect(() => {
-		if (!product._id) return; // segurança contra undefined/null
-
-		const valor = getSotorage(product._id);
-	}, [product._id]);
-
 
 //define a classe do cartão combase na quantidade de like
 	const statusClass = cn(styles.containerContent, {

@@ -16,7 +16,10 @@ const HeroSectionDesktop = () => {
 
         <div className={styles.swiper}>
           <div className={styles.swiperContainer}>
-            <Swiper slidesPerView={3} spaceBetween={20} navigation={true}>
+            <Swiper
+            slidesPerView={3}
+            spaceBetween={20}
+            navigation={true}>
               {dataHoliday.map((item) => (
                 <SwiperSlide>
                   <Holiday key={item.id} card={item} />
