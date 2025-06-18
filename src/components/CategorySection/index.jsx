@@ -9,31 +9,32 @@ import { Link, useNavigate } from 'react-router-dom';
 import CardSearch from '../CardSearch';
 import slugify from 'slugify';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
-import axios from 'axios';
 import LoaderData from '../Loader';
 import Banners from '../../data/Banners.json';
+import { getProducts } from '../../services/productsMomessoServices';
 
 const CategorySection = React.forwardRef(({ category, text }, ref) => {
+
 	const [products, setProducts] = useState([]);
+
 	useEffect(() => {
 		async function fetchProducts() {
 			try {
-				const response = await axios.get('https://back-end-catalogo-miriam-momesso.onrender.com/product');
-				setProducts(response.data);
+				const response = await getProducts();
+				setProducts(response);
 			} catch (error) {
-				console.error('Erro ao buscar produtos:', error);
+				console.log('Erro ao carregar produtos:', error.message);;
 			}
 		}
-
 		fetchProducts();
 	}, []);
 
-	const navigate = useNavigate();
 	const categorySlugified = slugify(category,{
 		lower: true,
 		strict: true,
 		trim: true,
 	});
+	
 	const isMobile = MediaQuery('(max-width: 700px)');
 
 	return (

@@ -16,6 +16,7 @@ const CardSearch = ({ product }) => {
 		return storedLike === 'true'; // converte para booleano
 	});
 
+	//verifica se tem like na montagem do componente
 	useEffect(() => {
 		if (like) {
 			animationRef.current?.play();
