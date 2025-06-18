@@ -6,6 +6,7 @@ import Lottie from 'lottie-react';
 import animation from './Animation - 1748197599976.json';
 import cn from 'classnames';
 import { useEffect, useRef, useState } from 'react';
+import { likeProduct } from '../../services/productsMomessoServices';
 
 const CardSearch = ({ product }) => {
 	const slug = slugify(product.title, { lower: true, strict: true });
@@ -24,16 +25,18 @@ const CardSearch = ({ product }) => {
 	}, []);
 
 	// animação do btn like
-	const handleLike = () => {
+	const handleLike = async () => {
 		const current = !like;
 		setLike(current);
 		// Se já está rodando, pode parar ou reiniciar:
 		if (current) {
 			animationRef.current?.play();
 			localStorage.setItem(`like${product._id}`, 'true');
+			await likeProduct(product._id, 1);
 		} else {
 			animationRef.current?.stop();
 			localStorage.removeItem(`like${product._id}`);
+			await likeProduct(product._id, -1);
 		}
 	};
 

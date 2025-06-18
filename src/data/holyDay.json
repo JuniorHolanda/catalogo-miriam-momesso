@@ -56,11 +56,11 @@
         "description" : "Sofisticação para o dia a dia"
     },
     {
-        "id" : 7,
+        "id" : 8,
         "category" : "Dia dos Professores",
         "start": "2023-05-01",
         "end": "2023-05-14",
-        "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744229953/executivo_sh0eyl.jpg",
+        "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1750275350/dia-dos-professores_ojpwrp.jpg",
         "altImg" : "uma ilustração de algumas flores coloridas",
         "description" : "Sofisticação para o dia a dia"
     }
