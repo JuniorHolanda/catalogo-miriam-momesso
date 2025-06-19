@@ -15,12 +15,15 @@ export async function getProducts() {
 // Requisição específica para likes
 export async function likeProduct(productId, value) {
 	try {
-		const response = await axios.patch(`${API_URL}/${productId}`, {
-			like: value
+		const response = await axios.patch(`${API_URL}/${productId}/like`, {
+			like: value,
 		});
 		return response.data;
 	} catch (error) {
-		console.error('Erro ao atualizar like:', error.response?.data || error.message);
+		console.error(
+			'Erro ao atualizar like:',
+			error.response?.data || error.message
+		);
 		throw error;
 	}
 }
