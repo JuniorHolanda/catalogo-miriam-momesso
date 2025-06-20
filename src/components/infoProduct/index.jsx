@@ -4,11 +4,11 @@ import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import likeAnimation from './Animation - 1748197599976.json';
 import Lottie from 'lottie-react';
 import { TfiDropbox } from 'react-icons/tfi';
+import BtnLike from '../btn/BtnLike';
 
-const InfoProduct = ({ name, category, measure, text }) => {
+const InfoProduct = ({ name, category, measure, text, id }) => {
 	const isMobile = MediaQuery('(max-width: 700px)');
 
-	console.log(category);
 	return (
 		<section className={styles.wrapper}>
 			<div className={styles.containerCatgory}>
@@ -20,7 +20,9 @@ const InfoProduct = ({ name, category, measure, text }) => {
 			<div className={styles.containerInfo}>
 				<h2 className={styles.title}>{name}</h2>
 				<div className={styles.containerMeasure}>
-					<h2 className={styles.measure}>{measure >= 1 ? 'Medidas:' : 'Medida:'}</h2>
+					<h2 className={styles.measure}>
+						{measure >= 1 ? 'Medidas:' : 'Medida:'}
+					</h2>
 					<div className={styles.containerBtnMeasure}>
 						{measure.map((item) => (
 							<span className={styles.btnMeasure} key={item}>
@@ -33,16 +35,18 @@ const InfoProduct = ({ name, category, measure, text }) => {
 					<p>{text}</p>
 				</div>
 				<div className={styles.containerCta}>
-					<button className={styles.btnCta}>Solicitar Orçamento</button>
-					<button className={styles.btnCta}><FaShareAlt /></button>
-					<button className={styles.btnCta}> <TfiDropbox className={styles.icon} /></button>
 					<button className={styles.btnCta}>
-						<Lottie
-							animationData={likeAnimation}
-							className={styles.animation}
-							autoplay={false}
-							loop={false}
-						/>
+						Solicitar Orçamento
+					</button>
+					<button className={styles.btnCta}>
+						<FaShareAlt />
+					</button>
+					<button className={styles.btnCta}>
+						{' '}
+						<TfiDropbox className={styles.icon} />
+					</button>
+					<button className={styles.btnCta}>
+						<BtnLike productId={id} />
 					</button>
 				</div>
 			</div>

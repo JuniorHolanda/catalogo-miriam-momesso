@@ -1,0 +1,7 @@
+@use '../../../styles/mixins';
+@use '../../../styles/variables.scss' as var;
+
+.animation {
+	cursor: pointer;
+	width: 50px;
+}

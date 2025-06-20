@@ -3,11 +3,11 @@ import styles from './product.module.scss';
 import Gallery from '../../components/Gallery';
 import InfoProduct from '../../components/infoProduct';
 import slugify from 'slugify';
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import { useEffect, useState } from 'react';
 import LoaderData from '../../components/Loader';
 import Video360 from '../../components/Video360';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
+import { getProducts } from '../../services/productsMomessoServices';
 
 const ProductSection = ({ name }) => {
 	const [products, setProducts] = useState([]);
@@ -16,10 +16,10 @@ const ProductSection = ({ name }) => {
 	useEffect(() => {
 		async function fetchProducts() {
 			try {
-				const response = await axios.get('https://back-end-catalogo-miriam-momesso.onrender.com/product');
-				setProducts(response.data);
+				const response = await getProducts();
+				setProducts(response);
 			} catch (error) {
-				console.error('Erro ao buscar produtos:', error);
+				console.log('Erro ao carregar produtos:', error.message);
 			}
 		}
 		fetchProducts();
@@ -43,13 +43,19 @@ const ProductSection = ({ name }) => {
 
 	return (
 		<main className={styles.wrapper}>
-			{isMobile && <HeaderSection id={cardFiltered.title} className={styles.headerSection} />}
+			{isMobile && (
+				<HeaderSection
+					id={cardFiltered.title}
+					className={styles.headerSection}
+				/>
+			)}
 			<Gallery images={cardFiltered.gallery} className={styles.gallery} />
 			<InfoProduct
 				name={cardFiltered.title}
 				category={cardFiltered.category}
 				measure={cardFiltered.measure}
 				text={cardFiltered.text}
+				id={cardFiltered._id}
 			/>
 			{/* <Video360 className={styles.video360} /> */}
 		</main>

@@ -2,45 +2,13 @@ import styles from './cardSearch.module.scss';
 import { LiaEyeSolid } from 'react-icons/lia';
 import { Link } from 'react-router-dom';
 import slugify from 'slugify';
-import Lottie from 'lottie-react';
-import animation from './Animation - 1748197599976.json';
 import cn from 'classnames';
-import { useEffect, useRef, useState } from 'react';
-import { likeProduct } from '../../services/productsMomessoServices';
+import BtnLike from '../btn/BtnLike';
 
 const CardSearch = ({ product }) => {
 	const slug = slugify(product.title, { lower: true, strict: true });
-	const animationRef = useRef();
 
-	const [like, setLike] = useState(() => {
-		const storedLike = localStorage.getItem(`like${product._id}`);
-		return storedLike === 'true'; // converte para booleano
-	});
-
-	//verifica se tem like na montagem do componente
-	useEffect(() => {
-		if (like) {
-			animationRef.current?.play();
-		}
-	}, []);
-
-	// animação do btn like
-	const handleLike = async () => {
-		const current = !like;
-		setLike(current);
-		// Se já está rodando, pode parar ou reiniciar:
-		if (current) {
-			animationRef.current?.play();
-			localStorage.setItem(`like${product._id}`, 'true');
-			await likeProduct(product._id, 1);
-		} else {
-			animationRef.current?.stop();
-			localStorage.removeItem(`like${product._id}`);
-			await likeProduct(product._id, -1);
-		}
-	};
-
-	//define a classe do cartão combase na quantidade de like
+	//define a classe do cartão com base na quantidade de like
 	const statusClass = cn(styles.containerContent, {
 		[styles.status1]: product.like >= 0 && product.like < 5,
 		[styles.status2]: product.like >= 5 && product.like < 10,
@@ -60,14 +28,7 @@ const CardSearch = ({ product }) => {
 							);
 						})}
 					</div>
-					<Lottie
-						lottieRef={animationRef}
-						autoplay={false}
-						animationData={animation}
-						loop={false}
-						className={styles.animation}
-						onClick={handleLike}
-					/>
+					<BtnLike productId={product._id} />
 				</div>
 				<div className={styles.containerThunb}>
 					<img src={product.thunbnail} alt={product.altThunbnail} />

@@ -14,7 +14,6 @@ import Banners from '../../data/Banners.json';
 import { getProducts } from '../../services/productsMomessoServices';
 
 const CategorySection = React.forwardRef(({ category, text }, ref) => {
-
 	const [products, setProducts] = useState([]);
 
 	useEffect(() => {
@@ -23,18 +22,18 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 				const response = await getProducts();
 				setProducts(response);
 			} catch (error) {
-				console.log('Erro ao carregar produtos:', error.message);;
+				console.log('Erro ao carregar produtos:', error.message);
 			}
 		}
 		fetchProducts();
 	}, []);
 
-	const categorySlugified = slugify(category,{
+	const categorySlugified = slugify(category, {
 		lower: true,
 		strict: true,
 		trim: true,
 	});
-	
+
 	const isMobile = MediaQuery('(max-width: 700px)');
 
 	return (
@@ -65,7 +64,9 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 						}}
 					>
 						{/* filtra os banners com base na categoria */}
-						{Banners.filter((bann) => bann.category === category).map((bann) => (
+						{Banners.filter(
+							(bann) => bann.category === category
+						).map((bann) => (
 							<SwiperSlide key={bann.id}>
 								<img src={bann.imgBanner} alt="" />
 							</SwiperSlide>
@@ -89,11 +90,18 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 								(card) =>
 									Array.isArray(card.category) &&
 									card.category.some(
-										(cat) => slugify(cat, { lower: true, strict: true }) === categorySlugified
+										(cat) =>
+											slugify(cat, {
+												lower: true,
+												strict: true,
+											}) === categorySlugified
 									)
 							)
 							.map((card) => (
-								<SwiperSlide key={card._id} style={{ height: '100%' }}>
+								<SwiperSlide
+									key={card._id}
+									style={{ height: '100%' }}
+								>
 									<CardSearch product={card} />
 								</SwiperSlide>
 							))}
