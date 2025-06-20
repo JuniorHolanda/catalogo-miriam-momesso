@@ -16,41 +16,39 @@ const CardSearch = ({ product }) => {
 	});
 
 	return (
-		<>
-			<div className={styles.cardItem}>
-				<div className={styles.headerCard}>
-					<div className={styles.containerCategoryCard}>
-						{product.category.map((item) => {
-							return (
-								<span className={styles.categoryCard}>
-									{item}
-								</span>
-							);
-						})}
-					</div>
-					<BtnLike productId={product._id} />
+		<div className={styles.cardItem}>
+			<div className={styles.headerCard}>
+				<div className={styles.containerCategoryCard}>
+					{product.category.map((item) => {
+						return (
+							<span className={styles.categoryCard}>
+								{item}
+							</span>
+						);
+					})}
 				</div>
-				<div className={styles.containerThunb}>
-					<img src={product.thunbnail} alt={product.altThunbnail} />
-				</div>
-
-				<div className={statusClass}>
-					<div className={styles.containerName}>
-						<h2>{product.title}</h2>
-						<p>{product.smallText}</p>
-					</div>
-					<Link
-						to={`/product/${slug}`}
-						className={styles.containerBtn}
-					>
-						<span>
-							<LiaEyeSolid className={styles.icon} />
-							Ver Produto
-						</span>
-					</Link>
-				</div>
+				<BtnLike productId={product._id} />
 			</div>
-		</>
+			<div className={styles.containerThunb}>
+				<img src={product.thunbnail} alt={product.altThunbnail} />
+			</div>
+
+			<div className={statusClass}>
+				<div className={styles.containerName}>
+					<h2>{product.title}</h2>
+					<p>{product.smallText}</p>
+				</div>
+				<Link
+					to={`/product/${slug}`}
+					className={styles.containerBtn}
+				>
+					<span>
+						<LiaEyeSolid className={styles.icon} />
+						Ver Produto
+					</span>
+				</Link>
+			</div>
+		</div>
 	);
 };
 

@@ -3,29 +3,28 @@ import animation from './Animation - 1748197599976.json';
 import styles from './btnLike.module.scss';
 import { useEffect, useRef, useState } from 'react';
 import Lottie from 'lottie-react';
+import { setItemLocalStorage } from '../../../utils/MediaQuery/localStorage/localSorage';
 
 const BtnLike = ({ productId }) => {
 	console.log(productId);
 	const animationRef = useRef();
 	const [like, setLike] = useState(() => {
-		const storedLike = localStorage.getItem(`like${productId}`);
+		const storedLike = localStorage.getItem(productId);
 		return storedLike === 'true'; // converte para booleano
 	});
 
 	//verifica se tem like na montagem do componente
 	useEffect(() => {
-		if (like) {
-			animationRef.current?.play();
-		}
+		if (like) {animationRef.current?.play();}
 	}, [like]);
 
 	//persiste dados na localStorage e no Mongo
 	async function persistenceLike(isLiked) {
 		if (isLiked === true) {
-			localStorage.setItem(`like${productId}`, 'true');
+			setItemLocalStorage(productId, true)
 			await likeProduct(productId, 1);
 		} else {
-			localStorage.removeItem(`like${productId}`);
+			setItemLocalStorage(productId, false)
 			await likeProduct(productId, -1);
 		}
 	}
