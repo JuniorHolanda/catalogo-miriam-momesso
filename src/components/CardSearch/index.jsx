@@ -3,7 +3,8 @@ import { LiaEyeSolid } from 'react-icons/lia';
 import { Link } from 'react-router-dom';
 import slugify from 'slugify';
 import cn from 'classnames';
-import BtnLike from '../btn/BtnLike';
+import BtnInteractive from '../btn/btnInteractive';
+import animationLike from '../../animation/animation-like.json'
 
 const CardSearch = ({ product }) => {
 	const slug = slugify(product.title, { lower: true, strict: true });
@@ -27,7 +28,12 @@ const CardSearch = ({ product }) => {
 						);
 					})}
 				</div>
-				<BtnLike productId={product._id} />
+				<BtnInteractive 
+					productId={product._id}
+					icon={animationLike}
+					isLikeBtn={true}
+					type={'like'}
+				/>
 			</div>
 			<div className={styles.containerThunb}>
 				<img src={product.thunbnail} alt={product.altThunbnail} />

@@ -9,19 +9,26 @@
 	border-radius: var.$small-border;
 	padding: var.$micro-small-space;
 	grid-area: 1 / 2 / 2 / 3;
-
+	
 	@include mixins.min-width(small) {
-			display: grid;
-	grid-template: 10% 90% / 3fr auto;
+		display: grid;
+		grid-template: 10% 90% / 3fr auto;
 		padding: 0;
 	}
-
+	
+	.btnInteraction{
+		@include mixins.flex($align: center, $justify: center);
+		border-radius: var.$small-border;
+		background-color: var.$clear-color-1;
+		overflow: hidden;
+	}
 	.containerCatgory {
 		@include mixins.flex($align: center, $justify: start);
 		padding: var.$small-space;
+		gap: var.$small-space;
 		width: 100%;
-		background-color: var.$clear-color-1;
 		border-radius: var.$small-border;
+		background-color: var.$clear-color-1;
 
 		h2 {
 			@include mixins.font($font: var.$font, $size: var.$text, $color: var.$clear-color-3, $weight: 500);

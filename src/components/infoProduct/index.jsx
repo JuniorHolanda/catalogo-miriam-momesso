@@ -1,11 +1,12 @@
 import styles from './infoProduct.module.scss';
 import { FaArrowRight, FaArrowLeft, FaShareAlt } from 'react-icons/fa';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
-import likeAnimation from './Animation - 1748197599976.json';
-import Lottie from 'lottie-react';
 import { TfiDropbox } from 'react-icons/tfi';
-import BtnLike from '../btn/BtnLike';
+import animationLike from '../../animation/animation-like.json';
+import animationFavorite from '../../animation/animation-favorite.json';
+import animationKit from '../../animation/animation-kit.json'
 
+import BtnInteractive from '../btn/btnInteractive';
 const InfoProduct = ({ name, category, measure, text, id }) => {
 	const isMobile = MediaQuery('(max-width: 700px)');
 
@@ -15,6 +16,33 @@ const InfoProduct = ({ name, category, measure, text, id }) => {
 				{category.map((item) => (
 					<h2 key={item}>{item}</h2>
 				))}
+			</div>
+
+			<div className={styles.btnInteraction}>
+				<button className={styles.btnCta}>
+					<BtnInteractive
+						productId={id}
+						icon={animationLike}
+						isLikeBtn={true}
+						type={'like'}
+					/>
+				</button>
+				<button className={styles.btnCta}>
+					<BtnInteractive
+						productId={id}
+						icon={animationFavorite}
+						isLikeBtn={false}
+						type={'favorite'}
+					/>
+				</button>
+				<button className={styles.btnCta}>
+					<BtnInteractive
+						productId={id}
+						icon={animationKit}
+						isLikeBtn={false}
+						type={'kit'}
+					/>
+				</button>
 			</div>
 
 			<div className={styles.containerInfo}>
@@ -44,9 +72,6 @@ const InfoProduct = ({ name, category, measure, text, id }) => {
 					<button className={styles.btnCta}>
 						{' '}
 						<TfiDropbox className={styles.icon} />
-					</button>
-					<button className={styles.btnCta}>
-						<BtnLike productId={id} />
 					</button>
 				</div>
 			</div>
