@@ -2,6 +2,8 @@
 @use '../../../styles/variables.scss' as var;
 
 .animation {
+	object-fit: cover;
+	object-position: center;
 	cursor: pointer;
-	width: 50px;
+	font-size: 1em;
 }

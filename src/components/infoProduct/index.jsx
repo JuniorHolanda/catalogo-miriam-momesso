@@ -4,7 +4,7 @@ import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import { TfiDropbox } from 'react-icons/tfi';
 import animationLike from '../../animation/animation-like.json';
 import animationFavorite from '../../animation/animation-favorite.json';
-import animationKit from '../../animation/animation-kit.json'
+import animationKit from '../../animation/animation-kit.json';
 
 import BtnInteractive from '../btn/btnInteractive';
 const InfoProduct = ({ name, category, measure, text, id }) => {
@@ -18,29 +18,32 @@ const InfoProduct = ({ name, category, measure, text, id }) => {
 				))}
 			</div>
 
-			<div className={styles.btnInteraction}>
-				<button className={styles.btnCta}>
+			<div className={styles.containerBtnInteraction}>
+				<button className={styles.btnInteraction}>
 					<BtnInteractive
 						productId={id}
 						icon={animationLike}
 						isLikeBtn={true}
 						type={'like'}
+						style={styles.animationBtn}
 					/>
 				</button>
-				<button className={styles.btnCta}>
+				<button className={styles.btnInteraction}>
 					<BtnInteractive
 						productId={id}
 						icon={animationFavorite}
 						isLikeBtn={false}
 						type={'favorite'}
+						style={styles.animationBtn}
 					/>
 				</button>
-				<button className={styles.btnCta}>
+				<button className={styles.btnInteraction}>
 					<BtnInteractive
 						productId={id}
 						icon={animationKit}
 						isLikeBtn={false}
 						type={'kit'}
+						style={styles.animationBtn}
 					/>
 				</button>
 			</div>

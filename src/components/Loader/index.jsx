@@ -1,18 +1,18 @@
-import React from 'react'
+import React from 'react';
 import animationLoader from './Animation.json';
-import Lottie from 'lottie-react';
+import Lottie from 'react-lottie-player';
 
-const LoaderData = ({className}) => {
-  return (
-    <div className={className}>
-      <Lottie
-        animationData={animationLoader}
-        loop={true}
-        autoplay={true}
-      />
-    </div>
-  )
-}
+const LoaderData = ({ className }) => {
+	return (
+		<div className={className}>
+			<Lottie
+				animationData={animationLoader}
+				loop={true}
+				autoplay={true}
+			/>
+		</div>
+	);
+};
 
 export default LoaderData;
 

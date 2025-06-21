@@ -10,8 +10,9 @@
 	@include mixins.min-width(small) {
 		display: grid;
 		grid-template: auto repeat(2, 1fr);
-		min-height: 100vh;
+		height: calc(90vh + var.$small-space);
 		margin-top: calc(10vh + var.$small-space);
+		margin-bottom: 0;
 	}
 
 	.headerSection {
