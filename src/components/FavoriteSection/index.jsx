@@ -11,8 +11,10 @@ import 'swiper/css/effect-fade';
 import { getProducts } from '../../services/productsMomessoServices';
 import { useState, useEffect } from 'react';
 import CardSearch from '../CardSearch';
+import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 
 const FavoriteSection = ({ style, listId }) => {
+	const isMobile = MediaQuery('(max-width: 700px)');
 	const [products, setProducts] = useState([]);
 	useEffect(() => {
 		async function fetchProducts() {
@@ -54,7 +56,7 @@ const FavoriteSection = ({ style, listId }) => {
 				<div className={styles.swiper}>
 					<div className={styles.swiperContainer}>
 						<Swiper
-							slidesPerView={5}
+							slidesPerView={isMobile ? 1.3 : 5}
 							spaceBetween={20}
 							navigation={true}
 							pagination={{ clickable: true }}

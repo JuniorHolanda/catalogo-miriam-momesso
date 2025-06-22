@@ -4,12 +4,15 @@
 .containerCategory {
 	@include mixins.flex($direction: column, $justify: center);
 	gap: var.$micro-small-space;
-	height: 110vh;
 	width: 100%;
 	background-color: var.$clear-color-1;
 	padding: var.$small-space;
 	gap: var.$medium-space;
 	border-radius: var.$small-border;
+
+	@include mixins.min-width(small) {
+		height: 110vh;
+	}
 
 	.containerSwiper {
 		@include mixins.flex();

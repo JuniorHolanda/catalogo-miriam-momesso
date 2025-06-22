@@ -26,7 +26,7 @@ const HomeSection = () => {
 			{isMobile && <HeaderSection />}
 			<SearchBar className={styles.containerInpt} btnSubmit={styles.btnSubmit} />
 			{!isMobile && <HeroSectionDesktop />}
-			{!isMobile && <FavoriteSection listId={productId} />}
+			{productId.length >= 5 && <FavoriteSection listId={productId} />}
 
 			{isMobile && (
 				<nav className={styles.containerCard}>

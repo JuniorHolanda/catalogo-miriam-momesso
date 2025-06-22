@@ -11,14 +11,23 @@
 		grid-area: 1 / 2 / 2 / 3;
 		width: 100%;
 		gap: var.$medium-space;
-		padding: var.$medium-space;
 		background-color: var.$clear-color-3;
-		border-radius: var.$medium-border;
+		padding: var.$micro-small-space;
+		border-radius: var.$small-space;
+
+		@include mixins.min-width(small) {
+			padding: var.$medium-space;
+			border-radius: var.$medium-space;
+		}
 
 		.cta {
-			@include mixins.flex($justify: center, $align: center);
+			@include mixins.flex($direction: column, $justify: center, $align: center);
 			width: 100%;
 			gap: var.$small-space;
+
+			@include mixins.min-width(small) {
+				flex-direction: row;
+			}
 
 			.title {
 				@include mixins.font(
@@ -27,10 +36,15 @@
 					$weight: 800,
 					$color: var.$highlight-2
 				);
-				width: 50%;
+				text-align: center;
+				width: 100%;
 				strong {
 					font-weight: 900;
 					color: var.$highlight-1;
+				}
+				@include mixins.min-width(small) {
+					text-align: start;
+					width: 50%;
 				}
 			}
 
@@ -41,10 +55,15 @@
 					$weight: 400,
 					$color: var.$dark-color-2
 				);
-				width: 20%;
+				text-align: center;
+				width: 100%;
 				strong {
 					font-weight: 600;
 					color: var.$highlight-1;
+				}
+				@include mixins.min-width(small) {
+					text-align: start;
+					width: 50%;
 				}
 			}
 
@@ -72,6 +91,8 @@
 		.swiper {
 			display: flex;
 			width: 100%;
+			border-radius: var.$small-space;
+			overflow: hidden;
 
 			.swiperContainer {
 				display: flex;
