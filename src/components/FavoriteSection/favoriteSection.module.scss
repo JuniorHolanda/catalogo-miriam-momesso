@@ -7,24 +7,31 @@
 	width: 100%;
 
 	.content {
-		@include mixins.flex($justify: center, $align: center);
+		@include mixins.flex($direction: column, $justify: center, $align: center);
 		grid-area: 1 / 2 / 2 / 3;
 		width: 100%;
-		gap: var.$small-space;
+		gap: var.$medium-space;
+		padding: var.$medium-space;
+		background-color: var.$clear-color-3;
+		border-radius: var.$medium-border;
 
 		.cta {
-			@include mixins.flex($direction: column, $justify: center, $align: start);
-			width: 40%;
-			gap: var.$medium-space;
-			padding: var.$medium-space;
+			@include mixins.flex($justify: center, $align: center);
+			width: 100%;
+			gap: var.$small-space;
 
 			.title {
 				@include mixins.font(
 					$font: var.$font,
 					$size: var.$bigTitle-2,
 					$weight: 800,
-					$color: var.$dark-color-3
+					$color: var.$highlight-2
 				);
+				width: 50%;
+				strong {
+					font-weight: 900;
+					color: var.$highlight-1;
+				}
 			}
 
 			.text {
@@ -34,6 +41,11 @@
 					$weight: 400,
 					$color: var.$dark-color-2
 				);
+				width: 20%;
+				strong {
+					font-weight: 600;
+					color: var.$highlight-1;
+				}
 			}
 
 			.btn {
@@ -59,7 +71,7 @@
 		}
 		.swiper {
 			display: flex;
-			width: 60%;
+			width: 100%;
 
 			.swiperContainer {
 				display: flex;

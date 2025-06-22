@@ -1,6 +1,12 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
-import 'swiper/css/bundle';
+import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
+// Importa os estilos do Swipper
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+import 'swiper/css/effect-fade';
+
 import styles from './category-section.module.scss';
 import StoriesInsta from '../Stories';
 import React, { useEffect, useState } from 'react';
@@ -38,16 +44,13 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 
 	return (
 		<div className={styles.containerCategory} ref={ref}>
-			<div className={styles.containerInfo}>
-				<h2>{category}</h2>
-				<p>{text}</p>
-			</div>
 			{/* se for mobile mostra stories */}
 			{isMobile && (
 				<section className={styles.containerStories}>
 					<StoriesInsta filter={category} />
 				</section>
 			)}
+
 			{/* se não for mobile mostra banner */}
 			{!isMobile && (
 				<section className={styles.containerSwiper}>
@@ -55,18 +58,17 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 						slidesPerView={1}
 						spaceBetween={0}
 						navigation={true}
-						pagination={true}
+						pagination={{ clickable: true }}
 						loop={true}
-						modules={[Autoplay]}
+						modules={[Autoplay, Navigation, Pagination, EffectFade]}
 						autoplay={{
-							delay: 3000,
+							delay: 5000,
 							disableOnInteraction: false, // continua mesmo com interações
 						}}
+						speed={2000}
 					>
 						{/* filtra os banners com base na categoria */}
-						{Banners.filter(
-							(bann) => bann.category === category
-						).map((bann) => (
+						{Banners.filter((bann) => bann.category === category).map((bann) => (
 							<SwiperSlide key={bann.id}>
 								<img src={bann.imgBanner} alt="" />
 							</SwiperSlide>
@@ -75,51 +77,49 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 				</section>
 			)}
 
-			<div className={styles.containerCard}>
-				{!products || products.length === 0 ? (
-					<LoaderData />
-				) : (
-					<Swiper
-						style={{ height: '100%' }}
-						slidesPerView={isMobile ? 2 : 3}
-						spaceBetween={isMobile ? 10 : 40}
-						navigation={true}
-					>
-						{products
-							.filter(
-								(card) =>
-									Array.isArray(card.category) &&
-									card.category.some(
-										(cat) =>
-											slugify(cat, {
-												lower: true,
-												strict: true,
-											}) === categorySlugified
-									)
-							)
-							.map((card) => (
-								<SwiperSlide
-									key={card._id}
-									style={{ height: '100%' }}
-								>
-									<CardSearch product={card} />
-								</SwiperSlide>
-							))}
-					</Swiper>
-				)}
+			<div className={styles.containerInfo}>
+				<h2 className={styles.title}>{category}</h2>
+				<p className={styles.text}>{text}</p>
+				<div className={styles.containerCard}>
+					{!products || products.length === 0 ? (
+						<LoaderData />
+					) : (
+						<Swiper
+							slidesPerView={isMobile ? 1.3 : 3.5}
+							spaceBetween={isMobile ? 10 : 40}
+						>
+							{products
+								.filter(
+									(card) =>
+										Array.isArray(card.category) &&
+										card.category.some(
+											(cat) =>
+												slugify(cat, {
+													lower: true,
+													strict: true,
+												}) === categorySlugified
+										)
+								)
+								.map((card) => (
+									<SwiperSlide key={card._id} style={{ height: '100%' }}>
+										<CardSearch product={card} />
+									</SwiperSlide>
+								))}
+						</Swiper>
+					)}
+				</div>
+				<Link
+					className={styles.btnShowCategory}
+					to={`/category/${slugify(category, {
+						lower: true,
+						strict: true,
+						trim: true,
+					})}`}
+				>
+					<LiaEyeSolid className={styles.icon} />
+					Ver mais de {category}
+				</Link>
 			</div>
-
-			<Link
-				className={styles.btnShowCategory}
-				to={`/category/${slugify(category, {
-					lower: true,
-					strict: true,
-					trim: true,
-				})}`}
-			>
-				<LiaEyeSolid className={styles.icon} />
-				Ver mais de {category}
-			</Link>
 		</div>
 	);
 });

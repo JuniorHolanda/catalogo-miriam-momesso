@@ -2,43 +2,54 @@
 @use '../../styles/variables.scss' as var;
 
 .containerCategory {
-	display: grid;
-	grid-template: auto / 1fr;
+	@include mixins.flex($direction: column, $justify: center);
 	gap: var.$micro-small-space;
+	height: 110vh;
 	width: 100%;
-	height: 1fr;
 	background-color: var.$clear-color-1;
 	padding: var.$small-space;
+	gap: var.$medium-space;
 	border-radius: var.$small-border;
 
-	@include mixins.min-width(small) {
-		display: grid;
-		grid-template: auto / 3fr 1fr;
-		gap: var.$medium-space;
+	.containerSwiper {
+		@include mixins.flex();
+		height: 40%;
+		width: 100%;
+		border-radius: var.$small-border;
+		overflow: hidden;
+
+		img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
 	}
 
 	.containerInfo {
-		@include mixins.flex($direction: column, $justify: center);
-		grid-area: 1 / 1 / 2 / 2;
-
-		gap: var.$micro-small-space;
+		@include mixins.flex($direction: column, $justify: center, $align: space-between);
+		gap: var.$medium-space;
 		width: 100%;
-		height: fit-content;
-		padding: var.$small-space;
+		height: 60%;
 		position: relative;
 		overflow: hidden;
 		z-index: 1;
 
 		@include mixins.min-width(small) {
-			grid-area: 2 / 2 / 3 / 3;
-			align-self: flex-end;
-			justify-self: flex-start;
-			padding: 0;
+			display: grid;
+			grid-template: auto auto auto / 3fr 1fr;
+			align-items: center;
 		}
 
-		h2 {
-			@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$dark-color-1, $weight: 900);
+		.title {
+			@include mixins.font(
+				$font: var.$font,
+				$size: var.$bigTitle-3,
+				$color: var.$dark-color-1,
+				$weight: 900
+			);
 			z-index: 1;
+			grid-area: 1 / 2 / 2 / 3;
 
 			@include mixins.min-width(small) {
 				hyphens: auto;
@@ -46,82 +57,54 @@
 			}
 		}
 
-		p {
-			@include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-2, $weight: 600);
+		.text {
+			@include mixins.font(
+				$font: var.$font,
+				$size: var.$text,
+				$color: var.$dark-color-2,
+				$weight: 600
+			);
 			z-index: 1;
+			grid-area: 2 / 2 / 3 / 3;
 
 			@include mixins.min-width(small) {
 				width: 50%;
 			}
 		}
 
-		img {
-			position: absolute;
-			width: 100%;
-			bottom: 0;
-			right: -60%;
-			z-index: 0;
-		}
-	}
-
-	.containerStories {
-		width: 100%;
-		height: 80vh;
-		overflow: hidden;
-	}
-
-	.containerSwiper {
-		@include mixins.flex($direction: row, $justify: center, $align: center);
-		grid-area: 2 / 1 / 3 / 2;
-		width: 100%;
-		height: 70vh;
-		border-radius: var.$small-border;
-		overflow: hidden;
-
-
-		@include mixins.min-width(small) {
-			grid-area: 1 / 1 / 2 / 3;
-		}
-
-		img {
-			object-fit: cover;
-			object-position: center;
+		.containerCard {
+			@include mixins.flex($justify: center, $align: space-between);
+			padding: var.$small-space;
+			overflow: hidden;
 			width: 100%;
 			height: 100%;
+			border-radius: var.$medium-border;
+			background-color: var.$clear-color-3;
+			grid-area: 1 / 1 / 4 / 2;
 		}
-	}
 
-	.containerCard {
-		@include mixins.flex($justify: center, $align: center);
-		padding: var.$small-space;
-		grid-area: 2/1/3/2;
-		overflow: hidden;
-		width: 100%;
-		height: 100%;
-		border-radius: var.$medium-border;
-		background-color: var.$clear-color-3;
+		.btnShowCategory {
+			@include mixins.flex($justify: center, $align: center);
+			@include mixins.font(
+				$font: var.$font,
+				$size: var.$text,
+				$color: var.$clear-color-1,
+				$weight: 600
+			);
+			gap: var.$micro-small-space;
+			padding: var.$micro-small-space var.$medium-space;
+			grid-area: 3 / 2 / 4 / 3;
+			justify-self: flex-start;
+			align-self: self-start;
+			width: 100%;
+			height: fit-content;
+			border-radius: var.$small-border;
+			background-color: var.$highlight-2;
 
-		@include mixins.min-width(small) {
-			grid-area: 2/1/4/2;
-		}
-	}
-
-	.btnShowCategory {
-		@include mixins.flex($justify: center, $align: center);
-		@include mixins.font($font: var.$font, $size: var.$text, $color: var.$clear-color-1, $weight: 600);
-		gap: var.$micro-small-space;
-		padding: var.$micro-small-space var.$medium-space;
-		grid-area: 3/1/4/2;
-		justify-self: flex-start;
-		align-self: self-start;
-		width: 100%;
-		height: fit-content;
-		border-radius: var.$small-border;
-		background-color: var.$highlight-2;
-
-		@include mixins.min-width(small) {
-			width: fit-content;
-			grid-area: 3/2/4/3;
+			@include mixins.min-width(small) {
+				width: fit-content;
+				grid-area: 3/2/4/3;
+			}
 		}
 	}
 }

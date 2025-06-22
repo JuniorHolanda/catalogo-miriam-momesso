@@ -7,10 +7,15 @@ import CardCategory from '../../components/CardCategory';
 import SearchBar from '../../components/SearchBar';
 import HeroSectionDesktop from '../../components/HeroSectionDesktop';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
+import FavoriteSection from '../../components/FavoriteSection';
 
 const HomeSection = () => {
 	const sectionRefs = useRef([]);
 	const isMobile = MediaQuery('(max-width: 700px)');
+
+	const allKeyStorage = Object.keys(localStorage);
+	const favoriteKeys = allKeyStorage.filter((key) => key.includes('favorite'));
+	const productId = favoriteKeys.map((key) => key.replace('favorite', ''));
 
 	const scrollToSection = (id) => {
 		sectionRefs.current[id]?.scrollIntoView({ behavior: 'smooth' });
@@ -19,11 +24,10 @@ const HomeSection = () => {
 	return (
 		<main className={styles.wrapper}>
 			{isMobile && <HeaderSection />}
-			<SearchBar
-				className={styles.containerInpt}
-				btnSubmit={styles.btnSubmit}
-			/>
+			<SearchBar className={styles.containerInpt} btnSubmit={styles.btnSubmit} />
 			{!isMobile && <HeroSectionDesktop />}
+			{!isMobile && <FavoriteSection listId={productId} />}
+
 			{isMobile && (
 				<nav className={styles.containerCard}>
 					{DataCardsCategory.map((card) => (

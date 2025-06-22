@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 import slugify from 'slugify';
 import cn from 'classnames';
 import BtnInteractive from '../btn/btnInteractive';
-import animationLike from '../../animation/animation-like.json'
+import animationLike from '../../animation/animation-like.json';
+import animationFavorite from '../../animation/animation-favorite.json';
+import animationKit from '../../animation/animation-kit.json';
 
 const CardSearch = ({ product }) => {
 	const slug = slugify(product.title, { lower: true, strict: true });
@@ -21,19 +23,32 @@ const CardSearch = ({ product }) => {
 			<div className={styles.headerCard}>
 				<div className={styles.containerCategoryCard}>
 					{product.category.map((item) => {
-						return (
-							<span className={styles.categoryCard}>
-								{item}
-							</span>
-						);
+						return <span className={styles.categoryCard}>{item}</span>;
 					})}
 				</div>
-				<BtnInteractive 
-					productId={product._id}
-					icon={animationLike}
-					isLikeBtn={true}
-					type={'like'}
-				/>
+				<div className={styles.containerInteractiveBtn}>
+					<BtnInteractive
+						productId={product._id}
+						icon={animationLike}
+						isLikeBtn={true}
+						type={'like'}
+						style={styles.animationBtn}
+					/>
+					<BtnInteractive
+						productId={product._id}
+						icon={animationFavorite}
+						isLikeBtn={false}
+						type={'favorite'}
+						style={styles.animationBtn}
+					/>
+					<BtnInteractive
+						productId={product._id}
+						icon={animationKit}
+						isLikeBtn={false}
+						type={'kit'}
+						style={styles.animationBtn}
+					/>
+				</div>
 			</div>
 			<div className={styles.containerThunb}>
 				<img src={product.thunbnail} alt={product.altThunbnail} />
@@ -41,13 +56,10 @@ const CardSearch = ({ product }) => {
 
 			<div className={statusClass}>
 				<div className={styles.containerName}>
-					<h2>{product.title}</h2>
-					<p>{product.smallText}</p>
+					<h2 className={styles.title}>{product.title}</h2>
+					<p className={styles.text}>{product.smallText}</p>
 				</div>
-				<Link
-					to={`/product/${slug}`}
-					className={styles.containerBtn}
-				>
+				<Link to={`/product/${slug}`} className={styles.containerBtn}>
 					<span>
 						<LiaEyeSolid className={styles.icon} />
 						Ver Produto

@@ -15,15 +15,14 @@ const BtnInteractive = ({ productId, icon, isLikeBtn, type, style }) => {
 	//verifica o valor de action na montagem do componente
 	useEffect(() => {
 		if (action) {
-			animationRef.current?.play();
+			const fullframe = animationRef.current.getDuration(true);
+			animationRef.current.goToAndStop(fullframe - 1, true);
 		}
-	}, [action]);
+	}, []);
 
 	//incrementa like no banco, (usar essa função apenas no para likes)
 	async function incLikeDataBase(action) {
-		action
-			? await likeProduct(productId, 1)
-			: await likeProduct(productId, -1);
+		action ? await likeProduct(productId, 1) : await likeProduct(productId, -1);
 	}
 
 	//incrementa e decrementa dados na localStorage

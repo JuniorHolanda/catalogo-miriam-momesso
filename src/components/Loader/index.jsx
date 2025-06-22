@@ -5,11 +5,7 @@ import Lottie from 'react-lottie-player';
 const LoaderData = ({ className }) => {
 	return (
 		<div className={className}>
-			<Lottie
-				animationData={animationLoader}
-				loop={true}
-				autoplay={true}
-			/>
+			<Lottie animationData={animationLoader} loop={true} play={true} />
 		</div>
 	);
 };
