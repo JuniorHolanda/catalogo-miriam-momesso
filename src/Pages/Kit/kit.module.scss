@@ -43,7 +43,6 @@
 			display: grid;
 			grid-template: auto / 1fr 1fr;
 			gap: var.$small-space;
-			border: solid red;
 			width: 100%;
 			@include mixins.min-width(small) {
 				grid-template: auto / repeat(5, 1fr);
