@@ -27,7 +27,6 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 
 		navigate(`/search?${query.toString()}`);
 		setSearch('');
-		// setSelectedCategory(null);
 	};
 
 	return (

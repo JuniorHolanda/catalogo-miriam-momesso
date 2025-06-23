@@ -11,12 +11,12 @@
 	border-radius: var.$small-border;
 
 	@include mixins.min-width(small) {
-		height: 110vh;
+		height: fit-content;
 	}
 
 	.containerSwiper {
 		@include mixins.flex();
-		height: 40%;
+		height: auto;
 		width: 100%;
 		border-radius: var.$small-border;
 		overflow: hidden;
@@ -29,7 +29,7 @@
 		}
 	}
 
-	.containerInfo {
+	.containerProducts {
 		@include mixins.flex($direction: column, $justify: center, $align: space-between);
 		gap: var.$medium-space;
 		width: 100%;
@@ -80,7 +80,7 @@
 			padding: var.$small-space;
 			overflow: hidden;
 			width: 100%;
-			height: 100%;
+			height: auto;
 			border-radius: var.$medium-border;
 			background-color: var.$clear-color-3;
 			grid-area: 1 / 1 / 4 / 2;

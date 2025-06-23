@@ -94,7 +94,8 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 				</section>
 			)}
 
-			<div className={styles.containerInfo}>
+			
+			<div className={styles.containerProducts}>
 				<h2 className={styles.title}>{category}</h2>
 				<p className={styles.text}>{text}</p>
 				<div className={styles.containerCard}>
