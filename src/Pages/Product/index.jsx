@@ -5,7 +5,6 @@ import InfoProduct from '../../components/infoProduct';
 import slugify from 'slugify';
 import { useEffect, useState } from 'react';
 import LoaderData from '../../components/Loader';
-import Video360 from '../../components/Video360';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import { getProducts } from '../../services/productsMomessoServices';
 
@@ -57,7 +56,6 @@ const ProductSection = ({ name }) => {
 				text={cardFiltered.text}
 				id={cardFiltered._id}
 			/>
-			{/* <Video360 className={styles.video360} /> */}
 		</main>
 	);
 };

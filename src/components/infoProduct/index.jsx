@@ -8,7 +8,12 @@ import animationKit from '../../animation/animation-kit.json';
 
 import BtnInteractive from '../btn/btnInteractive';
 const InfoProduct = ({ name, category, measure, text, id }) => {
-	const isMobile = MediaQuery('(max-width: 700px)');
+const isMobile = MediaQuery('(max-width: 700px)');
+
+const message = `Olá! Tenho interesse no produto: ${name}`;
+const whatsappLink = `https://wa.me/5511974783545?text=${encodeURIComponent(message)}`;
+
+
 
 	return (
 		<section className={styles.wrapper}>
@@ -66,15 +71,12 @@ const InfoProduct = ({ name, category, measure, text, id }) => {
 					<p>{text}</p>
 				</div>
 				<div className={styles.containerCta}>
-					<button className={styles.btnCta}>
+					<a href={whatsappLink} target='_blank' rel="noopener noreferrer" className={styles.btnCta}>
 						Solicitar Orçamento
-					</button>
+					</a>
 					<button className={styles.btnCta}>
+						Compartilhar
 						<FaShareAlt />
-					</button>
-					<button className={styles.btnCta}>
-						{' '}
-						<TfiDropbox className={styles.icon} />
 					</button>
 				</div>
 			</div>
