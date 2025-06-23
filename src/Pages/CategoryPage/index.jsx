@@ -3,10 +3,8 @@ import styles from './categoryPage.module.scss';
 import dataHoliday from '../../data/holyDay.json';
 import { useParams } from 'react-router-dom';
 import slugify from 'slugify';
-import React from 'react';
 import CardSearch from '../../components/CardSearch';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
 import LoaderData from '../../components/Loader';
 import { getProducts } from '../../services/productsMomessoServices';
 

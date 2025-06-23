@@ -8,18 +8,16 @@ import slugify from 'slugify';
 
 const NavBar = () => {
 	const [subCategory, setSubCategory] = useState();
-	
+
 	const filterData = (data) =>
 		data.map((item) => (
 			<li key={item.id} className={styles.subMenuItem}>
 				<Link
 					to={`/category/${slugify(item.category, {
-						lower:true,
+						lower: true,
 						strict: true,
 						trim: true,
-					}
-
-					)}`}
+					})}`}
 					className={styles.linkSubMenu}
 				>
 					<div className={styles.containerImgSubMenu}>
@@ -66,19 +64,25 @@ const NavBar = () => {
 								{subCategory && (
 									<div className={styles.containerListSubMenu}>
 										<div className={styles.categorySubMenu}>
-											<h2 className={styles.subCategoryTitle}>Brindes costuráveis</h2>
+											<h2 className={styles.subCategoryTitle}>
+												Brindes costuráveis
+											</h2>
 											<ul className={styles.containerSubMenu}>
 												{filterData(dataCategory)}
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
-											<h2 className={styles.subCategoryTitle}>Datas Comemorativas</h2>
+											<h2 className={styles.subCategoryTitle}>
+												Datas Comemorativas
+											</h2>
 											<ul className={styles.containerSubMenu}>
 												{filterData(dataHoliday)}
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
-											<h2 className={styles.subCategoryTitle}>Brindes Importados</h2>
+											<h2 className={styles.subCategoryTitle}>
+												Brindes Importados
+											</h2>
 											<ul className={styles.containerSubMenu}>
 												{filterData(dataCategory)}
 											</ul>
@@ -88,9 +92,9 @@ const NavBar = () => {
 							</span>
 						</li>
 						<li className={styles.containerMenuItem}>
-							<button className={styles.menuItem}>
-								Meus Kits
-							</button>
+							<Link className={styles.menuLink} to={'/kit'}>
+								Meu Kit
+							</Link>
 						</li>
 					</ul>
 				</nav>

@@ -8,6 +8,7 @@ import Product from './routers/Product.jsx';
 import SearchSection from './routers/SearchSection.jsx';
 import Error404 from './Pages/errorPage/index.jsx';
 import CategoryPage from './Pages/CategoryPage/index.jsx';
+import MyKit from './Pages/Kit/index.jsx';
 
 const router = createBrowserRouter([
 	{
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
 			{
 				path: '/category/:category',
 				element: <CategoryPage />,
+			},
+			{
+				path: '/kit',
+				element: <MyKit />,
 			},
 		],
 	},
