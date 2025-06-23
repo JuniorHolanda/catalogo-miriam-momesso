@@ -46,7 +46,7 @@
 	border-radius: var.$small-border;
 	background-color: var.$clear-color-1;
 	z-index: 1;
-	height: 4em;
+	height: 100%;
 	overflow: hidden;
 	border-radius: var.$medium-space;
 
@@ -68,6 +68,7 @@
 			);
 			width: 100%;
 			height: 100%;
+			text-align: center;
 		}
 	}
 	.iconSubmit {

@@ -20,11 +20,11 @@
 		);
 		width: 100%;
 		height: 10vh;
-		padding: var.$small-space;
+		padding: var.$micro-small-space;
 		gap: var.$medium-space;
 		border-radius: var.$medium-border;
 		background-color: var.$highlight-2;
-
+		
 		.btnSubmit {
 			@include mixins.flex($justify: center, $align: center);
 			background-color: var.$highlight-1;
@@ -241,5 +241,9 @@
 				position: absolute;
 			}
 		}
+	}
+
+	.containerInpt{
+		height: 100%;
 	}
 }

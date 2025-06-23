@@ -1,4 +1,4 @@
-import { FaHome, FaRegBookmark, FaWhatsapp } from 'react-icons/fa';
+import { FaRegBookmark, FaWhatsapp } from 'react-icons/fa';
 import styles from './NavBarMobile.module.scss';
 import { Link, useNavigate } from 'react-router-dom';
 import { HiOutlineHome } from 'react-icons/hi';
