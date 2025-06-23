@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './holiday.module.scss';
 import { Link } from 'react-router-dom';
 import slugify from 'slugify';

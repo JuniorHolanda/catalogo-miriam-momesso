@@ -1,9 +1,8 @@
-import { FaHome, FaWhatsapp } from 'react-icons/fa';
+import { FaHome, FaRegBookmark, FaWhatsapp } from 'react-icons/fa';
 import styles from './NavBarMobile.module.scss';
 import { Link, useNavigate } from 'react-router-dom';
 import { HiOutlineHome } from 'react-icons/hi';
 import { LuPartyPopper } from 'react-icons/lu';
-import { TfiDropbox } from 'react-icons/tfi';
 import { useState } from 'react';
 import { IoClose } from 'react-icons/io5';
 import Holiday from '../HolidaysCard';
@@ -47,8 +46,8 @@ const NavBarMobile = () => {
 					</a>
 				</li>
 				<li className={styles.listItem}>
-					<Link to="/" className={styles.link}>
-						<TfiDropbox className={styles.icon} />
+					<Link to="/kit" className={styles.link}>
+						<FaRegBookmark className={styles.icon} />
 					</Link>
 				</li>
 				<li className={styles.listItem}>

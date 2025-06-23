@@ -59,6 +59,7 @@
 			border-radius: var.$small-border;
 			li {
 				@include mixins.flex($direction: column, $justify: center, $align: center);
+				width: 100%;
 			}
 		}
 	}
