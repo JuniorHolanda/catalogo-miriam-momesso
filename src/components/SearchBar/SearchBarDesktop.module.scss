@@ -5,6 +5,7 @@
 	@include mixins.flex($direction: column, $justify: center);
 	gap: var.$small-space;
 	width: 100%;
+
 	.title {
 		@include mixins.font(
 			$font: var.$font,
@@ -49,7 +50,7 @@
 	height: 100%;
 	overflow: hidden;
 	border-radius: var.$medium-space;
-
+	
 	.containerSrc {
 		@include mixins.flex($align: center);
 		gap: var.$slim-space;
@@ -68,7 +69,6 @@
 			);
 			width: 100%;
 			height: 100%;
-			text-align: center;
 		}
 	}
 	.iconSubmit {

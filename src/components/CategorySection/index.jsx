@@ -67,7 +67,7 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 					<StoriesInsta filter={category} />
 				</section>
 			)}
-
+			
 			{/* se não for mobile mostra banner */}
 			{!isMobile && (
 				<section className={styles.containerSwiper}>
@@ -94,7 +94,6 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 				</section>
 			)}
 
-			
 			<div className={styles.containerProducts}>
 				<h2 className={styles.title}>{category}</h2>
 				<p className={styles.text}>{text}</p>
