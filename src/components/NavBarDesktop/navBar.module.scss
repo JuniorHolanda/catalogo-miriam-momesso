@@ -57,6 +57,7 @@
 			@include mixins.flex($justify: flex-start, $align: center);
 			width: 50%;
 			height: 100%;
+			padding: var.$small-space;
 
 			.listMenu {
 				@include mixins.flex();
