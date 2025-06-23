@@ -40,7 +40,24 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 		trim: true,
 	});
 
+	const productsFiltered = products.filter((card) =>
+		Array.isArray(card.category) &&
+		card.category.some(
+			(cat) =>
+				slugify(cat, {
+					lower: true,
+					strict: true,
+				})
+			=== categorySlugified
+		)
+	)
 	const isMobile = MediaQuery('(max-width: 700px)');
+
+	const getSlidesPerView = () => {
+		if (productsFiltered.length <= 3) return productsFiltered.length;
+		return isMobile ? 1.3 : 3.5;
+	};
+
 
 	return (
 		<div className={styles.containerCategory} ref={ref}>
@@ -85,21 +102,10 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 						<LoaderData />
 					) : (
 						<Swiper
-							slidesPerView={isMobile ? 1.3 : 3.5}
+							slidesPerView={getSlidesPerView()}
 							spaceBetween={isMobile ? 10 : 40}
 						>
-							{products
-								.filter(
-									(card) =>
-										Array.isArray(card.category) &&
-										card.category.some(
-											(cat) =>
-												slugify(cat, {
-													lower: true,
-													strict: true,
-												}) === categorySlugified
-										)
-								)
+							{productsFiltered
 								.map((card) => (
 									<SwiperSlide key={card._id} style={{ height: '100%' }}>
 										<CardSearch product={card} />
