@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import LoaderData from '../../components/Loader';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import { getProducts } from '../../services/productsMomessoServices';
+import { Helmet } from 'react-helmet';
 
 const ProductSection = ({ name }) => {
 	const [products, setProducts] = useState([]);
@@ -42,12 +43,14 @@ const ProductSection = ({ name }) => {
 
 	return (
 		<main className={styles.wrapper}>
-			{isMobile && (
-				<HeaderSection
-					id={cardFiltered.title}
-					className={styles.headerSection}
-				/>
-			)}
+			<Helmet>
+				<title>{cardFiltered.title} | Catalogo Momesso</title>
+				<meta property="og:title" content={cardFiltered.title} />
+				<meta property="og:description" content={cardFiltered.title} />
+				<meta property="og:image" content={cardFiltered.thumbnailUrl} />
+				<meta property="og:type" content="website" />
+			</Helmet>
+			;{isMobile && <HeaderSection id={cardFiltered.title} className={styles.headerSection} />}
 			<Gallery images={cardFiltered.gallery} className={styles.gallery} />
 			<InfoProduct
 				name={cardFiltered.title}

@@ -1,0 +1,36 @@
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
+
+
+.sideBar {
+		@include mixins.flex($direction: column, $align: center, $justify: center);
+		gap: var.$small-space;
+		padding: var.$small-space;
+		height: 100%;
+		width: 20%;
+		display: fixed;
+		background-color: var.$clear-color-1;
+		border-radius: var.$small-border;
+		
+		.containerInfo{
+			@include mixins.flex($direction: column, $align: start, $justify: center);
+
+			.title{
+				@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $weight: 800, $color: var.$highlight-2)
+			}
+			.text{
+				@include mixins.font($font: var.$font, $size: var.$text, $weight: 400, $color: var.$medium-1 )
+			}
+		}
+		
+		.listContainer{
+			@include mixins.flex($direction: column, $align: start, $justify: start);
+			gap: var.$small-space;
+			padding: var.$small-space;
+			width: 100%;
+			border: solid var.$highlight-1;
+
+			@include mixins.font($font: var.$font, $size: var.$text, $weight: 800, $color: var.$dark-color-1)
+			
+		}
+	}

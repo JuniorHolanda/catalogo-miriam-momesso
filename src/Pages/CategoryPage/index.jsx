@@ -7,6 +7,7 @@ import CardSearch from '../../components/CardSearch';
 import { useEffect, useState } from 'react';
 import LoaderData from '../../components/Loader';
 import { getProducts } from '../../services/productsMomessoServices';
+import SideBarCategory from '../../components/SideBarCategory';
 
 const CategoryPage = () => {
 	const { category } = useParams();
@@ -38,26 +39,29 @@ const CategoryPage = () => {
 
 	return (
 		<section className={styles.wrapper}>
-			<HeaderSection id={title || category} className={styles.headerSection} />
-			<div className={styles.container}>
-				{!products || products.length === 0 ? (
-					<LoaderData className={styles.loaderData} />
-				) : (
-					products
-						.filter(
-							(card) =>
-								Array.isArray(card.category) &&
-								card.category.some(
-									(cat) =>
-										slugify(cat, {
-											lower: true,
-											strict: true,
-											trim: true,
-										}) === categorySlugified
-								)
-						)
-						.map((card) => <CardSearch key={card.id} product={card} />)
-				)}
+			<SideBarCategory />
+			<div className={styles.content}>
+				<HeaderSection id={title || category} className={styles.headerSection} />
+				<div className={styles.container}>
+					{!products || products.length === 0 ? (
+						<LoaderData className={styles.loaderData} />
+					) : (
+						products
+							.filter(
+								(card) =>
+									Array.isArray(card.category) &&
+									card.category.some(
+										(cat) =>
+											slugify(cat, {
+												lower: true,
+												strict: true,
+												trim: true,
+											}) === categorySlugified
+									)
+							)
+							.map((card) => <CardSearch key={card.id} product={card} />)
+					)}
+				</div>
 			</div>
 		</section>
 	);
