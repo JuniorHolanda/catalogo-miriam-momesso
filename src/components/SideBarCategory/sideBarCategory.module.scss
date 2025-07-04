@@ -24,13 +24,26 @@
 		}
 		
 		.listContainer{
-			@include mixins.flex($direction: column, $align: start, $justify: start);
+			@include mixins.flex($direction: column, $align: start, $justify: space-between);
 			gap: var.$small-space;
-			padding: var.$small-space;
 			width: 100%;
-			border: solid var.$highlight-1;
+			height: 100%;			
+		}
+		
+		.list{
+			@include mixins.flex($direction: column, $align: start, $justify: center);
+			@include mixins.font($font: var.$font, $size: var.$text, $weight: 800, $color: var.$dark-color-1);
+			background-color: var.$clear-color-2;
+			cursor: pointer;
+			transition: all .3s ease-in-out;
+			padding: var.$micro-small-space var.$small-space;
+			width: 100%;
+			height: 100%;
+			border-radius: var.$small-border;
 
-			@include mixins.font($font: var.$font, $size: var.$text, $weight: 800, $color: var.$dark-color-1)
-			
+			&:hover{
+				background-color: var.$clear-color-3;
+				transform: translateX(5px);
+			}
 		}
 	}

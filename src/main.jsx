@@ -9,6 +9,7 @@ import SearchSection from './routers/SearchSection.jsx';
 import Error404 from './Pages/errorPage/index.jsx';
 import CategoryPage from './Pages/CategoryPage/index.jsx';
 import MyKit from './Pages/Kit/index.jsx';
+import { HelmetProvider } from 'react-helmet-async';
 
 const router = createBrowserRouter([
 	{
@@ -41,7 +42,9 @@ const router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById('root')).render(
-	<StrictMode>
-		<RouterProvider router={router} />
-	</StrictMode>
+	<HelmetProvider>
+		<StrictMode>
+			<RouterProvider router={router} />
+		</StrictMode>
+	</HelmetProvider>
 );

@@ -145,54 +145,6 @@
 									);
 									gap: var.$micro-small-space;
 									width: 100%;
-
-									.subMenuItem {
-										@include mixins.flex(
-											$justify: flex-start,
-											$align: center
-										);
-										background-color: var.$clear-color-2;
-										transition: all 0.3s ease-in-out;
-										width: 100%;
-										border-radius: var.$medium-border;
-
-										&:hover {
-											background-color: var.$medium-1;
-											color: var.$clear-color-1;
-											transform: translateX(5px);
-										}
-
-										.linkSubMenu {
-											@include mixins.flex(
-												$justify: flex-start,
-												$align: center
-											);
-											@include mixins.font(
-												$font: var.$font,
-												$size: var.$text,
-												$color: var.$dark-color-2,
-												$weight: 600
-											);
-											padding: var.$micro-small-space;
-											gap: var.$small-space;
-											cursor: pointer;
-											width: 100%;
-
-											.containerImgSubMenu {
-												width: 30px;
-												height: 30px;
-												border-radius: 300px;
-												overflow: hidden;
-												background-color: var.$highlight-1;
-
-												img {
-													object-fit: cover;
-													width: 100%;
-													height: 100%;
-												}
-											}
-										}
-									}
 								}
 							}
 						}

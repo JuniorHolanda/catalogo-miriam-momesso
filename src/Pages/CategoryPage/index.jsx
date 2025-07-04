@@ -13,7 +13,6 @@ const CategoryPage = () => {
 	const { category } = useParams();
 
 	const categorySlugified = category;
-	console.log('Categoria:', categorySlugified);
 
 	const title = dataHoliday.find((item) => {
 		const slugTitle = slugify(item.category, {

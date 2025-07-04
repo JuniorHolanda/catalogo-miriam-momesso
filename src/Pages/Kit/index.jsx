@@ -29,7 +29,6 @@ const MyKit = () => {
 	}, []);
 
 	const kitProducts = products.filter((product) => productId.includes(product._id));
-	console.log(kitProducts);
 
 	return (
 		<section className={styles.wrapper}>

@@ -5,28 +5,10 @@ import dataCategory from '../../data/DataCardsCategory.json';
 import dataHoliday from '../../data/holyDay.json';
 import SearchBar from '../SearchBar';
 import slugify from 'slugify';
+import RenderCategory from '../renderCategory';
 
 const NavBar = () => {
 	const [subCategory, setSubCategory] = useState();
-
-	const filterData = (data) =>
-		data.map((item) => (
-			<li key={item.id} className={styles.subMenuItem}>
-				<Link
-					to={`/category/${slugify(item.category, {
-						lower: true,
-						strict: true,
-						trim: true,
-					})}`}
-					className={styles.linkSubMenu}
-				>
-					<div className={styles.containerImgSubMenu}>
-						<img src={item.img} alt="" />
-					</div>
-					<p>{item.category}</p>
-				</Link>
-			</li>
-		));
 
 	const showSubMenu = () => {
 		setSubCategory(true);
@@ -68,7 +50,7 @@ const NavBar = () => {
 												Brindes costuráveis
 											</h2>
 											<ul className={styles.containerSubMenu}>
-												{filterData(dataCategory)}
+												<RenderCategory listCategory={dataCategory}/>
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
@@ -76,15 +58,7 @@ const NavBar = () => {
 												Datas Comemorativas
 											</h2>
 											<ul className={styles.containerSubMenu}>
-												{filterData(dataHoliday)}
-											</ul>
-										</div>
-										<div className={styles.categorySubMenu}>
-											<h2 className={styles.subCategoryTitle}>
-												Brindes Importados
-											</h2>
-											<ul className={styles.containerSubMenu}>
-												{filterData(dataCategory)}
+												<RenderCategory listCategory={dataHoliday}/>
 											</ul>
 										</div>
 									</div>
