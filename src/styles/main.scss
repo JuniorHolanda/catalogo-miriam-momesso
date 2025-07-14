@@ -65,7 +65,6 @@ hr{
   background: var.$highlight-2;
 }
 
-
 body {
   background: var.$clear-color-2;
   @include mixins.flex($direction: column, $align: center, $justify: center);

@@ -74,10 +74,10 @@ const whatsappLink = `https://wa.me/5511974783545?text=${encodeURIComponent(mess
 					<a href={whatsappLink} target='_blank' rel="noopener noreferrer" className={styles.btnCta}>
 						Solicitar Orçamento
 					</a>
-					<button className={styles.btnCta}>
+					{/* <button className={styles.btnCta}>
 						Compartilhar
 						<FaShareAlt />
-					</button>
+					</button> */}
 				</div>
 			</div>
 		</section>
