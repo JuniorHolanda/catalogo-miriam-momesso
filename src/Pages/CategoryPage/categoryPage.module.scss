@@ -7,20 +7,20 @@
 	width: 100%;
 	height: 100%;
 	margin-bottom: 8vh;
-
+	
 	@include mixins.min-width(small) {
 		height: 83vh;
 		margin-top: calc(10vh + var.$small-space);
 		margin-bottom: 0;
 	}
-
+	
 	.content {
 		@include mixins.flex($direction: column, $align: center, $justify: start);
 		gap: var.$small-space;
-		padding: 0 var.$small-space;
-		width: 80%;
+		width: 100%;
 		height: 100%;
 		overflow: auto;
+		border-radius: var.$small-border;
 
 		.headerSection {
 			@include mixins.flex($direction: column);

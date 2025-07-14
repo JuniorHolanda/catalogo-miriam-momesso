@@ -2,7 +2,7 @@ import dataStories from '../../data/Banners.json';
 import Stories from 'react-insta-stories';
 
 
-function StoriesInsta( {filter} ) { 
+function StoriesInsta( {filter} ) {
     // filtra os slides com base na categoria
     const filteredCategory = dataStories.filter( storie => storie.category === filter);
 

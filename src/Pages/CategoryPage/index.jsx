@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 import LoaderData from '../../components/Loader';
 import { getProducts } from '../../services/productsMomessoServices';
 import SideBarCategory from '../../components/SideBarCategory';
-import { Helmet } from 'react-helmet-async';
+import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 
 const CategoryPage = () => {
 	const { category } = useParams();
@@ -37,30 +37,11 @@ const CategoryPage = () => {
 		fetchProducts();
 	}, []);
 
+	const isMobile = MediaQuery('(max-width: 700px)');
+
 	return (
 		<section className={styles.wrapper}>
-				<Helmet>
-				{/* Título da aba do navegador */}
-				<title>{category}</title>
-
-				{/* Meta padrão */}
-				<meta name="description" content="Brindes personalizados para empresas - conheça nossa linha de brindes promocionais exclusivos." />
-
-				{/* Open Graph (Facebook, WhatsApp, LinkedIn) */}
-				<meta property="og:type" content="website" />
-				<meta property="og:title" content={category} />
-				<meta property="og:description" content={`Conheça nossa linha de brindes ${category}`} />
-				<meta property="og:image" content={'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1750166131/bag-max_6_jythnj.jpg'} />
-				<meta property="og:url" content={'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1750166131/bag-max_6_jythnj.jpg'} />
-
-				{/* Twitter Cards (opcional) */}
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content={category} />
-				<meta name="twitter:description" content={`Conheça nossa linha de brindes ${category}`} />
-				<meta name="twitter:image" content={'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1750166131/bag-max_6_jythnj.jpg'} />
-			</Helmet>
-
-			<SideBarCategory />
+			{!isMobile && <SideBarCategory /> }
 			<div className={styles.content}>
 				<HeaderSection id={title || category} className={styles.headerSection} />
 				<div className={styles.container}>

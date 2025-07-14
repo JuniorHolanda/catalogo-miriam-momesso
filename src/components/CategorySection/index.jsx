@@ -11,7 +11,7 @@ import styles from './category-section.module.scss';
 import StoriesInsta from '../Stories';
 import React, { useEffect, useState } from 'react';
 import { LiaEyeSolid } from 'react-icons/lia';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import CardSearch from '../CardSearch';
 import slugify from 'slugify';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';

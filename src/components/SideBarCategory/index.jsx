@@ -1,7 +1,6 @@
 import styles from './sideBarCategory.module.scss';
 import RenderCategory from '../renderCategory';
 import dataCategory from '../../data/DataCardsCategory.json';
-import { Helmet } from 'react-helmet-async';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -25,7 +24,6 @@ const SideBarCategory = () => {
 			<ul className={styles.listContainer}>
 				<RenderCategory listCategory={dataCategory} />
 			</ul>
-			<button>Compartilhar</button>
 		</aside>
 	);
 };
