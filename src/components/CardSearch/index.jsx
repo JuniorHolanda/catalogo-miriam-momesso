@@ -51,7 +51,7 @@ const CardSearch = ({ product }) => {
 				</div>
 			</div>
 			<div className={styles.containerThunb}>
-				<img src={product.thunbnail} alt={product.altThunbnail} />
+				<img src={product.thumbnail} alt={product.altThumbnail} />
 			</div>
 
 			<div className={statusClass}>

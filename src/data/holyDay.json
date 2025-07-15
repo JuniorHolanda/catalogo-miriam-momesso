@@ -2,66 +2,75 @@
     {
         "id": 1,
         "category" : "Dia das Mães",
-        "start": "2023-05-01",
-        "end": "2023-05-14",
+        "start": "05-01",
+        "end": "05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744212746/dia-das-maes_jk8mjs.jpg",
         "altImg" : "uma ilustração de algumas flores coloridas",
-        "description" : "Amor que inspira, presenteie com carinho"
+        "description" : "Confira nossas sugestões de brindes para o dia das mães."
     },
 
     {
         "id" : 2,
         "category" : "Dia das mulheres",
-        "start": "2023-05-01",
-        "end": "2023-05-14",
+        "start": "05-01",
+        "end": "05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228600/dia-das-mulheres_j9hipi.jpg",
         "altImg" : "uma ilustração de algumas flores coloridas",
-        "description" : "Celebre a força de cada mulher"
+        "description" : "Confira nossas sugestões de brindes para o dia das mulheres."
     },
 
     {
         "id" : 3,
         "category" : "Dia dos Médicos",
-        "start": "2023-05-01",
-        "end": "2023-05-14",
+        "start": "05-01",
+        "end": "05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228601/dia-dos-medicos_bkmyfp.jpg",
         "altImg" : "uma ilustração de algumas flores coloridas",
-        "description" : "Gratidão a quem cuida sempre"
+        "description" : "Confira nossas sugestões de brindes para o dia dos médicos."
     },
     {
         "id" : 4,
         "category" : "Outubro Rosa",
-        "start": "2023-05-01",
-        "end": "2023-05-14",
+        "start": "05-01",
+        "end": "05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228602/outubro-rosa_spfmse.jpg",
         "altImg" : "uma ilustração de algumas flores coloridas",
-        "description" : "Conscientize com estilo e amor"
+        "description" : "Confira nossas sugestões de brindes para o Outubro Rosas."
     },
     {
         "id" : 5,
         "category" : "Novembro Azul",
-        "start": "2023-05-01",
-        "end": "2023-05-14",
+        "start": "05-01",
+        "end": "05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744228600/novembro-azul_d2o83p.jpg",
         "altImg" : "uma ilustração de algumas flores coloridas",
-        "description" : "Cuide-se com atitude e saúde"
+        "description" : "Confira nossas sugestões de brindes para Novembro Azul."
     },
     {
         "id" : 7,
         "category" : "Executivo",
-        "start": "2023-05-01",
-        "end": "2023-05-14",
+        "start": "05-01",
+        "end": "05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1744229953/executivo_sh0eyl.jpg",
         "altImg" : "uma ilustração de algumas flores coloridas",
-        "description" : "Sofisticação para o dia a dia"
+        "description" : "Confira nossa sugestão de brindes executivos."
     },
     {
         "id" : 8,
         "category" : "Dia dos Professores",
-        "start": "2023-05-01",
-        "end": "2023-05-14",
+        "start": "05-01",
+        "end": "05-14",
         "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1750275350/dia-dos-professores_ojpwrp.jpg",
         "altImg" : "uma ilustração de algumas flores coloridas",
-        "description" : "Sofisticação para o dia a dia"
+        "description" : "Confira nossas sugestões de brindes para o dia dos professores."
+    },
+        {
+        "id" : 9,
+        "category" : "Dia da secretária",
+        "start": "06-30",
+        "end": "09-30",
+        "img" : "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1752607661/secretaria_uwzqgx.jpg",
+        "altImg" : "Uma mulher negra sentada em uma mesa de escritório, ao fundo algumas prateleiras e documentos",
+        "description" : "Confira nossas sugestões de brindes para o dia da secretária."
     }
 ]
