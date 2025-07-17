@@ -49,10 +49,6 @@ const Search = () => {
 	// Se uma categoria for selecionada, filtra os produtos por categoria
 	// Se a categoria estiver vazia, não filtra por categoria
 
-	filteredCards.forEach((element) => {
-		console.log(element.category);
-	});
-
 	if (category) {
 		filteredCards = filteredCards.filter((card) => {
 			return (

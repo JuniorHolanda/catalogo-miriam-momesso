@@ -4,8 +4,8 @@ import { useState } from 'react';
 import dataCategory from '../../data/DataCardsCategory.json';
 import dataHoliday from '../../data/holyDay.json';
 import SearchBar from '../SearchBar';
-import slugify from 'slugify';
 import RenderCategory from '../renderCategory';
+import ImportedProduct from '../ImportedProduct';
 
 const NavBar = () => {
 	const [subCategory, setSubCategory] = useState();
@@ -31,6 +31,9 @@ const NavBar = () => {
 				</div>
 				<nav className={styles.navMenu}>
 					<ul className={styles.listMenu}>
+						<li>
+							<ImportedProduct/>
+						</li>
 						<li className={styles.containerMenuItem}>
 							<Link className={styles.menuLink} to={'/'}>
 								Home

@@ -1,0 +1,54 @@
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
+
+.wrapper {
+	@include mixins.flex($align: space-between, $justify: center);
+	gap: var.$small-space;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 8vh;
+	
+	@include mixins.min-width(small) {
+		height: 83vh;
+		margin-top: calc(10vh + var.$small-space);
+		margin-bottom: 0;
+	}
+	
+	.content {
+		@include mixins.flex($direction: column, $align: center, $justify: start);
+		gap: var.$small-space;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		padding-right: 5px;
+		border-radius: var.$small-border;
+
+		.headerSection {
+			@include mixins.flex($direction: column);
+			grid-area: 1 / 1 / 2 / 3;
+			gap: var.$micro-small-space;
+			width: 100%;
+		}
+
+		.container {
+			display: grid;
+			grid-template: auto / repeat(2, 1fr);
+			gap: var.$small-space;
+
+			@include mixins.min-width(small) {
+				grid-template: auto / repeat(5, 1fr);
+			}
+
+			.loaderData {
+				@include mixins.flex($justify: center, $align: center);
+				grid-column: 1 / 3;
+				width: 100%;
+				height: 100%;
+
+				@include mixins.min-width(small) {
+					grid-column: 1 / 6;
+				}
+			}
+		}
+	}
+}

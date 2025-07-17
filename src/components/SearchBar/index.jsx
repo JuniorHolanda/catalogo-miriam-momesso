@@ -15,6 +15,14 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 		setSearch(value);
 	};
 
+	//remove o s para retornar produtos no plural
+	function removeS(text) {
+		if (text.endsWith('s') && text !== "Bolsa Rss") {
+			return text.slice(0, -1);
+		}
+		return text;
+	}
+
 	const submit = () => {
 		// cria um novo objeto URLSearchParams para montar dinamicamente uma URL
 		const query = new URLSearchParams();
@@ -25,7 +33,7 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 			query.set('categoria', selectedCategory);
 		}
 
-		navigate(`/search?${query.toString()}`);
+		navigate(`/search?${removeS(query.toString())}`);
 		setSearch('');
 	};
 
@@ -35,10 +43,8 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 				<div className={styles.description}>
 					<h1 className={styles.title}>Encontre seu produto ideal</h1>
 					<p className={styles.text}>
-						Soluções em brindes personalizados para empresas que
-						desejam fortalecer a identidade visual, engajar o
-						público e posicionar sua marca de forma marcante e
-						estratégica.
+						Soluções em brindes personalizados para empresas que desejam fortalecer a identidade visual,
+						engajar o público e posicionar sua marca de forma marcante e estratégica.
 					</p>
 				</div>
 			)}
@@ -58,12 +64,7 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 						placeholder="Pesquisar"
 					></input>
 				</label>
-				<button
-					onClick={submit}
-					disabled={!search.trim()}
-					className={btnSubmit}
-					type="button"
-				>
+				<button onClick={submit} disabled={!search.trim()} className={btnSubmit} type="button">
 					<FaSearch className={styles.iconSubmit} />
 				</button>
 			</div>
@@ -72,9 +73,7 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 					{category.map((item) => (
 						<button
 							className={`${styles.btnCategory} ${
-								selectedCategory === item.category
-									? styles.active
-									: ''
+								selectedCategory === item.category ? styles.active : ''
 							}`}
 							key={item.id}
 							onClick={() => setSelectedCategory(item.category)}
