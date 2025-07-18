@@ -1,3 +1,4 @@
+import React from 'react';
 import { useRef } from 'react';
 import CategorySection from '../../components/CategorySection';
 import HeaderSection from '../../components/HeaderSection';
@@ -31,21 +32,13 @@ const HomeSection = () => {
 			{isMobile && (
 				<nav className={styles.containerCard}>
 					{DataCardsCategory.map((card) => (
-						<CardCategory
-							onClick={() => scrollToSection(card.id)}
-							key={card.id}
-							{...card}
-						/>
+						<CardCategory onClick={() => scrollToSection(card.id)} key={card.id} {...card} />
 					))}
 				</nav>
 			)}
 
 			{DataCardsCategory.map((card) => (
-				<CategorySection
-					key={card.id}
-					{...card}
-					ref={(el) => (sectionRefs.current[card.id] = el)}
-				/>
+				<CategorySection key={card.id} {...card} ref={(el) => (sectionRefs.current[card.id] = el)} />
 			))}
 		</main>
 	);

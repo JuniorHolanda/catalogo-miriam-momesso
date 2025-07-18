@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 import styles from './navBar.module.scss';
 import { useState } from 'react';
 import dataCategory from '../../data/DataCardsCategory.json';
+import importedCategory from '../../data/importedCategory.json';
 import dataHoliday from '../../data/holyDay.json';
 import SearchBar from '../SearchBar';
 import RenderCategory from '../renderCategory';
-import ImportedProduct from '../ImportedProduct';
 
 const NavBar = () => {
 	const [subCategory, setSubCategory] = useState();
@@ -31,9 +31,6 @@ const NavBar = () => {
 				</div>
 				<nav className={styles.navMenu}>
 					<ul className={styles.listMenu}>
-						<li>
-							<ImportedProduct/>
-						</li>
 						<li className={styles.containerMenuItem}>
 							<Link className={styles.menuLink} to={'/'}>
 								Home
@@ -49,19 +46,21 @@ const NavBar = () => {
 								{subCategory && (
 									<div className={styles.containerListSubMenu}>
 										<div className={styles.categorySubMenu}>
-											<h2 className={styles.subCategoryTitle}>
-												Brindes costuráveis
-											</h2>
+											<h2 className={styles.subCategoryTitle}>Brindes costuráveis</h2>
 											<ul className={styles.containerSubMenu}>
-												<RenderCategory listCategory={dataCategory}/>
+												<RenderCategory listCategory={dataCategory} />
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
-											<h2 className={styles.subCategoryTitle}>
-												Datas Comemorativas
-											</h2>
+											<h2 className={styles.subCategoryTitle}>Linha de importados</h2>
 											<ul className={styles.containerSubMenu}>
-												<RenderCategory listCategory={dataHoliday}/>
+												<RenderCategory listCategory={importedCategory} imported={true} />
+											</ul>
+										</div>
+										<div className={styles.categorySubMenu}>
+											<h2 className={styles.subCategoryTitle}>Datas Comemorativas</h2>
+											<ul className={styles.containerSubMenu}>
+												<RenderCategory listCategory={dataHoliday} />
 											</ul>
 										</div>
 									</div>
@@ -75,11 +74,7 @@ const NavBar = () => {
 						</li>
 					</ul>
 				</nav>
-				<SearchBar
-					reduce={true}
-					className={styles.containerInpt}
-					btnSubmit={styles.btnSubmit}
-				/>
+				<SearchBar reduce={true} className={styles.containerInpt} btnSubmit={styles.btnSubmit} />
 			</div>
 		</div>
 	);

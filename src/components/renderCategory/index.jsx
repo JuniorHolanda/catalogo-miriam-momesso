@@ -1,17 +1,13 @@
 import styles from './renderCategory.module.scss';
-import slugify from 'slugify';
 import { Link } from 'react-router-dom';
+import { slugfyText } from '../../utils/slugfyText';
 
-const RenderCategory = ({listCategory}) => {
-    {
-        return listCategory.map((item) => (
-            <li key={item.id} className={styles.subMenuItem}>
+const RenderCategory = ({ listCategory, imported }) => {
+	{
+		return listCategory.map((item) => (
+			<li key={item.id} className={styles.subMenuItem}>
 				<Link
-					to={`/category/${slugify(item.category, {
-						lower: true,
-						strict: true,
-						trim: true,
-					})}`}
+					to={imported ? `/imported/${slugfyText(item.category)}` : `/category/${slugfyText(item.category)}`}
 					className={styles.linkSubMenu}
 				>
 					<div className={styles.containerImgSubMenu}>
@@ -20,8 +16,8 @@ const RenderCategory = ({listCategory}) => {
 					<p>{item.category}</p>
 				</Link>
 			</li>
-        ))
-    }
-}
+		));
+	}
+};
 
 export default RenderCategory;
