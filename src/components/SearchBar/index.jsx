@@ -23,19 +23,29 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 		return text;
 	}
 
-	const submit = () => {
+	const searchByname = () => {
 		// cria um novo objeto URLSearchParams para montar dinamicamente uma URL
 		const query = new URLSearchParams();
 		if (search.trim()) {
 			query.set('q', search.trim());
 		}
-		if (selectedCategory) {
-			query.set('categoria', selectedCategory);
-		}
-
 		navigate(`/search?${removeS(query.toString())}`);
 		setSearch('');
 	};
+
+	const searchByTag = (item) => {
+		setSelectedCategory(item.category)
+		const category = item.category.trim().toLowerCase();
+
+		// cria um novo objeto URLSearchParams para montar dinamicamente uma URL
+		const query = new URLSearchParams();
+		if (category.trim()) {
+			query.set('q', category);
+		}
+		navigate(`/search?${removeS(query.toString())}`);
+		setSearch('');
+	};
+
 
 	return (
 		<section className={className}>
@@ -58,13 +68,13 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 						onChange={handleSearch}
 						onKeyDown={(e) => {
 							if (e.key === 'Enter' && search.trim() !== '') {
-								submit();
+								searchByname();
 							}
 						}}
 						placeholder="Pesquisar"
 					></input>
 				</label>
-				<button onClick={submit} disabled={!search.trim()} className={btnSubmit} type="button">
+				<button onClick={searchByname} disabled={!search.trim()} className={btnSubmit} type="button">
 					<FaSearch className={styles.iconSubmit} />
 				</button>
 			</div>
@@ -76,7 +86,9 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 								selectedCategory === item.category ? styles.active : ''
 							}`}
 							key={item.id}
-							onClick={() => setSelectedCategory(item.category)}
+							onClick={()=>{
+								searchByTag(item);
+							}}
 						>
 							{item.category}
 						</button>

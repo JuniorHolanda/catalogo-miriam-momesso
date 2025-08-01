@@ -7,15 +7,14 @@ import SearchBar from '../../components/SearchBar';
 import LoaderData from '../../components/Loader';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import HeaderSection from '../../components/HeaderSection';
+import { slugfyText } from '../../utils/slugfyText';
 
 const Search = () => {
 	const isMobile = MediaQuery('(max-width: 700px)');
 	const location = useLocation();
 	const searchParams = new URLSearchParams(location.search);
 	const rawQuery = searchParams.get('q') || '';
-	const selectedCategory = searchParams.get('categoria') || '';
 	const query = rawQuery.trim().toLowerCase();
-	const category = selectedCategory.trim().toLowerCase();
 	const [products, setProducts] = useState([]);
 	const [loading, setLoading] = useState(true);
 
@@ -44,18 +43,11 @@ const Search = () => {
 	}, []);
 
 	//filtra os produtos com base na query e na categoria
-	let filteredCards = products.filter((card) => card.title.trim().toLowerCase().includes(query));
-
-	// Se uma categoria for selecionada, filtra os produtos por categoria
-	// Se a categoria estiver vazia, não filtra por categoria
-
-	if (category) {
-		filteredCards = filteredCards.filter((card) => {
-			return (
-				Array.isArray(card.category) && card.category.map((cat) => cat.trim().toLowerCase()).includes(category)
-			);
-		});
-	}
+let filteredCards = products.filter((card) => {
+  const titleMatch = slugfyText(card.title).includes(query);
+  const categoryMatch = card.category.some(cat => slugfyText(cat).includes(query));
+  return titleMatch || categoryMatch;
+});
 
 	const count = filteredCards.length;
 	const nounProduct = count === 1 ? 'Resultado' : 'Resultados';
