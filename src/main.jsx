@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import './styles/main.scss';
 import App from './components/App/App.jsx';
 import Home from './routers/Home.jsx';
-import Product from './routers/Product.jsx';
+import Product from './Pages/Product';
 import SearchSection from './routers/SearchSection.jsx';
 import Error404 from './Pages/errorPage/index.jsx';
 import CategoryPage from './Pages/CategoryPage/index.jsx';

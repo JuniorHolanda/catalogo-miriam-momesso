@@ -8,8 +8,11 @@ import animationLike from '../../animation/animation-like.json';
 import animationFavorite from '../../animation/animation-favorite.json';
 import animationKit from '../../animation/animation-kit.json';
 
-const CardSearch = ({ product }) => {
+
+const CardSearch = ({ product, imported}) => {
 	const slug = slugify(product.title, { lower: true, strict: true });
+	const productImported = imported;
+
 
 	//define a classe do cartão com base na quantidade de like
 	const statusClass = cn(styles.containerContent, {
@@ -50,16 +53,21 @@ const CardSearch = ({ product }) => {
 					/>
 				</div>
 			</div>
-			<div className={styles.containerThunb}>
-				<img src={product.thumbnail} alt={product.altThumbnail} />
-			</div>
+			<Link
+				to={`/product/${slug}`}
+				className={styles.containerThunb}>
+					<img
+						src={product.thumbnail}
+						alt={product.altThumbnail}
+					/>
+			</Link>
 
 			<div className={statusClass}>
 				<div className={styles.containerName}>
 					<h2 className={styles.title}>{product.title}</h2>
 					<p className={styles.text}>{product.smallText}</p>
 				</div>
-				<Link to={`/product/${slug}`} className={styles.containerBtn}>
+				<Link to={productImported ? `/product/imported-${slug}` : `/product/internal-${slug}`} className={styles.containerBtn}>
 					<span>
 						<LiaEyeSolid className={styles.icon} />
 						Ver Produto

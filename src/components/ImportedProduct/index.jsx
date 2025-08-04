@@ -6,8 +6,8 @@ import styles from './importedProduct.module.scss';
 import SideBarCategory from '../SideBarCategory/index.jsx';
 import HeaderSection from '../HeaderSection/index.jsx';
 import LoaderData from '../Loader/index.jsx';
+import CardSearch from '../CardSearch/index.jsx';
 import { slugfyText } from '../../utils/slugfyText.js';
-import CardImported from '../cardImported/index.jsx';
 
 const ImportedProduct = () => {
 	const { imported } = useParams();
@@ -19,9 +19,8 @@ const ImportedProduct = () => {
 		async function fetchProducts() {
 			try {
 				const response = await getProductsXbz();
-				// const filtered = response.filter((product) => product.nome.includes(filterCategory));
 				const filtered = response.filter((product) =>
-					product.nome.toLowerCase().includes(filterCategory.toLowerCase())
+					product.category.some((cat)=> slugfyText(cat) === slugfyText(filterCategory))
 				);
 				setProducts(filtered);
 			} catch (error) {
@@ -40,7 +39,7 @@ const ImportedProduct = () => {
 					{!products || products.length === 0 ? (
 						<LoaderData className={styles.loaderData} />
 					) : (
-						products.map((card) => <CardImported key={card._id} product={card} />)
+						products.map((card) => <CardSearch key={card._id} product={card} imported={true} />)
 					)}
 				</div>
 			</div>

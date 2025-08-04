@@ -1,10 +1,11 @@
 [
-    {
-        "title": "Anel de Iluminação para Selfie",
+	{
+		"_id": "6890a3cc659318dceb397ba8",
+		"title": "Anel de Iluminação para Selfie",
 		"text": "Melhore a qualidade das selfies e registre momentos únicos com mais luz e brilho! Nosso Anel de iluminação para celular, é um “Ring light” plástico, mais compacto, e no formato “presilha” para encaixe. Ainda possui três estágios de iluminação acionados pelo botão superior. Acompanha cabo USB para carregamento.",
 		"smallText": "compacto, e no formato “presilha” para encaixe.",
-        "code" : "14248",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983885/02_dmkwcz.jpg",
+		"code": "14248",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983885/02_dmkwcz.jpg",
 		"altThumbnail": "diversos aneis de iluminação para celular",
 		"category": [
 			"Celular"
@@ -31,14 +32,14 @@
 			}
 		],
 		"like": 0
-    },
-
-    {
-        "title": "Power Bank Indução",
+	},
+	{
+		"_id": "6890a3cc659318dceb397ba9",
+		"title": "Power Bank Indução",
 		"text": "Carregador portátil de indução com 10.000mAh e indicador led de bateria, contém dois conjuntos de ventosas nas extremidades da área de indução, ideal para fixação do celular durante este modo de carga. O carregador possui duas portas de saídas USB, possibilitando o carregamento de dois dispositivos ao mesmo tempo",
 		"smallText": "compacto, e no formato “presilha” para encaixe.",
-        "code" : "04051",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983879/01_bzz9kj.jpg",
+		"code": "04051",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983879/01_bzz9kj.jpg",
 		"altThumbnail": "um celular sob um carregador portátil de indução branco",
 		"category": [
 			"Celular"
@@ -65,14 +66,14 @@
 			}
 		],
 		"like": 0
-    },
-
-    {
-        "title": "Suporte Retrátil para Celular",
+	},
+	{
+		"_id": "6890a3cc659318dceb397baa",
+		"title": "Suporte Retrátil para Celular",
 		"text": "Assista seus vídeos, faça chamadas de vídeo e jogue com mais facilidade, a qualquer hora, em qualquer lugar! Produzido em plástico com haste de alumínio, o suporte possui ângulo ajustável e extensão de altura. Seu tapete de silicone antiderrapante garante a estabilidade do eletrônico sem machucar sua traseira. ",
 		"smallText": "Produzido em plástico com haste de alumínio",
-        "code" : "03040",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983877/01_aosfgh.jpg",
+		"code": "03040",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983877/01_aosfgh.jpg",
 		"altThumbnail": "Um celular carregando em um suporte retrátil branco",
 		"category": [
 			"Celular"
@@ -99,14 +100,14 @@
 			}
 		],
 		"like": 0
-    },
-
-    {
-        "title": "Base de Carregamento 3 em 1",
+	},
+	{
+		"_id": "6890a3cc659318dceb397bab",
+		"title": "Base de Carregamento 3 em 1",
 		"text": "Item 3 em 1? Conheça nossa Base de carregamento via indução. Capaz de carregar simultaneamente celular, Iwatch e fones de ouvido através da tecnologia de indução QI, a base contém frestas para auxilio da circulação de ar, acelerando o resfriamento e proporcionando uma dissipação de calor ideal ao produto. Acompanha cabo USB tipo C.",
-        "smallText" : "Carrega simultaneamente celular, Iwatch e fones de ouvido",
-        "code" : "04063",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983882/03_zmi5gq.jpg",
+		"smallText": "Carrega simultaneamente celular, Iwatch e fones de ouvido",
+		"code": "04063",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983882/03_zmi5gq.jpg",
 		"altThumbnail": "Um celular, carregando sobre uma base de carregamento 3 em 1",
 		"category": [
 			"Celular"
@@ -133,14 +134,14 @@
 			}
 		],
 		"like": 0
-    },
-
-    {
-        "title": "Porta Óculos Plástico",
+	},
+	{
+		"_id": "6890a3cc659318dceb397bac",
+		"title": "Porta Óculos Plástico",
 		"text": "Mantenha seus óculos sempre à mão com este prático Porta Óculos de Plástico. Ideal para prender no quebra-sol do carro, garante mais organização e segurança. Ele evita riscos nas lentes e quedas acidentais. Compatível com diversos modelos de óculos de sol e de grau. Discreto, leve e fácil de instalar, é o acessório perfeito para o seu dia a dia no trânsito.",
-        "smallText" : "Compatível com diversos modelos de óculos de sol e de grau",
-        "code" : "04011",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985339/03_otxcug.jpg",
+		"smallText": "Compatível com diversos modelos de óculos de sol e de grau",
+		"code": "04011",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985339/03_otxcug.jpg",
 		"altThumbnail": "um oculos preso em um porta óculos de plástico no quebra-sol de um carro",
 		"category": [
 			"Carros"
@@ -167,14 +168,14 @@
 			}
 		],
 		"like": 0
-    },
-
-    {
-        "title": "Suporte Veicular Magnético",
+	},
+	{
+		"_id": "6890a3cc659318dceb397bad",
+		"title": "Suporte Veicular Magnético",
 		"text": "Suporte veicular magnético com seis imãs de alta imantação, contém botão para abertura da presilha. Acompanha duas fichas metálicas.",
-        "smallText" : "Suporte veicular magnético com seis imãs",
-        "code" : "13488",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985336/02_pi0n9f.jpg",
+		"smallText": "Suporte veicular magnético com seis imãs",
+		"code": "13488",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985336/02_pi0n9f.jpg",
 		"altThumbnail": "Um celular preso em um suporte veicular magnético",
 		"category": [
 			"Celular"
@@ -197,14 +198,14 @@
 			}
 		],
 		"like": 0
-    },
-
-    {
-        "title": "Porta Whisky 6oz",
+	},
+	{
+		"_id": "6890a3cc659318dceb397bae",
+		"title": "Porta Whisky 6oz",
 		"text": "Essa garrafinha de bolso é feita em aço inox escovado, com acabamento que une resistência e estilo discreto. Seu formato côncavo proporciona melhor encaixe ao corpo, sendo prática para levar em viagens, festas ou eventos. A tampa rosqueável com trava garante segurança no transporte de líquidos. Compacta e durável, cabe facilmente no bolso ou bolsa. Ideal para brindes personalizados ou uso pessoal.",
-        "smallText" : "Cantil metálico pequeno para bebidas.",
-        "code" : "10390",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983597/01_byvm6s.jpg",
+		"smallText": "Cantil metálico pequeno para bebidas.",
+		"code": "10390",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983597/01_byvm6s.jpg",
 		"altThumbnail": "Uma garrafa pequena de aço inox",
 		"category": [
 			"Bebidas"
@@ -231,14 +232,14 @@
 			}
 		],
 		"like": 0
-    },
-
-    {
-        "title": "Abridor de Garrafa Bambu",
+	},
+	{
+		"_id": "6890a3cc659318dceb397baf",
+		"title": "Abridor de Garrafa Bambu",
 		"text": "Abridor de garrafas em metal que une a funcionalidade e o estilo em um só item. Possui acabamento arredondado em bambu, o que confere um design compacto que permite levar o abridor facilmente em bolsos ou deixado à disposição em mesas e balcões sem ocupar muito espaço. Além disso, conta com um par de imãs para mantê-lo fixo em superfícies metálicas.",
-        "smallText" : "Cantil metálico pequeno para bebidas.",
-        "code" : "06385",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983597/04_mliof9.jpg",
+		"smallText": "Cantil metálico pequeno para bebidas.",
+		"code": "06385",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983597/04_mliof9.jpg",
 		"altThumbnail": "Um abridor encostado a uma tabua de madeira",
 		"category": [
 			"Bebidas"
@@ -265,14 +266,14 @@
 			}
 		],
 		"like": 0
-    },
-
-    {
-        "title": "Saca-rolhas Elétrico com Led",
+	},
+	{
+		"_id": "6890a3cc659318dceb397bb0",
+		"title": "Saca-rolhas Elétrico com Led",
 		"text": "Saca-rolhas elétrico com LED e cortador de lacre. Feito em inox com detalhe em acrílico, o saca-rolhas contém um painel de led com botões emborrachados, compartimento para quatro pilhas AA (não acompanha) com trava de segurança e acompanha cortador de lacre.",
-        "smallText" : "Saca-rolhas elétrico com LED e cortador de lacre.",
-        "code" : "18555",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983601/03_kzkfqp.jpg",
+		"smallText": "Saca-rolhas elétrico com LED e cortador de lacre.",
+		"code": "18555",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983601/03_kzkfqp.jpg",
 		"altThumbnail": "Um saca rolha eletrico de inox",
 		"category": [
 			"Bebidas"
@@ -299,17 +300,22 @@
 			}
 		],
 		"like": 0
-    },
-
-    {
-        "title": "Bloco de anotações Eco com Caneta",
+	},
+	{
+		"_id": "6890a3cc659318dceb397bb1",
+		"title": "Bloco de anotações Eco com Caneta",
 		"text": "Bloco de anotações ecológico com caneta, feito em kraft com detalhe plástico. Contém aproximadamente 70 folhas brancas com pauta, porta caneta elástico, elástico para lacre e acompanha caneta de papelão com detalhes plásticos, carga esferográfica azul 1.0mm e acionamento por clique.",
-        "smallText" : "Feito em kraft com detalhe plástico",
-        "code" : "05064",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069797/02_hj1vfo.jpg",
+		"smallText": "Feito em kraft com detalhe plástico",
+		"code": "05064",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069797/02_hj1vfo.jpg",
 		"altThumbnail": "varios blocos ecológicos com caneta",
-		"category": ["cadernos" , "canetas"],
-		"measure": ["9x15x1,5cm"],
+		"category": [
+			"cadernos",
+			"canetas"
+		],
+		"measure": [
+			"9x15x1,5cm"
+		],
 		"gallery": [
 			{
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069797/02_hj1vfo.jpg",
@@ -329,77 +335,54 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Agenda Diária 2025 Linho",
+		"_id": "6890a3cc659318dceb397bb2",
+		"title": "Agenda Diária 2025 Linho",
 		"text": "Planeje seu dia a dia com a nossa agenda diária 2025 de linho. Organizar-se ficou ainda mais fácil! Contém folhas para dados pessoais, calendários 2025 à 2027, planejamento 2025 e DDI.",
-		"smallText" : "Calendários 2025 à 2027, planejamento 2025 e DDI",
-        "code" : "06099",
-        "thumbnail": "",
+		"smallText": "Calendários 2025 à 2027, planejamento 2025 e DDI",
+		"code": "06099",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069839/01_skqtqf.jpg",
 		"altThumbnail": "",
-		"category": ["cadernos" , "canetas"],
+		"category": [
+			"cadernos",
+			"canetas"
+		],
 		"measure": [
 			"14,5x20,5x2cm"
 		],
 		"gallery": [
 			{
-				"img": "",
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069839/01_skqtqf.jpg",
 				"altImg": ""
 			},
 			{
-				"img": "",
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069883/04_oirekk.jpg",
 				"altImg": ""
 			},
 			{
-				"img": "",
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069798/02_ec7mn0.jpg",
 				"altImg": ""
 			},
 			{
-				"img": "",
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069798/03_swvvaw.jpg",
 				"altImg": ""
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Agenda Diária 2025 Linho",
-		"text": "Planeje seu dia a dia com a nossa agenda diária 2025 de linho. Organizar-se ficou ainda mais fácil! Contém folhas para dados pessoais, calendários 2025 à 2027, planejamento 2025 e DDI.",
-		"smallText" : "Feito em kraft com detalhe plástico",
-        "code" : "11193",
-        "thumbnail": "",
-		"altThumbnail": "",
-		"category": ["cadernos" , "caneta"],
-		"gallery": [
-			{
-				"img": "",
-				"altImg": ""
-			},
-			{
-				"img": "",
-				"altImg": ""
-			},
-			{
-				"img": "",
-				"altImg": ""
-			},
-			{
-				"img": "",
-				"altImg": ""
-			}
-		],
-		"like": 0
-    },
-
-	{
-        "title": "Bloco de Anotações com Autoadesivos",
+		"_id": "6890a3cc659318dceb397bb4",
+		"title": "Bloco de Anotações com Autoadesivos",
 		"text": "Bloco de anotações ecológico, material em kraft. Possui uma trava na própria capa, cinco blocos autoadesivos coloridos com aproximadamente 25 folhinhas , bloco autoadesivo amarelo com aproximadamente 25 folhas e bloco grande com aproximadamente 70 folhas",
-		"smallText" : "Bloco de anotações ecológico, material em kraft",
-        "code" : "11911SB",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069865/02_apa8sh.jpg",
+		"smallText": "Bloco de anotações ecológico, material em kraft",
+		"code": "11911SB",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069865/02_apa8sh.jpg",
 		"altThumbnail": "",
-		"category": ["cadernos" , "canetas"],
+		"category": [
+			"cadernos",
+			"canetas"
+		],
 		"measure": [
 			"10x15x1cm"
 		],
@@ -414,48 +397,54 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caderno plástico com caneta",
+		"_id": "6890a3cc659318dceb397bb5",
+		"title": "Caderno plástico com caneta",
 		"text": "Caderno plástica wire-o com caneta e suporte para encaixe. Caneta plástica com detalhe emborrachado, carga esferográfica na cor azul e acionamento por clique.",
-		"smallText" : "Caderno plástica wire-o com caneta e suporte para encaixe",
-        "code" : "11193",
-        "thumbnail": "",
-		"altThumbnail": "",
-		"category": ["cadernos" , "canetas"],
+		"smallText": "Caderno plástica wire-o com caneta e suporte para encaixe",
+		"code": "11193",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069869/02_aqklyp.jpg",
+		"altThumbnail": "vários cadernos coloridos",
+		"category": [
+			"cadernos",
+			"canetas"
+		],
 		"measure": [
 			"14,8x16cm"
 		],
 		"gallery": [
 			{
-				"img": "",
-				"altImg": ""
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069869/02_aqklyp.jpg",
+				"altImg": "vários cadernos coloridos"
 			},
 			{
-				"img": "",
-				"altImg": ""
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069854/01_y8ebhc.jpg",
+				"altImg": "Caderno preto"
 			},
 			{
-				"img": "",
-				"altImg": ""
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069848/04_jhuceo.jpg",
+				"altImg": "caderno laranja"
 			},
 			{
-				"img": "",
-				"altImg": ""
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069848/03_tqj9kd.jpg",
+				"altImg": "Caderno verde"
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Bloco de Anotações com Autoadesivos",
+		"_id": "6890a3cc659318dceb397bb6",
+		"title": "Bloco de Anotações com Autoadesivos",
 		"text": "Descrição Bloco de anotações ecológico, material em kraft. Possui uma trava na própria capa, cinco blocos autoadesivos coloridos com aproximadamente 25 folhinhas , bloco autoadesivo amarelo com aproximadamente 25 folhas e bloco grande com aproximadamente 70 folhas.",
-		"smallText" : "Bloco de anotações ecológico, material em kraft",
-        "code" : "11911SB",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069865/01_hxxu4e.jpg",
+		"smallText": "Bloco de anotações ecológico, material em kraft",
+		"code": "11911SB",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069865/01_hxxu4e.jpg",
 		"altThumbnail": "um caderno craft com símbolo de reciclagem",
-		"category": ["cadernos" , "canetas"],
+		"category": [
+			"cadernos",
+			"canetas"
+		],
 		"measure": [
 			"10x15x1cm"
 		],
@@ -474,16 +463,19 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Bloco de Anotações com Caneta e Autoadesivo",
+		"_id": "6890a3cc659318dceb397bb7",
+		"title": "Bloco de Anotações com Caneta e Autoadesivo",
 		"text": "Bloco de anotações kraft com wire-o. Contém cinco blocos coloridos autoadesivos com aproximadamente 25 folhas, bloco amarelo autoadesivo com aproximadamente 25 folhas e bloco de folhas brancas pautadas com aproximadamente 70 folhas. Acompanha mini caneta de papelão com acabamentos plásticos e acionamento por clique.",
-		"smallText" : "Bloco de anotações kraft com wire-o",
-        "code" : "12244",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069888/04_xfbgxy.jpg",
+		"smallText": "Bloco de anotações kraft com wire-o",
+		"code": "12244",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069888/04_xfbgxy.jpg",
 		"altThumbnail": "dois blocos de anotações com caneta e autoadesivo",
-		"category": ["cadernos" , "canetas"],
+		"category": [
+			"cadernos",
+			"canetas"
+		],
 		"measure": [
 			"9x16x2cm"
 		],
@@ -506,16 +498,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Bolsa de Viagem Dobrável",
+		"_id": "6890a3cc659318dceb397bb8",
+		"title": "Bolsa de Viagem Dobrável",
 		"text": "Bolsa de viagem dobrável 24 litros em poliéster impermeável com dois compartimentos. Contém bolso para encaixe em malas de viagem.",
-		"smallText" : "24 litros, feita em poliéster impermeável",
-        "code" : "02093",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069802/04_xyknrw.jpg",
+		"smallText": "24 litros, feita em poliéster impermeável",
+		"code": "02093",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069802/04_xyknrw.jpg",
 		"altThumbnail": "",
-		"category": ["bolsas"],
+		"category": [
+			"bolsas"
+		],
 		"measure": [
 			"48x32x16cm"
 		],
@@ -538,16 +532,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Bolsa Expansível e Dobrável 25 Litros",
+		"_id": "6890a3cc659318dceb397bb9",
+		"title": "Bolsa Expansível e Dobrável 25 Litros",
 		"text": "Descrição Uma bolsa que leva em conta as necessidades de quem espera por mais praticidade. Feita em poliéster impermeável e com capacidade máxima expansível em até 25 litros através do compartimento inferior fechada em zíper, é uma ótima opção para viagens de curta ou longa distância. Além do amplo espaço, ela conta com dois bolsos externos, incluindo um bolso com espaço para o encaixe de alças de malas de viagem e, com isso, é possível criar combinações práticas em deslocamentos. Ainda é possível dobrar a bolsa enquanto vazia para guarda-la em malas ou caixas.",
-		"smallText" : "24 litros, feita em poliéster impermeável",
-        "code" : "02093",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069850/01_zt2jjm.jpg",
+		"smallText": "24 litros, feita em poliéster impermeável",
+		"code": "02093",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069850/01_zt2jjm.jpg",
 		"altThumbnail": "",
-		"category": ["bolsas"],
+		"category": [
+			"bolsas"
+		],
 		"measure": [
 			"52x35x21cm"
 		],
@@ -570,50 +566,55 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Bolsa Esportiva 39 Litros",
+		"_id": "6890a3cc659318dceb397bba",
+		"title": "Bolsa Esportiva 39 Litros",
 		"text": "Bolsa esportiva de 39 litros em nylon resistente à água com três compartimentos, sendo um deles exclusivos para tênis. Compartimento principal com bolso de zíper exclusivo para itens molhados. Com bolso lateral telado e alças de mãos com suporte de juntura, a bolsa contém alça transversal removível e alça para engate em malas de viagem.",
-		"smallText" : "Resistente à água com três compartimentos",
-        "code" : "05096",
-        "thumbnail": "",
-		"altThumbnail": "",
-		"category": ["bolsas"],
+		"smallText": "Resistente à água com três compartimentos",
+		"code": "05096",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069837/01_mv1fcn.jpg",
+		"altThumbnail": "Uma bolsa vermelha",
+		"category": [
+			"bolsas"
+		],
 		"measure": [
 			"51x28x28cm"
 		],
 		"gallery": [
 			{
-				"img": "",
-				"altImg": ""
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069837/01_mv1fcn.jpg",
+				"altImg": "Uma bolsa vermelha"
 			},
 			{
-				"img": "",
-				"altImg": ""
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069867/02_pzjsn7.jpg",
+				"altImg": "Uma bolsa vermelha aberta"
 			},
 			{
-				"img": "",
-				"altImg": ""
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069832/04_resavu.jpg",
+				"altImg": "Uma bolsa preta"
 			},
 			{
-				"img": "",
-				"altImg": ""
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069875/03_ppsmow.jpg",
+				"altImg": "Uma bolsa aberta"
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caixa de Som Multimídia",
+		"_id": "6890a3cc659318dceb397bbb",
+		"title": "Caixa de Som Multimídia",
 		"text": " Caixa de som multimídia com luzes, suporte para celular e porta caneta. Material plástico resistente na cor branca fosca, parte superior com falante vazado na área interna, pode ser utilizado como porta caneta ou suporte para celular. Parte inferior branca leitosa com linhas em relevo, borracha inferior anti deslizante e alça de alumínio.",
-		"smallText" : "Com Porta Caneta e Luminária",
-        "code" : "02017",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069803/02_c81boc.jpg",
+		"smallText": "Com Porta Caneta e Luminária",
+		"code": "02017",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069803/02_c81boc.jpg",
 		"altThumbnail": "luminária com suporte para celular",
-		"category": ["caixa de som"],
+		"category": [
+			"caixas de som"
+		],
 		"measure": [
-			"14,1x9,8cm", "circunferência 30,5cm"
+			"14,1x9,8cm",
+			"circunferência 30,5cm"
 		],
 		"gallery": [
 			{
@@ -634,18 +635,21 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caixa de som Multimídia",
+		"_id": "6890a3cc659318dceb397bbc",
+		"title": "Caixa de som Multimídia",
 		"text": " Com luzes, suporte para celular e porta caneta. Material plástico resistente na cor branca fosca, parte superior com falante vazado na área interna, pode ser utilizado como porta caneta ou suporte para celular. Parte inferior branca leitosa com linhas em relevo, borracha inferior anti deslizante e alça de alumínio.",
-		"smallText" : "Com Porta Caneta e Luminária",
-        "code" : "04361",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069846/03_umdedp.jpg",
+		"smallText": "Com Porta Caneta e Luminária",
+		"code": "04361",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069846/03_umdedp.jpg",
 		"altThumbnail": "Duas caixas de som feitas em babu",
-		"category": ["caixa de som"],
+		"category": [
+			"caixas de som"
+		],
 		"measure": [
-			"14,1x9,8cm", "circunferência 30,5cm"
+			"14,1x9,8cm",
+			"circunferência 30,5cm"
 		],
 		"gallery": [
 			{
@@ -662,16 +666,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caixa de Som Multimídia",
+		"_id": "6890a3cc659318dceb397bbd",
+		"title": "Caixa de Som Multimídia",
 		"text": "Material plástico resistente a água, e falantes com acabamento em tecido, possui um cordão de nylon acoplado para facilitar o transporte. A caixinha funciona nos modos Bluetooth, Radio FM, Cartão TF (Micro SD), Auxiliar e USB. Possui bateria de longa duração, com autonomia de aproximadamente 35 horas continuas de reprodução. É possível emparelhar 2 caixinhas do mesmo modelo e executar o som sincronizado em ambas. Acompanha cabo USB e cabo auxiliar P2",
-		"smallText" : "Com Porta Caneta e Luminária",
-        "code" : "04362",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069875/02_qn3rrc.jpg",
+		"smallText": "Com Porta Caneta e Luminária",
+		"code": "04362",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069875/02_qn3rrc.jpg",
 		"altThumbnail": "varias caixas de som  coloridas",
-		"category": ["caixa de som"],
+		"category": [
+			"caixas de som"
+		],
 		"measure": [
 			"10,5x9,5cm"
 		],
@@ -694,17 +700,18 @@
 			}
 		],
 		"like": 0
-    },
-
-
+	},
 	{
-        "title": "Caixa de Som Multimídia RGS",
+		"_id": "6890a3cc659318dceb397bbe",
+		"title": "Caixa de Som Multimídia RGS",
 		"text": "Qualidade sonora e conectividade total compatível com bluetooth, rádio FM, cartão TF (MicroSD) e pen drive. Iluminação dinâmica, são 7 modos de iluminação RGB com movimentos diferentes. Sua tecnologia TWS permite sincronizar duas caixas de som em uma, criando uma experiência imersiva com qualidade sonora e potência excepcionais. A caixa de som executa nos modos rádio FM, cartão TF (MicroSD) e pen drive. Acompanha cordão de nylon, cabo micro USB (V8) e plaquinha de alumínio para personalização.",
-		"smallText" : "compatível com bluetooth, rádio FM, cartão TF (MicroSD) e pen drive",
-        "code" : "08003",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069851/01_iyvg84.jpg",
+		"smallText": "compatível com bluetooth, rádio FM, cartão TF (MicroSD) e pen drive",
+		"code": "08003",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069851/01_iyvg84.jpg",
 		"altThumbnail": "",
-		"category": ["caixa de som"],
+		"category": [
+			"caixas de som"
+		],
 		"measure": [
 			"8,5x9cm"
 		],
@@ -727,16 +734,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caneta Plástica",
+		"_id": "6890a3cc659318dceb397bbf",
+		"title": "Caneta Plástica",
 		"text": "Caneta plástica com detalhe emborrachado, carga esferográfica azul 1.0 mm e acionamento por clique.",
-		"smallText" : "carga esferográfica azul 1.0 mm",
-        "code" : "00518",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069853/02_qsna3l.jpg",
+		"smallText": "carga esferográfica azul 1.0 mm",
+		"code": "00518",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069853/02_qsna3l.jpg",
 		"altThumbnail": "",
-		"category": ["canetas"],
+		"category": [
+			"canetas"
+		],
 		"measure": [
 			"1,5x14,4cm"
 		],
@@ -759,16 +768,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caneta Metal",
+		"_id": "6890a3cc659318dceb397bc0",
+		"title": "Caneta Metal",
 		"text": "Caneta metálica com carga esferográfica azul 1.0 mm e acionamento por rotação",
-		"smallText" : "Carga esferográfica azul 1.0mm",
-        "code" : "A1803A",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069810/01_lwiqzz.jpg",
+		"smallText": "Carga esferográfica azul 1.0mm",
+		"code": "A1803A",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069810/01_lwiqzz.jpg",
 		"altThumbnail": "",
-		"category": ["canetas"],
+		"category": [
+			"canetas"
+		],
 		"measure": [
 			"1x13,5cm"
 		],
@@ -791,16 +802,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Conjunto Caneta e Lapiseira Metal",
+		"_id": "6890a3cc659318dceb397bc1",
+		"title": "Conjunto Caneta e Lapiseira Metal",
 		"text": "Conjunto de caneta e lapiseira metálicas em estojo de metal. Caneta e lapiseira possuem acabamento fosco, detalhe emborrachado na parte inferior, carga esferográfica azul de 1.0mm e acionamento por clique. Estojo revestido em espuma.",
-		"smallText" : "Conjunto de caneta e lapiseira metálicas",
-        "code" : "06078",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069877/02_yjlr6k.jpg",
+		"smallText": "Conjunto de caneta e lapiseira metálicas",
+		"code": "06078",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069877/02_yjlr6k.jpg",
 		"altThumbnail": "",
-		"category": ["canetas"],
+		"category": [
+			"canetas"
+		],
 		"measure": [
 			"5,3x18x1,5cm"
 		],
@@ -823,16 +836,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caneta Metal Touch",
+		"_id": "6890a3cc659318dceb397bc2",
+		"title": "Caneta Metal Touch",
 		"text": "Caneta esferográfica com carga azul de 1.0mm e acionamento por clique. De construção metálica, também possui ponteira emborrachada que permite seu uso como uma caneta touch para interação com dispositivos de tela sensível ao toque.",
-		"smallText" : "Caneta touch com ponteira emborrachada",
-        "code" : "08185",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069809/03_txlzfc.jpg",
+		"smallText": "Caneta touch com ponteira emborrachada",
+		"code": "08185",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069809/03_txlzfc.jpg",
 		"altThumbnail": "",
-		"category": ["canetas"],
+		"category": [
+			"canetas"
+		],
 		"measure": [
 			"1,2x13,5cm"
 		],
@@ -855,16 +870,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caneta metal touch top",
+		"_id": "6890a3cc659318dceb397bc3",
+		"title": "Caneta metal touch top",
 		"text": "Caneta metálica touchscreen com acabamento similar à borracha, acionamento por clique e carga esferográfica azul 1.0mm",
-		"smallText" : "Caneta metálica touchscreen com acabamento similar à borracha",
-        "code" : "05015",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069808/04_xoqo04.jpg",
+		"smallText": "Caneta metálica touchscreen com acabamento similar à borracha",
+		"code": "05015",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069808/04_xoqo04.jpg",
 		"altThumbnail": "",
-		"category": ["canetas"],
+		"category": [
+			"canetas"
+		],
 		"measure": [
 			"1,5x14cm"
 		],
@@ -887,16 +904,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caneta Plástica Touch",
+		"_id": "6890a3cc659318dceb397bc4",
+		"title": "Caneta Plástica Touch",
 		"text": "Caneta plástica com suporte para celular, ponteira touch screen e limpador de tela. Carga esferográfica azul 1.0 mm e acionamento por rotação.",
-		"smallText" : "Caneta plástica touch com suporte para celular",
-        "code" : "00708",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069807/01_nuiqmg.jpg",
+		"smallText": "Caneta plástica touch com suporte para celular",
+		"code": "00708",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069807/01_nuiqmg.jpg",
 		"altThumbnail": "",
-		"category": ["canetas"],
+		"category": [
+			"canetas"
+		],
 		"measure": [
 			"2x15cm"
 		],
@@ -919,16 +938,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caneta Ecológica Papelão",
+		"_id": "6890a3cc659318dceb397bc5",
+		"title": "Caneta Ecológica Papelão",
 		"text": "Caneta de papelão com detalhes plásticos, carga esferográfica azul 1.0 mm e acionamento por clique",
-		"smallText" : "carga esferográfica e acionamento por clique",
-        "code" : "00002",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069849/02_wg6n5l.jpg",
+		"smallText": "carga esferográfica e acionamento por clique",
+		"code": "00002",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069849/02_wg6n5l.jpg",
 		"altThumbnail": "",
-		"category": ["canetas"],
+		"category": [
+			"canetas"
+		],
 		"measure": [
 			"1,5x14cm"
 		],
@@ -951,16 +972,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caneta retang",
+		"_id": "6890a3cc659318dceb397bc6",
+		"title": "Caneta retang",
 		"text": "decorativo.",
-		"smallText" : "carga esferográfica e acionamento por clique",
-        "code" : "02481",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069811/01_a89s8h.jpg",
+		"smallText": "carga esferográfica e acionamento por clique",
+		"code": "02481",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069811/01_a89s8h.jpg",
 		"altThumbnail": "",
-		"category": ["canetas"],
+		"category": [
+			"canetas"
+		],
 		"measure": [
 			"3,1x9cm"
 		],
@@ -983,16 +1006,18 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Caneta slim Touch",
+		"_id": "6890a3cc659318dceb397bc7",
+		"title": "Caneta slim Touch",
 		"text": "Caneta plástica com ponteira touch screen, carga esferográfica azul 1.0 mm e acionamento por clique.",
-		"smallText" : "carga esferográfica e acionamento por clique",
-        "code" : "12638",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069810/04_npltca.jpg",
+		"smallText": "carga esferográfica e acionamento por clique",
+		"code": "12638",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069810/04_npltca.jpg",
 		"altThumbnail": "",
-		"category": ["canetas"],
+		"category": [
+			"canetas"
+		],
 		"measure": [
 			"1,5x14cm"
 		],
@@ -1009,20 +1034,23 @@
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069810/01_azjt4h.jpg",
 				"altImg": ""
 			}
-
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Chaveiro Metal 3 em 1",
+		"_id": "6890a3cc659318dceb397bc8",
+		"title": "Chaveiro Metal 3 em 1",
 		"text": "Chaveiro metal 3 em 1 abridor, cortador e lixa. Parte central circular ideal para gravações, detalhe de traços no contorno circular. Lado frontal com detalhes em relevo nas laterais e pequeno círculo acima do abridor. Para utilizar o cortador basta rotacionar a peça cirular e levantá-la. Acompanha correntinha.",
-		"smallText" : "Chaveiro retangular com design minimalista e despojado",
-        "code" : "05691",
-        "thumbnail": "",
+		"smallText": "Chaveiro retangular com design minimalista e despojado",
+		"code": "05691",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069812/01_xgfunp.jpg",
 		"altThumbnail": "",
-		"category": ["chaveiros"],
-		"measure": ["6x3cm"],
+		"category": [
+			"chaveiros"
+		],
+		"measure": [
+			"6x3cm"
+		],
 		"gallery": [
 			{
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069812/01_xgfunp.jpg",
@@ -1042,17 +1070,21 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Chaveiro Abridor Madeira",
+		"_id": "6890a3cc659318dceb397bc9",
+		"title": "Chaveiro Abridor Madeira",
 		"text": "Este chaveiro é uma ótima opção prática e multiuso. Com argola em metal e corpo feito de madeira, ele apresenta uma abertura que abriga um abridor de garrafas também em metal, excelente para ter sempre à mão na hora de abrir refrigerantes ou cervejas em festas, churrascos, happy hours ou durante aquela refeição com a família ou os amigos.",
-		"smallText" : "Chaveiro retangular com design minimalista e despojado",
-        "code" : "06003",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069845/01_he3mxq.jpg",
+		"smallText": "Chaveiro retangular com design minimalista e despojado",
+		"code": "06003",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069845/01_he3mxq.jpg",
 		"altThumbnail": "",
-		"category": ["chaveiros"],
-		"measure": ["4x7x1cm"],
+		"category": [
+			"chaveiros"
+		],
+		"measure": [
+			"4x7x1cm"
+		],
 		"gallery": [
 			{
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069884/03_tbwtmc.jpg",
@@ -1064,17 +1096,21 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Chaveiro Abridor Multifunções",
+		"_id": "6890a3cc659318dceb397bca",
+		"title": "Chaveiro Abridor Multifunções",
 		"text": "Descrição Um abridor de múltiplas utilidades em um chaveiro especial. Feito em madeira e aço inox, este chaveiro polivalente, além de oferecer espaço para acomodar várias chaves, reúne em sua estrutura três diferentes tipos de faces um abridor de garrafas sob medida para uma boa cerveja, um saca-rolhas para abrir um vinho ou espumante próprio para celebrações e um canivete para abertura de lacres e outros tipos de embalagens.",
-		"smallText" : "",
-        "code" : "06023",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069813/01_taeue9.jpg",
+		"smallText": "",
+		"code": "06023",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069813/01_taeue9.jpg",
 		"altThumbnail": "",
-		"category": ["chaveiros"],
-		"measure": ["3,5x8,5cm"],
+		"category": [
+			"chaveiros"
+		],
+		"measure": [
+			"3,5x8,5cm"
+		],
 		"gallery": [
 			{
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069844/02_mlijxe.jpg",
@@ -1090,17 +1126,21 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Chaveiro Metal Abridor",
+		"_id": "6890a3cc659318dceb397bcb",
+		"title": "Chaveiro Metal Abridor",
 		"text": "Este chaveiro multifuncional para deixar o dia a dia mais prático. Feito em metal a partir de um design próprio, ele é um eficiente abridor de garrafas e latinhas na medida certa para a abertura de refrigerantes ou cervejas de maneira simples em todas as ocasiões, unindo o útil ao agradável em uma só peça.",
-		"smallText" : "Feito em metal a partir de um design próprio",
-        "code" : "09824",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069813/02_sdsuyh.jpg",
+		"smallText": "Feito em metal a partir de um design próprio",
+		"code": "09824",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069813/02_sdsuyh.jpg",
 		"altThumbnail": "",
-		"category": ["chaveiros"],
-		"measure": ["1,2x1,3x6,5cm"],
+		"category": [
+			"chaveiros"
+		],
+		"measure": [
+			"1,2x1,3x6,5cm"
+		],
 		"gallery": [
 			{
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069814/04_nlpf99.jpg",
@@ -1120,17 +1160,21 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Chaveiro Metal Canivete 4 Funções",
+		"_id": "6890a3cc659318dceb397bcc",
+		"title": "Chaveiro Metal Canivete 4 Funções",
 		"text": "Chaveiro canivete 4 funções de metal liso(ambos lados). Possui abridor de lata, lixa, lâmina de corte e abridor de garrafa.",
-		"smallText" : "",
-        "code" : "10210",
-        "thumbnail": "",
+		"smallText": "",
+		"code": "10210",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069814/02_polo52.jpg",
 		"altThumbnail": "",
-		"category": ["chaveiros"],
-		"measure": ["4x1,8cm"],
+		"category": [
+			"chaveiros"
+		],
+		"measure": [
+			"4x1,8cm"
+		],
 		"gallery": [
 			{
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069814/02_polo52.jpg",
@@ -1146,17 +1190,21 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Copo Térmico Inox 350ml",
+		"_id": "6890a3cc659318dceb397bcd",
+		"title": "Copo Térmico Inox 350ml",
 		"text": "Copo térmico de inox 350ml com parede dupla, parte inferior com borracha antideslizante e tampa rosqueável com abertura de bocal",
-		"smallText" : "Copo térmico de inox 350ml com parede dupla",
-        "code" : "14724P",
-        "thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069833/02_ooanxl.jpg",
+		"smallText": "Copo térmico de inox 350ml com parede dupla",
+		"code": "14724P",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069833/02_ooanxl.jpg",
 		"altThumbnail": "",
-		"category": ["copos"],
-		"measure": ["8,8x14,8cm"],
+		"category": [
+			"copos"
+		],
+		"measure": [
+			"8,8x14,8cm"
+		],
 		"gallery": [
 			{
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069833/02_ooanxl.jpg",
@@ -1176,17 +1224,21 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "Copo de Vidro 500ml",
+		"_id": "6890a3cc659318dceb397bce",
+		"title": "Copo de Vidro 500ml",
 		"text": "Copo de vidro borossilicato com capacidade de 500ml. Inclui canudo e tampa de bambu com abertura para canudo, além de uma luva de silicone para melhor aderência.",
-		"smallText" : "Copo de vidro borossilicato com capacidade de 500ml",
-        "code" : "01001",
-        "thumbnail": "",
-		"altThumbnail": "",
-		"category": ["copos"],
-		"measure": ["7x19,3cm"],
+		"smallText": "Copo de vidro borossilicato com capacidade de 500ml",
+		"code": "01001",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069858/02_nnomhy.jpg",
+		"altThumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069836/03_x6gwcy.jpg",
+		"category": [
+			"copos"
+		],
+		"measure": [
+			"7x19,3cm"
+		],
 		"gallery": [
 			{
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069836/03_x6gwcy.jpg",
@@ -1206,17 +1258,21 @@
 			}
 		],
 		"like": 0
-    },
-
+	},
 	{
-        "title": "",
+		"_id": "6890a3cc659318dceb397bcf",
+		"title": "Copo térmico Inox",
 		"text": "Copo térmico de inox com acabamento liso e capacidade 500ml, material livre de BPA. Contém tampa com abridor.",
-		"smallText" : "",
-        "code" : "18645L",
-        "thumbnail": "",
+		"smallText": "Copo térmico de inox com acabamento liso e capacidade 500ml",
+		"code": "18645L",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069881/03_lwlqyc.jpg",
 		"altThumbnail": "",
-		"category": ["copos"],
-		"measure": ["9x17cm"],
+		"category": [
+			"copos"
+		],
+		"measure": [
+			"9x17cm"
+		],
 		"gallery": [
 			{
 				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069881/03_lwlqyc.jpg",
@@ -1236,5 +1292,177 @@
 			}
 		],
 		"like": 0
-    }
+	},
+
+	{
+		"title": "Caixa de ferramentas Ibs",
+		"text": "Copo térmico de inox com acabamento liso e capacidade 500ml, material livre de BPA. Contém tampa com abridor.",
+		"smallText": "Copo térmico de inox com acabamento liso e capacidade 500ml",
+		"code": "20x14x4",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069853/01_d22hpz.jpg",
+		"altThumbnail": "",
+		"category": [
+			"kit-ferramentas"
+		],
+		"measure": [
+			"9x17cm"
+		],
+		"gallery": [
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069853/01_d22hpz.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069861/04_oeityl.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069842/02_vhicsr.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069867/03_v4ntlb.jpg",
+				"altImg": ""
+			}
+		],
+		"like": 0
+	},
+
+	{
+		"title": "Kit de Ferramentas Quart",
+		"text": "Kit ferramenta 4 peças em estojo plástico com trava de segurança Contém 2 chaves de fenda e 2 chaves Phillips. Ideal para pequenos reparos e manutenção em casa, escritório ou carro.",
+		"smallText": "Kit ferramenta 4 peças em estojo plástico",
+		"code": "20x14x4",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069855/01_dk5y7e.jpg",
+		"altThumbnail": "",
+		"category": [
+			"kit-ferramentas"
+		],
+		"measure": [
+			"12,5x20,3x3cm"
+		],
+		"gallery": [
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069820/04_g7wkvd.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069855/01_dk5y7e.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069820/03_mtqprl.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069820/02_csclpj.jpg",
+				"altImg": ""
+			}
+		],
+		"like": 0
+	},
+
+	{
+		"title": "Kit de Ferramentas Quart",
+		"text": "Kit ferramenta 19 peças de maleta plástica com lanterna. Necessário 4 pilhas AA para utilizar lanterna, possui botão para ligardesligar lanterna na alça e trava lateral no estojo. Contém conjunto 10 pontas(4 chaves phillips, 2 chaves fenda, 3 chaves torx e um adaptador), chave canhão, adaptador chave de boca, mini chave de fenda, mini chave phillips, 4 extensores bocais(7MM, 8MM, 9MM e 10MM) e alicate.",
+		"smallText": "Kit ferramenta 19 peças de maleta plástica com lanterna",
+		"code": "20x14x4",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069868/04_ujszn5.jpg",
+		"altThumbnail": "",
+		"category": [
+			"kit-ferramentas"
+		],
+		"measure": [
+			"6x2,5cm"
+		],
+		"gallery": [
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069868/04_ujszn5.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069878/02_cs1kz1.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069861/03_wlm6aw.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069863/01_ae5rcf.jpg",
+				"altImg": ""
+			}
+		],
+		"like": 0
+	},
+
+	{
+		"title": "Caneca Térmica 1,2L",
+		"text": "Caneca térmica com capacidade de 1,2 litros feita em inox 304 com parede dupla, contém tampa acrílica rosqueável com acesso para canudo e pegador plástico. Acompanha canudo plástico.",
+		"smallText": "Caneca térmica com capacidade de 1,2 litros",
+		"code": "06033",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069866/02_gomzir.jpg",
+		"altThumbnail": "",
+		"category": [
+			"copos"
+		],
+		"measure": [
+			"15x27cm"
+		],
+		"gallery": [
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069866/02_gomzir.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069839/04_ie91mn.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069834/01_tx3u42.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069847/03_avowov.jpg",
+				"altImg": ""
+			}
+		],
+		"like": 0
+	},
+
+	{
+		"title": "Kit Queijo 2 Peças",
+		"text": "Para aproveitar com qualidade aquele momento especial, precisamos dos utensílios certos. Confira essa novidade Kit de Queijo com 2 peças, embalado em um estojo de papelão com berço de espuma, contendo um garfo e uma espátula.",
+		"smallText": "Kit de Queijo com 2 peças",
+		"code": "20x14x4",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069840/01_i8iyky.jpg",
+		"altThumbnail": "",
+		"category": [
+			"diversos"
+		],
+		"measure": [
+			"11,2x15,4x2,2cm"
+		],
+		"gallery": [
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069840/01_i8iyky.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069843/03_bwokev.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069868/04_g8dsof.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069822/02_umrfyd.jpg",
+				"altImg": ""
+			}
+		],
+		"like": 0
+	}
+
+
 ]

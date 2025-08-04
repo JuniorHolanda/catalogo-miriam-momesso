@@ -1,72 +1,70 @@
 [
 	{
 		"id": 1,
-		"category": "bolsa",
-		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Bolsa-Esportiva-Poliester-Expansivel-26-Litros-ROSA-23010-1745330485.jpg",
-		"altImg": "Uma bolsa rosa",
-		"description": "Confira nossas sugestões de Bolsas importadas"
+		"category": "bebidas",
+		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983597/02_qostww.jpg",
+		"altImg": "Dois abridores de garrafa"
 	},
 	{
 		"id": 2,
-		"category": "necessaire",
-		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Necessaire-de-Couro-Sintetico-MARROM-22665-1743710602.jpg",
-		"altImg": "uma necessaire sintético",
-		"description": "Diversos modelos de necessaires para você personalizar"
+		"category": "cadernos",
+		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069890/03_pf0ley.jpg",
+		"altImg": "Um caderno com alguns post it, uma caneta e um telefone"
 	},
+	
 	{
 		"id": 3,
-		"category": "mochila",
-		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Mochila-Dobravel-Poliester-20-Litros-23844-1752772051.jpg",
-		"altImg": "uma mochila azul e vermelha",
-		"description": "Mochilas modernas, corporativas, esportivas... escolha o seu modelo"
+		"category": "bolsas",
+		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Bolsa-Esportiva-Poliester-Expansivel-26-Litros-ROSA-23010-1745330485.jpg",
+		"altImg": "Uma bolsa rosa"
 	},
 	{
 		"id": 4,
-		"category": "mala",
-		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Mala-de-Viagem-41-Litros-AMARELO-21964-1738172501.jpg",
-		"altImg": "uma ilustração de algumas flores coloridas",
-		"description": "Mala para o cliente levar seu logo pelo mundo"
+		"category": "caixas de som",
+		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069803/02_c81boc.jpg",
+		"altImg": "ua caixa de som verde neon"
 	},
 	{
 		"id": 5,
-		"category": "caneta",
+		"category": "canetas",
 		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Caneta-Metal-PRETO-21273-1730921275.jpg",
-		"altImg": "uma caneta preta",
-		"description": "Diversos modelos de canetas para atender a todo tipo de cliente"
+		"altImg": "uma caneta preta"
 	},
-	{
+		{
 		"id": 6,
-		"category": "caderno",
-		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Caderno-A5-Bambu-22145-1738075746.jpg",
-		"altImg": "Um caderno com alguns post it e uma régua",
-		"description": "Confira nossas sugestões de cadernos importadas"
+		"category": "carros",
+		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985339/03_otxcug.jpg",
+		"altImg": "um suporte de oculos no carro"
 	},
+
 	{
 		"id": 7,
-		"category": "copo",
-		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Copo-Termico-500ml-23599-1751315811.jpg",
-		"altImg": "um copo térmico amarelo",
-		"description": "São devirsos tipos de copos para todos os orçamentos"
+		"category": "celular",
+		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983879/01_bzz9kj.jpg",
+		"altImg": "um carregador de celular"
 	},
-	{
+		{
 		"id": 8,
-		"category": "garrafa",
-		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Squeeze-Inox-550ml-BRANCO-22022-1738774282.jpg",
-		"altImg": "uma garrafa branca com detalhes em madeira",
-		"description": "Confira nossa variedade de garrafas de todos os tipos e materiais"
+		"category": "chaveiros",
+		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Chaveiro-Abridor-Madeira-16700-1689863066.jpg",
+		"altImg": "um chaveiro abridor de garrafas"
 	},
 	{
 		"id": 9,
-		"category": "chaveiro",
-		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Chaveiro-Abridor-Madeira-16700-1689863066.jpg",
-		"altImg": "um chaveiro abridor de garrafas",
-		"description": "Confira nossas sugestões de chaveiros importadas"
+		"category": "copos",
+		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069858/02_nnomhy.jpg",
+		"altImg": "algumas garrafas coloridas"
+	},
+	{
+		"id": 9,
+		"category": "kit-ferramentas",
+		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069868/04_ujszn5.jpg",
+		"altImg": "um copo térmico amarelo"
 	},
 	{
 		"id": 10,
-		"category": "térmica",
-		"img": "https://cdn.xbzbrindes.com.br/img/produtos/3/Bolsa-Termica-7-Litros-AZUL-ESCURO-16014-1681301150.jpg",
-		"altImg": "uma bolsa termica arredondada",
-		"description": "Térmicas dos mais diversos tamanhos, para levar um lanche ou atender toda a família"
+		"category": "diversos",
+		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069891/04_d4guwq.jpg",
+		"altImg": "um kit de churrasco com garfo e faca"
 	}
 ]
