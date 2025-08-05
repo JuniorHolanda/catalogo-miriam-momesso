@@ -13,6 +13,9 @@ const ImportedProduct = () => {
 	const { imported } = useParams();
 	const isMobile = MediaQuery('(max-width: 700px)');
 	const filterCategory = imported;
+	console.log(filterCategory)
+	const titleCategory = filterCategory.replaceAll('-', ' ');
+	const titleCategoryCapitalized = titleCategory.charAt(0).toUpperCase() + titleCategory.slice(1);
 	const [products, setProducts] = useState([]);
 
 	useEffect(() => {
@@ -20,7 +23,7 @@ const ImportedProduct = () => {
 			try {
 				const response = await getProductsXbz();
 				const filtered = response.filter((product) =>
-					product.category.some((cat)=> slugfyText(cat) === slugfyText(filterCategory))
+					product.category.some((cat) => slugfyText(cat) === slugfyText(filterCategory))
 				);
 				setProducts(filtered);
 			} catch (error) {
@@ -32,9 +35,9 @@ const ImportedProduct = () => {
 
 	return (
 		<section className={styles.wrapper}>
-			{!isMobile && <SideBarCategory />}
+			{!isMobile && <SideBarCategory imported={true} />}
 			<div className={styles.content}>
-				<HeaderSection className={styles.headerSection} />
+				<HeaderSection id={titleCategoryCapitalized} className={styles.headerSection} />
 				<div className={styles.container}>
 					{!products || products.length === 0 ? (
 						<LoaderData className={styles.loaderData} />

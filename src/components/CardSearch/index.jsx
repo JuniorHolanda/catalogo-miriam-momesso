@@ -7,10 +7,11 @@ import BtnInteractive from '../btn/btnInteractive';
 import animationLike from '../../animation/animation-like.json';
 import animationFavorite from '../../animation/animation-favorite.json';
 import animationKit from '../../animation/animation-kit.json';
+import { slugfyText } from '../../utils/slugfyText';
 
 
 const CardSearch = ({ product, imported}) => {
-	const slug = slugify(product.title, { lower: true, strict: true });
+	const slug = slugfyText(product.title)
 	const productImported = imported;
 
 

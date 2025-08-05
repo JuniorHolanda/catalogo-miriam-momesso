@@ -1,17 +1,9 @@
 import styles from './sideBarCategory.module.scss';
 import RenderCategory from '../renderCategory';
 import dataCategory from '../../data/DataCardsCategory.json';
-import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import dataImported from '../../data/importedCategory.json';
 
-const SideBarCategory = () => {
-    const {category} = useParams();
-    const [metaTag, setMetaTag] = useState('');
-    
-    useEffect(() => {
-        setMetaTag(category)    
-    }, [category]);
-
+const SideBarCategory = ({imported}) => {
 
 	return (
 		<aside className={styles.sideBar}>
@@ -22,7 +14,9 @@ const SideBarCategory = () => {
 			</div>
 
 			<ul className={styles.listContainer}>
-				<RenderCategory listCategory={dataCategory} />
+				{
+					!imported ? <RenderCategory listCategory={dataCategory} /> : <RenderCategory listCategory={dataImported}/>
+				}
 			</ul>
 		</aside>
 	);
