@@ -15,7 +15,8 @@ const SideBarCategory = ({imported}) => {
 
 			<ul className={styles.listContainer}>
 				{
-					!imported ? <RenderCategory listCategory={dataCategory} /> : <RenderCategory listCategory={dataImported}/>
+					!imported ? <RenderCategory listCategory={dataCategory} />
+					: <RenderCategory imported={true} listCategory={dataImported}/>
 				}
 			</ul>
 		</aside>
