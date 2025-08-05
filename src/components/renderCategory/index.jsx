@@ -4,8 +4,8 @@ import { slugfyText } from '../../utils/slugfyText';
 
 const RenderCategory = ({ listCategory, imported }) => {
 	{
-		return listCategory.map((item) => (
-			<li key={item.id} className={styles.subMenuItem}>
+		return listCategory.map((item, index) => (
+			<li key={`${item._id}-${index}`} className={styles.subMenuItem}>
 				<Link
 					to={imported ? `/imported/${slugfyText(item.category)}` : `/category/${slugfyText(item.category)}`}
 					className={styles.linkSubMenu}

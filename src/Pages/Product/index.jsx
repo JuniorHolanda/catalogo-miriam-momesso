@@ -25,9 +25,11 @@ const ProductSection = () => {
 		async function fetchProducts() {
 			try {
 				if (split === 'imported'){
+					console.log('import xbz...');
 					const response = await getProductsXbz();
 					setProducts(response);
 				} else if(split === 'internal') {
+					console.log('import internal...')
 					const response = await getProducts();
 					setProducts(response);
 				}

@@ -1462,7 +1462,106 @@
 			}
 		],
 		"like": 0
+	},
+
+	{
+		"title": "Abridor de Garrafa Madeira",
+		"text": "Abridor de garrafas com design clássico e funcional. Possui corpo metálico resistente, ideal para uso diário. Seu cabo é feito em madeira natural, garantindo firmeza e conforto ao manuseio. Combina praticidade com um toque rústico e elegante. Perfeito para brindes personalizados ou uso doméstico.",
+		"smallText": "Abridor metálico com cabo de madeira natural.",
+		"code": "01303",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983599/03_ygxjq8.jpg",
+		"altThumbnail": "uma mão usando um abridor de bambu para abrir uma garrafa",
+		"category": [
+			"Bebidas"
+		],
+		"measure": [
+			"4x14x2cm"
+		],
+		"gallery": [
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983599/03_ygxjq8.jpg",
+				"altImg": "Uma garrafa pequena de aço inox"
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983597/04_i59olm.png",
+				"altImg": "Garrafa de alumínio vista de frente"
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983597/02_qostww.jpg",
+				"altImg": "Garrafa de alumínio vista de cima"
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753983584/01_vumvh6.jpg",
+				"altImg": "Garrafa de alumínio vista de lado"
+			}
+		],
+		"like": 0
+	},
+
+	{
+		"title": "Suporte Veicular com Carregamento de Indução",
+		"text": "Suporte veicular com carregamento por indução. O produto contém hastes de ajuste automático. Acompanha presilha para encaixe na saída de ar do veículo e cabo USB para ativação do modo indução.",
+		"smallText": "Produto contém hastes de ajuste automático",
+		"code": "04062",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985341/01_iym9go.jpg",
+		"altThumbnail": "",
+		"category": [
+			"carro" , "diversos"
+		],
+		"measure": [
+			"8,7x9,8cm"
+		],
+		"gallery": [
+			{
+				"altImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985341/01_iym9go.jpg"
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985332/02_mvtztx.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985331/04_hag3p6.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985333/03_eeyod9.jpg",
+				"img": "",
+				"altImg": ""
+			}
+		],
+		"like": 0
+	},
+
+	{
+		"title": "Suporte Veicular Magnético",
+		"text": "Suporte veicular com carregamento por indução. O produto contém hastes de ajuste automático. Acompanha presilha para encaixe na saída de ar do veículo e cabo USB para ativação do modo indução.",
+		"smallText": "Produto contém hastes de ajuste automático",
+		"code": "13488",
+		"thumbnail": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985341/04_xw2zk8.jpg",
+		"altThumbnail": "",
+		"category": [
+			"carro" , "diversos"
+		],
+		"measure": [
+			"8,7x9,8cm"
+		],
+		"gallery": [
+			{
+				"altImg": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985337/03_ydc5sw.jpg"
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985337/03_ydc5sw.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1753985336/02_pi0n9f.jpg",
+				"altImg": ""
+			},
+			{
+				"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754396220/01_s8rtu0.jpg",
+				"altImg": ""
+			}
+		],
+		"like": 0
 	}
-
-
 ]

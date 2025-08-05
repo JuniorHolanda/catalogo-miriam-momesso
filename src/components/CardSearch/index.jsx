@@ -54,7 +54,7 @@ const CardSearch = ({ product, imported}) => {
 				</div>
 			</div>
 			<Link
-				to={`/product/${slug}`}
+				to={productImported ? `/product/imported-${slug}` : `/product/internal-${slug}`}
 				className={styles.containerThunb}>
 					<img
 						src={product.thumbnail}
