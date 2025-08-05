@@ -39,9 +39,9 @@ const HeroSectionDesktop = () => {
 							}}
 							speed={1500}
 						>
-							{dataHoliday.map((item) => (
-								<SwiperSlide>
-									<Holiday key={item.id} card={item} />
+							{dataHoliday.map((item, index) => (
+								<SwiperSlide key={`${item._id}-${index}`}>
+									<Holiday card={item} />
 								</SwiperSlide>
 							))}
 						</Swiper>
