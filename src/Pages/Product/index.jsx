@@ -14,23 +14,23 @@ import { slugfyText } from '../../utils/slugfyText';
 const ProductSection = () => {
 	const { product } = useParams();
 	const name = product
+		
 	const split = name.split('-')[0];
 	const nameProduct = name.split('-').slice(1).join('-');
-
+	
 	const [products, setProducts] = useState([]);
 	const isMobile = MediaQuery('(max-width: 700px)');
 
-	useEffect(() => {
+		useEffect(() => {
 		async function fetchProducts() {
 			try {
-				if (split === 'imported'){
+				if (split === 'imported') {
 					const response = await getProductsXbz();
 					setProducts(response);
-				} else if(split === 'internal') {
+				} else if (split === 'internal') {
 					const response = await getProducts();
 					setProducts(response);
 				}
-				
 			} catch (error) {
 				console.log('Erro ao carregar produtos:', error.message);
 			}
@@ -51,7 +51,7 @@ const ProductSection = () => {
 
 	return (
 		<main className={styles.wrapper}>
-			;{isMobile && <HeaderSection id={cardFiltered.title} className={styles.headerSection} />}
+			{isMobile && <HeaderSection id={cardFiltered.title} className={styles.headerSection} />}
 			<Gallery images={cardFiltered.gallery} className={styles.gallery} />
 			<InfoProduct
 				name={cardFiltered.title}

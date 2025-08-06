@@ -10,7 +10,7 @@ import 'swiper/css/effect-fade';
 
 import { getProducts } from '../../services/productsMomessoServices';
 import { useState, useEffect } from 'react';
-import CardSearch from '../CardSearch';
+import CardProduct from '../CardProduct';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 
 const FavoriteSection = ({ style, listId }) => {
@@ -70,7 +70,7 @@ const FavoriteSection = ({ style, listId }) => {
 						>
 							{favoriteProducts.map((item) => (
 								<SwiperSlide>
-									<CardSearch key={item.id} product={item} />
+									<CardProduct key={item.id} product={item} />
 								</SwiperSlide>
 							))}
 						</Swiper>

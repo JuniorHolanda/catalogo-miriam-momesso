@@ -1,8 +1,7 @@
 import HeaderSection from '../../components/HeaderSection';
 import styles from './categoryPage.module.scss';
-import dataHoliday from '../../data/holyDay.json';
 import { useLocation, useParams } from 'react-router-dom';
-import CardSearch from '../../components/CardSearch';
+import CardProduct from '../../components/CardProduct';
 import { useEffect, useState } from 'react';
 import LoaderData from '../../components/Loader';
 import { getProducts } from '../../services/productsMomessoServices';
@@ -12,10 +11,10 @@ import { slugfyText } from '../../utils/slugfyText';
 import { getProductsXbz } from '../../services/importedProductXbz';
 
 const CategoryPage = () => {
-	const {imported, category} = useParams();
+	const { imported, category } = useParams();
 	const params = imported || category;
-	const rout = useLocation();
-	const routType = location.pathname.includes('/imported') ? 'imported' : 'category'
+	const location = useLocation();
+	const routType = location.pathname.includes('/imported') ? 'imported' : 'category';
 	const [products, setProducts] = useState([]);
 
 	useEffect(() => {
@@ -52,7 +51,7 @@ const CategoryPage = () => {
 									Array.isArray(card.category) &&
 									card.category.some((cat) => slugfyText(cat) === params)
 							)
-							.map((card) => <CardSearch key={card._id} product={card} />)
+							.map((card) => <CardProduct key={card._id} product={card} type={routType} />)
 					)}
 				</div>
 			</div>

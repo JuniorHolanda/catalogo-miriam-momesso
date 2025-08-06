@@ -5,8 +5,6 @@ import dataImported from '../../data/importedCategory.json';
 
 const SideBarCategory = ({type}) => {
 
-	console.log(type)
-
 	return (
 		<aside className={styles.sideBar}>
 			<div className={styles.containerInfo}>

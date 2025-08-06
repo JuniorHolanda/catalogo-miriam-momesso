@@ -1,6 +1,6 @@
 import styles from './search.module.scss';
 import { useLocation } from 'react-router-dom';
-import CardSearch from '../../components/CardSearch';
+import CardProduct from '../../components/CardProduct';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import SearchBar from '../../components/SearchBar';
@@ -70,7 +70,7 @@ let filteredCards = products.filter((card) => {
 						<div className={styles.containerResults}>
 							<h2 className={styles.title}>{heading}</h2>
 							{filteredCards.map((card) => (
-								<CardSearch key={card.id} product={card} />
+								<CardProduct key={card.id} product={card} />
 							))}
 						</div>
 					)}

@@ -1,5 +1,5 @@
 import styles from './kit.module.scss';
-import CardSearch from '../../components/CardSearch';
+import CardProduct from '../../components/CardProduct';
 import { useEffect, useRef, useState } from 'react';
 import { getProducts } from '../../services/productsMomessoServices';
 import LoaderData from '../../components/Loader';
@@ -57,7 +57,7 @@ const MyKit = () => {
 					) : (
 						<div className={styles.containerProducts}>
 							{kitProducts.map((prod) => (
-								<CardSearch key={prod._id} product={prod} />
+								<CardProduct key={prod._id} product={prod} />
 							))}
 						</div>
 					)}

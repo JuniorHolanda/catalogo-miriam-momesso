@@ -49,7 +49,8 @@ const NavBar = () => {
 											<h2 className={styles.subCategoryTitle}>Brindes costuráveis</h2>
 											<ul className={styles.containerSubMenu}>
 												<RenderCategory
-													listCategory={dataCategory}/>
+													listCategory={dataCategory}
+													isNav={true}/>
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
@@ -57,14 +58,16 @@ const NavBar = () => {
 											<ul className={styles.containerSubMenu}>
 												<RenderCategory
 													listCategory={importedCategory}
-													isImported={true}/>
+													isImported={true}
+													isNav={true}/>
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
 											<h2 className={styles.subCategoryTitle}>Datas Comemorativas</h2>
 											<ul className={styles.containerSubMenu}>
 												<RenderCategory
-													listCategory={dataHoliday}/>
+													listCategory={dataHoliday}
+													isNav={true}/>
 											</ul>
 										</div>
 									</div>

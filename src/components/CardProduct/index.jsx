@@ -1,7 +1,6 @@
-import styles from './cardSearch.module.scss';
+import styles from './cardProduct.module.scss';
 import { LiaEyeSolid } from 'react-icons/lia';
 import { Link } from 'react-router-dom';
-import slugify from 'slugify';
 import cn from 'classnames';
 import BtnInteractive from '../btn/btnInteractive';
 import animationLike from '../../animation/animation-like.json';
@@ -10,9 +9,8 @@ import animationKit from '../../animation/animation-kit.json';
 import { slugfyText } from '../../utils/slugfyText';
 
 
-const CardSearch = ({ product, imported}) => {
+const CardProduct = ({ product, type}) => {
 	const slug = slugfyText(product.title)
-	const productImported = imported;
 
 
 	//define a classe do cartão com base na quantidade de like
@@ -55,7 +53,7 @@ const CardSearch = ({ product, imported}) => {
 				</div>
 			</div>
 			<Link
-				to={productImported ? `/product/imported-${slug}` : `/product/internal-${slug}`}
+				to={type === 'imported' ? `/product/imported-${slug}` : `/product/internal-${slug}`}
 				className={styles.containerThunb}>
 					<img
 						src={product.thumbnail}
@@ -68,7 +66,7 @@ const CardSearch = ({ product, imported}) => {
 					<h2 className={styles.title}>{product.title}</h2>
 					<p className={styles.text}>{product.smallText}</p>
 				</div>
-				<Link to={productImported ? `/product/imported-${slug}` : `/product/internal-${slug}`} className={styles.containerBtn}>
+				<Link to={type === 'imported' ? `/product/imported-${slug}` : `/product/internal-${slug}`} className={styles.containerBtn}>
 					<span>
 						<LiaEyeSolid className={styles.icon} />
 						Ver Produto
@@ -79,4 +77,4 @@ const CardSearch = ({ product, imported}) => {
 	);
 };
 
-export default CardSearch;
+export default CardProduct;

@@ -12,7 +12,7 @@ import StoriesInsta from '../Stories';
 import React, { useEffect, useState } from 'react';
 import { LiaEyeSolid } from 'react-icons/lia';
 import { Link } from 'react-router-dom';
-import CardSearch from '../CardSearch';
+import CardProduct from '../CardProduct';
 import slugify from 'slugify';
 import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import LoaderData from '../Loader';
@@ -108,7 +108,7 @@ const CategorySection = React.forwardRef(({ category, text }, ref) => {
 							{productsFiltered
 								.map((card) => (
 									<SwiperSlide key={card._id} style={{ height: '100%' }}>
-										<CardSearch product={card} />
+										<CardProduct product={card} />
 									</SwiperSlide>
 								))}
 						</Swiper>
