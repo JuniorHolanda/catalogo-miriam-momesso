@@ -48,19 +48,23 @@ const NavBar = () => {
 										<div className={styles.categorySubMenu}>
 											<h2 className={styles.subCategoryTitle}>Brindes costuráveis</h2>
 											<ul className={styles.containerSubMenu}>
-												<RenderCategory listCategory={dataCategory} />
+												<RenderCategory
+													listCategory={dataCategory}/>
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
 											<h2 className={styles.subCategoryTitle}>Linha de importados</h2>
 											<ul className={styles.containerSubMenu}>
-												<RenderCategory listCategory={importedCategory} imported={true} />
+												<RenderCategory
+													listCategory={importedCategory}
+													isImported={true}/>
 											</ul>
 										</div>
 										<div className={styles.categorySubMenu}>
 											<h2 className={styles.subCategoryTitle}>Datas Comemorativas</h2>
 											<ul className={styles.containerSubMenu}>
-												<RenderCategory listCategory={dataHoliday} />
+												<RenderCategory
+													listCategory={dataHoliday}/>
 											</ul>
 										</div>
 									</div>

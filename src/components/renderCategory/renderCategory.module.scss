@@ -3,16 +3,21 @@
 
 .subMenuItem {
 	@include mixins.flex($justify: flex-start, $align: center);
-	background-color: var.$clear-color-2;
 	transition: all 0.3s ease-in-out;
 	width: 100%;
 	border-radius: var.$medium-border;
+
 
 	&:hover {
 		background-color: var.$medium-1;
 		color: var.$clear-color-1;
 		transform: translateX(5px);
 	}
+
+	&.subMenuItemActive {
+    background: var.$highlight-1;;
+    font-weight: bold;
+  	}
 
 	.linkSubMenu {
 		@include mixins.flex($justify: flex-start, $align: center);

@@ -66,5 +66,11 @@
 		"category": "diversos",
 		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069891/04_d4guwq.jpg",
 		"altImg": "um kit de churrasco com garfo e faca"
+	},
+	{
+		"id": 12,
+		"category": "sacolas",
+		"img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1754069768/01_ilrex0.jpg",
+		"altImg": "Uma sacola vermelha"
 	}
 ]
