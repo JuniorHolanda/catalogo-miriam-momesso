@@ -22,7 +22,7 @@ const Search = () => {
 	if (query === '')
 		return (
 			<section className={styles.wrapper}>
-				<SearchBar className={styles.containerInpt} />
+				<SearchBar className={styles.containerInpt} btnSubmit={styles.btnSubmit} />
 
 				<h2 className={styles.noResults}>Digite algo para buscar.</h2>
 			</section>
@@ -55,8 +55,8 @@ let filteredCards = products.filter((card) => {
 
 	return (
 		<section className={styles.wrapper}>
-			{isMobile && <HeaderSection className={styles.headerSearch} id={'Pesquisa'} />}
-			<SearchBar className={styles.containerInpt} />
+			{isMobile && <HeaderSection className={styles.headerSearch} title={'Pesquisa'} />}
+			<SearchBar btnSubmit={styles.btnSubmit} className={styles.containerInpt} />
 
 			{loading ? (
 				<div className={styles.containerLoader}>
@@ -70,7 +70,7 @@ let filteredCards = products.filter((card) => {
 						<div className={styles.containerResults}>
 							<h2 className={styles.title}>{heading}</h2>
 							{filteredCards.map((card) => (
-								<CardProduct key={card.id} product={card} />
+								<CardProduct key={card._id} product={card} />
 							))}
 						</div>
 					)}

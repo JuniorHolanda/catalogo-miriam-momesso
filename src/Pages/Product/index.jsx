@@ -51,7 +51,7 @@ const ProductSection = () => {
 
 	return (
 		<main className={styles.wrapper}>
-			{isMobile && <HeaderSection id={cardFiltered.title} className={styles.headerSection} />}
+			{isMobile && <HeaderSection title={cardFiltered.title} className={styles.headerSection} />}
 			<Gallery images={cardFiltered.gallery} className={styles.gallery} />
 			<InfoProduct
 				name={cardFiltered.title}

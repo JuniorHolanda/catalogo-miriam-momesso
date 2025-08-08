@@ -51,18 +51,19 @@ hr{
 
 /* Fundo da barra (trilha) */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #c4c4c4;
+  cursor: ns-resize;
 }
 
 /* Parte “deslizável” da barra */
 ::-webkit-scrollbar-thumb {
-  background: var.$medium-1;
+  background: #a1a1a1;
   border-radius: 6px;
 }
 
 /* Ao passar o mouse */
 ::-webkit-scrollbar-thumb:hover {
-  background: var.$highlight-2;
+  background: var.$highlight-1
 }
 
 body {

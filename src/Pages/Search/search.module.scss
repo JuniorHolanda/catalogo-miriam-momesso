@@ -25,6 +25,23 @@
 		border-radius: var.$medium-border;
 	}
 
+	.btnSubmit {
+		@include mixins.flex($justify: center, $align: center);
+		background-color: var.$highlight-1;
+		width: 30%;
+		height: 8vh;
+		cursor: pointer;
+		transition: all ease-in-out 0.3s;
+
+		&:hover {
+			background-color: var.$medium-2;
+		}
+
+		@include mixins.min-width(small) {
+			width: 10%;
+		}
+	}
+
 	.headerSearch {
 		width: 100%;
 	}

@@ -40,7 +40,7 @@ const CategoryPage = () => {
 		<section className={styles.wrapper}>
 			{!isMobile && <SideBarCategory type={routType} />}
 			<div className={styles.content}>
-				<HeaderSection id={params || category} className={styles.headerSection} />
+				<HeaderSection title={params || category} className={styles.headerSection} />
 				<div className={styles.container}>
 					{!products || products.length === 0 ? (
 						<LoaderData className={styles.loaderData} />

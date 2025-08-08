@@ -32,7 +32,8 @@
     @include mixins.font($font: var.$font, $size: var.$bigTitle-2, $color: var.$clear-color-1);
 
     @include mixins.min-width(small) {
-      font-size: var.$bigTitle-1;
+      font-size: var.$bigTitle-3;
+      text-transform: uppercase;
     }
   }
 }

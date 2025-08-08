@@ -17,11 +17,13 @@
 	.content {
 		@include mixins.flex($direction: column, $align: center, $justify: start);
 		gap: var.$small-space;
+		padding: var.$small-space;
 		width: 100%;
 		height: 100%;
 		overflow: auto;
 		padding-right: 5px;
 		border-radius: var.$small-border;
+		background-color: var.$clear-color-4;
 
 		.headerSection {
 			@include mixins.flex($direction: column);

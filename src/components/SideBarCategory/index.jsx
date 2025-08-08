@@ -8,7 +8,7 @@ const SideBarCategory = ({type}) => {
 	return (
 		<aside className={styles.sideBar}>
 			<div className={styles.containerInfo}>
-				<h2 className={styles.title}>Outras categorias</h2>
+				<h2 className={styles.title}>categorias</h2>
 				<p className={styles.text}>Acesse as outras categorias</p>
 			</div>
 

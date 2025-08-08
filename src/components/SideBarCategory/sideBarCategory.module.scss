@@ -3,7 +3,7 @@
 
 
 .sideBar {
-		@include mixins.flex($direction: column, $align: center, $justify: flex-start);
+		@include mixins.flex($direction: column, $align: flex-start, $justify: space-between);
 		gap: var.$small-space;
 		padding: var.$small-space;
 		height: 100%;
@@ -11,24 +11,27 @@
 		display: fixed;
 		background-color: var.$clear-color-1;
 		border-radius: var.$small-border;
-		overflow-y: auto;
+		overflow: auto;
 		
 		.containerInfo{
 			@include mixins.flex($direction: column, $align: start, $justify: center);
+			height: 10%;
 
 			.title{
-				@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $weight: 800, $color: var.$highlight-2)
+				@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $weight: 800, $color: var.$highlight-2);
+				text-transform: uppercase;
 			}
 			.text{
-				@include mixins.font($font: var.$font, $size: var.$text, $weight: 400, $color: var.$medium-1 )
+				@include mixins.font($font: var.$font, $size: var.$text, $weight: 400, $color: var.$dark-color-2 )
 			}
+			
 		}
 		
 		.listContainer{
 			@include mixins.flex($direction: column, $align: start, $justify: space-between);
 			gap: var.$small-space;
 			width: 100%;
-			height: 100%;			
+			height: 90%;
 		}
 		
 		.list{
