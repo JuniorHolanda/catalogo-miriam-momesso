@@ -8,6 +8,7 @@ import { slugfyText } from '../../utils/slugfyText';
 const HeroSearch = ({ reduce, className, btnSubmit }) => {
 	const [search, setSearch] = useState('');
 	const [selectedCategory, setSelectedCategory] = useState('');
+
 	const navigate = useNavigate();
 
 	//remove o s para retornar produtos no plural
@@ -21,20 +22,19 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 	const searchByname = () => {
 		// cria um novo objeto URLSearchParams para montar dinamicamente uma URL
 		const query = new URLSearchParams();
-		if (search) {
-			query.set('q', search);
+		if (slugfyText(search)) {
+			query.set('q', slugfyText(search));
 		}
-		navigate(`/search?${removeS(slugfyText(query))}`);
-		setSearch('');
+		navigate(`/search?${removeS(query.toString())}`);
 	};
 
 	const searchByTag = (item) => {
 		setSelectedCategory(item.category)
-		const category = item.category.trim().toLowerCase();
+		const category = slugfyText(item.category);
 
 		// cria um novo objeto URLSearchParams para montar dinamicamente uma URL
 		const query = new URLSearchParams();
-		if (category.trim()) {
+		if (category) {
 			query.set('q', category);
 		}
 		navigate(`/search?${removeS(query.toString())}`);
@@ -62,7 +62,7 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 						value={search}
 						onChange={(e) => setSearch(e.target.value)}
 						onKeyDown={(e) => {
-							if (e.key === 'Enter' && slugfyText(search) !== '') {
+							if (e.key === 'Enter' && search.trim() !== '') {
 								searchByname();
 							}
 						}}
