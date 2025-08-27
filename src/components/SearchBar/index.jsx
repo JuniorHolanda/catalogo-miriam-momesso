@@ -3,17 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import styles from './SearchBarDesktop.module.scss';
 import { FaSearch } from 'react-icons/fa';
 import category from '../../data/DataCardsCategory.json';
+import { slugfyText } from '../../utils/slugfyText';
 
 const HeroSearch = ({ reduce, className, btnSubmit }) => {
 	const [search, setSearch] = useState('');
 	const [selectedCategory, setSelectedCategory] = useState('');
-
 	const navigate = useNavigate();
-
-	const handleSearch = (e) => {
-		const value = e.target.value;
-		setSearch(value);
-	};
 
 	//remove o s para retornar produtos no plural
 	function removeS(text) {
@@ -26,10 +21,10 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 	const searchByname = () => {
 		// cria um novo objeto URLSearchParams para montar dinamicamente uma URL
 		const query = new URLSearchParams();
-		if (search.trim()) {
-			query.set('q', search.trim());
+		if (search) {
+			query.set('q', search);
 		}
-		navigate(`/search?${removeS(query.toString())}`);
+		navigate(`/search?${removeS(slugfyText(query))}`);
 		setSearch('');
 	};
 
@@ -65,9 +60,9 @@ const HeroSearch = ({ reduce, className, btnSubmit }) => {
 						type="text"
 						className={styles.btnSrc}
 						value={search}
-						onChange={handleSearch}
+						onChange={(e) => setSearch(e.target.value)}
 						onKeyDown={(e) => {
-							if (e.key === 'Enter' && search.trim() !== '') {
+							if (e.key === 'Enter' && slugfyText(search) !== '') {
 								searchByname();
 							}
 						}}

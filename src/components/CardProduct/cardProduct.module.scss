@@ -82,6 +82,15 @@
 
 		&.status2 {
 			background-color: var.$medium-2;
+			
+			.containerName{
+				color: var.$dark-color-2;
+				
+				.text{
+					color: var.$dark-color-2;
+					font-weight: 800;
+				}
+			}
 
 			.containerBtn {
 				background-color: var.$dark-color-2;
@@ -89,7 +98,20 @@
 		}
 
 		&.status3 {
-			background-color: var.$special-highlight;
+			background-color: #38f8de;
+			
+			.containerName{
+				color: var.$dark-color-2;
+				
+				.text{
+					color: var.$dark-color-2;
+					font-weight: 800;
+				}
+			}
+			
+			.containerBtn {
+				background-color: var.$dark-color-2;
+			}
 		}
 
 		.containerName {

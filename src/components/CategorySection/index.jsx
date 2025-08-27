@@ -18,7 +18,6 @@ import MediaQuery from '../../utils/MediaQuery/MediaQuery';
 import LoaderData from '../Loader';
 import Banners from '../../data/Banners.json';
 import { getProducts } from '../../services/productsMomessoServices';
-
 const CategorySection = React.forwardRef(({ category, text }, ref) => {
 	const [products, setProducts] = useState([]);
 

@@ -17,7 +17,7 @@ const CardProduct = ({ product, type}) => {
 	const statusClass = cn(styles.containerContent, {
 		[styles.status1]: product.like >= 0 && product.like < 5,
 		[styles.status2]: product.like >= 5 && product.like < 10,
-		[styles.status3]: product.like >= 10 && product.like < 20,
+		[styles.status3]: product.like >= 15,
 	});
 
 	return (
