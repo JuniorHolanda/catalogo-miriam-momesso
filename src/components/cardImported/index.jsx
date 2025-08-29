@@ -1,7 +1,5 @@
 import styles from './cardImported.module.scss';
-import { Link } from 'react-router-dom';
 import BtnInteractive from '../btn/btnInteractive';
-import animationLike from '../../animation/animation-like.json';
 import animationFavorite from '../../animation/animation-favorite.json';
 import animationKit from '../../animation/animation-kit.json';
 import { useState } from 'react';

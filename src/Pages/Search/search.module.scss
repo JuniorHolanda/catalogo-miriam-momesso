@@ -54,6 +54,7 @@
 	.containerCards {
 		@include mixins.flex($direction: column, $justify: center, $align: center);
 		width: 100%;
+
 	}
 
 	.containerResults {

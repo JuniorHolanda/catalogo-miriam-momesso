@@ -9,6 +9,7 @@ import SearchSection from './routers/SearchSection.jsx';
 import Error404 from './Pages/errorPage/index.jsx';
 import CategoryPage from './Pages/CategoryPage/index.jsx';
 import MyKit from './Pages/Kit/index.jsx';
+import Admin from './Pages/Admin/index.jsx';
 
 const router = createBrowserRouter([
 	{
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
 				path: '/imported/:imported',
 				element: <CategoryPage />,
 			},
+			{
+				path: '/admin',
+				element: <Admin />,
+			}
 		],
 	},
 ]);

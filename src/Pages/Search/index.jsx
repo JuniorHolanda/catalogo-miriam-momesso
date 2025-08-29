@@ -14,7 +14,9 @@ const Search = () => {
 	const location = useLocation();
 	const searchParams = new URLSearchParams(location.search);
 	const rawQuery = searchParams.get('q') || '';
-	const query = rawQuery.trim().toLowerCase();
+	const query = slugfyText(rawQuery);
+	const humanizeSlug = query.replace(/-/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase());
+
 	const [products, setProducts] = useState([]);
 	const [loading, setLoading] = useState(true);
 
@@ -51,7 +53,7 @@ let filteredCards = products.filter((card) => {
 
 	const count = filteredCards.length;
 	const nounProduct = count === 1 ? 'Resultado' : 'Resultados';
-	const heading = `${count} ${nounProduct} encontrado${count === 1 ? '' : 's'} para "${rawQuery}"`;
+	const heading = `${count} ${nounProduct} encontrado${count === 1 ? '' : 's'} para "${humanizeSlug}"`;
 
 	return (
 		<section className={styles.wrapper}>

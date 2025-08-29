@@ -1,0 +1,56 @@
+@use '../../styles/mixins.scss';
+@use '../../styles/variables.scss' as var;
+
+.wrapper {
+	@include mixins.flex( $justify: center, $align: center);
+	padding: 12vh var.$small-border var.$small-border var.$small-border;
+
+	height: 96vh;
+	width: 100%;
+
+	.sideBar {
+		@include mixins.flex($direction: column, $justify: center, $align: start);
+		width: fit-content;
+		padding: var.$small-border;
+		height: 100%;
+		gap: var.$small-space;
+
+		.containerTitle {
+			h1 {
+				@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$dark-color-2);
+			}
+			p {
+				@include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-2);
+			}
+		}
+
+		.containerButtons {
+			@include mixins.flex($direction: column, $justify: center, $align: start);
+			height: 100%;
+			width: 100%;
+			gap: var.$small-space;
+			button {
+				@include mixins.font($font: var.$font, $size: var.$text, $color: var.$clear-color-2);
+                border-radius: var.$small-border;
+				background-color: var.$highlight-2;
+				height: 100%;
+				width: 100%;
+                cursor: pointer;
+                transition: all ease-in-out .3s;
+                &:hover{
+                    background-color: var.$medium-1;
+                }
+                
+                &.active {
+                    background-color: var.$special-highlight;
+                }
+			}
+		}
+	}
+
+    .content{
+        width: 100%;
+        border: solid green;
+        height: 100%;
+    }
+}
