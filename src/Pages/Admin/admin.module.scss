@@ -52,5 +52,40 @@
         width: 100%;
         border: solid green;
         height: 100%;
+
+		.containerForm{
+				@include mixins.flex( $direction: column, $justify: center, $align: center);
+				gap: var.$small-space;
+
+			border: solid red;
+
+			.containerTitle {
+				h1 {
+					@include mixins.font($font: var.$font, $size: var.$bigTitle-3, $color: var.$dark-color-2);
+				}
+				p {
+					@include mixins.font($font: var.$font, $size: var.$text, $color: var.$dark-color-2);
+				}
+			}
+
+			.dropDownBox{
+				border: solid seagreen;
+				display: flex;
+				flex-direction: column;
+
+
+				.select{
+					display: flex;
+					gap: 30px;
+				}
+
+				.containerOptions{
+					display: flex;
+					flex-direction: column;
+				}
+			}
+
+
+		}
     }
 }
