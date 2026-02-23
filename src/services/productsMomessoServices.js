@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://back-end-catalogo-miriam-momesso.onrender.com/product';
+const API_URL = 'https://back-end-catalogo-miriam-momesso-4pz4.onrender.com/product';
 
 export async function getProducts() {
 	try {

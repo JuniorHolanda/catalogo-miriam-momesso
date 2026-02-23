@@ -6,6 +6,9 @@
 	gap: var.$medium-space;
 	width: 100%;
 
+
+
+
 	.content {
 		@include mixins.flex($justify: center, $align: center);
 		grid-area: 1 / 2 / 2 / 3;

@@ -12,6 +12,7 @@
 		background-color: var.$clear-color-1;
 		border-radius: var.$small-border;
 		overflow: auto;
+
 		
 		.containerInfo{
 			@include mixins.flex($direction: column, $align: start, $justify: center);

@@ -4,7 +4,8 @@
 .description {
 	@include mixins.flex($direction: column, $justify: center);
 	gap: var.$small-space;
-	width: 100%;
+	width: 100%;;
+
 
 	.title {
 		@include mixins.font(
@@ -83,6 +84,8 @@
 	gap: var.$small-space;
 	width: 100%;
 	overflow-x: auto;
+	scrollbar-width: none;
+
 
 	.btnCategory {
 		@include mixins.font(
